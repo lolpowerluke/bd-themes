@@ -1,0 +1,56 @@
+/*General Sidebar*/
+.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN {
+  -ms-flex: 0;
+  -ms-flex-pack: end;
+  flex: 0;
+  z-index: 1;
+}
+/*General Content Area*/
+.standardSidebarView-3F1I7i .contentColumnDefault-1VQkGM {
+  padding: 20px 40px 80px;
+}
+.standardSidebarView-3F1I7i .contentColumn-2hrIYH, 
+.standardSidebarView-3F1I7i .customColumn-Rb6toI {
+  -ms-flex: 1 1 auto;
+  -webkit-box-flex: 1;
+  flex: 1 1 auto;
+  max-width: 100%;
+  min-height: 100%;
+  min-width: 460px;
+}
+.bd-addon-card {
+  border: 1px solid rgb(var(--border-color), var(--border-opacity));
+  border-radius: 10px !important;
+}
+.bd-addon-list .bd-footer .bd-controls .bd-addon-button {
+  background-color: var(--back-color-boxes);
+}
+.bd-addon-list .bd-footer .bd-controls .bd-button-danger {
+  background-color: var(--back-color-danger-boxes);
+}
+/*Switches*/
+.container-3auIfb[style*="hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);"],
+.bd-switch-body {
+  background: var(--switch-off) !important;
+}
+.container-3auIfb[style*="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"],
+.bd-switch input:checked+.bd-switch-body {
+  background: var(--switch-on) !important;
+}
+/*settingsIcons*/
+[aria-label="USER_SETTINGS"] .sidebar-CFHs9e {
+  width: 218px;
+}
+/*Sidebar*/
+.sidebar-CFHs9e {
+  padding-top: 30px;
+}
+/*profile banner*/
+.accountProfileCard-1XCH88 > .UserBackgrounds-banner-container {
+  height: 400px;
+}
+.accountProfileCard-1XCH88 > .UserBackgrounds-banner-container > :last-child {
+  width: 100%;
+  background: center / cover;
+  height: 100%;
+}
