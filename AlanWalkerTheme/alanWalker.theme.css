@@ -8,26 +8,26 @@
 */
 /*Imports*/
   /*USRBG*/
-  @import url('https://lolpowerluke.github.io/discordtheme/USRBG.css');
+  @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/USRBG.css');
   /*User Settings*/
-    @import url('https://lolpowerluke.github.io/discordtheme/userSetting.css');
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/userSetting.css');
     @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css');
   /*Popouts*/
-    @import url('https://lolpowerluke.github.io/discordtheme/popouts.css');
-    @import url('https://lolpowerluke.github.io/discordtheme/bigUserPopout.css');
-    @import url('https://lolpowerluke.github.io/discordtheme/smallUserPopout.css');
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/popouts.css');
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/bigUserPopout.css');
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/smallUserPopout.css');
   /*Embeds*/
-    @import url('https://lolpowerluke.github.io/discordtheme/embeds.css');
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/embeds.css');
   /*Seperators*/
-    @import url('https://lolpowerluke.github.io/discordtheme/separators.css');
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/separators.css');
   /*Buttons*/
-    @import url('https://lolpowerluke.github.io/discordtheme/buttons.css');
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/buttons.css');
   /*Plugins*/
-    @import url('https://lolpowerluke.github.io/discordtheme/plugins.css');
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/plugins.css');
   /*Other Stuff*/
-    @import url('https://lolpowerluke.github.io/discordtheme/version.css');
-    @import url('https://lolpowerluke.github.io/discordtheme/trivia.css');
-    @import url('https://lolpowerluke.github.io/discordtheme/smallDMchannelList.css');
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/version.css');
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/trivia.css');
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/smallDMchannelList.css');
 /*all variables here*/
 :root {
   /*title bar*/
