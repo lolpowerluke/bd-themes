@@ -1,5 +1,5 @@
 /*Big User Popout*/
-#app-mount .focusLock-Ns3yie {
+#app-mount .focusLock-Ns3yie[aria-label="User Profile Modal"] {
   max-width: 95%;
   max-height: 95%;
 }
