@@ -47,8 +47,8 @@
   --border-color-blue: 0, 0, 255;
   --border-opacity: 0.5;
   --border-opacity-blue: 0.8;
-  --back-color-boxes: rgba(0, 0, 255, 0.4);
-  --back-color-boxes-hover: rgba(0, 0, 255, 0.6);
+  --back-color-boxes: rgba(0, 0, 255, 0.2);
+  --back-color-boxes-hover: rgba(0, 0, 255, 0.4);
   --back-color-danger-boxes: rgba(255, 0, 0, 0.5);
   --back-color-danger-boxes-hover: rgba(255, 0, 0, 0.7);
   --switch-off: rgba(255, 0, 0, 0.5);
