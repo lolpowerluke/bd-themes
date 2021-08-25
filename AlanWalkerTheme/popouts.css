@@ -438,3 +438,11 @@
 .autocomplete-1vrmpx .wrapper-2siovq.selected-3xBBKs:hover {
   background-color: var(--back-color-boxes);
 }
+/*activity cards on vc*/
+.container-2dqNWc,
+.popout-APcvZm {
+  border: 1px solid rgb(var(--border-color), var(--border-opacity));
+}
+.translate-2dAEQ6 .container-2dqNWc {
+  background-color: black;
+}
