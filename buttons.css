@@ -1,0 +1,71 @@
+/*Green buttons */
+.tabBar-ZmDY9v .item-3HknzM[aria-controls="ADD_FRIEND-tab"],
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+    border-radius: 0px;
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 6px;
+}
+.tabBar-ZmDY9v .item-3HknzM[aria-controls="ADD_FRIEND-tab"]:hover,
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover {
+    background-color: var(--green-2) !important;
+}
+/*Red buttons */
+.lookFilled-1Gx00P.colorRed-1TFJan {
+  color: rgb(255, 255, 255);
+  background-color: var(--red) !important;
+  border-radius: 0px;
+  clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  --cp-size: 6px;
+}
+/*Blue buttons*/
+.bd-addon-modal-footer .bd-button,
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+  background-color: var(--back-color-boxes);
+}
+.bd-addon-modal-footer .bd-button,
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+  background-color: var(--back-color-boxes-hover);
+}
+/*Home Button*/
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, 
+.wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+  background-color: transparent;
+}
+.homeIcon-FuNwkv path {
+  display: none;
+}
+.homeIcon-FuNwkv {
+  -webkit-mask: var(--home-button-background);
+  -webkit-mask-size: var(--home-button-background-size);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  background-color: var(--unread-pill);
+}
+/*Create Server And Explore Servers Buttons*/
+.listItemWrapper-KhRmzM {
+  background-color: black;
+  border: 1px solid rgb(var(--border-color-blue));
+  border-radius: 30px;
+}
+.circleIconButton-1QV--U.selected-1JjBPm {
+  color: var(--unread-pill);
+  background-color: transparent;
+}
+/*Mark As Read Button In Chat*/
+.newMessagesBar-265mhP {
+  background-color: var(--back-color-boxes);
+  border: 1px solid rgb(var(--border-color), var(--border-opacity));
+  border-top: 0px;
+}
+/*Upload Button*/
+.attachButtonInner-PQjIyk svg {
+  background-color: rgb(25, 0, 255);
+  border-radius: 50%;
+}
+.attachButtonInner-PQjIyk svg[aria-hidden="false"] {
+  border-radius: 15px 15px 7px 15px;
+}
+.attachButton-2WznTc:hover .attachButtonPlus-jWVFah,
+.attachButtonPlus-jWVFah {
+  fill: black;
+}
