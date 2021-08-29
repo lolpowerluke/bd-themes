@@ -44,7 +44,7 @@
   }
 }
 .item-2hkk8m {
-  background-color: var(--selected-pill);
+  background-color: var(--unread-pill);
 }
 /*Time Stamp Divider */
 #app-mount .divider-JfaTT5.isUnread-3Ef-o9 span {
