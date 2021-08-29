@@ -20,30 +20,36 @@
   --back-pos-dm: -25px;
   --home-button-background-size: 45px;
   /*Other Stuff*/
-  --bonfire: url('https://nyri4.github.io/Comfy/assets/bonfire.gif');
   --crash-screen-image: url('https://external-preview.redd.it/lxXR2dIc6jmGIsw5y-wmKIrluG6KndtXBg4uiECIlKM.png?auto=webp&s=7c44375ed91956c4025cd5826e541032c1e9b7a4');
-  /*main colors*/
+
+  /*borders*/
   --border-color: 255, 0, 0;
   --border-color-blue: 0, 0, 255;
   --border-opacity: 0.5;
   --border-opacity-blue: 0.8;
+
+  /*boxes*/
   --back-color-boxes: rgba(0, 0, 255, 0.2);
   --back-color-boxes-hover: rgba(0, 0, 255, 0.4);
   --back-color-danger-boxes: rgba(255, 0, 0, 0.5);
   --back-color-danger-boxes-hover: rgba(255, 0, 0, 0.7);
+
+  /*switches*/
   --switch-off: rgba(255, 0, 0, 0.5);
   --switch-on: rgba(0, 0, 255, 0.829);
+
+  /*badges*/
   --back-color-number-badges: rgb(0, 26, 255);
+
+  /*playing card border colors*/
   --playing-color: 114, 137, 218;
   --spotify-color: 0, 255, 34;
   --streaming-color: 89, 54, 149;
+
   --separator: 17, 0, 255;
   --back-user-buttons: rgba(38, 0, 255, 0.158);
-  --back-user-buttons-hover: rgb(63, 63, 63);
-  --selected-pill: var(--unread-pill);
   --selcted-dm-color: rgba(255, 0, 0, 0.658);
   --bdfdb-blurple: var(--back-color-number-badges);
-  --title-gradient:linear-gradient(to right,#37b1da ,#c948cd ,#cce335, #37b1da);
   /*unread pill*/
   --unread-pill: rgb(0, 0, 255);
   --unread-pill-shadow: rgb(255, 0, 0);
