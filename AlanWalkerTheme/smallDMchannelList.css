@@ -62,12 +62,16 @@
 .container-3JKcAb .containerDefault--pIXnN .name-23GUGE,
 .sidebar-2K8pFh:hover .usernameFont-23TX-h,
 .sidebar-2K8pFh:hover .click-to-chat-btn,
-.sidebar-2K8pFh:hover .icons-1dXQdz,
 .sidebar-2K8pFh:hover .CollapsibleThreads-Collapser-collapser .colorStandard-2KCXvj,
 .containerDefault--pIXnN.selected-3LIHYU:hover .iconItem-F7GRxr,
 .sidebar-2K8pFh:hover .RestoreDirectMessages-style-divider,
 .sidebar-2K8pFh:hover .searchBar-6Kv8R2 .searchBarComponent-32dTOx {
   display: block;
+}
+.sidebar-2K8pFh:hover .info-WdNIDE,
+.sidebar-2K8pFh:hover .actions-aUdUfC,
+.sidebar-2K8pFh:hover .icons-1dXQdz {
+  display: flex;
 }
 .RestoreDirectMessages-style-button {
   margin-left: 10px;
@@ -117,10 +121,6 @@
 .guilds-1SWlCJ .ti-indicator {
   transform: rotate(0deg);
   margin: 0px;
-}
-.sidebar-2K8pFh:hover .info-WdNIDE,
-.sidebar-2K8pFh:hover .actions-aUdUfC {
-  display: flex;
 }
 .panels-j1Uci_ .container-3baos1 .avatar-SmRMf2,
 .gameIconWrapper-1YByCI {
