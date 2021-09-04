@@ -202,18 +202,18 @@
   opacity: 1;
 }
 /*mention and unread badges*/
-.sidebar-2K8pFh:not(:hover) .UnreadCountBadges-badge-channelUnread {
+.sidebar-2K8pFh:not(:hover) .containerDefault--pIXnN .UnreadCountBadges-badge-channelUnread {
   border-radius: 5px 0 0 0;
   padding: 0;
   bottom: 0;
 }
-.sidebar-2K8pFh:not(:hover) .mentionsBadge-3tC7Mi {
+.sidebar-2K8pFh:not(:hover) .containerDefault--pIXnN .mentionsBadge-3tC7Mi {
   top: 0;
 }
-.sidebar-2K8pFh:not(:hover) .mentionsBadge-3tC7Mi .numberBadge-2s8kKX {
+.sidebar-2K8pFh:not(:hover) .containerDefault--pIXnN .mentionsBadge-3tC7Mi .numberBadge-2s8kKX {
   border-radius: 0 0 0 5px;
 }
-#app-mount .sidebar-2K8pFh:not(:hover) .numberBadge-2s8kKX {
+#app-mount .sidebar-2K8pFh:not(:hover) .containerDefault--pIXnN .numberBadge-2s8kKX {
   font-size: 10px;
   min-width: 12px;
   max-width: 20px;
@@ -221,8 +221,8 @@
   height: 12px;
   padding: 0;
 }
-.sidebar-2K8pFh:not(:hover) .UnreadCountBadges-badge-channelUnread,
-.sidebar-2K8pFh:not(:hover) .mentionsBadge-3tC7Mi {
+.sidebar-2K8pFh:not(:hover) .containerDefault--pIXnN .UnreadCountBadges-badge-channelUnread,
+.sidebar-2K8pFh:not(:hover) .containerDefault--pIXnN .mentionsBadge-3tC7Mi {
   position: absolute;
   right: 0;
 }
