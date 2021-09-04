@@ -412,7 +412,7 @@ a.selected-aXhQR6 .name-uJV0GL {
   left: 0px !important;
   --__adaptive-focus-color: transparant !important;
 }
-.sidebar-2K8pFh .content-3YMskv > :last-of-type::after {
+.containerDefault--pIXnN:last-of-type::after {
   content: "";
   position: absolute;
   width: calc(100% - 10px);
