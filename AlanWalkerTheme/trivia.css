@@ -440,9 +440,10 @@ a.selected-aXhQR6 .name-uJV0GL {
   margin-top: -1px;
   padding-left: 0px;
   margin-left: 8px;
-  padding-right: 6px;
+  margin-right: 8px;
   border-left: 1px solid rgb(var(--border-color), var(--border-opacity));
   border-right: 1px solid rgb(var(--border-color), var(--border-opacity));
+  width: calc(100% - 18px);
 }
 .content-1Wq3SX {
   width: calc(100% + 5px);
@@ -536,6 +537,29 @@ a.selected-aXhQR6 .name-uJV0GL {
 .voiceUserSummary-2X_2vp + .containerDefault-3tr_sE::before {
   border-top: 0px;
   margin-top: 1px;
+}
+.containerDefault--pIXnN + .voiceUserSummary-2X_2vp {
+  border-radius: 0;
+  margin-top: -1px;
+}
+.containerDefault--pIXnN:hover + .voiceUserSummary-2X_2vp {
+  border-top: 0px;
+  margin-top: -2px;
+}
+.voiceUserSummary-2X_2vp::after {
+  content: "";
+  position: absolute;
+  bottom: -9px;
+  left: 8px;
+  width: calc(100% - 18px);
+  margin: 0;
+  height: 8px;
+  border: 1px solid rgb(var(--border-color), var(--border-opacity));
+  border-top: 0px;
+  border-radius: 0px 0px 8px 8px;
+}
+.voiceUserSummary-2X_2vp + .ring-13rgEW::after {
+  display: none;
 }
 /*color*/
 [data-user-id="398131626695196672"] .username-1A8OIy span,
