@@ -126,9 +126,17 @@ a.selected-aXhQR6 .layout-2DM8Md {
   .nowPlayingColumn-2sl4cE {
     display: block;
     min-width: unset;
+    transition: min-width 0.5s;
+    min-width: 200px;
   }
   .mutualGuilds-s7F2aa {
     flex: none;
+  }
+  .peopleColumn-29fq28 {
+    flex: unset;
+  }
+  .nowPlayingColumn-2sl4cE:hover {
+    min-width: 360px;
   }
 }
 /*Search Bar*/
