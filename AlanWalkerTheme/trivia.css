@@ -125,7 +125,6 @@ a.selected-aXhQR6 .layout-2DM8Md {
 @media (max-width: 1200px) {
   .nowPlayingColumn-2sl4cE {
     display: block;
-    min-width: unset;
     transition: min-width 0.5s;
     min-width: 200px;
   }
