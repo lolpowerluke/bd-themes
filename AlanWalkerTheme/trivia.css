@@ -295,7 +295,10 @@ a.selected-aXhQR6 .name-uJV0GL {
   color: var(--selcted-dm-color);
 }
 /*Force Show Link*/
-.anchor-3Z-8Bb:after {
+#app-mount .anchor-3Z-8Bb::after {
+  left: 148px;
+}
+[href*="/"]::after {
   content:attr(href);
   display:flex;
   align-items:center;
@@ -306,9 +309,9 @@ a.selected-aXhQR6 .name-uJV0GL {
   font-size:12px;
   padding:3px 4px;
   padding-right:6px;
-  position:fixed;
+  position: fixed;
   bottom:2px;
-  left:148px;
+  left: 328px;
   opacity:0;
   transition:200ms ease;
   white-space:nowrap;
@@ -316,7 +319,7 @@ a.selected-aXhQR6 .name-uJV0GL {
   border-radius: 0px 0px 5px 5px;
   pointer-events:none;
 }
-.anchor-3Z-8Bb:hover:after {
+[href]:hover::after {
   opacity:1;
 }
 .base-gE7OpD {
