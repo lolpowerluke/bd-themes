@@ -318,6 +318,7 @@ a.selected-aXhQR6 .name-uJV0GL {
   border-top: 1px solid rgb(var(--border-color), var(--border-opacity));
   border-radius: 0px 0px 5px 5px;
   pointer-events:none;
+  color: var(--text-link);
 }
 [href]:hover::after {
   opacity:1;
