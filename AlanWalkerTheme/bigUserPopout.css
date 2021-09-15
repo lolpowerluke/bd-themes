@@ -305,7 +305,7 @@
 }
 /*USRBG*/
 #app-mount .root-3QyAh1 .body-r6_QPy {
-  background: var(--user-background) black;
+  background: var(--user-background) var(--user-popout);
   background-position: 0 70%;
   background-size: contain;
   background-repeat: no-repeat;
