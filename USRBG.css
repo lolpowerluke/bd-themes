@@ -1,10 +1,13 @@
+/*official list*/
+@import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
+/*everyone except this or official list*/
+#app-mount {
+	--user-background: url('https://i.imgur.com/tt9snCk.png?1');
+}
+/*my list*/
 /*Mouson#8981*/
 #app-mount [data-user-id="374490674558533633"] {
 	--user-background: url('https://i.imgur.com/Rv3pBml.png');
-}
-/*lolpowerluke#5364*/
-#app-mount [data-user-id="398131626695196672"] {
-	--user-background: url('https://i.imgur.com/9zkNBar.png');
 }
 /*nothingSuspicious#6246*/
 #app-mount [data-user-id="773628716537872404"] {
