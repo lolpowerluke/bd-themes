@@ -207,6 +207,7 @@
   width: 49%;
   transition: 0.1s;
   box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 .connectedAccount-2Jb-Z0:active {
   border-width: 1.2px 1.2px 1.2px 1.2px;
@@ -301,6 +302,17 @@
 }
 .button-2IFFQ4:active {
   transform: scale(0.9);
+}
+/*USRBG*/
+#app-mount .root-3QyAh1 .body-r6_QPy {
+  background: var(--user-background) black;
+  background-position: 0 70%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.infoScroller-1Qu30O {
+  backdrop-filter: blur(2px);
+  background-color: rgba(0, 0, 0, 0.65);
 }
 /*Small fixes realted to the screenWidth of the user*/
 @media (max-width: 1040px) {
