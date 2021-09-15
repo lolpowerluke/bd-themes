@@ -22,7 +22,8 @@
   --home-button-background-size: 45px;
   /*Other Stuff*/
   --crash-screen-image: url('https://external-preview.redd.it/lxXR2dIc6jmGIsw5y-wmKIrluG6KndtXBg4uiECIlKM.png?auto=webp&s=7c44375ed91956c4025cd5826e541032c1e9b7a4');
-
+  /*USRBG*/
+  --USRBG-popout-background: url('https://i.imgur.com/tt9snCk.png?1');
   /*borders*/
   --border-color: 255, 0, 0;
   --border-color-blue: 0, 0, 255;
