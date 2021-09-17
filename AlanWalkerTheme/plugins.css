@@ -184,3 +184,11 @@
   border: 1px solid rgb(var(--border-color), var(--border-opacity));
   max-height: 145px;
 }
+/*clock plugin*/
+#clockPluginClock {
+  left: 50%;
+  color: var(--title-bar-content-color);
+}
+#clockPluginClock::before {
+  display: none;
+}
