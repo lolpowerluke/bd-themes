@@ -201,6 +201,9 @@
   margin-left: 0;
   opacity: 1;
 }
+.channelNotice-1-XFjC {
+  width: 240px;
+}
 /*mention and unread badges*/
 .sidebar-2K8pFh:not(:hover) .containerDefault--pIXnN .UnreadCountBadges-badge-channelUnread {
   border-radius: 5px 0 0 0;
