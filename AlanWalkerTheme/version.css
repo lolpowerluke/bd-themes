@@ -3,7 +3,7 @@
 }
 .panels-j1Uci_::before {
   content: "theme outdated, please update https://github.com/lolpowerluke/ discordtheme/blob/main/ alanWalker.theme.css";
-  display: var(--version-1-0-8);
+  display: var(--version-1-0-9);
   color:#fff;
   position:relative;
   left:0px;
