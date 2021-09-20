@@ -1,6 +1,6 @@
 /*thanks to CorellanStoma#1996 for friends-grid*/
 @import url("https://corellanstoma.github.io/Friends-Grid/src/source.css");
-/*Friend List*//*
+/*Friend List*/
 .peopleListItem-2nzedh:nth-child(2) {
   border: 1px solid rgb(var(--border-color), var(--border-opacity));
   border-radius: 10px 10px 0px 0px;
@@ -83,7 +83,6 @@
 .userInfo-2zN2z8 {
   overflow: hidden !important;
 }
-*/
 .mutualGuilds-s7F2aa {
   flex: 0 0 auto;
   position: absolute;
