@@ -82,13 +82,10 @@
 }
 .userInfo-2zN2z8 {
   overflow: hidden !important;
-}
+}/*
 .mutualGuilds-s7F2aa {
   flex: 0 0 auto;
   position: absolute;
   margin-top: 145px;
   margin-left: -10px;
-}
-.peopleColumn-29fq28 .userInfo-2zN2z8::before{
-  display: none;
 }
