@@ -50,3 +50,8 @@
 #app-mount [data-user-id="454717754394804225"] {
 	--user-background: url('https://i.imgur.com/8Pts35N.png');
 }
+/*WAK_Senne3D#4687*/
+#app-mount [data-list-item-id*="454717754394804225"],
+#app-mount [data-user-id="454717754394804225"] {
+	--user-background: url('https://i.imgur.com/Cl5pGmM.png');
+}
