@@ -54,6 +54,10 @@
 .peopleListItem-2nzedh.active-rhSpJJ {
   border: 1px solid rgb(var(--border-color-blue));
   border-radius: 8px;
+  background: var(--user-background);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 .mutualGuilds-s7F2aa {
   flex: none;
