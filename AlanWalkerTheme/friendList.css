@@ -16,7 +16,6 @@
   padding: 0;
   margin-top: 15px;
   background: var(--user-background);
-  overflow: hidden;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
@@ -24,6 +23,9 @@
   transition: 
     box-shadow 0.75s, 
     border-color 1s;
+}
+#app-mount .peopleListItem-2nzedh {
+  overflow: hidden;
 }
 #app-mount .actionButton-uPB8Fs {
   background-color: rgba(0, 0, 0, 0.4);
