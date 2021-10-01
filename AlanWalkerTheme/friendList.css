@@ -85,6 +85,9 @@
   }
 }
 @media (min-width: 1001px) {
+  #app-mount .userInfo-2zN2z8 {
+    overflow: visible;
+  }
   .peopleColumn-29fq28 .title-30qZAO{
     width: 100%;
   }
