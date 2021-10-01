@@ -83,6 +83,9 @@
   .userInfo-2zN2z8 {
     overflow: hidden !important;
   }
+  .mutualGuilds-s7F2aa {
+    flex: none;
+  }
 }
 @media (min-width: 1001px) {
   #app-mount .userInfo-2zN2z8 {
@@ -147,9 +150,6 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
-  }
-  .mutualGuilds-s7F2aa {
-    flex: none;
   }
   .peopleListItem-2nzedh .avatar-3W3CeO {
     height: 80px !important;
