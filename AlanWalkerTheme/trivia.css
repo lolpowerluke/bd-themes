@@ -666,7 +666,3 @@ a.selected-aXhQR6 .name-uJV0GL {
 .topPill-30KHOu .item-PXvHYJ:not([aria-controls="add_friend-tab"]):hover + .item-PXvHYJ:not([aria-controls="add_friend-tab"]) {
   border-left: 0px;
 }
-/*discord stupid ring thing*/
-.ring-13rgEW {
-  display: none !important;
-}

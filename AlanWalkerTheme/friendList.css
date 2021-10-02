@@ -1,4 +1,8 @@
 /*Friend List*/
+/*discords stupid ring thing*/
+.peopleColumn-29fq28 .ring-13rgEW {
+  display: none !important;
+}
 @media (max-width: 1000px) {
   /*Friend List*/
   .peopleListItem-2nzedh:nth-child(2) {
