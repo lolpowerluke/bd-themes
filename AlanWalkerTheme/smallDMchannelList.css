@@ -59,6 +59,9 @@
 .sidebar-2K8pFh:not(:hover) .total-i6us2n {
   margin-top: 5px;
 }
+.containerDefault--pIXnN:not(:hover) .children-3rEycc {
+  display: none;
+}
 .sidebar-2K8pFh:not(:hover) .children-3rEycc {
   margin-right: -12px;
 }
