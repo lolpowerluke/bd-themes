@@ -158,6 +158,13 @@
   display: block;
   margin-left: 5px;
 }
+.container-1giJp5 .actionButtons-14eAc_ .contents-18-Yxp {
+  font-size: 0px;
+  transition: font-size 0.5s;
+}
+.sidebar-2K8pFh:hover .container-1giJp5 .actionButtons-14eAc_ .contents-18-Yxp {
+  font-size: initial;
+}
 /*mention and unread badges*/
 .sidebar-2K8pFh:not(:hover) .containerDefault--pIXnN .UnreadCountBadges-badge-channelUnread {
   border-radius: 5px 0 0 0;
