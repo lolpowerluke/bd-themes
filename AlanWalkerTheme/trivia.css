@@ -122,6 +122,9 @@ a.selected-aXhQR6 .layout-2DM8Md {
 .theme-dark .inset-3sAvek {
   background-color: transparent;
 }
+.nowPlayingColumn-2sl4cE {
+  margin-left: 10px;
+}
 @media (max-width: 1200px) {
   .nowPlayingColumn-2sl4cE {
     display: block;
