@@ -446,3 +446,16 @@
 .translate-2dAEQ6 .container-2dqNWc {
   background-color: black;
 }
+/*invite popout*/
+[role="dialog"] .inviteSplash-40aHus {
+  border: 1px solid rgb(var(--border-color), var(--border-opacity));
+  border-left: 0;
+  height: 100%;
+}
+[role="dialog"] .contentWrapper-3WC1ID {
+  background-color: var(--user-popout);
+  border: 1px solid rgb(var(--border-color), var(--border-opacity));
+}
+[role="dialog"] .contentWrapper-3WC1ID .scroller-3__pG8::-webkit-scrollbar {
+  display: none;
+}
