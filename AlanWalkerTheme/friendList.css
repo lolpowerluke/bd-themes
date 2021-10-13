@@ -110,6 +110,11 @@
   bottom: 5px;
   right: 5px;
 }
+.actions-FAbeWr {
+    position: absolute;
+    right: 10px;
+    margin-top: 80px;
+}
 .subtext-24R4-w {
   max-width: 200px;
   max-height: 50px;
