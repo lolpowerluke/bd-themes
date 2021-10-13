@@ -193,6 +193,16 @@
 .sidebar-2K8pFh:not(:hover) .containerDefault-3tr_sE + .containerDefault--pIXnN .mentionsBadge-3tC7Mi .numberBadge-2s8kKX {
   border-radius: 0 5px 0 5px;
 }
+.sidebar-2K8pFh:not(:hover) [href="/channels/@me"] .numberBadge-2s8kKX {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 10px;
+    height: 12px;
+    width: 12px !important;
+    min-height: unset;
+    min-width: unset;
+}
 /*DM-list*/
 .channel-2QD9_O {
   margin-right: 4px;
