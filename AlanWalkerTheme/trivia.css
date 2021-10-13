@@ -277,6 +277,21 @@ a.selected-aXhQR6 .layout-2DM8Md {
 .topPill-30KHOu .numberBadge-2s8kKX {
   background-color: var(--back-color-number-badges) !important;
 }
+.guilds-1SWlCJ > ul > .scrollerBase-289Jih > .tutorialContainer-2sGCg9 .listItemWrapper-t7zeg3 {
+    overflow: hidden;
+}
+.guilds-1SWlCJ > ul > .scrollerBase-289Jih > .tutorialContainer-2sGCg9 .listItemWrapper-t7zeg3 .UnreadCountBadges-badge-unread,
+.guilds-1SWlCJ > ul > .scrollerBase-289Jih > .tutorialContainer-2sGCg9 .listItemWrapper-t7zeg3 .lowerBadge-29hYVK {
+    position: absolute;
+    height: 100%
+}
+.guilds-1SWlCJ > ul > .scrollerBase-289Jih > .tutorialContainer-2sGCg9 .listItemWrapper-t7zeg3 .lowerBadge-29hYVK .numberBadge-2s8kKX,
+.guilds-1SWlCJ > ul > .scrollerBase-289Jih > .tutorialContainer-2sGCg9 .listItemWrapper-t7zeg3 .UnreadCountBadges-badge-unread .numberBadge-2s8kKX {
+    height: 100%;
+    width: 10px !important;
+    font-size: 0.5rem;
+    min-width: unset;
+}
 /*Status Circle Top Of The DM*/
 [aria-label="Online"] .mask-1qbNWk rect {
   fill: var(--online);
