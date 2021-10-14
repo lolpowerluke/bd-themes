@@ -284,6 +284,7 @@ a.selected-aXhQR6 .layout-2DM8Md {
 .guilds-1SWlCJ > ul > .scrollerBase-289Jih > .tutorialContainer-2sGCg9 .listItemWrapper-t7zeg3 .lowerBadge-29hYVK {
   width: 100%;
   height: 100%;
+  pointer-events: none;
 }
 .guilds-1SWlCJ > ul > .scrollerBase-289Jih > .tutorialContainer-2sGCg9 .listItemWrapper-t7zeg3 .lowerBadge-29hYVK .numberBadge-2s8kKX,
 .guilds-1SWlCJ > ul > .scrollerBase-289Jih > .tutorialContainer-2sGCg9 .listItemWrapper-t7zeg3 .UnreadCountBadges-badge-unread .numberBadge-2s8kKX {
