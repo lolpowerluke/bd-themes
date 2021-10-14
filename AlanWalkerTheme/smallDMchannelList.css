@@ -165,6 +165,9 @@
 .sidebar-2K8pFh:hover .container-1giJp5 .actionButtons-14eAc_ .contents-18-Yxp {
   font-size: initial;
 }
+.voiceUser-1K6Xox {
+  margin-right: 4px;
+}
 /*mention and unread badges*/
 .sidebar-2K8pFh:not(:hover) .containerDefault--pIXnN .UnreadCountBadges-badge-channelUnread {
   border-radius: 5px 0 0 0;
