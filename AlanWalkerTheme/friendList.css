@@ -1,40 +1,8 @@
 /*Friend List*/
 .peopleList-3c4jOR>div {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   margin-top: 20px;
-}
-.peopleList-3c4jOR>div {
-  grid-template-columns: 1fr;
-}
-@media (min-width: 1201px) and (max-width: 1500px) {
-  .peopleList-3c4jOR>div {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-@media (min-width: 1501px) and (max-width: 1850px) {
-  .peopleList-3c4jOR>div {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-@media (min-width: 1851px) and (max-width: 2200px) {
-  .peopleList-3c4jOR>div {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-}
-@media (min-width: 2201px) and (max-width: 2550px) {
-  .peopleList-3c4jOR>div {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-}
-@media (min-width: 2551px) and (max-width: 2900px) {
-  .peopleList-3c4jOR>div {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  }
-}
-@media (min-width: 2901px) {
-  .peopleList-3c4jOR>div {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  }
 }
 #app-mount .userInfo-2zN2z8 {
   overflow: visible;
@@ -45,7 +13,10 @@
   margin-top: -15px;
 }
 .peopleListItem-2nzedh {
+  flex-grow: 1;
   height: 140px !important;
+  min-width: 300px;
+  max-width: 600px;
   border: 1px solid rgb(var(--border-color), var(--border-opacity));
   border-radius: 10px;
   margin-right: 0px;
