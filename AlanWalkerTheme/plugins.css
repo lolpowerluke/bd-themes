@@ -52,14 +52,6 @@
 .privateChannels-1nO12o .privateChannelsHeaderContainer-3NB1K1:hover {
   background: var(--gr-one);
 }
-/*dateViewer*/
-#dv-mount {
-  max-height: 80px;
-  background-color: var(--back-date-viewer) !important;
-}
-.membersWrap-2h-GB4 .members-1998pB {
-  height: calc(100% - 80px) !important;
-}
 /*Permission Viewer*/
 .inner-1ilYF7 .header{
   background-color: var(--permission-header) !important;
@@ -120,7 +112,7 @@
 .chatContent-a9vAAp .pointerEvents-2zdfdO {
   pointer-events: none;
 }
-/*CreationDate, LastMessageDate, JoinedAtDate plugins*/
+/*CreationDate, LastMessageDate, JoinedAtDate plugins*//*
 .root-3QyAh1 .date-YN6TCS {
   width: fit-content;
   margin-left: 18px;
@@ -191,4 +183,8 @@
 }
 #clockPluginClock::before {
   display: none;
+}
+/*UserDetails by strencher*/
+#app-mount .UserDetails-mutualFriends-stack .UserDetails-mutualFriends-mutualFriend {
+  background: transparent;
 }
