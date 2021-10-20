@@ -288,7 +288,7 @@ a.selected-aXhQR6 .layout-2DM8Md {
 }
 .guilds-1SWlCJ > ul > .scrollerBase-289Jih > .tutorialContainer-2sGCg9 .listItemWrapper-t7zeg3 .lowerBadge-29hYVK .numberBadge-2s8kKX,
 .guilds-1SWlCJ > ul > .scrollerBase-289Jih > .tutorialContainer-2sGCg9 .listItemWrapper-t7zeg3 .UnreadCountBadges-badge-unread .numberBadge-2s8kKX {
-  height: 10px;
+  height: 12px;
   width: 100% !important;
   font-size: 9px;
   min-width: unset;
@@ -296,9 +296,6 @@ a.selected-aXhQR6 .layout-2DM8Md {
 }
 .guilds-1SWlCJ > ul > .scrollerBase-289Jih > .tutorialContainer-2sGCg9 .listItemWrapper-t7zeg3 .lowerBadge-29hYVK .numberBadge-2s8kKX {
   margin-top: 38px;
-}
-.guilds-1SWlCJ > ul > .scrollerBase-289Jih > .tutorialContainer-2sGCg9 .listItemWrapper-t7zeg3 .UnreadCountBadges-badge-unread .numberBadge-2s8kKX {
-  margin-top: 1px;
 }
 /*Status Circle Top Of The DM*/
 [aria-label="Online"] .mask-1qbNWk rect {
