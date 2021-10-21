@@ -168,6 +168,9 @@
 .voiceUser-1K6Xox {
   margin-right: 4px;
 }
+.scroller-RmtA4e {
+  padding-right: 0 !important;
+}
 /*mention and unread badges*/
 .sidebar-2K8pFh:not(:hover) .containerDefault--pIXnN .UnreadCountBadges-badge-channelUnread {
   border-radius: 5px 0 0 0;
