@@ -13,7 +13,7 @@
   margin-top: -15px;
 }
 .peopleListItem-2nzedh {
-  flex-grow: 1;
+  flex: 1 1 0;
   height: 140px !important;
   min-width: 300px;
   max-width: 600px;
