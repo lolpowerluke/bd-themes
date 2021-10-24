@@ -277,6 +277,12 @@ a.selected-aXhQR6 .layout-2DM8Md {
 .topPill-30KHOu .numberBadge-2s8kKX {
   background-color: var(--back-color-number-badges) !important;
 }
+.numberBadge-2s8kKX:nth-last-child(2) {
+  background-color: blue;
+}
+.numberBadge-2s8kKX:nth-last-child(3) {
+  background-color: red !important;
+}
 .guilds-1SWlCJ > ul > .scrollerBase-289Jih > .tutorialContainer-2sGCg9 .listItemWrapper-t7zeg3 {
   overflow: hidden;
 }
