@@ -303,6 +303,10 @@ a.selected-aXhQR6 .layout-2DM8Md {
 .guilds-1SWlCJ > ul > .scrollerBase-289Jih > .tutorialContainer-2sGCg9 .listItemWrapper-t7zeg3 .lowerBadge-29hYVK .numberBadge-2s8kKX {
   margin-top: 38px;
 }
+/*blue ping on hover*/
+.listItem-1hlISG:hover .numberBadge-2s8kKX {
+  background-color: blue !important;
+}
 /*Status Circle Top Of The DM*/
 [aria-label="Online"] .mask-1qbNWk rect {
   fill: var(--online);
