@@ -321,6 +321,11 @@
   backdrop-filter: blur(2px);
   background-color: rgba(0, 0, 0, 0.65);
 }
+.listScroller-3GmIYj {
+  height: 100%;
+  backdrop-filter: blur(2px);
+  background-color: rgba(0, 0, 0, 0.65);
+}
 /*Small fixes realted to the screenWidth of the user*/
 @media (max-width: 1040px) {
   .connectedAccount-2Jb-Z0 {
