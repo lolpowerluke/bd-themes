@@ -537,13 +537,15 @@ a.selected-aXhQR6 .name-uJV0GL {
 .containerDefault--pIXnN:hover + .CollapsibleThreads-Collapser-collapser {
   border-top: 0px solid rgb(var(--border-color), var(--border-opacity));
 }
-.sidebar-2K8pFh:not(:hover) .CollapsibleThreads-Collapser-collapser .colorStandard-2KCXvj {
-  margin-left: 15px;
-  opacity: 0;
-  transition: margin-left 0.2s, opacity 0.5s;
+.sidebar-2K8pFh:hover .CollapsibleThreads-Collapser-collapser .colorStandard-2KCXvj {
+  margin-left: 0px;
+  opacity: 1;
 }
 .CollapsibleThreads-Collapser-collapser .colorStandard-2KCXvj {
   width: 240px;
+  margin-left: 15px;
+  opacity: 0;
+  transition: margin-left 0.2s, opacity 0.5s;
 }
 .CollapsibleThreads-Collapser-collapser .flex-1xMQg5 {
   display: grid;
