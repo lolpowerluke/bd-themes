@@ -31,9 +31,11 @@
 .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
   background-color: transparent;
 }
+.homeIcon-AaowEC path,
 .homeIcon-FuNwkv path {
   display: none;
 }
+.homeIcon-AaowEC,
 .homeIcon-FuNwkv {
   -webkit-mask: var(--home-button-background);
   -webkit-mask-size: var(--home-button-background-size);
@@ -42,11 +44,13 @@
   background-color: var(--unread-pill);
 }
 /*Create Server And Explore Servers Buttons*/
+.listItemWrapper-2MsAsM,
 .listItemWrapper-t7zeg3 {
   background-color: black;
   border: 1px solid rgb(var(--border-color-blue));
   border-radius: 30px;
 }
+.circleIconButton-hZmpE8.selected-3mFF3I,
 .circleIconButton-1XqULR.selected-2jcQaY {
   color: var(--unread-pill);
   background-color: transparent;
