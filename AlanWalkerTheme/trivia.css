@@ -692,7 +692,7 @@ a.selected-aXhQR6 .name-uJV0GL {
   margin-top: 7px;
 }
 /*FriendList Top Buttons*/
-.topPill-30KHOu .item-PXvHYJ:not([aria-controls="add_friend-tab"]) {
+.container-1D34oG .topPill-30KHOu .item-PXvHYJ:not([aria-controls="add_friend-tab"]) {
   margin: 0;
   border: 1px solid rgb(var(--border-color), var(--border-opacity));
   border-right: 0px;
