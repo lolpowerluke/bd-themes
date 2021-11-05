@@ -1,0 +1,81 @@
+#status-picker {
+  width: 220px;
+}
+#status-picker .scroller-3BxosC::-webkit-scrollbar {
+  display: none;
+}
+#status-picker .scroller-3BxosC {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 0;
+}
+#status-picker .separator-2I32lJ {
+  display: none;
+}
+#status-picker .scroller-3BxosC .submenuContainer-2gbm7M .mask-1qbNWk {
+  height: 12px;
+  width: 12px;
+  margin-top: 0;
+  margin-left: 0;
+}
+#status-picker .scroller-3BxosC .submenuContainer-2gbm7M .item-1tOPte {
+  height: 20px;
+}
+#status-picker .scroller-3BxosC [role="group"],
+#status-picker .scroller-3BxosC .submenuContainer-2gbm7M {
+  flex: 1 1 0;
+  height: 25px;
+}
+#status-picker .submenu-2-ysNh {
+  left: -10px;
+  padding-right: 0;
+}
+#status-picker .item-1tOPte:not([id*="status-picker-switch-account"]):not([id*="status-picker-custom-status"]) .status-1fhblQ,
+#status-picker .item-1tOPte:not([id*="status-picker-switch-account"]):not([id*="status-picker-custom-status"]) .description-2L932D {
+  display: none;
+}
+#status-picker .item-1tOPte {
+  flex: 1 1 0;
+  height: 40px;
+}
+#status-picker .mask-1qbNWk {
+  margin-top: 5px;
+  margin-left: 9px;
+  width: 20px;
+  height: 20px;
+}
+[id*="status-picker-switch-account"] .statusItem-33LqPf {
+  margin-left: 3px;
+}
+#status-picker [aria-activedescendant*="status-picker-switch-account"] .labelContainer-1BLJti .activeIcon-2Xlk3z{
+  margin-right: 5px;
+}
+#status-picker [aria-activedescendant*="status-picker-switch-account"] .scroller-3BxosC {
+  flex-direction: column;
+}
+#status-picker .labelContainer-1BLJti {
+  padding-left: 5px;
+}
+.imageContainer-2fGqYU,
+.hintContainer-Vai8dx {
+  margin-right: 5px;
+}
+.imageContainer-2fGqYU {
+  margin-left: -2px;
+}
+#status-picker .focused-3afm-j {
+  background: linear-gradient(45deg, #2b45a2, #7289da);
+}
+#status-picker .focused-3afm-j#status-picker-online {
+  background: linear-gradient(45deg, #21583f, #43b581);
+}
+#status-picker .focused-3afm-j#status-picker-idle {
+  background: linear-gradient(45deg, #915c03, #faa61a);
+}
+#status-picker .focused-3afm-j#status-picker-dnd {
+  background: linear-gradient(45deg, #aa0e0e, #f04747);
+}
+#status-picker .focused-3afm-j#status-picker-invisible {
+  background: linear-gradient(45deg, #3a4047, #747f8d);
+}
