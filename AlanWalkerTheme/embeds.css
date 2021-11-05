@@ -10,6 +10,7 @@
 .embedWrapper-lXpS3L[aria-hidden="false"] {
   border-color: rgb(255, 123, 0);
   background-color: rgba(255, 166, 0, 0.212);
+  max-width: unset !important;
 }
 /*AniMixPlay*/
 .embedWrapper-lXpS3L[style*="border-color: hsl(0, calc(var(--saturation-factor, 1) * 0%), 9.8%);"] {
@@ -22,7 +23,6 @@
 }
 /*Youtube */
 .embedWrapper-lXpS3L[style*="border-color: hsl(0, calc(var(--saturation-factor, 1) * 100%), 50%);"] {
-  max-width: unset !important;
   background-color: rgba(255, 0, 0, 0.26);
 }
 /*Betterdiscord */
@@ -32,7 +32,6 @@
 /*Twitter*/
 .embedWrapper-lXpS3L[style*="border-color: hsl(203, calc(var(--saturation-factor, 1) * 89.1%), 53.1%);"] {
   background-color: rgba(0, 153, 255, 0.288);
-  max-width: unset !important;
 }
 /*Github*/
 .embedWrapper-lXpS3L[style*="border-color: hsl(207, calc(var(--saturation-factor, 1) * 13%), 13.5%);"] {
