@@ -196,3 +196,16 @@
 #app-mount .ChannelDms-channelpopout-popout .chatContent-a9vAAp {
   margin-top: 0;
 }
+#app-mount .ChannelDms-channelpopout-popout .buttonContainer-28fw2U .button-318s1X:not([aria-label="Select emoji"]),
+#app-mount .ChannelDms-channelpopout-popout .icon-1A2_vz,
+#app-mount .ChannelDms-channelpopout-popout .role-2irmRk,
+#app-mount .ChannelDms-channelpopout-popout .PronounDB-pronouns-text,
+#app-mount .ChannelDms-channelpopout-popout .tagID.before {
+  display: none;
+}
+#app-mount .ChannelDms-channelpopout-popout .buttonContainer-28fw2U .button-318s1X {
+  margin-right: 10px;
+}
+#app-mount .ChannelDms-channelpopout-popout .message-2qnXI6 {
+  padding-right: 5px !important;
+}
