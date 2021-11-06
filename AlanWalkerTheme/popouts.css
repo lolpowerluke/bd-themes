@@ -473,3 +473,11 @@
   border: 1px solid rgb(var(--border-color), var(--border-opacity));
   border-radius: 5px;
 }
+/*DM popouts*/
+#app-mount .ChannelDms-channelpopout-popout {
+  background-color: var(--user-popout);
+  border: 1px solid rgb(var(--border-color), var(--border-opacity));
+}
+#app-mount .ChannelDms-channelpopout-popout .chatContent-a9vAAp {
+  margin-top: 0;
+}
