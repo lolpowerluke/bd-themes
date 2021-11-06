@@ -57,6 +57,9 @@
 [id*="status-picker-switch-account"] .statusItem-33LqPf {
   margin-left: 3px;
 }
+#app-mount #status-picker [aria-activedescendant*="status-picker-switch-account"] .labelContainer-1BLJti {
+  flex: 1 1 25px;
+}
 #status-picker [aria-activedescendant*="status-picker-switch-account"] .labelContainer-1BLJti .activeIcon-2Xlk3z{
   margin-right: 5px;
 }
