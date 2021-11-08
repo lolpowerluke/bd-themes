@@ -624,14 +624,14 @@ a.selected-aXhQR6 .name-uJV0GL {
 ::-webkit-scrollbar-track {
   background-color: rgb(var(--border-color-blue), var(--border-opacity))!important;
 }
-.userPopout-xaxa6l .scrollerBase-289Jih::-webkit-scrollbar,
-.focusLock-Ns3yie .small-3iVZYw .scrollerBase-289Jih::-webkit-scrollbar,
-.changeLogModal-ny_dHC .scrollerBase-289Jih::-webkit-scrollbar,
+.scrollerBase-289Jih {
+    padding-right: 4px !important;
+}
+div:not(.messagesWrapper-1sRNjr) > .scrollerBase-289Jih::-webkit-scrollbar,
 [aria-label="USER_SETTINGS"] .sidebarRegionScroller-3MXcoP::-webkit-scrollbar,
 .privateChannels-1nO12o .scroller-1JbKMe::-webkit-scrollbar,
 .peopleList-3c4jOR::-webkit-scrollbar,
 .nowPlayingColumn-2sl4cE .scroller-2ZPeAD::-webkit-scrollbar,
-.membersWrap-2h-GB4 .members-1998pB::-webkit-scrollbar,
 .scrollableContainer-2NUZem::-webkit-scrollbar,
 .sidebar-2K8pFh .container-3w7J-x .scroller-RmtA4e::-webkit-scrollbar {
   display: none;
