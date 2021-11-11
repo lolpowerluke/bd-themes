@@ -74,12 +74,12 @@
   transform: rotate(-90deg);
   margin-right: -10px;
 }
-.panels-j1Uci_ .container-3baos1 .avatar-SmRMf2,
+.panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp,
 .gameIconWrapper-1YByCI {
   margin-left: 6px;
   transition: margin-left 0.3s;
 }
-.sidebar-2K8pFh:hover .panels-j1Uci_ .container-3baos1 .avatar-SmRMf2,
+.sidebar-2K8pFh:hover .panels-j1Uci_ .container-3baos1 .avatarWrapper-2yR4wp,
 .sidebar-2K8pFh:hover .gameIconWrapper-1YByCI {
   margin-left: 0px;
   transition: margin-left 0.3s;
@@ -221,4 +221,7 @@
 }
 .sidebar-2K8pFh:hover .channel-2QD9_O {
   margin-right: 0px;
+}
+.privateChannels-1nO12o .scrollerBase-289Jih {
+  padding-right: 0 !important;
 }
