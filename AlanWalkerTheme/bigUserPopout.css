@@ -137,9 +137,12 @@
   display: block;
 }
 .listScroller-3GmIYj {
-  margin-top: 25px;
   height: unset;
   max-height: 700px;
+}
+#app-mount .root-3QyAh1 .body-r6_QPy .listScroller-3GmIYj .activityProfile-2bJRaP,
+#app-mount .root-3QyAh1 .body-r6_QPy .listScroller-3GmIYj .listRow-1iDGel:first-of-type {
+  margin-top: 25px;
 }
 #app-mount .root-3QyAh1 .item-PXvHYJ {
   border: none !important;
