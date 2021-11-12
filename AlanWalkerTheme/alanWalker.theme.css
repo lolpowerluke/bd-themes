@@ -48,7 +48,7 @@
   --back-color-number-badges: rgb(177, 179, 199);
 
   /*playing card border color*/
-  --playing-card-border: 0, 137, 218;
+  --playing-card-border: rgb(0, 137, 218);
 
   --separator: 77, 77, 77;
 
