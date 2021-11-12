@@ -31,7 +31,7 @@
 .container-2PDP7D .item-PXvHYJ {
   border-radius: 0;
   margin: 0;
-  border: 1px solid rgb(var(--border-color), var(--border-opacity));
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   border-right: 0;
 }
 .container-2PDP7D .item-PXvHYJ:first-of-type {
@@ -39,11 +39,11 @@
 }
 .container-2PDP7D .item-PXvHYJ:last-of-type {
   border-radius: 0 20px 20px 0;
-  border-right: 1px solid rgb(var(--border-color), var(--border-opacity));
+  border-right: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 .container-2PDP7D .item-PXvHYJ:hover {
-  border-color: rgb(var(--border-color-blue));
-  border-right: 1px solid rgb(var(--border-color-blue));
+  border-color: rgb(var(--border-color-hover));
+  border-right: 1px solid rgb(var(--border-color-hover));
 }
 .container-2PDP7D .item-PXvHYJ:hover + .item-PXvHYJ {
   border-left: 0;

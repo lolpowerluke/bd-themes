@@ -47,7 +47,7 @@
 .listItemWrapper-2MsAsM,
 .listItemWrapper-t7zeg3 {
   background-color: black;
-  border: 1px solid rgb(var(--border-color-blue));
+  border: 1px solid rgb(var(--border-color-hover));
   border-radius: 30px;
 }
 .circleIconButton-hZmpE8.selected-3mFF3I,
@@ -58,7 +58,7 @@
 /*Mark As Read Button In Chat*/
 .newMessagesBar-265mhP {
   background-color: var(--back-color-boxes);
-  border: 1px solid rgb(var(--border-color), var(--border-opacity));
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   border-top: 0px;
 }
 /*Upload Button*/

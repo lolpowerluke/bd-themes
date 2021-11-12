@@ -19,7 +19,7 @@
 }
 #app-mount .imageWrapper-2p5ogY:not(.image-1tIMwV) {
   border-radius: 7px;
-  border: 1px solid rgb(var(--border-color), var(--border-opacity));
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 /*Platform Indicator Desktop*/
 .PI-indicatorContainer div[aria-label="Desktop: Online"] .PI-icon_desktop {color: var(--online) !important;}
@@ -100,12 +100,12 @@
 /*VoiceChatLogger*/
 .theme-dark .root-1gCeng {
   background-color: black;
-  border: 1px solid rgb(var(--border-color), var(--border-opacity));
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 /*Role Members*/
 .role-members-popout {
   background: black !important;
-  border: 1px solid rgb(var(--border-color), var(--border-opacity));
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 /*Link Profile Picture*/
 .focusLock-Ns3yie .pointerEvents-2zdfdO,
@@ -155,7 +155,7 @@
 /*BetterFormattingRedux*/
 .bf-toolbar::before {
   background: black !important;
-  border: 1px solid rgb(var(--border-color-blue));
+  border: 1px solid rgb(var(--border-color-hover));
   right: 1px !important;
   width: calc(100% - 2px) !important;
 }
@@ -173,13 +173,13 @@
   background-color: var(--user-popout);
 }
 .ColorTooltips-popout {
-  border: 1px solid rgb(var(--border-color), var(--border-opacity));
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   max-height: 145px;
 }
 /*clock plugin*/
 #clockPluginClock {
   left: 50%;
-  color: var(--title-bar-content-color);
+  color: var(--title-bar-color);
 }
 #clockPluginClock::before {
   display: none;
@@ -191,7 +191,7 @@
 /*ChannelDMs*/
 #app-mount .ChannelDms-channelpopout-popout {
   background-color: var(--user-popout);
-  border: 1px solid rgb(var(--border-color), var(--border-opacity));
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 #app-mount .ChannelDms-channelpopout-popout .chatContent-a9vAAp {
   margin-top: 0;

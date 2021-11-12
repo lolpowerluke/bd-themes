@@ -21,7 +21,7 @@
   border-radius: 8px 0px 0px 8px;
   padding: 16px;
   border: 0;
-  border-right: 1px solid rgb(var(--border-color), var(--border-opacity));
+  border-right: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   background-color: var(--user-popout);
 }
 #app-mount .root-3QyAh1 .topSection-y3p-_D > header + * {
@@ -90,7 +90,7 @@
 .profileBannerPremium-35utuo,
 .profileBanner-33-uE1 {
   width: auto;
-  border-bottom: 1px solid rgb(var(--border-color), var(--border-opacity));
+  border-bottom: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 .UserBackgrounds-banner-container {
   background-color: black;
@@ -183,7 +183,7 @@
 }
 /*Avatar*/
 .focusLock-Ns3yie .avatar-AvHqJA {
-  border: 1px solid rgb(var(--border-color), var(--border-opacity));
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   position: relative;
   top: 0;
   left: 0;
@@ -279,10 +279,9 @@
   margin: 0px 8px 15px 15px;
   padding: 10px;
   background: var(--back-color-boxes);
-  border-bottom: 4px solid rgb(var(--border-color-blue));
-  border-top: 4px solid rgb(var(--spotify-color), var(--border-opacity));
-  border-left: 4px solid rgb(var(--playing-color));
-  border-right: 4px solid rgb(var(--streaming-color));
+  border: 4px solid var(--playing-card-border);
+  border-top: 0;
+  border-bottom: 0;
   border-radius: 15px;
   box-shadow: none;
   top: 10px;
@@ -291,10 +290,9 @@
   margin: 15px 8px 15px 8px;
   padding: 10px;
   background: var(--back-color-boxes);
-  border-bottom: 4px solid rgb(var(--border-color-blue));
-  border-top: 4px solid rgb(var(--spotify-color), var(--border-opacity));
-  border-left: 4px solid rgb(var(--playing-color));
-  border-right: 4px solid rgb(var(--streaming-color));
+  border: 4px solid var(--playing-card-border);
+  border-top: 0;
+  border-bottom: 0;
   border-radius: 15px;
   box-shadow: none;
   top: 10px;
@@ -304,7 +302,7 @@
 }
 .button-2IFFQ4 {
   background-color: var(--back-user-buttons);
-  border-color: rgb(var(--border-color), var(--border-opacity)) !important;
+  border-color: rgb(var(--border-color-1), var(--border-opacity-1)) !important;
   transition: 0.15s;
 }
 .button-2IFFQ4:hover { 

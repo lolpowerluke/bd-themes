@@ -19,7 +19,7 @@
   min-width: 460px;
 }
 .bd-addon-card {
-  border: 1px solid rgb(var(--border-color), var(--border-opacity));
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   border-radius: 10px !important;
 }
 .bd-addon-list .bd-footer .bd-controls .bd-addon-button {

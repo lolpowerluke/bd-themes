@@ -17,7 +17,7 @@
   height: 140px !important;
   min-width: 300px;
   max-width: 600px;
-  border: 1px solid rgb(var(--border-color), var(--border-opacity));
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   border-radius: 10px;
   margin-right: 0px;
   margin-left: 15px;
@@ -27,7 +27,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
-  box-shadow: inset 0 0 10px rgb(var(--border-color), var(--border-opacity));
+  box-shadow: inset 0 0 10px rgb(var(--border-color-1), var(--border-opacity-1));
   transition: 
     box-shadow 0.75s, 
     border-color 1s;
@@ -39,7 +39,7 @@
   background-color: rgba(0, 0, 0, 0.4);
 }
 .peopleListItem-2nzedh:hover {
-  border: 1px solid rgb(var(--border-color-blue));
+  border: 1px solid rgb(var(--border-color-hover));
   margin-right: 0px;
   margin-left: 15px;
   padding: 0;
@@ -48,17 +48,17 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
-  box-shadow: inset 0 0 20px rgb(var(--border-color-blue));
+  box-shadow: inset 0 0 20px rgb(var(--border-color-hover));
 }
 .peopleListItem-2nzedh:hover + .peopleListItem-2nzedh {
-  border: 1px solid rgb(var(--border-color), var(--border-opacity));
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 .peopleListItem-2nzedh.active-rhSpJJ {
   margin-right: 0px;
   margin-left: 15px;
   padding: 0;
   margin-top: 15px;
-  border: 1px solid rgb(var(--border-color-blue));
+  border: 1px solid rgb(var(--border-color-hover));
   border-radius: 8px;
   background: var(--user-background);
   background-size: contain;

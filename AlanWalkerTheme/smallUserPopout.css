@@ -9,7 +9,7 @@
 .userPopout-xaxa6l > :first-child {
   max-height: 1000px;
   height: unset;
-  border: 1px solid rgba(var(--border-color), var(--border-opacity));
+  border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
   border-bottom: 0px;
   border-radius: 10px 10px 0px 0px;
   background: var(--user-popout);
@@ -21,15 +21,15 @@
   background: transparent;
 }
 .headerTop-3vNv-a {
-  border: 1px solid rgba(var(--border-color), var(--border-opacity));
+  border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
   border-bottom: 0px;
 }
 .theme-dark .body-3HBlXn {
-  border: 1px solid rgba(var(--border-color), var(--border-opacity));
+  border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
   border-radius: 0px 0px 10px 10px;
 }
 .theme-dark .footer-3UKYOU {
-  border: 1px solid rgba(var(--border-color), var(--border-opacity));
+  border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
   border-radius: 10px;
   padding: 0px;
   margin-top: 10px;
@@ -45,7 +45,7 @@
   background: var(--user-popout);
 }
 .footer-1fjuF6 .inputDefault-_djjkz {
-  border: 1px solid rgba(var(--border-color), var(--border-opacity));
+  border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
   border-top: 0px;
   border-radius: 0px 0px 5px 5px;
   background: var(--user-popout-alt);
@@ -62,7 +62,7 @@
   width: auto;
 }
 .avatarWrapper-3r9PdD {
-  border: 1px solid rgb(var(--border-color));
+  border: 1px solid rgb(var(--border-color-1));
   border-bottom: 0px;
 }
 .popoutNoteCounter-62U4Rh {
@@ -82,7 +82,7 @@
   padding: 10px;
   background: #120fa0b7;
   border-bottom: 4px solid #1100ff;
-  border-top: 4px solid rgb(var(--spotify-color), var(--border-opacity));
+  border-top: 4px solid rgb(var(--spotify-color), var(--border-opacity-1));
   border-left: 4px solid rgb(var(--playing-color));
   border-right: 4px solid rgb(var(--streaming-color));
   border-radius: 11px;
@@ -117,7 +117,7 @@
 /*Roles selector*/
 .container-3XJ8ns {
   z-index: 1003;
-  border: 1px solid rgb(var(--border-color), var(--border-opacity));
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   padding: 0;
   background-color: var(--user-popout);
 }
@@ -151,7 +151,7 @@
   width: auto;
 }
 .popoutInfo-pKbpvG {
-  border: 1px solid rgb(var(--border-color), var(--border-opacity));
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   border-radius: 0px 0px 10px 10px;
 }
 .headerTop-3vNv-a {
@@ -172,7 +172,7 @@
   padding: 10px;
   background: #120fa0b7;
   border-bottom: 4px solid #1100ff;
-  border-top: 4px solid rgb(var(--spotify-color), var(--border-opacity));
+  border-top: 4px solid rgb(var(--spotify-color), var(--border-opacity-1));
   border-left: 4px solid rgb(var(--playing-color));
   border-right: 4px solid rgb(var(--streaming-color));
   border-radius: 11px;
