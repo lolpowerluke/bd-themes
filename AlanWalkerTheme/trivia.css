@@ -663,7 +663,7 @@ div:not(.messagesWrapper-1sRNjr) > .scrollerBase-289Jih::-webkit-scrollbar,
   backdrop-filter: blur(1px);
   pointer-events: none;
 }
-.container-1r6BKw.themed-ANHk51 div {
+.container-1r6BKw.themed-ANHk51 div * {
   pointer-events: auto;
 }
 /*Stickers and boost status*/
