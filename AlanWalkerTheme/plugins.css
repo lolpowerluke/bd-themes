@@ -209,3 +209,9 @@
 #app-mount .ChannelDms-channelpopout-popout .message-2qnXI6 {
   padding-right: 5px !important;
 }
+/*themeChoice button (server themes plugin)*/
+.container .row .themeChoice {
+  background-color: var(--user-popout);
+  color: white;
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+}
