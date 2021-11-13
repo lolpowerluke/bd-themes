@@ -1,13 +1,13 @@
-.panels-j1Uci_::before {
+.app-2rEoOp::before {
   display: block;
 }
-.panels-j1Uci_::before {
-  content: "theme outdated, please update https://github.com/lolpowerluke/ discordtheme/blob/main/ alanWalker.theme.css";
+.app-2rEoOp::before {
+  content: "theme outdated, please redownload from https://lolpowerluke.github.io/bd-site";
   display: var(--version-1-1-0);
   color:#fff;
   position:relative;
-  left:0px;
-  bottom:0px;
-  max-width:240px;
+  text-align: center;
+  padding: 10px;
+  background-color: blue;
   z-index:999999;
 }

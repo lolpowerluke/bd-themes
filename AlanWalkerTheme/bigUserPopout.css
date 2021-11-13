@@ -286,17 +286,6 @@
   box-shadow: none;
   top: 10px;
 }
-.activityProfile-2bJRaP {
-  margin: 15px 8px 15px 8px;
-  padding: 10px;
-  background: var(--back-color-boxes);
-  border: 4px solid var(--playing-card-border);
-  border-top: 0;
-  border-bottom: 0;
-  border-radius: 15px;
-  box-shadow: none;
-  top: 10px;
-}
 .buttonsWrapper-2spIeK {
   background-color: rgb(var(--back-user-buttons)) !important;
 }

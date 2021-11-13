@@ -191,7 +191,7 @@
     padding: 0;
 }
 .scroller-3BxosC {
-  border: 1px solid red;
+  border: 1px solid rgb(var(--border-color-1));
   border-radius: 5px;
   background-color: var(--scroller-color);
   padding-top: 4px;
@@ -204,7 +204,7 @@
   margin-bottom: 2px;
 }
 .colorDefault-2K3EoJ.focused-3afm-j {
-  background-color: red;
+  background-color: var(--menu-item-hover-color);
 }
 .menu-3sdvDG .focused-3afm-j [aria-hidden="false"].icon-LYJorE {
   color: white;

@@ -1,21 +1,17 @@
 /*Green buttons */
 .tabBar-ZmDY9v .item-3HknzM[aria-controls="ADD_FRIEND-tab"],
 .lookFilled-1Gx00P.colorGreen-29iAKY {
-    border-radius: 0px;
-    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-    --cp-size: 6px;
+    border-radius: 5px;
 }
 .tabBar-ZmDY9v .item-3HknzM[aria-controls="ADD_FRIEND-tab"]:hover,
 .lookFilled-1Gx00P.colorGreen-29iAKY:hover {
-    background-color: var(--green-2) !important;
+    background-color: var(--back-color-button) !important;
 }
 /*Red buttons */
 .lookFilled-1Gx00P.colorRed-1TFJan {
   color: rgb(255, 255, 255);
-  background-color: var(--red) !important;
-  border-radius: 0px;
-  clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-  --cp-size: 6px;
+  background-color: var(--back-color-danger-button) !important;
+  border-radius: 5px;
 }
 /*Blue buttons*/
 .bd-addon-modal-footer .bd-button,

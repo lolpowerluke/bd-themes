@@ -1,21 +1,21 @@
 /*ImageUtilities*/
 .zoomLens-uOK8xV {
-  border-color: var(--border-zoom) !important;
+  border-color: var(--border-zoom);
 }
 .message-2qnXI6 .flexChild-faoVW3 {
-  font-size: 0.85rem !important;
-  background-color: var(--image-utils-back)!important;
-  line-height: 1.125rem !important;
-  vertical-align: middle !important;
-  margin-right: 3px !important;
-  border: solid 1px var(--image-utils-border) !important;
-  padding: 2px 4px !important;
-  margin-left: 0 !important;
+  font-size: 0.85rem;
+  background-color: var(--image-utils-back);
+  line-height: 1.125rem;
+  vertical-align: middle;
+  margin-right: 3px;
+  border: solid 1px var(--image-utils-border);
+  padding: 2px 4px;
+  margin-left: 0;
   flex: unset !important;
 }
 .message-2qnXI6 a.flexChild-faoVW3 {
-  border-color: var(--text-link) !important;
-  background-color: var(--text-link-back) !important;
+  border-color: var(--text-link);
+  background-color: var(--text-link-back);
 }
 #app-mount .imageWrapper-2p5ogY:not(.image-1tIMwV) {
   border-radius: 7px;
