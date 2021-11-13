@@ -719,8 +719,8 @@ div:not(.messagesWrapper-1sRNjr) > .scrollerBase-289Jih::-webkit-scrollbar,
 .container-1D34oG .topPill-30KHOu .item-PXvHYJ:not([aria-controls="add_friend-tab"]):hover + .item-PXvHYJ:not([aria-controls="add_friend-tab"]) {
   border-left: 0px;
 }
-/*Call Container (no streams)*/
-.wrapper-2qzCYF.minimum-28Z35l {
+/*Call Container*/
+#app-mount .wrapper-2qzCYF {
   background-color: var(--user-popout);
   border-bottom: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
