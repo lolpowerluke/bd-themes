@@ -89,7 +89,7 @@
 }
 .barFill-Dhkah7, 
 .timeline-UWmgAx:hover .barFill-Dhkah7 { 
-  background: rgb(var(--spotify-color)) !important;
+  background: var(--spotify-color) !important;
 }
 .inner-WRV6k5 { 
   z-index: 1 !important;
