@@ -358,7 +358,7 @@ a.selected-aXhQR6 .name-uJV0GL {
   z-index:-1;
 }
 /*ServerFolders Expanded*/
-.expandedFolderIconWrapper-Huv7rA::after {
+.expandedFolderIconWrapper-3fmTfW::after {
   content: "";
   margin-left: -22px;
   background-image: var(--home-button-background);
@@ -367,14 +367,14 @@ a.selected-aXhQR6 .name-uJV0GL {
   width: 40px;
   height: 40px;
 }
-.expandedFolderIconWrapper-Huv7rA path {
+.folderIconWrapper-1Ml_1q path {
   display: none;
 }
-.expandedFolderBackground-1cujaW {
-  background-color: var(--server-folder-1);
+.expandedFolderBackground-3ZDF05 {
+  background-color: var(--back-server-folder-icon);
 }
-.folder-1hbNCn[aria-expanded="true"] {
-  background-color: var(--server-folder-2);
+.folder-2w6LX1[aria-expanded="true"] {
+  background-color: var(--back-expanded-server-folder);
   border-radius: 24px;
 }
 /*Server Channels*/
