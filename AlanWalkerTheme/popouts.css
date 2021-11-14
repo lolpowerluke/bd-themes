@@ -219,17 +219,17 @@
   color: var(--back-color-boxes-hover);
 }
 [aria-hidden="false"].icon-LYJorE {
-  color: red;
+  color: var(--menu-item-hover-color);
 }
 [aria-hidden="false"].icon-LYJorE path {
   background-color: black;
 }
 .check-1JyqgN {
-  color: red !important;
-  background-color: red !important;
+  color: var(--menu-item-hover-color) !important;
+  background-color: var(--menu-item-hover-color) !important;
 }
 .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) {
-  background-color: red;
+  background-color: var(--menu-item-hover-color);
 }
 /*Start Stage Popout*/
 .illustration-3d7_Ms {
