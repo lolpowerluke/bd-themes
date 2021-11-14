@@ -57,7 +57,7 @@
   --separator: 77, 77, 77;
 
   --back-user-buttons: rgba(255, 255, 255, 0.116);
-  --selcted-dm-color: rgba(112, 112, 112, 0.658);
+  --selected-dm-color: rgba(112, 112, 112, 0.658);
 
   /*unread pill*/
   --unread-pill: rgb(145, 145, 151);
