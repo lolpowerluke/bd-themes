@@ -64,8 +64,7 @@
   flex: 1 0 auto;
   margin-left: 5px;
   height: 1px;
-  border: 1px;
-  background: linear-gradient(to right, var(--message-separator-line) 50%, transparent);
+  background: linear-gradient(to right, rgb(var(--separator)) 50%, transparent);
 }
 /*Role Members*/
 .divider-3573oO {
