@@ -214,6 +214,14 @@
     min-height: unset;
     min-width: unset;
 }
+/*Server boost progress bar*/
+.sidebar-2K8pFh .progressBarContainer-DLPbha {
+    width: 45px;
+    transition: width 0.5s;
+}
+.sidebar-2K8pFh:hover .progressBarContainer-DLPbha {
+    width: 225px;
+}
 /*DM-list*/
 .channel-2QD9_O {
   margin-right: 4px;
