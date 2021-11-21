@@ -5,12 +5,16 @@
 }
 .tabBar-ZmDY9v .item-3HknzM[aria-controls="ADD_FRIEND-tab"]:hover,
 .lookFilled-1Gx00P.colorGreen-29iAKY:hover {
-    background-color: var(--back-color-button) !important;
+    background-color: var(--back-color-button);
+}
+.lookFilled-1Gx00P.colorGreen-29iAKY {
+  background-color: transparent;
+  border: 2px solid var(--back-color-button);
 }
 /*Red buttons */
 .lookFilled-1Gx00P.colorRed-1TFJan {
   color: rgb(255, 255, 255);
-  background-color: var(--back-color-danger-button) !important;
+  background-color: var(--back-color-danger-button);
   border-radius: 5px;
 }
 /*Blue buttons*/
