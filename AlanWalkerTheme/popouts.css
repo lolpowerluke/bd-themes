@@ -90,7 +90,7 @@
   border-bottom: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 .navButton-2gQCx- {
-  width: 100%;
+  width: 69px;
 }
 .layer-v9HyYc .contentWrapper-SvZHNd .wrapper-1rqM3x .wrapper-2Gsate {
   margin-top: 3px;
@@ -106,6 +106,12 @@
 }
 .searchBar-5di9mG {
   margin-top: 5px;
+}
+/*Emoji Popup*/
+.emojiSection-3Fb9ix {
+  background-color: var(--user-popout);
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+  border-radius: 8px;
 }
 /*Changelog */
 .focusLock-Ns3yie .scrollerBase-289Jih {
