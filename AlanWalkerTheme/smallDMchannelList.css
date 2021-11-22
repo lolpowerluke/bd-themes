@@ -184,6 +184,7 @@
 }
 .sidebar-2K8pFh:not(:hover) .containerDefault--pIXnN .mentionsBadge-3tC7Mi {
   top: 0;
+  padding: 0;
 }
 .sidebar-2K8pFh:not(:hover) .containerDefault--pIXnN .mentionsBadge-3tC7Mi .numberBadge-2s8kKX {
   border-radius: 0 0 0 5px;
