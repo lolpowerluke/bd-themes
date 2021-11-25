@@ -662,6 +662,9 @@ div:not(.messagesWrapper-1sRNjr) > .scrollerBase-289Jih::-webkit-scrollbar,
 .newMessagesBar-265mhP {
   margin-top: 45px;
 }
+#app-mount .wrapper-2qzCYF + .content-yTz4x3 .chatContent-a9vAAp .newMessagesBar-265mhP {
+  margin-top: 0;
+}
 .container-1r6BKw.themed-ANHk51 {
   backdrop-filter: blur(1px);
   pointer-events: none;
