@@ -23,4 +23,8 @@
   transform: rotateY(180deg) translateX(65px) translateY(-25px);
   position: absolute;
   pointer-events: none;
+  z-index: 2;
+}
+.newMessagesBar-265mhP {
+  z-index: 3;
 }
