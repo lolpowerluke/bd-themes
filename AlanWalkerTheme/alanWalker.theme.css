@@ -145,6 +145,7 @@
   --back-search-gifemoji: rgba(0, 0, 255, 0.486);
   --back-body-gifemoji: rgba(0, 0, 255, 0.459);
   --back-inspector-gifemoji: rgba(0, 0, 255, 0.418);
+  --popup-emoji-size: 180px;
 
   /*other stuff I tried to make work*/
   --scrollbar-auto-scrollbar-color-thumb: red;

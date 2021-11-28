@@ -113,6 +113,38 @@
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   border-radius: 8px;
 }
+.emojiSection-3Fb9ix .flex-1xMQg5.horizontal-1ae9ci,
+.emojiSection-3Fb9ix.flex-1xMQg5.horizontal-1ae9ci {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  text-align: center;
+}
+.emojiSection-3Fb9ix .flex-1xMQg5.vertical-V37hAW {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+}
+.emojiSection-3Fb9ix .truncatingText-18osv_ {
+  margin: 0;
+}
+#app-mount .emojiSection-3Fb9ix .assetWrapper-3GNt0z,
+#app-mount .emojiSection-3Fb9ix .emoji {
+  width: var(--popup-emoji-size, 180px);
+  height: var(--popup-emoji-size, 180px);
+  margin: auto;
+}
+.popoutContainer-1MXdqN.popoutContent-33P_eV {
+  background-color: var(--user-popout);
+}
+.popoutContainer-1MXdqN.popoutContent-33P_eV .guildSection-1EoFKd {
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+  background: var(--user-popout);
+  border-radius: 8px;
+  margin-top: 5px;
+}
 /*Changelog */
 .focusLock-Ns3yie .scrollerBase-289Jih {
   border-radius: 0px;
