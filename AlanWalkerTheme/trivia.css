@@ -606,7 +606,7 @@ a.selected-aXhQR6 .name-uJV0GL {
   border-top: 0px;
   margin-top: -2px;
 }
-.voiceUserSummary-2X_2vp::after {
+.voiceUserSummary-2X_2vp:last-child:after {
   content: "";
   position: absolute;
   bottom: -9px;
@@ -617,9 +617,6 @@ a.selected-aXhQR6 .name-uJV0GL {
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   border-top: 0px;
   border-radius: 0px 0px 8px 8px;
-}
-.voiceUserSummary-2X_2vp + .ring-13rgEW::after {
-  display: none;
 }
 /*color*/
 [data-user-id="398131626695196672"] .username-1A8OIy span,
