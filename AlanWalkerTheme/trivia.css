@@ -594,6 +594,9 @@ a.selected-aXhQR6 .name-uJV0GL {
 .sidebar-2K8pFh .icon-1tDorc {
   margin-left: 10px;
 }
+.container-3qpZp9 + .containerDefault-3tr_sE::before {
+  display: none;
+}
 .voiceUserSummary-2X_2vp + .containerDefault-3tr_sE::before {
   border-top: 0px;
   margin-top: 1px;
