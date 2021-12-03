@@ -216,11 +216,11 @@
     min-width: unset;
 }
 /*Server boost progress bar*/
-.sidebar-2K8pFh .progressBarContainer-DLPbha {
+.sidebar-2K8pFh .progressBarContainer-cCu8a2 {
     width: 45px;
     transition: width 0.5s;
 }
-.sidebar-2K8pFh:hover .progressBarContainer-DLPbha {
+.sidebar-2K8pFh:hover .progressBarContainer-cCu8a2 {
     width: 225px;
 }
 /*DM-list*/
