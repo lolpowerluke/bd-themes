@@ -511,3 +511,12 @@
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   border-radius: 5px;
 }
+/*Server popup (announcements)*/
+#app-mount .guildPopout-3CgKqR {
+  background-color: var(--user-popout);
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+}
+#app-mount .guildPopout-3CgKqR .footer-3OAEzG {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+}
