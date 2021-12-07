@@ -231,6 +231,14 @@ a.selected-aXhQR6 .layout-2DM8Md {
 .scrollerContent-WzeG7R .message-2qnXI6:hover {
   background-color: var(--message-hover);
 }
+/*Message Hover Buttons*/
+.message-2qnXI6:hover .buttons-cl5qTG {
+  opacity: 1;
+  pointer-events: auto;
+}
+.buttons-cl5qTG {
+  transition: opacity 0.3s;
+}
 /*Typing Status*/
 #app-mount .chat-3bRxxu form .typing-2GQL18 {
   background-color: var(--back-color-boxes);
