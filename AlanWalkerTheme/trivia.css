@@ -227,8 +227,7 @@ a.selected-aXhQR6 .layout-2DM8Md {
   margin-top: 10px;
 }
 /*Message Hover Color*/
-.message-2qnXI6:hover,
-.scrollerContent-WzeG7R .message-2qnXI6:hover {
+#app-mount .scrollerContent-WzeG7R .message-2qnXI6:hover {
   background-color: var(--message-hover);
 }
 /*Message Hover Buttons*/
