@@ -227,8 +227,8 @@ a.selected-aXhQR6 .layout-2DM8Md {
   margin-top: 10px;
 }
 /*Message Hover Color*/
-.mouse-mode .message-2qnXI6:hover,
-.mouse-mode .scrollerContent-WzeG7R .message-2qnXI6:hover {
+.message-2qnXI6:hover,
+.scrollerContent-WzeG7R .message-2qnXI6:hover {
   background-color: var(--message-hover);
 }
 /*Typing Status*/
