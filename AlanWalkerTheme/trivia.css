@@ -764,3 +764,31 @@ div:not(.messagesWrapper-1sRNjr) > .scrollerBase-289Jih::-webkit-scrollbar,
   background-color: var(--user-popout);
   border-bottom: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
+/*About Me*/
+.clamped-IwJfxR{
+  -webkit-line-clamp: 190;
+  max-height:112px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.clamped-IwJfxR::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.clamped-IwJfxR::-webkit-scrollbar-track,
+.clamped-IwJfxR::-webkit-scrollbar-thumb {
+  background-clip: padding-box;
+  border-radius: 7.5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: transparent;
+}
+.clamped-IwJfxR::-webkit-scrollbar-track {
+  border-width: initial;
+  border: 2px solid transparent;
+}
+.clamped-IwJfxR::-webkit-scrollbar-thumb {
+  border: 2px solid transparent;
+  border-radius: 4px;
+  cursor: move;
+}
