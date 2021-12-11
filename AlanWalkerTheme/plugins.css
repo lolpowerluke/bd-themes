@@ -224,3 +224,7 @@
 .ChannelDms-channelpopout-popout.ChannelDms-channelpopout-collapsed .chatContent-a9vAAp {
   width: 400px;
 }
+/*RoleFilter*/
+.membersWrap-2h-GB4 {
+  overflow: visible !important;
+}
