@@ -226,12 +226,12 @@
 }
 .labelContainer-1BLJti,
 .scroller-3BxosC {
-    padding: 0;
+  padding: 0;
 }
 .scroller-3BxosC {
   border: 1px solid rgb(var(--border-color-1));
   border-radius: 5px;
-  background-color: var(--scroller-color);
+  background-color: var(--back-color-menu);
   padding-top: 4px;
   padding-bottom: 4px;
 }

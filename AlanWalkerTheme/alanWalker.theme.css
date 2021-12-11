@@ -132,7 +132,7 @@
   --user-popout-alt: rgba(0, 0, 255, 0.24);
 
   /*scroller (I think)*/
-  --scroller-color: black;
+  --back-color-menu: black;
 
   /* message separator*/
   --message-separator-line: rgba(17, 0, 255, 0.5);
