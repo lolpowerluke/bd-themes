@@ -364,8 +364,29 @@ a.selected-aXhQR6 .name-uJV0GL {
   pointer-events:none;
   color: var(--text-link);
 }
-[href]:hover::after {
+[href*="/"]:hover::after {
   opacity:1;
+}
+#app-mount [aria-label="USER_SETTINGS"] .anchor-3Z-8Bb::after {
+  left: 254px;
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+  border-bottom: 0;
+  border-left: 0;
+  border-radius: 0 10px 0 0;
+  padding-top: 5px;
+  padding-bottom: 0;
+}
+#app-mount .userPopout-xaxa6l .anchor-3Z-8Bb::after {
+  left: 0;
+  max-width: calc(100% - 11px);
+  white-space: pre-wrap;
+}
+#app-mount .focusLock-Ns3yie .anchor-3Z-8Bb::after {
+  left: 0;
+  border-right: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+  border-radius: 0 10px 0 0;
+  padding-top: 5px;
+  padding-bottom: 0;
 }
 .base-gE7OpD {
   z-index:-1;
