@@ -220,3 +220,7 @@
   background-color: var(--user-popout);
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
+/*ChannelDMs*/
+.ChannelDms-channelpopout-popout.ChannelDms-channelpopout-collapsed .chatContent-a9vAAp {
+  width: 400px;
+}
