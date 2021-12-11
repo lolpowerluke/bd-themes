@@ -96,6 +96,7 @@
   background-color: black;
   height: unset;
   max-height: 700px;
+  border-radius: 10px 10px 0 0;
 }
 #app-mount .root-3QyAh1 .banner-2QYc2d {
   position: absolute;
