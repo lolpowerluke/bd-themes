@@ -216,14 +216,13 @@
   border-width: 1.2px 1.2px 3px 1.2px;
   border-radius: 4px;
   width: 49%;
-  transition: 0.1s;
+  transition: transform 0.1s;
   box-sizing: border-box;
   background-color: rgba(0, 0, 0, 0.3);
 }
 .connectedAccount-2Jb-Z0:active {
   border-width: 1.2px 1.2px 1.2px 1.2px;
   transform: translateY(1px);
-  transition: 0.1s;
   margin-bottom: 2px;
 }
 #app-mount .root-3QyAh1 .userInfoSection-q_35fn + .userInfoSection-q_35fn::before {
@@ -242,38 +241,38 @@
 .connectedAccountNameInner-2q3MVf {
   margin-left: 13px;
 }
-[src="/assets/4662875160dc4c56954003ebda995414.png"] {
+[alt*="Facebook"] {
   background-color: #1da0f248;
 }
-[src="/assets/edbbf6107b2cd4334d582b26e1ac786d.png"] {
+[alt*="Twitch"] {
   background-color: #601bd852;
 }
-[src="/assets/449cca50c1452b4ace3cbe9bc5ae0fd6.png"] {
+[alt*="YouTube"] {
   background-color: #d9252b49;
 }
-[src="/assets/8c289d499232cd8e9582b4a5639d9d1d.png"] {
+[alt*="Battle"] {
   background-color: #0098e446;
 }
-[src="/assets/f09c1c70a67ceaaeb455d163f3f9cbb8.png"] {
-  background-color: #00000034;
+[alt*="GitHub"] {
+  background-color: #ffffff34;
 }
-[src="/assets/3abe9ce5a00cc24bd8aae04bf5968f4c.png"] {
+[alt*="Reddit"] {
   background-color: #fe44013d;
 }
-[src="/assets/8d8f815f3d81a33b1e70ec7c22e1b6fe.png"] {
+[alt*="Steam"] {
   background-color: #2e328485;
 }
-[src="/assets/f0655521c19c08c4ea4e508044ec7d8c.png"] {
+[alt*="Xbox"] {
   background-color: #1ed75f34;
 }
-[src="/assets/0d44ba28e39303de3832db580a252456.png"] {
+[alt*="Spotify"] {
   background-color: #5dc21e42;
 }
-[src="/assets/806953fe1cc616477175cbcdf90d5cd3.png"] {
+[alt*="League of Legends"] {
   background-color: #cea14638;
 }
-[src="/assets/5d69e29f0d71aaa04ed9725100199b4e.png"] {
-  background-color: #24292e62;
+[alt*="Twitter"] {
+  background-color: #39546e62;
 }
 /*Playing*/
 .activityProfile-2bJRaP {
