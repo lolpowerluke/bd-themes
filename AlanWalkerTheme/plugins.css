@@ -21,6 +21,10 @@
   border-radius: 7px;
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
+.imageWrapper-2p5ogY:not(a) > .wrapper-1wyZBN, 
+.imageWrapper-2p5ogY:not(a) {
+  min-width: unset;
+}
 /*Platform Indicator Desktop*/
 .PI-indicatorContainer div[aria-label="Desktop: Online"] .PI-icon_desktop {color: var(--online) !important;}
 .PI-indicatorContainer div[aria-label="Desktop: Idle"] .PI-icon_desktop {color: var(--idle) !important;}
