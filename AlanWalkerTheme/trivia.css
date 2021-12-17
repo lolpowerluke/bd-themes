@@ -39,8 +39,8 @@
 .pageWrapper-1PgVDX,
 .content-yTz4x3,
 .tabBody-3YRQ8W {
-    background: var(--main-background);
-    background-color: var(--back-color) !important;
+  background: var(--main-background);
+  background-color: var(--back-color) !important;
 }
 /*Background Selected DM*/
 .selected-3LIHYU .content-1x5b-n,
@@ -124,9 +124,6 @@ a.selected-aXhQR6 .layout-2DM8Md {
 .theme-dark .separator-XqIyoz,
 .theme-dark .inset-3sAvek {
   background-color: transparent;
-}
-.nowPlayingColumn-2sl4cE {
-  margin-left: 10px;
 }
 @media (max-width: 1200px) {
   .nowPlayingColumn-2sl4cE {
