@@ -45,24 +45,6 @@
   fill: transparent !important;
   stroke-width: var(--rs-small-width);
 }
-#app-mount .avatarWrapperNormal-26WQIb [data-status="online"] .wrapper-3t9DeA rect {
-  stroke: var(--online);
-}
-#app-mount .avatarWrapperNormal-26WQIb [data-status="idle"] .wrapper-3t9DeA rect {
-  stroke: var(--idle);
-}
-#app-mount .avatarWrapperNormal-26WQIb [data-status="dnd"] .wrapper-3t9DeA rect {
-  stroke: var(--dnd);
-}
-#app-mount .avatarWrapperNormal-26WQIb [data-status="streaming"] .wrapper-3t9DeA rect {
-  stroke: var(--streaming);
-}
-#app-mount .avatarWrapperNormal-26WQIb [data-status="offline"] .wrapper-3t9DeA rect {
-  stroke: var(--offline);
-}
-#app-mount .avatarWrapperNormal-26WQIb [data-status="invisible"] .wrapper-3t9DeA rect {
-  stroke: var(--offline);
-}
 #app-mount .avatarWrapperNormal-26WQIb .wrapper-3t9DeA rect[x="16"] {
   width: 24px;
   height: 24px;

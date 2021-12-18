@@ -45,24 +45,6 @@
   fill: transparent !important;
   stroke-width: var(--rs-small-width);
 }
-#app-mount .accountProfileCard-1XCH88 [data-status="online"] .wrapper-3t9DeA rect {
-  stroke: var(--online);
-}
-#app-mount .accountProfileCard-1XCH88 [data-status="idle"] .wrapper-3t9DeA rect {
-  stroke: var(--idle);
-}
-#app-mount .accountProfileCard-1XCH88 [data-status="dnd"] .wrapper-3t9DeA rect {
-  stroke: var(--dnd);
-}
-#app-mount .accountProfileCard-1XCH88 [data-status="streaming"] .wrapper-3t9DeA rect {
-  stroke: var(--streaming);
-}
-#app-mount .accountProfileCard-1XCH88 [data-status="offline"] .wrapper-3t9DeA rect {
-  stroke: var(--offline);
-}
-#app-mount .accountProfileCard-1XCH88 [data-status="invisible"] .wrapper-3t9DeA rect {
-  stroke: var(--offline);
-}
 #app-mount .accountProfileCard-1XCH88 .wrapper-3t9DeA rect[x="16"] {
   width: 24px;
   height: 24px;

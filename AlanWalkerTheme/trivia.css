@@ -804,3 +804,22 @@ div:not(.messagesWrapper-1sRNjr) > .scrollerBase-289Jih::-webkit-scrollbar,
 .channelAttachmentArea-3ziOpb::-webkit-scrollbar {
   width: 13px;
 }
+/*Status Colors*/
+[aria-label*="Online"] rect {
+  fill: var(--online);
+}
+[aria-label*="Idle"] rect {
+  fill: var(--idle);
+}
+[aria-label*="Do Not Disturb"] rect {
+  fill: var(--dnd);
+}
+[aria-label*="Offline"] rect {
+  fill: var(--offline);
+}
+[aria-label*="Invisible"] rect {
+  fill: var(--offline);
+}
+[aria-label*="Streaming"] rect {
+  fill: var(--streaming);
+}

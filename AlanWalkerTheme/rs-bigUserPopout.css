@@ -45,24 +45,6 @@
   fill: transparent !important;
   stroke-width: 1px;
 }
-#app-mount .focusLock-Ns3yie .topSection-y3p-_D [data-status="online"] .wrapper-3t9DeA > svg > rect {
-  stroke: var(--online);
-}
-#app-mount .focusLock-Ns3yie .topSection-y3p-_D [data-status="idle"] .wrapper-3t9DeA > svg > rect {
-  stroke: var(--idle);
-}
-#app-mount .focusLock-Ns3yie .topSection-y3p-_D [data-status="dnd"] .wrapper-3t9DeA > svg > rect {
-  stroke: var(--dnd);
-}
-#app-mount .focusLock-Ns3yie .topSection-y3p-_D [data-status="streaming"] .wrapper-3t9DeA > svg > rect {
-  stroke: var(--streaming);
-}
-#app-mount .focusLock-Ns3yie .topSection-y3p-_D [data-status="offline"] .wrapper-3t9DeA > svg > rect {
-  stroke: var(--offline);
-}
-#app-mount .focusLock-Ns3yie .topSection-y3p-_D [data-status="invisible"] .wrapper-3t9DeA > svg > rect {
-  stroke: var(--offline);
-}
 #app-mount .focusLock-Ns3yie .topSection-y3p-_D .wrapper-3t9DeA rect[x="16"] {
   width: 24px;
   height: 24px;
