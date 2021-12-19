@@ -103,6 +103,10 @@
   margin: 0;
   border: 0;
 }
+.ShowAllActivities-wrapper-wrapper .activityUserPopout-2yItg2:only-child {
+  background: unset;
+  padding: 0;
+}
 #app-mount .ShowAllActivities-wrapper-wrapper .ShowAllActivities-wrapper-controls {
   border-radius: 11px;
   margin: 0;
