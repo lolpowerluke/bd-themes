@@ -808,24 +808,30 @@ div:not(.messagesWrapper-1sRNjr) > .scrollerBase-289Jih::-webkit-scrollbar,
 [data-status="online"] .wrapper-3t9DeA rect,
 [aria-label*="Online"] rect {
   fill: var(--online);
+  stroke: var(--online);
 }
 [data-status="idle"] .wrapper-3t9DeA rect,
 [aria-label*="Idle"] rect {
   fill: var(--idle);
+  stroke: var(--idle);
 }
 [data-status="dnd"] .wrapper-3t9DeA rect,
 [aria-label*="Do Not Disturb"] rect {
   fill: var(--dnd);
+  stroke: var(--dnd);
 }
 [data-status="offline"] .wrapper-3t9DeA rect,
 [aria-label*="Offline"] rect {
   fill: var(--offline);
+  stroke: var(--offline);
 }
 [data-status="invisible"] .wrapper-3t9DeA rect,
 [aria-label*="Invisible"] rect {
   fill: var(--offline);
+  stroke: var(--offline);
 }
 [data-status="streaming"] .wrapper-3t9DeA rect,
 [aria-label*="Streaming"] rect {
   fill: var(--streaming);
+  stroke: var(--streaming);
 }
