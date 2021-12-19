@@ -54,3 +54,20 @@
   background: center / cover;
   height: 100%;
 }
+#app-mount [aria-label="USER_SETTINGS"] .UserBackgrounds-banner-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: .5;
+}
+/*Profile crad in settings*/
+#app-mount [aria-label="USER_SETTINGS"] .background-1QDuV2,
+#app-mount [aria-label="USER_SETTINGS"] .userInfo-iCloHO {
+  position:relative
+}
+.userInfo-iCloHO {
+  margin-bottom: 50px;
+}
+#app-mount [aria-label="USER_SETTINGS"] .userInfo-iCloHO .accountSettingsAvatar {
+  top: 0;
+}
