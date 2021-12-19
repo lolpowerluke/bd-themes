@@ -82,12 +82,31 @@
   padding: 10px;
   background: #120fa0b7;
   border-bottom: 4px solid #1100ff;
-  border-top: 4px solid rgb(var(--spotify-color), var(--border-opacity-1));
-  border-left: 4px solid rgb(var(--playing-color));
-  border-right: 4px solid rgb(var(--streaming-color));
   border-radius: 11px;
   box-shadow: none;
   background: #120fa0b7;
+}
+#app-mount .ShowAllActivities-wrapper-wrapper {
+  border-radius: 5px;
+  margin: 0px 8px 15px -5px;
+  background: #120fa0b7;
+  border-bottom: 4px solid #1100ff;
+  border-radius: 11px;
+  box-shadow: none;
+  background: #120fa0b7;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.ShowAllActivities-wrapper-wrapper .activityUserPopout-2yItg2 {
+  margin: 0;
+  border: 0;
+}
+#app-mount .ShowAllActivities-wrapper-wrapper .ShowAllActivities-wrapper-controls {
+  border-radius: 11px;
+  margin: 0;
+  background-color: black;
 }
 /*Roles*/
 .role-2irmRk {
