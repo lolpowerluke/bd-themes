@@ -739,6 +739,36 @@ div:not(.messagesWrapper-1sRNjr) > .scrollerBase-289Jih::-webkit-scrollbar,
   margin-top: 7px;
 }
 /*FriendList Top Buttons*/
+.container-1r6BKw .children-19S4PO .tabBar-ZmDY9v {
+  overflow-y: hidden;
+  overflow-x: auto;
+  align-items: center;
+}
+.container-1r6BKw .children-19S4PO .tabBar-ZmDY9v,
+.container-1r6BKw .children-19S4PO {
+  height: 100%;
+}
+.container-1r6BKw .children-19S4PO .tabBar-ZmDY9v::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.container-1r6BKw .children-19S4PO .tabBar-ZmDY9v::-webkit-scrollbar-track,
+.container-1r6BKw .children-19S4PO .tabBar-ZmDY9v::-webkit-scrollbar-thumb {
+  background-clip: padding-box;
+  border-radius: 7.5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: transparent;
+}
+.container-1r6BKw .children-19S4PO .tabBar-ZmDY9v::-webkit-scrollbar-track {
+  border-width: initial;
+  border: 2px solid transparent;
+}
+.container-1r6BKw .children-19S4PO .tabBar-ZmDY9v::-webkit-scrollbar-thumb {
+  border: 2px solid transparent;
+  border-radius: 4px;
+  cursor: move;
+}
 .container-1D34oG .topPill-30KHOu .item-PXvHYJ:not([aria-controls="add_friend-tab"]) {
   margin: 0;
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
