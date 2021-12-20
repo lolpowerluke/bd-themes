@@ -1,14 +1,15 @@
 /*Member List (old)*/
 .membersWrap-2h-GB4:not(#dv-mount),
 .membersWrap-2h-GB4:not(#dv-mount) > div {
-	min-width:60px!important;
-	max-width:240px!important;
-	width:60px;
-    transition: width .5s;
+  min-width:60px!important;
+  max-width:240px!important;
+  width:60px;
+  min-height: 100%;
+  transition: width .5s;
 }
 .membersWrap-2h-GB4:hover:not(#dv-mount),
 .membersWrap-2h-GB4:hover:not(#dv-mount) > div {
-	width:240px;
+  width:240px;
 }
 /*Member List (with channelBanners enabled)*/
 .container-2PDP7D .headerAmount-_-7GrS {
