@@ -806,32 +806,32 @@ div:not(.messagesWrapper-1sRNjr) > .scrollerBase-289Jih::-webkit-scrollbar,
 }
 /*Status Colors*/
 [data-status="online"] .wrapper-3t9DeA rect,
-[aria-label*="Online"] rect {
+[aria-label*="Online"] rect[fill*="hsl"] {
   fill: var(--online);
   stroke: var(--online);
 }
 [data-status="idle"] .wrapper-3t9DeA rect,
-[aria-label*="Idle"] rect {
+[aria-label*="Idle"] rect[fill*="hsl"] {
   fill: var(--idle);
   stroke: var(--idle);
 }
 [data-status="dnd"] .wrapper-3t9DeA rect,
-[aria-label*="Do Not Disturb"] rect {
+[aria-label*="Do Not Disturb"] rect[fill*="hsl"] {
   fill: var(--dnd);
   stroke: var(--dnd);
 }
 [data-status="offline"] .wrapper-3t9DeA rect,
-[aria-label*="Offline"] rect {
+[aria-label*="Offline"] rect[fill*="hsl"] {
   fill: var(--offline);
   stroke: var(--offline);
 }
 [data-status="invisible"] .wrapper-3t9DeA rect,
-[aria-label*="Invisible"] rect {
+[aria-label*="Invisible"] rect[fill*="hsl"] {
   fill: var(--offline);
   stroke: var(--offline);
 }
 [data-status="streaming"] .wrapper-3t9DeA rect,
-[aria-label*="Streaming"] rect {
+[aria-label*="Streaming"] rect[fill*="hsl"] {
   fill: var(--streaming);
   stroke: var(--streaming);
 }
