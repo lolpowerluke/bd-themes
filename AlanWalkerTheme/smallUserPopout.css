@@ -121,6 +121,11 @@
   border-width: 0px 0px 0px 3px;
   border-radius: 1px 3px 3px 1px;
   background: transparent;
+  min-height: 22px;
+}
+#app-mount .roleName-32vpEy {
+  overflow: visible;
+  white-space: pre-wrap;
 }
 .roleCircle-3xAZ1j {
   width: var(--role-circle) !important;
