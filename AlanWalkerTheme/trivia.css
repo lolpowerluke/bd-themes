@@ -835,33 +835,39 @@ div:not(.messagesWrapper-1sRNjr) > .scrollerBase-289Jih::-webkit-scrollbar,
   width: 13px;
 }
 /*Status Colors*/
-[data-status="online"] .wrapper-3t9DeA rect[fill*="#"],
-[aria-label*="Online"] rect[fill*="hsl"] {
-  fill: var(--online);
+[data-status="online"] .wrapper-3t9DeA rect {
   stroke: var(--online);
 }
-[data-status="idle"] .wrapper-3t9DeA rect[fill*="#"],
-[aria-label*="Idle"] rect[fill*="hsl"] {
-  fill: var(--idle);
+[aria-label*="Online"] rect[fill*="hsl"] {
+  fill: var(--online);
+}
+[data-status="idle"] .wrapper-3t9DeA rect {
   stroke: var(--idle);
 }
-[data-status="dnd"] .wrapper-3t9DeA rect[fill*="#"],
-[aria-label*="Do Not Disturb"] rect[fill*="hsl"] {
-  fill: var(--dnd);
+[aria-label*="Idle"] rect[fill*="hsl"] {
+  fill: var(--idle);
+}
+[data-status="dnd"] .wrapper-3t9DeA rect {
   stroke: var(--dnd);
 }
-[data-status="offline"] .wrapper-3t9DeA rect[fill*="#"],
+[aria-label*="Do Not Disturb"] rect[fill*="hsl"] {
+  fill: var(--dnd);
+}
+[data-status="offline"] .wrapper-3t9DeA rect {
+  stroke: var(--offline);
+}
 [aria-label*="Offline"] rect[fill*="hsl"] {
   fill: var(--offline);
+}
+[data-status="invisible"] .wrapper-3t9DeA rect {
   stroke: var(--offline);
 }
-[data-status="invisible"] .wrapper-3t9DeA rect[fill*="#"],
 [aria-label*="Invisible"] rect[fill*="hsl"] {
   fill: var(--offline);
-  stroke: var(--offline);
 }
-[data-status="streaming"] .wrapper-3t9DeA rect[fill*="#"],
+[data-status="streaming"] .wrapper-3t9DeA rect {
+  stroke: var(--streaming);
+}
 [aria-label*="Streaming"] rect[fill*="hsl"] {
   fill: var(--streaming);
-  stroke: var(--streaming);
 }
