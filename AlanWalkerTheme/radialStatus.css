@@ -19,6 +19,25 @@
 .pointerEvents-2zdfdO[width="30"] {
   width: 40px !important;
 }
+/*colors*/
+#app-mount [data-status="online"] .wrapper-3t9DeA > svg > rect {
+  stroke: var(--online);
+}
+#app-mount [data-status="idle"] .wrapper-3t9DeA > svg > rect {
+  stroke: var(--idle);
+}
+#app-mount [data-status="dnd"] .wrapper-3t9DeA > svg > rect {
+  stroke: var(--dnd);
+}
+#app-mount [data-status="streaming"] .wrapper-3t9DeA > svg > rect {
+  stroke: var(--streaming);
+}
+#app-mount [data-status="offline"] .wrapper-3t9DeA > svg > rect {
+  stroke: var(--offline);
+}
+#app-mount [data-status="invisible"] .wrapper-3t9DeA > svg > rect {
+  stroke: var(--offline);
+}
 /*3 dots*/
 #app-mount .wrapper-3t9DeA .dots-3Bkt3k circle {
   cy: -8;
