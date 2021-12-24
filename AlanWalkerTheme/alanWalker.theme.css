@@ -2,7 +2,7 @@
  * @name         Alan Walker Theme
  * @description  dark theme with Alan Walker's logo as background, credit to DevilBro#4401 for settingsicons, credit to Nyria#3863 for userbuttons in the serverbar and spotifyControls
  * @author       lolpowerluke
- * @version      1.1.1
+ * @version      1.1.2
  * @source       https://github.com/lolpowerluke/discordtheme/blob/main/alanWalker.theme.css
  * @website      https://github.com/lolpowerluke
  * @invite       GwjrQVDNJ2
@@ -140,11 +140,7 @@
   --unread-message-line: rgb(255, 0, 0);
 
   /*emoji & gif*/
-  --back-header-gifemoji: rgba(0, 0, 255, 0.432);
-  --back-side-gifemoji: rgba(0, 0, 255, 0.5);
-  --back-search-gifemoji: rgba(0, 0, 255, 0.486);
-  --back-body-gifemoji: rgba(0, 0, 255, 0.459);
-  --back-inspector-gifemoji: rgba(0, 0, 255, 0.418);
+  --back-button-gifemoji-picker: rgba(0, 0, 255, 0.5);
   --popup-emoji-size: 180px;
 
   /*other stuff I tried to make work*/
@@ -155,8 +151,7 @@
   --linkpreview-background: transparent;
 
   /*Version*/
-  --version-1-1-1: none;
-  --Blank: 0; /* An opacity for not hovered, 0 for hiding, 1 for showing (default: 0) */
+  --version-1-1-2: none;
   
   /*other*/
   --backdrop: hsl(0, 0%, 0%, 0.6);
