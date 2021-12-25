@@ -271,6 +271,9 @@ a.selected-aXhQR6 .layout-2DM8Md {
 .messagesWrapper-1sRNjr {
   margin-bottom: 8px;
 }
+.messagesWrapper-1sRNjr .scrollerSpacer-avRLaA {
+  height: 22px;
+}
 .channelAttachmentArea-3ziOpb {
   padding: 15px 0 15px 15px;
   background-color: var(--channeltextarea-background);
