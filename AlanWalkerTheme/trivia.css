@@ -919,26 +919,32 @@ div:not(.messagesWrapper-1sRNjr) > .scrollerBase-289Jih::-webkit-scrollbar,
 }
 /*Status Colors*/
 [data-status="online"] .wrapper-3t9DeA rect[fill*="#"],
-[aria-label*="Online"] rect[fill*="hsl"] {
-  fill: var(--online);
+[aria-label*="Online"] .mask-1l8v16 > rect,
+[aria-label*="Online"] .mask-1qbNWk > rect {
+fill: var(--online);
 }
 [data-status="idle"] .wrapper-3t9DeA rect[fill*="#"],
-[aria-label*="Idle"] rect[fill*="hsl"] {
+[aria-label*="Idle"] .mask-1l8v16 > rect,
+[aria-label*="Idle"] .mask-1qbNWk > rect {
   fill: var(--idle);
 }
 [data-status="dnd"] .wrapper-3t9DeA rect[fill*="#"],
-[aria-label*="Do Not Disturb"] rect[fill*="hsl"] {
+[aria-label*="Do Not Disturb"] .mask-1l8v16 rect,
+[aria-label*="Do Not Disturb"] .mask-1qbNWk > rect {
   fill: var(--dnd);
 }
 [data-status="offline"] .wrapper-3t9DeA rect[fill*="#"],
-[aria-label*="Offline"] rect[fill*="hsl"] {
+[aria-label*="Offline"] .mask-1l8v16 > rect,
+[aria-label*="Offline"] .mask-1qbNWk > rect {
   fill: var(--offline);
 }
 [data-status="invisible"] .wrapper-3t9DeA rect[fill*="#"],
-[aria-label*="Invisible"] rect[fill*="hsl"] {
+[aria-label*="Invisible"] .mask-1l8v16 > rect,
+[aria-label*="Invisible"] .mask-1qbNWk  > rect {
   fill: var(--offline);
 }
 [data-status="streaming"] .wrapper-3t9DeA rect[fill*="#"],
-[aria-label*="Streaming"] rect[fill*="hsl"] {
+[aria-label*="Streaming"] .mask-1l8v16 > rect,
+[aria-label*="Streaming"] .mask-1qbNWk > rect {
   fill: var(--streaming);
 }
