@@ -1,4 +1,4 @@
-# discordtheme
+# BetterDiscord themes
 repository for my themes
 
 # Avatar animation (rotate 360deg on hover)
