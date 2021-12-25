@@ -246,13 +246,29 @@ a.selected-aXhQR6 .layout-2DM8Md {
   overflow: hidden;
   width: fit-content;
   display: -webkit-box;
-  padding-right: 20px;
+  padding-right: 10px;
   padding-top: 0px;
-  border-radius: 5px 5px 0 0;
+  border-radius: 20px;
   opacity: 1;
   text-overflow: ellipsis;
   z-index: 5;
-  border-bottom: 1px solid var(--typing-border);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(var(--border-color-1), var(--border-opacity-1));
+  border-bottom: 0;
+}
+#app-mount .chat-3bRxxu form .typing-2GQL18::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-radius: 20px;
+  transition: border-bottom-color 1s ease;
+}
+#app-mount .messagesWrapper-1sRNjr + .form-2fGMdU:not(:hover):not(:focus-within) > [aria-controls*="popout_"] + .typing-2GQL18::after {
+  border-bottom-color: rgb(var(--border-color-1), var(--border-opacity-1));
 }
 .typing-2GQL18 .cooldownWrapper-3joyFc {
   margin: 0;
