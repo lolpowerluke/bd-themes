@@ -39,13 +39,13 @@
 .pageWrapper-1PgVDX,
 .content-yTz4x3,
 .tabBody-3YRQ8W {
-  background-image: var(--main-background);
+  background: var(--main-background);
   background-color: var(--back-color) !important;
 }
 /*Background Selected DM*/
 .selected-3LIHYU .content-1x5b-n,
 a.selected-aXhQR6 .layout-2DM8Md {
-  background-image: var(--back-selected-dm-pic);
+  background: var(--back-selected-dm-pic);
   background-color: var(--back-selected-dm);
   background-size: cover;
   background-position: var(--back-pos-dm);
