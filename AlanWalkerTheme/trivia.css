@@ -268,6 +268,7 @@ a.selected-aXhQR6 .layout-2DM8Md {
   pointer-events: none;
   transition: border-bottom-color .5s ease;
 }
+#app-mount .messagesWrapper-1sRNjr + .form-2fGMdU:not(:hover):not(:focus-within) > .channelTextArea-rNsIhG + .typing-2GQL18::after,
 #app-mount .messagesWrapper-1sRNjr + .form-2fGMdU:not(:hover):not(:focus-within) > [aria-controls*="popout_"] + .typing-2GQL18::after {
   border-bottom-color: rgb(var(--border-color-1), var(--border-opacity-1));
 }
