@@ -270,6 +270,12 @@ a.selected-aXhQR6 .layout-2DM8Md {
 #app-mount .messagesWrapper-1sRNjr + .form-2fGMdU:not(:hover):not(:focus-within) > [aria-controls*="popout_"] + .typing-2GQL18::after {
   border-bottom-color: rgb(var(--border-color-1), var(--border-opacity-1));
 }
+#app-mount .chat-3bRxxu form .typing-2GQL18:hover::after {
+  border-bottom-color: rgb(var(--border-color-1), var(--border-opacity-1));
+}
+#app-mount .messagesWrapper-1sRNjr + .form-2fGMdU:focus-within > [aria-controls*="popout_"] + .typing-2GQL18::after {
+  border-bottom-color: black;
+}
 .typing-2GQL18 .cooldownWrapper-3joyFc {
   margin: 0;
 }
