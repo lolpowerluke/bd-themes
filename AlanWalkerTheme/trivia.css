@@ -265,7 +265,7 @@ a.selected-aXhQR6 .layout-2DM8Md {
   border-bottom-style: solid;
   border-bottom-color: black;
   border-radius: 20px;
-  transition: border-bottom-color 1s ease;
+  transition: border-bottom-color .5s ease;
 }
 #app-mount .messagesWrapper-1sRNjr + .form-2fGMdU:not(:hover):not(:focus-within) > [aria-controls*="popout_"] + .typing-2GQL18::after {
   border-bottom-color: rgb(var(--border-color-1), var(--border-opacity-1));
