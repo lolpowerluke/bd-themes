@@ -217,3 +217,10 @@
   box-shadow: none;
   background: #120fa0b7;
 }
+/*Bot Invite Button*/
+#app-mount .applicationInstallButton-1M2YjM {
+  background-color: var(--user-popout);
+  margin-top: 15px;
+  width: calc(100% - 12px);
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+}
