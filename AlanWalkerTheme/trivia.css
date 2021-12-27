@@ -787,6 +787,9 @@ div:not(.messagesWrapper-1sRNjr) > .scrollerBase-289Jih::-webkit-scrollbar,
 .container-3RCQyg {
   margin-top: 45px;
 }
+.messagesWrapper-1sRNjr .scroller-2LSbBU::-webkit-scrollbar-track {
+  margin-top: 45px;
+}
 #app-mount .wrapper-2qzCYF + .content-yTz4x3 .chatContent-a9vAAp {
   margin-top: 0;
 }
