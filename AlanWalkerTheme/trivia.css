@@ -762,7 +762,7 @@ a.selected-aXhQR6 .name-uJV0GL {
     padding-right: 4px !important;
 }
 #app-mount .messagesWrapper-1sRNjr .scroller-2LSbBU {
-  overflow: auto !important;
+  overflow: hidden auto !important;
 }
 .form-26zE04 .modalContent-1T1Tix::-webkit-scrollbar,
 div:not(.messagesWrapper-1sRNjr) > .scrollerBase-289Jih::-webkit-scrollbar,
