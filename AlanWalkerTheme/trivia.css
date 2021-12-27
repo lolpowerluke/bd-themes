@@ -761,6 +761,10 @@ a.selected-aXhQR6 .name-uJV0GL {
 .scrollerBase-289Jih {
     padding-right: 4px !important;
 }
+#app-mount .messagesWrapper-1sRNjr .scroller-2LSbBU {
+  overflow: auto !important;
+}
+.form-26zE04 .modalContent-1T1Tix::-webkit-scrollbar,
 div:not(.messagesWrapper-1sRNjr) > .scrollerBase-289Jih::-webkit-scrollbar,
 [aria-label="USER_SETTINGS"] .sidebarRegionScroller-3MXcoP::-webkit-scrollbar,
 .privateChannels-1nO12o .scroller-1JbKMe::-webkit-scrollbar,
