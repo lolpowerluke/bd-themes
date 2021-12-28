@@ -966,3 +966,13 @@ fill: var(--online);
 [aria-label*="Streaming"] .mask-1qbNWk > rect {
   fill: var(--streaming);
 }
+/*Discord Nitro Feature Animations*/
+.featureGrid-3-fNl- .feature-2w65J5 {
+  z-index: 0;
+  transition: transform 0.5s;
+}
+.featureGrid-3-fNl- .feature-2w65J5:hover {
+  z-index: 1;
+  transform: scale(1.2);
+  transition-delay: 0.2s;
+}
