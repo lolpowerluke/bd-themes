@@ -11,6 +11,9 @@
   display: flex;
   flex-direction: column;
 }
+.focusLock-Ns3yie .scrollerBase-289Jih {
+  padding-right: 20px !important;
+}
 /*Backdrop*/
 #app-mount .backdrop-1wrmKB {
   background: var(--backdrop) !important;
@@ -168,11 +171,17 @@
   margin-top: 70px;
 }
 /*Connections*/
+.connectedAccounts-QlRa4m {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 10px;
+}
 .connectedAccount-2Jb-Z0 {
   border: solid #151b27;
   border-width: 1.2px 1.2px 3px 1.2px;
   border-radius: 4px;
-  width: 49%;
+  width: 100%;
   transition: transform 0.1s;
   box-sizing: border-box;
   background-color: rgba(0, 0, 0, 0.3);
@@ -278,15 +287,16 @@
   #app-mount .root-3QyAh1  {
     width: 800px;
   }
+  .connectedAccounts-QlRa4m {
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
   .connectedAccount-2Jb-Z0 {
     margin: 0px;
     padding: 4px;
   }
   #app-mount .focusLock-Ns3yie .root-3QyAh1 .UserBackgrounds-banner-container {
     width: 560px;
-  }
-  .connectedAccount-2Jb-Z0:first-of-type {
-    margin-top: 20px;
   }
   .connectedAccountOpenIcon-E5wGF4 {
     margin-right: 10px;
