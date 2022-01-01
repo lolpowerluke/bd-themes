@@ -232,3 +232,8 @@ body #clockPluginClock {
 .membersWrap-2h-GB4 {
   overflow: visible !important;
 }
+/*BetterMessageLinks*/
+#app-mount .betterMessageLinks.Popout {
+  background: var(--user-popout);
+  border: 1px solid rgb(var(--border-color-hover));
+}
