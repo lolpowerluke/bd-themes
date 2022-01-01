@@ -71,3 +71,22 @@
 #app-mount [aria-label="USER_SETTINGS"] .userInfo-iCloHO .accountSettingsAvatar {
   top: 0;
 }
+/*Compat lists (BD, PC)*/
+#app-mount .pc-settings-panel .pc-settings-card-scroller,
+.bdcompat-addon-panel-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.bdcompat-addon-panel-list > div {
+  margin: 0;
+}
+.pc-settings-empty {
+  grid-column: 1/3;
+}
+@media (max-width: 1400px) {
+  #app-mount .pc-settings-panel .pc-settings-card-scroller,
+  .bdcompat-addon-panel-list {
+    grid-template-columns: 1fr;
+  }
+}
