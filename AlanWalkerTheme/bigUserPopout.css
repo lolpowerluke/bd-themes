@@ -1,5 +1,5 @@
 /*Big User Popout*/
-.focusLock-Ns3yie .root-3QyAh1 {
+.focusLock-Ns3yie[aria-label="User Profile Modal"] .root-3QyAh1 {
   display: grid;
   grid-template-columns: 240px 1fr;
   width: 980px;
@@ -7,11 +7,11 @@
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   height: 100%;
 }
-.focusLock-Ns3yie .root-3QyAh1 .topSection-y3p-_D > header {
+.focusLock-Ns3yie[aria-label="User Profile Modal"] .root-3QyAh1 .topSection-y3p-_D > header {
   display: flex;
   flex-direction: column;
 }
-.focusLock-Ns3yie .scrollerBase-289Jih {
+.focusLock-Ns3yie[aria-label="User Profile Modal"] .scrollerBase-289Jih {
   padding-right: 20px !important;
 }
 /*Backdrop*/
@@ -36,11 +36,11 @@
   padding: 0;
 }
 /*Profile Banner*/
-#app-mount .focusLock-Ns3yie .root-3QyAh1 .profileBannerPremium-35utuo {
+#app-mount .focusLock-Ns3yie[aria-label="User Profile Modal"] .root-3QyAh1 .profileBannerPremium-35utuo {
   width: 100%;
 }
-#app-mount .focusLock-Ns3yie .root-3QyAh1 .profileBanner-33-uE1,
-#app-mount .focusLock-Ns3yie .root-3QyAh1 .UserBackgrounds-banner-container {
+#app-mount .focusLock-Ns3yie[aria-label="User Profile Modal"] .root-3QyAh1 .profileBanner-33-uE1,
+#app-mount .focusLock-Ns3yie[aria-label="User Profile Modal"] .root-3QyAh1 .UserBackgrounds-banner-container {
   position: absolute;
   top: 0;
   right: 0;
@@ -56,11 +56,11 @@
 #app-mount .root-3QyAh1 .UserBackgrounds-banner-arrow.UserBackgrounds-banner-left {
   border-radius: 0px 0px 8px 0px;
 }
-#app-mount .focusLock-Ns3yie .topSection-y3p-_D {
+#app-mount .focusLock-Ns3yie[aria-label="User Profile Modal"] .topSection-y3p-_D {
   background-color: var(--user-popout);
   border-right: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
-.focusLock-Ns3yie .root-3QyAh1 .body-r6_QPy {
+.focusLock-Ns3yie[aria-label="User Profile Modal"] .root-3QyAh1 .body-r6_QPy {
   height: unset;
   margin-top: 240px;
   background-color:  var(--user-popout);
@@ -78,13 +78,13 @@
 .tabBarContainer-37hZsr .tabBar-3nvOPa .tabBarItem-3dfX8P {
   border: none;
 }
-.focusLock-Ns3yie .body-r6_QPy::-webkit-scrollbar {
+.focusLock-Ns3yie[aria-label="User Profile Modal"] .body-r6_QPy::-webkit-scrollbar {
   display: none;
 }
-.focusLock-Ns3yie .body-r6_QPy {
+.focusLock-Ns3yie[aria-label="User Profile Modal"] .body-r6_QPy {
   overflow-y: scroll !important;
 }
-.focusLock-Ns3yie .header-4zuFdR {
+.focusLock-Ns3yie[aria-label="User Profile Modal"] .header-4zuFdR {
   height: 240px;
 }
 #app-mount .root-3QyAh1 .item-PXvHYJ::before {
@@ -128,14 +128,14 @@
   background: var(--back-color-boxes);
 }
 /*UserDetails*/
-#app-mount .focusLock-Ns3yie .UserDetails-dates-wrapper {
+#app-mount .focusLock-Ns3yie[aria-label="User Profile Modal"] .UserDetails-dates-wrapper {
   margin: 0;
 }
-#app-mount .focusLock-Ns3yie .UserDetails-dates-wrapper .nameTag-ECvD8P {
+#app-mount .focusLock-Ns3yie[aria-label="User Profile Modal"] .UserDetails-dates-wrapper .nameTag-ECvD8P {
   margin-top: 0;
 }
 /*Avatar*/
-.focusLock-Ns3yie .avatar-AvHqJA {
+.focusLock-Ns3yie[aria-label="User Profile Modal"] .avatar-AvHqJA {
   width: 210px !important;
   height: 210px !important;
   margin: 15px;
@@ -144,22 +144,22 @@
   left: 0;
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
-.focusLock-Ns3yie .avatar-AvHqJA rect {
+.focusLock-Ns3yie[aria-label="User Profile Modal"] .avatar-AvHqJA rect {
   x: 110;
   y: 101;
 }
-.focusLock-Ns3yie .avatar-AvHqJA > svg {
+.focusLock-Ns3yie[aria-label="User Profile Modal"] .avatar-AvHqJA > svg {
   width: 208px;
   height: 208px;
 }
-.focusLock-Ns3yie .avatarStack-2Dr8S9 .avatar-VxgULZ {
+.focusLock-Ns3yie[aria-label="User Profile Modal"] .avatarStack-2Dr8S9 .avatar-VxgULZ {
   margin: 10px;
   width: 118px;
   height: 118px;
   border-radius: 10px;
   background-color: var(--user-popout);
 }
-.focusLock-Ns3yie .avatar-AvHqJA foreignObject {
+.focusLock-Ns3yie[aria-label="User Profile Modal"] .avatar-AvHqJA foreignObject {
   mask: none;
   border-radius: 20px;
   width: 138px;
@@ -296,7 +296,7 @@
     margin: 0px;
     padding: 4px;
   }
-  #app-mount .focusLock-Ns3yie .root-3QyAh1 .UserBackgrounds-banner-container {
+  #app-mount .focusLock-Ns3yie[aria-label="User Profile Modal"] .root-3QyAh1 .UserBackgrounds-banner-container {
     width: 560px;
   }
   .connectedAccountOpenIcon-E5wGF4 {
