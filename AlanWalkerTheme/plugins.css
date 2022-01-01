@@ -181,7 +181,7 @@
   max-height: 145px;
 }
 /*clock plugin*/
-#clockPluginClock {
+body #clockPluginClock {
   left: 50%;
   color: var(--title-bar-color);
 }
