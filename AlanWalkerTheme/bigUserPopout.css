@@ -135,7 +135,7 @@
   margin-top: 0;
 }
 /*Avatar*/
-.focusLock-Ns3yie[aria-label="User Profile Modal"] .avatar-AvHqJA {
+.focusLock-Ns3yie[aria-label="User Profile Modal"] .header-4zuFdR .avatar-AvHqJA {
   width: 210px !important;
   height: 210px !important;
   margin: 15px;
@@ -144,22 +144,22 @@
   left: 0;
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
-.focusLock-Ns3yie[aria-label="User Profile Modal"] .avatar-AvHqJA rect {
+.focusLock-Ns3yie[aria-label="User Profile Modal"] .header-4zuFdR .avatar-AvHqJA rect {
   x: 110;
   y: 101;
 }
-.focusLock-Ns3yie[aria-label="User Profile Modal"] .avatar-AvHqJA > svg {
+.focusLock-Ns3yie[aria-label="User Profile Modal"] .header-4zuFdR .avatar-AvHqJA > svg {
   width: 208px;
   height: 208px;
 }
-.focusLock-Ns3yie[aria-label="User Profile Modal"] .avatarStack-2Dr8S9 .avatar-VxgULZ {
+.focusLock-Ns3yie[aria-label="User Profile Modal"] .header-4zuFdR .avatarStack-2Dr8S9 .avatar-VxgULZ {
   margin: 10px;
   width: 118px;
   height: 118px;
   border-radius: 10px;
   background-color: var(--user-popout);
 }
-.focusLock-Ns3yie[aria-label="User Profile Modal"] .avatar-AvHqJA foreignObject {
+.focusLock-Ns3yie[aria-label="User Profile Modal"] .header-4zuFdR .avatar-AvHqJA foreignObject {
   mask: none;
   border-radius: 20px;
   width: 138px;
