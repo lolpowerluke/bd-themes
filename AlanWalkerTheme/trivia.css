@@ -376,8 +376,8 @@ a.selected-aXhQR6 .layout-2DM8Md {
 .topPill-30KHOu .numberBadge-2s8kKX {
   background-color: var(--back-color-number-badges) !important;
 }
-.numberBadge-2s8kKX:nth-last-child(2) {
-  background-color: blue;
+#app-mount .numberBadge-2s8kKX:nth-last-child(2) {
+  background-color: var(--back-color-number-badges);
 }
 .numberBadge-2s8kKX:nth-last-child(3) {
   background-color: red !important;
