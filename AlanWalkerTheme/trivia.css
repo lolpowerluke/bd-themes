@@ -198,6 +198,9 @@ a.selected-aXhQR6 .layout-2DM8Md {
 .winButtonMinMax-PBQ2gm[aria-label="Maximize"]{
   color: var(--title-bar-color);
 }
+#app-mount .dev-title-button {
+  color: var(--title-bar-color);
+}
 /*Crash Screen*/
 .image-3zK3Wt {
   background-image: var(--crash-screen-image) !important;
