@@ -46,7 +46,7 @@
   border-radius: 8px;
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
-.emojiPickerInExpressionPicker-3IzIcv .emojiPicker-3PwZFl {
+.wrapper-1rqM3x .emojiPicker-3PwZFl {
   display: grid;
   grid-template-rows: 50px 1fr 48px;
   grid-template-columns: 1fr;
@@ -55,11 +55,11 @@
   height: calc(100% - 2px);
   border-radius: 8px;
 }
-.emojiPickerInExpressionPicker-3IzIcv .emojiPicker-3PwZFl > div {
+.wrapper-1rqM3x .emojiPicker-3PwZFl > div {
   grid-column: unset;
   grid-row: unset;
 }
-.emojiPickerInExpressionPicker-3IzIcv .header-8ilj5e {
+.wrapper-1rqM3x .header-8ilj5e {
   padding: 8px 16px 8px 16px;
   border-bottom: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
