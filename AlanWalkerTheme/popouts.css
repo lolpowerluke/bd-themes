@@ -522,3 +522,9 @@
   border: 1px solid rgb(var(--border-color-hover), var(--border-opacity-1));
   box-shadow: inset 0 -4px 0 rgb(var(--border-color-hover), var(--border-opacity-1));
 }
+/*BD-compat toast (not build in toasts)*/
+body .bd-toasts .bd-toast {
+  padding: 8px;
+  margin-top: 5px;
+  padding-left: 30px;
+}
