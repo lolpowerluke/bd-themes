@@ -485,6 +485,13 @@ a.selected-aXhQR6 .name-uJV0GL {
   padding-top: 5px;
   padding-bottom: 0;
 }
+#app-mount .anchor-3Z-8Bb.embedMedia-1guQoW::after {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  white-space: pre-wrap;
+  background: rgba(0, 0, 0, 0.7);
+}
 .base-gE7OpD {
   z-index:-1;
 }
