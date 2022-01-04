@@ -220,7 +220,7 @@ body #clockPluginClock {
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 /*FriendNotifications*/
-.colorDefault-XdNdIp .bg-8df5St {
+#app-mount .colorDefault-XdNdIp .bg-8df5St {
   background-color: var(--user-popout);
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
