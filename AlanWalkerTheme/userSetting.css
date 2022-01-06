@@ -90,3 +90,23 @@
     grid-template-columns: 1fr;
   }
 }
+/*Kernel and Holymod Plugin and Theme cards*/
+#app-mount .kernel-card .kernel-card-tools,
+#app-mount .kernel-card,
+#app-mount .holy-card-container {
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+  background: var(--user-popout);
+}
+#app-mount .holy-card-container {
+  padding: 0;
+}
+#app-mount .holy-card-container .holy-card-header {
+  padding: 10px;
+}
+#app-mount .kernel-card .kernel-card-header,
+#app-mount .holy-card-container .holy-card-header {
+  background: var(--background-secondary-alt);
+}
+#app-mount .holy-card-container .holy-card-description {
+  background: none;
+}
