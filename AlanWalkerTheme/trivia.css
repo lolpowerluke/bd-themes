@@ -771,6 +771,9 @@ a.selected-aXhQR6 .name-uJV0GL {
 .containerDefault--pIXnN .activityRow-2FZXn1:nth-last-child(2) .content-bGAvz5 {
   border-bottom: 1px solid rgb(var(--border-color-1), var(--border-opacity-1))
 }
+.name-23GUGE {
+  white-space: nowrap;
+}
 /*color*/
 [data-user-id="398131626695196672"] .username-1A8OIy span,
 [data-user-id="398131626695196672"] .messageContent-2qWWxC span:not(.timestamp-3ZCmNB) {
