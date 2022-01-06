@@ -237,3 +237,12 @@ body #clockPluginClock {
   background: var(--user-popout);
   border: 1px solid rgb(var(--border-color-hover));
 }
+/*ShowSessions*/
+.ShowSessions-list-item {
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+}
+/*Powercord Notices*/
+body .pc-notices .pc-notice-container {
+  background: var(--user-popout);
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+}
