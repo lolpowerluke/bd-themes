@@ -25,12 +25,17 @@
 .panels-j1Uci_ {
   background-color: var(--back-account);
 }
+.panels-j1Uci_ > .wrapper-24pKcD:not(:empty) {
+  height: 110px;
+}
 .sidebar-2K8pFh:not(:hover) .barText-lmqc5O :first-child {
   margin-left: -5px;
 }
 .sidebar-2K8pFh:not(:hover) .barText-lmqc5O :last-child {
   margin-right: -5px;
 }
+.activityRow-2FZXn1 ~ .separator-1APq0v,
+.fa-arrow-right:before,
 .sidebar-2K8pFh:not(:hover) .ownerIcon-2NH9FM,
 .sidebar-2K8pFh:not(:hover) .size24-1HlGux .avatarContainer-3CQrif,
 .sidebar-2K8pFh:not(:hover) .total-i6us2n:after,
@@ -176,6 +181,43 @@
 .scroller-RmtA4e {
   padding-right: 0 !important;
 }
+/*Activity in vc*/
+.containerDefault--pIXnN:hover .activityRow-2FZXn1 .content-bGAvz5 {
+  border-bottom: 0;
+}
+.containerDefault--pIXnN .list-2luk8a {
+  padding-bottom: 0;
+}
+.activityRow-2FZXn1 .content-bGAvz5 {
+  width: 20px;
+}
+.activityRow-2FZXn1 .activity-1ixT7k {
+  margin-left: 15px;
+  opacity: 0;
+  transition: margin-left 0.2s, opacity 0.5s;
+}
+.sidebar-2K8pFh:hover .activityRow-2FZXn1 .activity-1ixT7k {
+  margin-left: 0;
+  opacity: 1;
+}
+.containerDefault--pIXnN:hover .activityRow-2FZXn1:first-child .content-bGAvz5 {
+  border-top: 0;
+}
+.containerDefault--pIXnN:hover .activityRow-2FZXn1 .separator-1APq0v {
+  display: none;
+}
+.listDefault-3Huwgs {
+  margin-top: -1px
+}
+.activityRow-2FZXn1 {
+  margin: 0;
+  padding: 0;
+}
+.activityRow-2FZXn1 .content-bGAvz5 {
+  margin: 0 8px;
+  border-radius: 0;
+  border-bottom: 0;
+}
 /*mention and unread badges*/
 .sidebar-2K8pFh:not(:hover) .containerDefault--pIXnN .UnreadCountBadges-badge-channelUnread {
   border-radius: 5px 0 0 0;
@@ -206,22 +248,22 @@
   border-radius: 0 5px 0 5px;
 }
 .sidebar-2K8pFh:not(:hover) [href="/channels/@me"] .numberBadge-2s8kKX {
-    position: absolute;
-    right: 15px;
-    top: 10px;
-    font-size: 10px;
-    height: 12px;
-    width: 12px !important;
-    min-height: unset;
-    min-width: unset;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 10px;
+  height: 12px;
+  width: 12px !important;
+  min-height: unset;
+  min-width: unset;
 }
 /*Server boost progress bar*/
 .sidebar-2K8pFh .progressBarContainer-cCu8a2 {
-    width: 45px;
-    transition: width 0.5s;
+  width: 45px;
+  transition: width 0.5s;
 }
 .sidebar-2K8pFh:hover .progressBarContainer-cCu8a2 {
-    width: 225px;
+  width: 225px;
 }
 /*DM-list*/
 .channel-2QD9_O {

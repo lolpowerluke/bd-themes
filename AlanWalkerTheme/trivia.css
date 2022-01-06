@@ -756,6 +756,21 @@ a.selected-aXhQR6 .name-uJV0GL {
   border-top: 0px;
   border-radius: 0px 0px 8px 8px;
 }
+.containerDefault--pIXnN:hover .activityRow-2FZXn1 .content-bGAvz5 {
+  border: 1px solid rgb(var(--border-color-hover));
+}
+.activityRow-2FZXn1 .content-bGAvz5 {
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+}
+.containerDefault--pIXnN .activityRow-2FZXn1:nth-last-child(2) .content-bGAvz5 {
+  border-bottom: 1px solid rgb(var(--border-color-hover))
+}
+.containerDefault--pIXnN:hover .activityRow-2FZXn1:nth-last-child(2) .content-bGAvz5 {
+  border-bottom: 1px solid rgb(var(--border-color-hover))
+}
+.containerDefault--pIXnN .activityRow-2FZXn1:nth-last-child(2) .content-bGAvz5 {
+  border-bottom: 1px solid rgb(var(--border-color-1), var(--border-opacity-1))
+}
 /*color*/
 [data-user-id="398131626695196672"] .username-1A8OIy span,
 [data-user-id="398131626695196672"] .messageContent-2qWWxC span:not(.timestamp-3ZCmNB) {
