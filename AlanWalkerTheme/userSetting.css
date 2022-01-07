@@ -71,34 +71,54 @@
 #app-mount [aria-label="USER_SETTINGS"] .userInfo-iCloHO .accountSettingsAvatar {
   top: 0;
 }
-/*Compat lists (BD, PC)*/
+/*Compat lists (BD, PC, Kernel) + styling cards*/
+#app-mount .holy-settings-panel .holy-settings-card-scroller,
+#app-mount .kernel-card-scroller,
 #app-mount .pc-settings-panel .pc-settings-card-scroller,
 .bdcompat-addon-panel-list {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#app-mount .holy-settings-panel .holy-settings-card-scroller,
+#app-mount .kernel-card-scroller {
   gap: 20px;
 }
+#app-mount .kernel-card-scroller .kernel-card {
+  margin: 0;
+  flex: 1 1 400px;
+}
+#app-mount .holy-card-container,
+.pc-settings-addon-card,
 .bdcompat-addon-panel-list > div {
   margin: 0;
+  flex: 1 1 400px;
 }
-.pc-settings-empty {
-  grid-column: 1/3;
+.bd-addon-card .bd-addoncard-header .bd-addoncard-info {
+  flex-wrap: wrap;
+  row-gap: 5px;
 }
-@media (max-width: 1400px) {
-  #app-mount .pc-settings-panel .pc-settings-card-scroller,
-  .bdcompat-addon-panel-list {
-    grid-template-columns: 1fr;
-  }
+.bd-addon-card .bd-addoncard-header .bd-addoncard-info + .container-3auIfb {
+  flex: 0 0 40px;
 }
-/*Kernel and Holymod Plugin and Theme cards*/
 #app-mount .kernel-card .kernel-card-tools,
 #app-mount .kernel-card,
 #app-mount .holy-card-container {
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   background: var(--user-popout);
 }
-#app-mount .holy-card-container {
+#app-mount .holy-card-container,
+.kernel-card-scroller .kernel-card {
   padding: 0;
+}
+.kernel-card-scroller .kernel-card-header {
+  padding: 10px;
+}
+.kernel-footer,
+.kernel-card-scroller .kernel-card-desc {
+  padding: 10px;
+  padding-top: 0;
 }
 #app-mount .holy-card-container .holy-card-header {
   padding: 10px;
@@ -109,4 +129,21 @@
 }
 #app-mount .holy-card-container .holy-card-description {
   background: none;
+}
+.holy-card-container .holy-card-footer .holy-card-controls {
+  padding: 10px;
+  padding-top: 0;
+  padding-left: 0;
+}
+#app-mount .pc-settings-addon-card {
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+  overflow: hidden;
+  margin: 0;
+}
+#app-mount .pc-settings-addon-card::before {
+  content: "";
+  inset: 0;
+  position: absolute;
+  border-left: 4px solid var(--plugin-color);
+  pointer-events: none;
 }
