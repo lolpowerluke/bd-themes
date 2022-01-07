@@ -33,7 +33,7 @@
   rx: calc(var(--rs-avatar-shape) * 3.3);
 }
 #app-mount .focusLock-Ns3yie .topSection-y3p-_D .wrapper-3t9DeA rect {
-  x: 0;
+  x: 9;
   y: 0;
   width: 100%;
   height: 100%;
@@ -88,8 +88,8 @@
   y: -76;
 }
 #app-mount .focusLock-Ns3yie .topSection-y3p-_D .wrapper-3t9DeA[style*="120px"] rect {
-  width: 130px;
-  height: 130px;
+  width: 120px;
+  height: 120px;
   stroke-width: var(--rs-large-width);
 }
 #app-mount .focusLock-Ns3yie .topSection-y3p-_D .wrapper-3t9DeA[style*="120px"] img {
