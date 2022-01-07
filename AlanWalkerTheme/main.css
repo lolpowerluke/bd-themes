@@ -4,7 +4,6 @@
   /*User Settings*/
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/userSetting.css');
     @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css'); /*Thanks to DevilBro for letting me use this*/
-    @import url('https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css'); /*Thanks to Disease for creating this*/
   /*Popouts*/
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/popouts.css');
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/bigUserPopout.css');
@@ -24,3 +23,5 @@
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/friendList.css');
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/MemberList.css');
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/statusPicker.css');
+  /*Snippets*/
+    @import url('https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css'); /*Thanks to Disease for creating this*/
