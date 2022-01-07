@@ -80,9 +80,6 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-}
-#app-mount .holy-settings-panel .holy-settings-card-scroller,
-#app-mount .kernel-card-scroller {
   gap: 20px;
 }
 #app-mount .kernel-card-scroller .kernel-card {
