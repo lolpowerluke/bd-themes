@@ -67,15 +67,15 @@
   border-top: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 /*info/activity/server/friends*/
-.tabBarContainer-37hZsr {
+.focusLock-Ns3yie[aria-label="User Profile Modal"] .tabBarContainer-37hZsr {
   border-bottom: 0;
 }
-.tabBarContainer-37hZsr .tabBar-3nvOPa {
+.focusLock-Ns3yie[aria-label="User Profile Modal"] .tabBarContainer-37hZsr .tabBar-3nvOPa {
   display: flex;
   flex-direction: column;
   height: fit-content;
 }
-.tabBarContainer-37hZsr .tabBar-3nvOPa .tabBarItem-3dfX8P {
+.focusLock-Ns3yie[aria-label="User Profile Modal"] .tabBarContainer-37hZsr .tabBar-3nvOPa .tabBarItem-3dfX8P {
   border: none;
 }
 .focusLock-Ns3yie[aria-label="User Profile Modal"] .body-r6_QPy::-webkit-scrollbar {
@@ -87,7 +87,7 @@
 .focusLock-Ns3yie[aria-label="User Profile Modal"] .header-4zuFdR {
   height: 240px;
 }
-#app-mount .root-3QyAh1 .item-PXvHYJ::before {
+#app-mount .focusLock-Ns3yie[aria-label="User Profile Modal"] .root-3QyAh1 .item-PXvHYJ::before {
   content: "";
   width: 18px;
   height: 18px;
