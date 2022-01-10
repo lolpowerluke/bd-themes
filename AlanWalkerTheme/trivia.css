@@ -966,33 +966,45 @@ div:not(.messagesWrapper-1sRNjr) > .scrollerBase-289Jih::-webkit-scrollbar,
 }
 /*Status Colors*/
 [data-status="online"] .wrapper-3t9DeA rect[fill*="#"],
-[aria-label*="Online"] .mask-1l8v16 > rect,
-[aria-label*="Online"] .mask-1qbNWk > rect {
+[aria-label*="Online"] .mask-1l8v16 > foreignObject + rect,
+[aria-label*="Online"] .mask-1qbNWk > foreignObject + rect,
+[aria-label*="Online"] .mask-1l8v16 > svg > rect,
+[aria-label*="Online"] .mask-1qbNWk > svg > rect {
 fill: var(--online);
 }
 [data-status="idle"] .wrapper-3t9DeA rect[fill*="#"],
-[aria-label*="Idle"] .mask-1l8v16 > rect,
-[aria-label*="Idle"] .mask-1qbNWk > rect {
+[aria-label*="Idle"] .mask-1l8v16 > foreignObject + rect,
+[aria-label*="Idle"] .mask-1qbNWk > foreignObject + rect,
+[aria-label*="Idle"] .mask-1l8v16 > svg > rect,
+[aria-label*="Idle"] .mask-1qbNWk > svg > rect {
   fill: var(--idle);
 }
 [data-status="dnd"] .wrapper-3t9DeA rect[fill*="#"],
-[aria-label*="Do Not Disturb"] .mask-1l8v16 rect,
-[aria-label*="Do Not Disturb"] .mask-1qbNWk > rect {
+[aria-label*="Do Not Disturb"] .mask-1l8v16 > foreignObject + rect,
+[aria-label*="Do Not Disturb"] .mask-1qbNWk > foreignObject + rect,
+[aria-label*="Do Not Disturb"] .mask-1l8v16 > svg > rect,
+[aria-label*="Do Not Disturb"] .mask-1qbNWk > svg > rect {
   fill: var(--dnd);
 }
 [data-status="offline"] .wrapper-3t9DeA rect[fill*="#"],
-[aria-label*="Offline"] .mask-1l8v16 > rect,
-[aria-label*="Offline"] .mask-1qbNWk > rect {
+[aria-label*="Offline"] .mask-1l8v16 > foreignObject + rect,
+[aria-label*="Offline"] .mask-1qbNWk > foreignObject + rect,
+[aria-label*="Offline"] .mask-1l8v16 > svg > rect,
+[aria-label*="Offline"] .mask-1qbNWk > svg > rect {
   fill: var(--offline);
 }
 [data-status="invisible"] .wrapper-3t9DeA rect[fill*="#"],
-[aria-label*="Invisible"] .mask-1l8v16 > rect,
-[aria-label*="Invisible"] .mask-1qbNWk  > rect {
+[aria-label*="Invisible"] .mask-1l8v16 > foreignObject + rect,
+[aria-label*="Invisible"] .mask-1qbNWk > foreignObject + rect,
+[aria-label*="Invisible"] .mask-1l8v16 > svg > rect,
+[aria-label*="Invisible"] .mask-1qbNWk > svg > rect {
   fill: var(--offline);
 }
 [data-status="streaming"] .wrapper-3t9DeA rect[fill*="#"],
-[aria-label*="Streaming"] .mask-1l8v16 > rect,
-[aria-label*="Streaming"] .mask-1qbNWk > rect {
+[aria-label*="Streaming"] .mask-1l8v16 > foreignObject + rect,
+[aria-label*="Streaming"] .mask-1qbNWk > foreignObject + rect,
+[aria-label*="Streaming"] .mask-1l8v16 > svg > rect,
+[aria-label*="Streaming"] .mask-1qbNWk > svg > rect {
   fill: var(--streaming);
 }
 /*Discord Nitro Feature Animations*/
