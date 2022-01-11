@@ -41,13 +41,29 @@
 .PI-indicatorContainer div[aria-label="Web: Do Not Disturb"] .PI-icon_web {color: var(--dnd) !important;}
 .PI-indicatorContainer div[aria-label="Web: Streaming"] .PI-icon_web {color: var(--streaming) !important;}
 /*pin DMs*/
+.privateChannelsHeaderContainer-1UWASm {
+  padding-bottom: 0;
+  padding-top: 0;
+}
 .privateChannels-oVe7HL .privateChannelsHeaderContainer-1UWASm .clickable-ZD7xvu,
 .privateChannels-oVe7HL .privateChannelsHeaderContainer-1UWASm .numberBadge-37OJ3S,
 .privateChannels-oVe7HL .privateChannelsHeaderContainer-1UWASm .headerText-1qIDDT {
-  margin-top: -10px;
-  margin-bottom: 10px;
+  margin-top: 8px;
+  margin-bottom: 0;
+  overflow-y: visible;
   height: 15px;
   border-radius: 20px;
+}
+.privateChannels-oVe7HL .privateChannelsHeaderContainer-1UWASm .headerText-1qIDDT {
+  margin: 0;
+  margin-top: 8px;
+  height: 20px;
+  border-radius: 0;
+  white-space: nowrap;
+}
+.privateChannelsHeaderContainer-1UWASm:not(.pinnedChannelsHeaderContainer-89Gjv4) .headerText-1qIDDT {
+  overflow-y: hidden;
+  border-radius: 0;
 }
 .privateChannels-oVe7HL .privateChannelsHeaderContainer-1UWASm {
   height: 30px;
