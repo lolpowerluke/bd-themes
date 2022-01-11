@@ -24,11 +24,11 @@
   border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
   border-bottom: 0px;
 }
-.theme-dark .body-2wLx-E {
+#app-mount .body-2wLx-E {
   border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
   border-radius: 0px 0px 10px 10px;
 }
-.theme-dark .footer-1Dc_h6 {
+#app-mount .footer-3naVBw {
   border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
   border-radius: 10px;
   padding: 0px;
@@ -39,9 +39,9 @@
   margin-top: 3px;
   margin-bottom: -1px;
 }
-.footer-1Dc_h6,
-.theme-dark .body-2wLx-E,
-.theme-dark .footer-1N3bR3 {
+.footer-3naVBw,
+#app-mount .body-2wLx-E,
+#app-mount .footer-1N3bR3 {
   background: var(--user-popout);
 }
 .footer-1fjuF6 .inputDefault-3FGxgL {
