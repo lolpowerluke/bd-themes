@@ -102,7 +102,7 @@
   display: none;
 }
 /*VoiceChatLogger*/
-.theme-dark .root-g14mjS {
+#app-mount .root-g14mjS {
   background-color: black;
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }

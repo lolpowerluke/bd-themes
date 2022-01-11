@@ -196,7 +196,7 @@
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 /*Edit Plugins*/
-.theme-dark .modal-6GHvdM .tabBarContainer-1s1u-z {
+#app-mount .modal-6GHvdM .tabBarContainer-1s1u-z {
   border-left: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   border-right: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
@@ -295,10 +295,10 @@
 .hint-3J_Cto {
   text-align: center;
 }
-.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
+#app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
   background-color: var(--back-color-boxes-hover);
 }
-.theme-dark .lookFilled-1Gx00P.colorGrey-2DXtkV {
+#app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV {
   background-color: var(--back-color-boxes);
 }
 /*small popup*/
