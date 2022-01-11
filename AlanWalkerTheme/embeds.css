@@ -1,44 +1,44 @@
 /*positioning*/
-.container-1ov-mD .embed-IeVjo6{
+.container-2sjPya .embed-hKpSrO{
   display: inline-block;
 }
-.container-1ov-mD {
+.container-2sjPya {
   display: flex ;
   flex-wrap: wrap ;
 }
 /*fallback coloring*/
-.embedWrapper-lXpS3L[aria-hidden="false"] {
+.embedWrapper-1MtIDg[aria-hidden="false"] {
   border-color: rgb(255, 123, 0);
   background-color: rgba(255, 166, 0, 0.212);
   max-width: unset !important;
 }
 /*embeds with color*/
-.embedWrapper-lXpS3L[style*="border-color: hsl(0, calc(var(--saturation-factor, 1) * 0%), 9.8%);"] {
+.embedWrapper-1MtIDg[style*="border-color: hsl(0, calc(var(--saturation-factor, 1) * 0%), 9.8%);"] {
   border-color: blue !important;
   background-color: rgba(0, 0, 255, 0.301) !important;
 }
-.embedWrapper-lXpS3L[style*="border-color: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);"] {
+.embedWrapper-1MtIDg[style*="border-color: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);"] {
   background-color: rgba(255, 255, 255, 0.164);
 }
-.embedWrapper-lXpS3L[style*="border-color: hsl(0, calc(var(--saturation-factor, 1) * 100%), 50%);"] {
+.embedWrapper-1MtIDg[style*="border-color: hsl(0, calc(var(--saturation-factor, 1) * 100%), 50%);"] {
   background-color: rgba(255, 0, 0, 0.26);
 }
-.embedWrapper-lXpS3L[style*="border-color: hsl(216, calc(var(--saturation-factor, 1) * 53.8%), 49.2%);"] {
+.embedWrapper-1MtIDg[style*="border-color: hsl(216, calc(var(--saturation-factor, 1) * 53.8%), 49.2%);"] {
   background-color: rgba(0, 191, 255, 0.199);
 }
-.embedWrapper-lXpS3L[style*="border-color: hsl(203, calc(var(--saturation-factor, 1) * 89.1%), 53.1%);"] {
+.embedWrapper-1MtIDg[style*="border-color: hsl(203, calc(var(--saturation-factor, 1) * 89.1%), 53.1%);"] {
   background-color: rgba(0, 153, 255, 0.288);
 }
-.embedWrapper-lXpS3L[style*="border-color: hsl(207, calc(var(--saturation-factor, 1) * 13%), 13.5%);"] {
+.embedWrapper-1MtIDg[style*="border-color: hsl(207, calc(var(--saturation-factor, 1) * 13%), 13.5%);"] {
   background-color: rgba(48, 49, 49, 0.356);
 }
-.embedWrapper-lXpS3L[style*="border-color: hsl(242, calc(var(--saturation-factor, 1) * 25.3%), 48.8%);"] {
+.embedWrapper-1MtIDg[style*="border-color: hsl(242, calc(var(--saturation-factor, 1) * 25.3%), 48.8%);"] {
   background-color: rgba(158, 73, 214, 0.274);
 }
 /*Invite Embed*/
-.theme-dark .guildIconImage-3qTk45 {
+.theme-dark .guildIconImage-74OdmM {
   background-color: transparent;
 }
-.wrapper-35wsBm {
+.wrapper-1HIH0j {
   border: 1px solid rgb(var(--border-color-hover), var(--border-opacity-hover));
 }

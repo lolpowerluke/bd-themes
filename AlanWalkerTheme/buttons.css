@@ -1,9 +1,9 @@
 /*Green buttons */
-.tabBar-ZmDY9v .item-3HknzM[aria-controls="ADD_FRIEND-tab"],
+.tabBar-ra-EuL .item-3mHhwr[aria-controls="ADD_FRIEND-tab"],
 .lookFilled-1Gx00P.colorGreen-29iAKY {
     border-radius: 5px;
 }
-.tabBar-ZmDY9v .item-3HknzM[aria-controls="ADD_FRIEND-tab"]:hover,
+.tabBar-ra-EuL .item-3mHhwr[aria-controls="ADD_FRIEND-tab"]:hover,
 .lookFilled-1Gx00P.colorGreen-29iAKY:hover {
     background-color: var(--back-color-button);
 }
@@ -27,16 +27,14 @@
   background-color: var(--back-color-boxes-hover);
 }
 /*Home Button*/
-.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, 
-.wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, 
+.wrapper-3kah-n:hover .childWrapper-1j_1ub {
   background-color: transparent;
 }
-.homeIcon-AaowEC path,
-.homeIcon-FuNwkv path {
+.homeIcon-r0w4ny path {
   display: none;
 }
-.homeIcon-AaowEC,
-.homeIcon-FuNwkv {
+.homeIcon-r0w4ny {
   -webkit-mask: var(--home-button-background);
   -webkit-mask-size: var(--home-button-background-size);
   -webkit-mask-repeat: no-repeat;
@@ -44,32 +42,32 @@
   background-color: var(--unread-pill);
 }
 /*Create Server And Explore Servers Buttons*/
-.listItemWrapper-2MsAsM,
-.listItemWrapper-t7zeg3 {
+.listItemWrapper-3d87LP,
+.listItemWrapper-3ktTom {
   background-color: black;
   border: 1px solid rgb(var(--border-color-hover));
   border-radius: 30px;
 }
-.circleIconButton-hZmpE8.selected-3mFF3I,
-.circleIconButton-1XqULR.selected-2jcQaY {
+.circleIconButton-1VxDrg.selected-2r1Hvo,
+.circleIconButton-3lUBQk.selected-2tb4pB {
   color: var(--unread-pill);
   background-color: transparent;
 }
 /*Mark As Read Button In Chat*/
-.newMessagesBar-265mhP {
+.newMessagesBar-1hF-9G {
   background-color: var(--back-color-boxes);
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   border-top: 0px;
 }
 /*Upload Button*/
-.attachButtonInner-PQjIyk svg {
+.attachButtonInner-2mwer8 svg {
   background-color: rgb(25, 0, 255);
   border-radius: 50%;
 }
-.attachButtonInner-PQjIyk svg[aria-hidden="false"] {
+.attachButtonInner-2mwer8 svg[aria-hidden="false"] {
   border-radius: 15px 15px 7px 15px;
 }
-.attachButton-2WznTc:hover .attachButtonPlus-jWVFah,
-.attachButtonPlus-jWVFah {
+.attachButton-_ACFSu:hover .attachButtonPlus-3IYelE,
+.attachButtonPlus-3IYelE {
   fill: black;
 }

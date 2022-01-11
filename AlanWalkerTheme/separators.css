@@ -1,29 +1,29 @@
 /*Unread */
-.isUnread-3Ef-o9 {
+.isUnread-3Lojb- {
   border-color: transparent;
 }
-.unreadPillCapStroke-7rkHbg {
+.unreadPillCapStroke-1nE1Q8 {
   fill: transparent;
   color: transparent;
 }
-#app-mount .divider-JfaTT5.isUnread-3Ef-o9 .unreadPillCap-3_K2q2 {
+#app-mount .divider-2rZFJK.isUnread-3Lojb- .unreadPillCap-2-iI4h {
   display: none
 }
-#app-mount .divider-JfaTT5.isUnread-3Ef-o9:after {
+#app-mount .divider-2rZFJK.isUnread-3Lojb-:after {
   margin-left: 30px;
   background: linear-gradient(to right, var(--unread-message-line) 50%, transparent);
 }
-.unreadPill-2HyYtt {
+.unreadPill-3nEWYM {
   display: flex !important;
   color: var(--unread-message) !important;
 }
-.pill-1z4sAY .item-2hkk8m {
+.pill-1z4sAY .item-2LIpTv {
   background-color: var(--unread-pill);
   animation-name: channel-unread-1;
   animation-duration: 2s;
   animation-iteration-count: infinite;
 }
-.unread-2lAfLh {
+.unread-36eUEm {
   width: 8px;
   top: 52%;
   height: 6px;
@@ -43,14 +43,14 @@
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   }
 }
-.item-2hkk8m {
+.item-2LIpTv {
   background-color: var(--unread-pill);
 }
 /*Time Stamp Divider */
-#app-mount .divider-JfaTT5.isUnread-3Ef-o9 span {
+#app-mount .divider-2rZFJK.isUnread-3Lojb- span {
   display: none;
 }
-#app-mount .divider-JfaTT5 span {
+#app-mount .divider-2rZFJK span {
   left: 0;
   right: unset;
   background: transparent;
@@ -58,7 +58,7 @@
   flex-flow: row wrap;
   color: rgb(var(--separator));
 }
-#app-mount .divider-JfaTT5:after {
+#app-mount .divider-2rZFJK:after {
   content: "";
   position: relative;
   flex: 1 0 auto;
@@ -67,6 +67,6 @@
   background: linear-gradient(to right, rgb(var(--separator)) 50%, transparent);
 }
 /*Role Members*/
-.divider-3573oO {
+.divider-3LgWDL {
   border-top: 1px solid rgb(var(--separator));
 }

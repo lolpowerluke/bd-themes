@@ -2,7 +2,7 @@
 repository for my themes
 
 # Avatar animation (rotate 360deg on hover)
-.avatar-1BDn8e:hover.clickable-1bVtEA:hover {
+.avatar-2e8lTP:hover.clickable-31pE3P:hover {
 animation: rotate .5s;
 }
 @keyframes rotate {

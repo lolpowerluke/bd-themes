@@ -1,16 +1,16 @@
 /*General Sidebar*/
-.standardSidebarView-3F1I7i .sidebarRegion-VFTUkN {
+.standardSidebarView-E9Pc3j .sidebarRegion-1VBisG {
   -ms-flex: 0;
   -ms-flex-pack: end;
   flex: 0;
   z-index: 1;
 }
 /*General Content Area*/
-.standardSidebarView-3F1I7i .contentColumnDefault-1VQkGM {
+.standardSidebarView-E9Pc3j .contentColumnDefault-3eyv5o {
   padding: 20px 40px 80px;
 }
-.standardSidebarView-3F1I7i .contentColumn-2hrIYH, 
-.standardSidebarView-3F1I7i .customColumn-Rb6toI {
+.standardSidebarView-E9Pc3j .contentColumn-1C7as6, 
+.standardSidebarView-E9Pc3j .customColumn-2n-oKU {
   -ms-flex: 1 1 auto;
   -webkit-box-flex: 1;
   flex: 1 1 auto;
@@ -29,27 +29,27 @@
   background-color: var(--back-color-danger-boxes);
 }
 /*Switches*/
-.container-3auIfb[style*="hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);"],
+.container-2nx-BQ[style*="hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);"],
 .bd-switch-body {
   background: var(--switch-off) !important;
 }
-.container-3auIfb[style*="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"],
+.container-2nx-BQ[style*="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"],
 .bd-switch input:checked+.bd-switch-body {
   background: var(--switch-on) !important;
 }
 /*settingsIcons*/
-[aria-label="USER_SETTINGS"] .sidebar-CFHs9e {
+[aria-label="USER_SETTINGS"] .sidebar-nqHbhN {
   width: 218px;
 }
 /*Sidebar*/
-.sidebar-CFHs9e {
+.sidebar-nqHbhN {
   padding-top: 30px;
 }
 /*profile banner*/
-.accountProfileCard-1XCH88 > .UserBackgrounds-banner-container {
+.accountProfileCard-lbN7n- > .UserBackgrounds-banner-container {
   height: 400px;
 }
-.accountProfileCard-1XCH88 > .UserBackgrounds-banner-container > :last-child {
+.accountProfileCard-lbN7n- > .UserBackgrounds-banner-container > :last-child {
   width: 100%;
   background: center / cover;
   height: 100%;
@@ -61,14 +61,14 @@
   opacity: .5;
 }
 /*Profile crad in settings*/
-#app-mount [aria-label="USER_SETTINGS"] .background-1QDuV2,
-#app-mount [aria-label="USER_SETTINGS"] .userInfo-iCloHO {
+#app-mount [aria-label="USER_SETTINGS"] .background-3d_SjE,
+#app-mount [aria-label="USER_SETTINGS"] .userInfo-regn9W {
   position:relative
 }
-.userInfo-iCloHO {
+.userInfo-regn9W {
   margin-bottom: 50px;
 }
-#app-mount [aria-label="USER_SETTINGS"] .userInfo-iCloHO .accountSettingsAvatar {
+#app-mount [aria-label="USER_SETTINGS"] .userInfo-regn9W .accountSettingsAvatar {
   top: 0;
 }
 /*Compat lists (BD, PC, Kernel) + styling cards*/
@@ -96,7 +96,7 @@
   flex-wrap: wrap;
   row-gap: 5px;
 }
-.bd-addon-card .bd-addoncard-header .bd-addoncard-info + .container-3auIfb {
+.bd-addon-card .bd-addoncard-header .bd-addoncard-info + .container-2nx-BQ {
   flex: 0 0 40px;
 }
 #app-mount .kernel-card .kernel-card-tools,

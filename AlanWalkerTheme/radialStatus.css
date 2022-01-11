@@ -1,86 +1,86 @@
 /*Small Fixes*/
-#app-mount .peopleListItem-2nzedh .avatarWrapper .wrapper-3t9DeA foreignObject[mask*=mobile] {
+#app-mount .peopleListItem-u6dGxF .avatarWrapper .wrapper-1VLyxH foreignObject[mask*=mobile] {
   width: 40px;
 }
-#app-mount .messagesWrapper-1sRNjr .contents-2mQqc9 .wrapper-3t9DeA foreignObject[mask*=mobile] {
+#app-mount .messagesWrapper-RpOMA3 .contents-2MsGLg .wrapper-1VLyxH foreignObject[mask*=mobile] {
   width: 40px;
 }
-#app-mount .focusLock-Ns3yie .avatarWrapper .wrapper-3t9DeA foreignObject[mask*=mobile] {
+#app-mount .focusLock-2tveLW .avatarWrapper .wrapper-1VLyxH foreignObject[mask*=mobile] {
   width: 160px;
 }
-.userInfo-2zN2z8,
-.peopleListItem-2nzedh {
+.userInfo-2WpsYG,
+.peopleListItem-u6dGxF {
   overflow: visible;
 }
-.info-1VyQPT .colorMuted-HdFt4q:last-child:after {
+.info-1sUqUG .colorMuted-20987_:last-child:after {
   content: "RadialStatus " var(--rs-version);
   display: block;
 }
-.pointerEvents-2zdfdO[width="30"] {
+.pointerEvents-9SZWKj[width="30"] {
   width: 40px !important;
 }
 /*colors*/
-#app-mount [data-status="online"] .wrapper-3t9DeA > svg > rect {
+#app-mount [data-status="online"] .wrapper-1VLyxH > svg > rect {
   stroke: var(--online);
 }
-#app-mount [data-status="idle"] .wrapper-3t9DeA > svg > rect {
+#app-mount [data-status="idle"] .wrapper-1VLyxH > svg > rect {
   stroke: var(--idle);
 }
-#app-mount [data-status="dnd"] .wrapper-3t9DeA > svg > rect {
+#app-mount [data-status="dnd"] .wrapper-1VLyxH > svg > rect {
   stroke: var(--dnd);
 }
-#app-mount [data-status="streaming"] .wrapper-3t9DeA > svg > rect {
+#app-mount [data-status="streaming"] .wrapper-1VLyxH > svg > rect {
   stroke: var(--streaming);
 }
-#app-mount [data-status="offline"] .wrapper-3t9DeA > svg > rect {
+#app-mount [data-status="offline"] .wrapper-1VLyxH > svg > rect {
   stroke: var(--offline);
 }
-#app-mount [data-status="invisible"] .wrapper-3t9DeA > svg > rect {
+#app-mount [data-status="invisible"] .wrapper-1VLyxH > svg > rect {
   stroke: var(--offline);
 }
 /*3 dots*/
-#app-mount .wrapper-3t9DeA .dots-3Bkt3k circle {
+#app-mount .wrapper-1VLyxH .dots-1BwzZQ circle {
   cy: -8;
 }
-#app-mount .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(1) {
+#app-mount .wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(1) {
   cx: -8.5;
 }
-#app-mount .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(2) {
+#app-mount .wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(2) {
   cx: -2.25;
 }
-#app-mount .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(3) {
+#app-mount .wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(3) {
   cx: 4;
 }
-#app-mount .message-2qnXI6 .wrapper-3t9DeA .dots-3Bkt3k circle {
+#app-mount .message-2CShn3 .wrapper-1VLyxH .dots-1BwzZQ circle {
   cy: -10px;
 }
-#app-mount .message-2qnXI6 .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(1) {
+#app-mount .message-2CShn3 .wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(1) {
   cx: -10.5;
 }
-#app-mount .message-2qnXI6 .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(2) {
+#app-mount .message-2CShn3 .wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(2) {
   cx: -3.25px;
 }
-#app-mount .userPopout-xaxa6l .wrapper-3t9DeA .dots-3Bkt3k circle {
+#app-mount .userPopout-2j1gM4 .wrapper-1VLyxH .dots-1BwzZQ circle {
   cy: 3px;
 }
-#app-mount .userPopout-xaxa6l .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(1) {
+#app-mount .userPopout-2j1gM4 .wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(1) {
   cx: -23.5;
 }
-#app-mount .userPopout-xaxa6l .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(2) {
+#app-mount .userPopout-2j1gM4 .wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(2) {
   cx: -12.25px;
 }
-#app-mount .userPopout-xaxa6l .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(3) {
+#app-mount .userPopout-2j1gM4 .wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(3) {
   cx: -1px;
 }
-#app-mount .focusLock-Ns3yie .wrapper-3t9DeA .dots-3Bkt3k circle {
+#app-mount .focusLock-2tveLW .wrapper-1VLyxH .dots-1BwzZQ circle {
   cy: 20px;
 }
-#app-mount .focusLock-Ns3yie .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(1) {
+#app-mount .focusLock-2tveLW .wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(1) {
   cx: -23.5;
 }
-#app-mount .focusLock-Ns3yie .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(2) {
+#app-mount .focusLock-2tveLW .wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(2) {
   cx: -7.25px;
 }
-#app-mount .focusLock-Ns3yie .wrapper-3t9DeA .dots-3Bkt3k circle:nth-child(3) {
+#app-mount .focusLock-2tveLW .wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(3) {
   cx: 9px;
 }

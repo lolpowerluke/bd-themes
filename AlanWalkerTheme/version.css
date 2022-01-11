@@ -1,7 +1,7 @@
-.app-2rEoOp::before {
+.app-2CXKsg::before {
   display: block;
 }
-.app-2rEoOp::before {
+.app-2CXKsg::before {
   content: "theme outdated, please redownload from https://lolpowerluke.github.io/";
   display: var(--version-1-1-3);
   color:#fff;
@@ -15,7 +15,7 @@
 }
 /*time of the year styling*/
 /*Christmas*/
-/* .message-2qnXI6.groupStart-23k01U:not(.systemMessage-1I9LCe) .contents-2mQqc9::before {
+/* .message-2CShn3.groupStart-3Mlgv1:not(.systemMessage-1H1Z20) .contents-2MsGLg::before {
   content: "";
   width: 50px;
   height: 50px;
@@ -26,6 +26,6 @@
   pointer-events: none;
   z-index: 2;
 }
-.newMessagesBar-265mhP {
+.newMessagesBar-1hF-9G {
   z-index: 3;
 } */
