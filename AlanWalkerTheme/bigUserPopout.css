@@ -36,9 +36,7 @@
   padding: 0;
 }
 /*Profile Banner*/
-#app-mount .focusLock-2tveLW[aria-label="User Profile Modal"] .root-8LYsGj .profileBannerPremium-KD60EB {
-  width: 100%;
-}
+#app-mount .focusLock-2tveLW[aria-label="User Profile Modal"] .root-8LYsGj .profileBannerPremium-KD60EB,
 #app-mount .focusLock-2tveLW[aria-label="User Profile Modal"] .root-8LYsGj .profileBanner-1owKI5,
 #app-mount .focusLock-2tveLW[aria-label="User Profile Modal"] .root-8LYsGj .UserBackgrounds-banner-container {
   position: absolute;
