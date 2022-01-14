@@ -58,11 +58,12 @@
   background-color: var(--user-popout);
   border-right: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
-.focusLock-2tveLW[aria-label="User Profile Modal"] .root-8LYsGj .body-1Ukv50 {
+.focusLock-2tveLW[aria-label="User Profile Modal"] .body-1Ukv50 {
   height: unset;
   margin-top: 240px;
   background-color:  var(--user-popout);
   border-top: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+  overflow-y: scroll ;
 }
 /*info/activity/server/friends*/
 .focusLock-2tveLW[aria-label="User Profile Modal"] .tabBarContainer-sCZC4w {
@@ -78,9 +79,6 @@
 }
 .focusLock-2tveLW[aria-label="User Profile Modal"] .body-1Ukv50::-webkit-scrollbar {
   display: none;
-}
-.focusLock-2tveLW[aria-label="User Profile Modal"] .body-1Ukv50 {
-  overflow-y: scroll !important;
 }
 .focusLock-2tveLW[aria-label="User Profile Modal"] .header-S26rhB {
   height: 240px;
@@ -129,7 +127,7 @@
 #app-mount .focusLock-2tveLW[aria-label="User Profile Modal"] .UserDetails-dates-wrapper {
   margin: 0;
 }
-#app-mount .focusLock-2tveLW[aria-label="User Profile Modal"] .UserDetails-dates-wrapper .nameTag-2Nlmsy {
+#app-mount .focusLock-2tveLW[aria-label="User Profile Modal"] .nameTag-2Nlmsy {
   margin-top: 0;
 }
 /*Avatar*/
@@ -294,6 +292,8 @@
     margin: 0px;
     padding: 4px;
   }
+  #app-mount .focusLock-2tveLW[aria-label="User Profile Modal"] .root-8LYsGj .profileBannerPremium-KD60EB,
+  #app-mount .focusLock-2tveLW[aria-label="User Profile Modal"] .root-8LYsGj .profileBanner-1owKI5,
   #app-mount .focusLock-2tveLW[aria-label="User Profile Modal"] .root-8LYsGj .UserBackgrounds-banner-container {
     width: 560px;
   }
