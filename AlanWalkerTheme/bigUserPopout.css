@@ -6,6 +6,12 @@
   background-color: var(--user-popout);
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   height: 100%;
+  min-height: 500px;
+}
+@media (max-height: 600px) {
+  .focusLock-2tveLW[aria-label="User Profile Modal"] .root-8LYsGj {
+    min-height: unset;
+  }
 }
 .focusLock-2tveLW[aria-label="User Profile Modal"] .root-8LYsGj .topSection-13QKHs > header {
   display: flex;
