@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 240px 1fr;
   width: 980px;
-  background-color: var(--user-popout);
+  background-color: var(--big-user-popout);
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   height: 100%;
   min-height: 500px;
@@ -61,13 +61,13 @@
   border-radius: 0px 0px 8px 0px;
 }
 #app-mount .focusLock-2tveLW[aria-label="User Profile Modal"] .topSection-13QKHs {
-  background-color: var(--user-popout);
+  background-color: var(--big-user-popout-topsection);
   border-right: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 .focusLock-2tveLW[aria-label="User Profile Modal"] .body-1Ukv50 {
   height: unset;
   margin-top: 240px;
-  background-color:  var(--user-popout);
+  background-color:  var(--big-user-popout-body);
   border-top: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   overflow-y: scroll ;
 }
@@ -159,7 +159,7 @@
   width: 118px;
   height: 118px;
   border-radius: 10px;
-  background-color: var(--user-popout);
+  background-color: var(--big-user-popout-avatar);
 }
 .focusLock-2tveLW[aria-label="User Profile Modal"] .header-S26rhB .avatar-3QF_VA foreignObject {
   mask: none;
@@ -271,7 +271,7 @@
 }
 /*USRBG*/
 #app-mount .root-8LYsGj .body-1Ukv50 {
-  background: var(--user-background) var(--user-popout);
+  background: var(--user-background) var(--big-user-popout-body);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
