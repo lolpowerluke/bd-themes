@@ -135,6 +135,14 @@
   --user-popout: black;
   --user-popout-alt: rgba(0, 0, 255, 0.24);
 
+  /*plugin popups*/
+  --back-color-tooltips: black;
+  --back-channel-dms: black;
+  --back-server-themes-choice-button: black;
+  --back-friend-notifications: black;
+  --back-better-message-links: black;
+  --back-powercord-notices: black;
+
   /*scroller (I think)*/
   --back-color-menu: black;
 

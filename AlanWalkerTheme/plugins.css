@@ -185,7 +185,7 @@
 }
 /*ColorToolTips*/
 .ColorTooltips-body {
-  background-color: var(--user-popout);
+  background-color: var(--back-color-tooltips);
 }
 .ColorTooltips-popout {
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
@@ -205,7 +205,7 @@ body #clockPluginClock {
 }
 /*ChannelDMs*/
 #app-mount .ChannelDms-channelpopout-popout {
-  background-color: var(--user-popout);
+  background-color: var(--back-channel-dms);
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 #app-mount .ChannelDms-channelpopout-popout .chatContent-3KubbW {
@@ -226,13 +226,13 @@ body #clockPluginClock {
 }
 /*themeChoice button (server themes plugin)*/
 .container .row .themeChoice {
-  background-color: var(--user-popout);
+  background-color: var(--back-server-themes-choice-button);
   color: white;
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 /*FriendNotifications*/
 #app-mount .colorDefault-XdNdIp .bg-8df5St {
-  background-color: var(--user-popout);
+  background-color: var(--back-friend-notifications);
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 /*ChannelDMs*/
@@ -245,7 +245,7 @@ body #clockPluginClock {
 }
 /*BetterMessageLinks*/
 #app-mount .betterMessageLinks.Popout {
-  background: var(--user-popout);
+  background: var(--back-better-message-links);
   border: 1px solid rgb(var(--border-color-hover));
 }
 /*ShowSessions*/
@@ -254,6 +254,6 @@ body #clockPluginClock {
 }
 /*Powercord Notices*/
 body .pc-notices .pc-notice-container {
-  background: var(--user-popout);
+  background: var(--back-powercord-notices);
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
