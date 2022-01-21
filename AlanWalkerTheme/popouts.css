@@ -550,3 +550,16 @@ body .bd-toasts .bd-toast {
   margin-top: 5px;
   padding-left: 30px;
 }
+/*BD Updater circle*/
+.bd-updater-wrapper .bd-updater-button {
+  background-color: black;
+  box-shadow: none;
+  border: 1px solid rgb(var(--border-color-hover));
+}
+.bd-updater-wrapper .bd-updater-button::before {
+  background: black;
+  border: 2px solid rgb(var(--border-color-1), var(--border-opacity-1));
+  top: 6px;
+  right: 6px;
+  color: white;
+}
