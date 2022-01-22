@@ -5,7 +5,8 @@
   gap: 15px;
   margin: 25px 10px 0px 15px;
 }
-#app-mount .userInfo-2WpsYG {
+.peopleListItem-u6dGxF .listItemContents-2n2Uy9 .userInfo-2WpsYG {
+  grid-column: 1/4;
   overflow: visible;
 }
 .peopleColumn-1wMU14 .title-x4dI75 {
@@ -71,30 +72,46 @@
   white-space: normal;
   text-overflow: clip;
 }
-.actions-YHvpIT {
-  position: absolute;
-  bottom: 5px;
-  right: 5px;
+#app-mount .iconContainer-3XSL3J,
+#app-mount .pd-mutualGuilds,
+#app-mount .actionButton-3-B2x-,
+#app-mount .actions-YHvpIT {
+  inset: 0;
+  margin: 0;
 }
-.actions-YHvpIT {
-    position: absolute;
-    right: 10px;
-    margin-top: 80px;
+#app-mount .actions-YHvpIT {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  top: -10px;
 }
 .subtext-xfubwR {
   max-width: 200px;
   max-height: 50px;
   text-overflow: clip;
 }
-.mutualGuilds-s7F2aa {
-  position: absolute;
-  margin-left: 10px;
-  margin-top: 98px;
-}
-.listItemContents-2n2Uy9{
+.peopleListItem-u6dGxF .listItemContents-2n2Uy9 {
+  display: grid;
+  height: 140px;
+  padding: 5px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  grid-template-rows: 80px 50px;
+  grid-template-columns: 1fr 1fr 82px;
   background-color: rgba(0, 0, 0, 0.295);
   backdrop-filter: blur(2px);
 }
 .peopleColumn-1wMU14 .ring-370dIp {
   display: none !important;
 }
+/*plugins*/
+  /*BetterFriendslist by devilbro*/
+  #app-mount .mutualGuilds-s7F2aa {
+    top: -5px;
+    left: 1px;
+  }
+  /*pinDMs by Bricklou*/
+  #app-mount .pd-mutualGuilds {
+    left: -15px;
+    top: -10px;
+  }
