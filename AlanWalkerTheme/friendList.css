@@ -84,6 +84,7 @@
   flex-direction: row;
   column-gap: 10px;
   margin-bottom: 18px;
+  grid-column: 3/4;
 }
 .subtext-xfubwR {
   max-width: 200px;
@@ -109,9 +110,11 @@
   #app-mount .mutualGuilds-s7F2aa {
     margin-bottom: 5px;
     margin-left: 1px;
+    grid-column: 1/2;
   }
   /*pinDMs by Bricklou*/
   #app-mount .pd-mutualGuilds {
     margin-right: 15px;
     margin-bottom: 16px;
+    grid-column: 2/3;
   }
