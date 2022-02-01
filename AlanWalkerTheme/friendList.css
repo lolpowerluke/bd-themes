@@ -6,7 +6,10 @@
   margin: 25px 10px 0px 15px;
 }
 .peopleListItem-u6dGxF .listItemContents-2n2Uy9 .userInfo-2WpsYG {
-  grid-column: 1/4;
+  grid-column: 1/2;
+  grid-row: 1/4;
+  display: grid;
+  grid-template-rows: 1fr 42px;
   overflow: visible;
 }
 .peopleColumn-1wMU14 .title-x4dI75 {
@@ -14,10 +17,16 @@
   width: 100%;
   margin-top: -25px;
 }
+#app-mount .peopleListItem-u6dGxF {
+  transform: scale(1);
+  transition: transform .5s;
+}
+#app-mount .peopleListItem-u6dGxF:hover {
+  transform: scale(1.04);
+}
 .peopleListItem-u6dGxF {
-  flex: 1 1 0;
+  flex: 1 1 350px ;
   height: 140px !important;
-  min-width: 300px;
   max-width: 600px;
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   border-radius: 10px;
@@ -64,11 +73,13 @@
 .peopleListItem-u6dGxF .avatar-2MSPKk {
   height: 80px !important;
   width: 80px !important;
-  margin-top: -10px;
+  margin: 0;
   margin-left: 15px;
+  margin-top: 10px;
 }
 .peopleListItem-u6dGxF .text-3j8t_e {
-  margin-bottom: 50px;
+  margin: 0;
+  margin-left: 15px;
   white-space: normal;
   text-overflow: clip;
 }
@@ -82,9 +93,12 @@
 #app-mount .actions-YHvpIT {
   display: flex;
   flex-direction: row;
+  align-self: center;
+  justify-self: end;
   column-gap: 10px;
-  margin-bottom: 18px;
-  grid-column: 3/4;
+  margin: 0;
+  grid-column: 2/3;
+  grid-row: 3/4;
 }
 .subtext-xfubwR {
   max-width: 200px;
@@ -93,12 +107,11 @@
 }
 .peopleListItem-u6dGxF .listItemContents-2n2Uy9 {
   display: grid;
-  height: 140px;
-  padding: 5px;
-  padding-top: 20px;
-  box-sizing: border-box;
-  grid-template-rows: 80px 50px;
-  grid-template-columns: 1fr 1fr 82px;
+  padding: 0;
+  padding-right: 10px;
+  box-sizing: unset;
+  grid-template-rows: 40px 50px 40px;
+  grid-template-columns: 1fr 160px;
   background-color: rgba(0, 0, 0, 0.295);
   backdrop-filter: blur(2px);
 }
@@ -107,14 +120,21 @@
 }
 /*plugins*/
   /*BetterFriendslist by devilbro*/
-  #app-mount .mutualGuilds-s7F2aa {
-    margin-bottom: 5px;
-    margin-left: 1px;
-    grid-column: 1/2;
+  body #app-mount .mutualGuilds-s7F2aa {
+    margin: 0;
+    align-self: center;
+    justify-self: end;
+    grid-column: 2/3;
+    grid-row: 1/2;
   }
   /*pinDMs by Bricklou*/
   #app-mount .pd-mutualGuilds {
-    margin-right: 15px;
-    margin-bottom: 16px;
+    margin: 0;
+    align-self: center;
+    justify-self: end;
     grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .pd-mutualGuilds > div:first-child {
+    margin-right: 0;
   }
