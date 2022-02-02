@@ -1,9 +1,9 @@
 /*Friend List*/
-.peopleList-2VBrVI>div {
+.peopleList-2VBrVI > div {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
-  margin: 25px 10px 0px 15px;
+  margin: 5px 15px 0 15px;
 }
 .peopleListItem-u6dGxF .listItemContents-2n2Uy9 .userInfo-2WpsYG {
   grid-column: 1/2;
@@ -12,10 +12,17 @@
   grid-template-rows: 1fr 42px;
   overflow: visible;
 }
+.peopleColumn-1wMU14 {
+  display: grid;
+  grid-template-rows: 40pxpx 20px 1fr;
+}
 .peopleColumn-1wMU14 .title-x4dI75 {
-  position: absolute;
-  width: 100%;
-  margin-top: -25px;
+  position: unset;
+  width: fit-content;
+  margin: 5px 20px;
+}
+.peopleColumn-1wMU14 .searchBar-2aylmZ {
+  margin: 5px 10px;
 }
 #app-mount .peopleListItem-u6dGxF {
   transform: scale(1);
