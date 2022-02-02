@@ -544,6 +544,12 @@
   border: 1px solid rgb(var(--border-color-hover), var(--border-opacity-1));
   box-shadow: inset 0 -4px 0 rgb(var(--border-color-hover), var(--border-opacity-1));
 }
+/*Discord's Role member popup*/
+.roleScroller-2vdbSX {
+  background-color: var(--back-role-scroller);
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+  border-radius: 5px;
+}
 /*BD-compat toast (not build in toasts)*/
 body .bd-toasts .bd-toast {
   padding: 8px;
