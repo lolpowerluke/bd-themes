@@ -143,8 +143,9 @@
   --back-better-message-links: black;
   --back-powercord-notices: black;
 
-  /*scroller (I think)*/
+  /*scroller*/
   --back-color-menu: black;
+  --back-role-scroller: black;
 
   /* message separator*/
   --message-separator-line: rgba(17, 0, 255, 0.5);
