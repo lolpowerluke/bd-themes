@@ -1,5 +1,5 @@
 /*Server Channels*/
-.containerDefault-3TQ5YN[draggable="true"] + .containerDefault-YUSmu3 .content-1gYQeQ {
+.containerDefault-3TQ5YN + .containerDefault-YUSmu3 .content-1gYQeQ {
   border-radius: 8px 8px 0px 0px;
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   border-bottom: 0px;
@@ -42,7 +42,7 @@
 .container-1Bj0eq .containerDefault-YUSmu3::after {
   display: none;
 }
-.containerDefault-YUSmu3:hover .content-1gYQeQ {
+#app-mount .containerDefault-YUSmu3:hover .content-1gYQeQ {
   border-color: rgb(var(--border-color-hover));
   border-bottom: 1px solid rgb(var(--border-color-hover));
   box-shadow: inset 0 0 10px rgb(var(--border-color-hover));
