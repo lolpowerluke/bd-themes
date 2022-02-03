@@ -18,7 +18,7 @@
   padding: 0;
   box-shadow: none;
 }
-.emojiPicker-6YCk8a .bodyWrapper-1eSOtW {
+:not(.emojiPickerInExpressionPicker-2nOwH8) > .emojiPicker-6YCk8a .bodyWrapper-1eSOtW  {
   height: 300px;
 }
 .nav-1zWVQw {
