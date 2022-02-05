@@ -447,11 +447,14 @@
 .layer-2aCOJ3 .popout-2iWAc- {
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
-.layer-2aCOJ3 .header-1w9Q93 {
-  background-color: var(--popout-header);
+[aria-label="Pinned Messages"] .messagesPopoutWrap-3zryHW .header-1w9Q93 {
+  background-color: black;
   border-bottom: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 .emptyPlaceholder-1-a1LK {
+  background-color: transparent;
+}
+[aria-label="Pinned Messages"] .messagesPopoutWrap-3zryHW .messagesPopout-eVzQcI {
   background-color: black;
 }
 /*Chat AutoComplete Popup*/
