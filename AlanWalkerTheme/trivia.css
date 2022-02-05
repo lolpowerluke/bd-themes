@@ -126,14 +126,17 @@ a.selected-1-Z6gm .layout-1qmrhw {
 #app-mount .inset-SbsSFp {
   background-color: transparent;
 }
+.nowPlayingColumn-1eCBCN {
+  width: 360px;
+}
 @media (max-width: 1200px) {
   .nowPlayingColumn-1eCBCN {
     display: block;
     transition: min-width 0.5s;
-    min-width: 200px;
+    width: 200px;
   }
   .nowPlayingColumn-1eCBCN:hover {
-    min-width: 360px;
+    width: 360px;
   }
 }
 /*Search Bar*/
