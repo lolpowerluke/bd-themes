@@ -44,7 +44,7 @@
   column-gap: 8px;
 }
 #sticker-picker-tab-panel,
-.container-23gRWx {
+.container-3u7RcY {
   overflow: hidden;
   box-sizing: border-box;
   border-radius: 8px;
@@ -57,6 +57,14 @@
 #sticker-picker-tab-panel .wrapper-22rqw6 .scrollerBase-_bVAAt {
   margin-top: 1px;
   border-right: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+}
+.header-2TLOnc {
+  padding: 0;
+  width: calc(100% - 10px);
+  margin: 5px;
+}
+.searchBar-3aIzc-:focus-within {
+  background-color: var(--back-color-boxes-hover);
 }
 #app-mount .categoryList-2qRrlj {
   position: relative;
