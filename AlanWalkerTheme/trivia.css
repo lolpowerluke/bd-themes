@@ -141,6 +141,8 @@ a.selected-1-Z6gm .layout-1qmrhw {
   }
   .nowPlayingColumn-1eCBCN:hover {
     width: 360px;
+    min-width: 360px;
+    max-width: 360px;
   }
 }
 /*Search Bar*/
