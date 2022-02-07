@@ -204,33 +204,35 @@
   column-gap: 10px;
   justify-content: flex-start;
 }
-.tutorialContainer-1pL9QS .listItem-3SmSlK .listItemWrapper-3d87LP::after {
-  content: "Home";
+#app-mount .tutorialContainer-2jwoiB .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z .circleIconButton-1VxDrg::after,
+#app-mount .tutorialContainer-2jwoiB + .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z .circleIconButton-1VxDrg::after,
+#app-mount .tutorialContainer-1pL9QS .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-3kah-n::after {
+  content: attr(aria-label);
+  margin-top: 2px;
+  width: calc(100% - 50px);
+  height: 100%;
+  font-size: 36px;
+  margin-left: 50px;
 }
-.tutorialContainer-2jwoiB + .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z::after {
-  content: "Explore Public Servers";
-  margin-top: 1px;
-}
-.tutorialContainer-2jwoiB .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z::after {
-  content: "Add a Server";
-}
-.tutorialContainer-2jwoiB .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z::after,
-.tutorialContainer-2jwoiB + .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z::after,
-.tutorialContainer-1pL9QS .listItem-3SmSlK .listItemWrapper-3d87LP::after {
-  position: absolute;
-  pointer-events: none;
-  align-self: center;
-  color: white;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  height: 18px;
-  width: 140px;
-  margin-left: 25px;
+#app-mount .tutorialContainer-1pL9QS .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-3kah-n::after {
+  margin-left: 30px;
+  margin-top: 2px;
+  font-size: 36px;
+  height: 100%;
+  width: calc(100% - 60px);
 }
 .wrapper-38slSD > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name]::after,
 .listItem-3SmSlK > div:nth-of-type(2) > [data-dnd-name]::after {
   content: attr(data-dnd-name);
+  margin-left: 25px;
+  height: 18px;
+  width: 128px;
+}
+.tutorialContainer-2jwoiB .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z .circleIconButton-1VxDrg::after,
+.tutorialContainer-2jwoiB + .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z .circleIconButton-1VxDrg::after,
+.tutorialContainer-1pL9QS .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-3kah-n::after,
+.wrapper-38slSD > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name]::after,
+.listItem-3SmSlK > div:nth-of-type(2) > [data-dnd-name]::after {
   position: absolute;
   pointer-events: none;
   align-self: center;
@@ -238,9 +240,6 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  height: 18px;
-  width: 110px;
-  margin-left: 25px;
 }
 #app-mount .listItem-3SmSlK .iconBadge-32fMme,
 #app-mount .listItem-3SmSlK .upperBadge-1V6Iyi {
