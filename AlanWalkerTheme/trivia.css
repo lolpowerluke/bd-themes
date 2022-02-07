@@ -762,3 +762,16 @@ fill: var(--online);
   transform: scale(1.2);
   transition-delay: 0.2s;
 }
+/*Member List*/
+.membersWrap-3NUR2t:not(#dv-mount),
+.membersWrap-3NUR2t:not(#dv-mount) > div {
+  min-width:60px!important;
+  max-width:240px!important;
+  width:60px;
+  min-height: 100%;
+  transition: width .5s;
+}
+.membersWrap-3NUR2t:hover:not(#dv-mount),
+.membersWrap-3NUR2t:hover:not(#dv-mount) > div {
+  width:240px;
+}
