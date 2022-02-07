@@ -61,7 +61,10 @@
   margin-left: 12px;
   margin-right: 10px;
   margin-bottom: 8px;
-  margin-top: 3px;
+  margin-top: 5px;
+}
+.listItem-3SmSlK + .wrapper-38slSD {
+  margin-top: 4px;
 }
 #app-mount .tutorialContainer-2jwoiB:hover .listItem-3SmSlK .listItemWrapper-3d87LP,
 .tutorialContainer-2jwoiB + .listItem-3SmSlK:hover .listItemWrapper-3d87LP,
