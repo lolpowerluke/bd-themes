@@ -203,27 +203,6 @@ body #clockPluginClock {
 #app-mount .UserDetails-mutualFriends-stack .UserDetails-mutualFriends-mutualFriend {
   background: transparent;
 }
-/*ChannelDMs*/
-#app-mount .ChannelDms-channelpopout-popout {
-  background-color: var(--back-channel-dms);
-  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-}
-#app-mount .ChannelDms-channelpopout-popout .chatContent-3KubbW {
-  margin-top: 0;
-}
-#app-mount .ChannelDms-channelpopout-popout .buttonContainer-2lnNiN .button-3BaQ4X:not([aria-label="Select emoji"]),
-#app-mount .ChannelDms-channelpopout-popout .icon-1dGlZy,
-#app-mount .ChannelDms-channelpopout-popout .role-2TIOKu,
-#app-mount .ChannelDms-channelpopout-popout .PronounDB-pronouns-text,
-#app-mount .ChannelDms-channelpopout-popout .tagID.before {
-  display: none;
-}
-#app-mount .ChannelDms-channelpopout-popout .buttonContainer-2lnNiN .button-3BaQ4X {
-  margin-right: 10px;
-}
-#app-mount .ChannelDms-channelpopout-popout .message-2CShn3 {
-  padding-right: 5px !important;
-}
 /*themeChoice button (server themes plugin)*/
 .container .row .themeChoice {
   background-color: var(--back-server-themes-choice-button);
@@ -256,8 +235,27 @@ body #clockPluginClock {
 body .pc-notices .pc-notice-container {
   background: var(--back-powercord-notices);
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+}/*ChannelDMs*/
+#app-mount .ChannelDms-channelpopout-popout {
+  background-color: var(--back-channel-dms);
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
-/*ChannelDms*/
+#app-mount .ChannelDms-channelpopout-popout .chatContent-3KubbW {
+  margin-top: 0;
+}
+#app-mount .ChannelDms-channelpopout-popout .buttonContainer-2lnNiN .button-3BaQ4X:not([aria-label="Select emoji"]),
+#app-mount .ChannelDms-channelpopout-popout .icon-1dGlZy,
+#app-mount .ChannelDms-channelpopout-popout .role-2TIOKu,
+#app-mount .ChannelDms-channelpopout-popout .PronounDB-pronouns-text,
+#app-mount .ChannelDms-channelpopout-popout .tagID.before {
+  display: none;
+}
+#app-mount .ChannelDms-channelpopout-popout .buttonContainer-2lnNiN .button-3BaQ4X {
+  margin-right: 10px;
+}
+#app-mount .ChannelDms-channelpopout-popout .message-2CShn3 {
+  padding-right: 5px !important;
+}
 .ChannelDms-channelmembers-wrap .headerAmount-_-7GrS {
   margin-left: -12px;
 }
