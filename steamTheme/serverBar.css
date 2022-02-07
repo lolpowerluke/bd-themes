@@ -57,6 +57,12 @@
 .tutorialContainer-1pL9QS > .listItem-3SmSlK {
   column-gap: 5px;
 }
+.tutorialContainer-1pL9QS {
+  display: flex;
+  flex-direction: row;
+  column-gap: 8px;
+  margin-right: 11px;
+}
 .guilds-2JjMmN .scroller-3X7KbA > .tutorialContainer-2jwoiB {
   margin-left: 12px;
   margin-right: 10px;
@@ -158,9 +164,13 @@
   x: -175;
 }
 .tutorialContainer-2jwoiB .listItem-3SmSlK .listItemWrapper-3d87LP foreignObject,
-.tutorialContainer-1pL9QS .listItem-3SmSlK .listItemWrapper-3d87LP foreignObject {
+.tutorialContainer-1pL9QS .listItem-3SmSlK:only-child .listItemWrapper-3d87LP foreignObject {
   width: 400px;
   x: -175;
+}
+.tutorialContainer-1pL9QS .listItem-3SmSlK:not(:only-child) .listItemWrapper-3d87LP foreignObject {
+  width: 290px;
+  x: -120;
 }
 .tutorialContainer-2jwoiB .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z foreignObject .circleIcon-3489FI,
 .tutorialContainer-2jwoiB + .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z foreignObject .circleIcon-3489FI,
@@ -241,4 +251,18 @@
 #app-mount .iconSizeSmol-qsFaRK {
   width: 16px;
   height: 16px;
+}
+/*bd Public Server Button*/
+#app-mount #bd-pub-button {
+  background-color: var(--background-secondary);
+  transition: background-color .5s;
+  transition-delay: .1s;
+}
+#app-mount #bd-pub-li:hover #bd-pub-button {
+  background-color: var(--background-secondary-alt);
+}
+#app-mount #bd-pub-li,
+#app-mount #bd-pub-button {
+  height: 30px;
+  width: 48px;
 }
