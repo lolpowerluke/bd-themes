@@ -1,15 +1,15 @@
 /*Imports*/
-@import "https://someone.github.io/something/trivia.css";
+@import "https://lolpowerluke.github.io/bd-themes/steamTheme/trivia.css";
   /*Friendlist*/
-  @import "https://someone.github.io/something/friendlist.css";
+  @import "https://lolpowerluke.github.io/bd-themes/steamTheme/friendlist.css";
   /*Servers*/
-  @import "https://someone.github.io/something/serverChannels.css";
-  @import "https://someone.github.io/something/serverBar.css";
+  @import "https://lolpowerluke.github.io/bd-themes/steamTheme/serverChannels.css";
+  @import "https://lolpowerluke.github.io/bd-themes/steamTheme/serverBar.css";
 
-  @import "https://someone.github.io/something/smallUserPopout.css";
+  @import "https://lolpowerluke.github.io/bd-themes/steamTheme/smallUserPopout.css";
   /*Status*/
-  @import "https://someone.github.io/something/statusPicker.css";
-  @import "https://someone.github.io/something/BetterStatusIndicators.css";
+  @import "https://lolpowerluke.github.io/bd-themes/steamTheme/statusPicker.css";
+  @import "https://lolpowerluke.github.io/bd-themes/steamTheme/BetterStatusIndicators.css";
   /*Snippets*/
   @import "https://spinfish.github.io/css-snippets/snippets/filled-roles.css";
 /*Variables*/
