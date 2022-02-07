@@ -1,2 +1,2 @@
-# discordtheme
-repository for my Alan Walker theme
+# Alan Walker Theme
+Dark theme build around Alan Walker
