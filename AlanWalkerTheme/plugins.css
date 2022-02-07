@@ -257,3 +257,45 @@ body .pc-notices .pc-notice-container {
   background: var(--back-powercord-notices);
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
+/*ChannelDms*/
+.ChannelDms-channelmembers-wrap .headerAmount-_-7GrS {
+  margin-left: -12px;
+}
+.ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header {
+  width: 240px;
+}
+.ChannelDms-channelmembers-wrap {
+  width: 60px;
+  transition: width .5s;
+}
+.ChannelDms-channelmembers-wrap:hover .membersWrap-3NUR2t:not(#dv-mount),
+.ChannelDms-channelmembers-wrap:hover .membersWrap-3NUR2t:not(#dv-mount) > div {
+  width: 240px;
+}
+.ChannelDms-channelmembers-wrap:hover {
+  width: 240px;
+}
+.ChannelDms-channelmembers-wrap .item-3XjbnG {
+  border-radius: 0;
+  margin: 0;
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+  border-right: 0;
+}
+.ChannelDms-channelmembers-wrap .item-3XjbnG:first-of-type {
+  border-radius: 20px 0 0 20px;
+}
+.ChannelDms-channelmembers-wrap .item-3XjbnG:last-of-type {
+  border-radius: 0 20px 20px 0;
+  border-right: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+}
+.ChannelDms-channelmembers-wrap .item-3XjbnG:hover {
+  border-color: rgb(var(--border-color-hover));
+  border-right: 1px solid rgb(var(--border-color-hover));
+}
+.ChannelDms-channelmembers-wrap .item-3XjbnG:hover + .item-3XjbnG {
+  border-left: 0;
+}
+.ChannelDms-channelmembers-wrap:not(:hover) .RestoreDirectMessages-style-button,
+.ChannelDms-channelmembers-wrap:not(:hover) .RestoreDirectMessages-style-divider {
+  display: none;
+}
