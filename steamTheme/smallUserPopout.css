@@ -1,0 +1,38 @@
+/*Role Stuff*/
+.rolesList-3uZoaa {
+  display: grid;
+  grid-template-columns: repeat(var(--roleslist-columns), minmax(0, 1fr));
+  background: var(--background-tertiary);
+  padding: 12.5px;
+  gap: 4.5px;
+  border-radius: 8px;
+  max-height: 150px;
+  overflow: auto;
+}
+.rolesList-3uZoaa::-webkit-scrollbar {
+  width: 4.5px;
+}
+.rolesList-3uZoaa::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: var(--background-modifier-hover);
+}
+.rolesList-3uZoaa>.role-2TIOKu {
+  margin: 0;
+  justify-content: center;
+}
+.rolesList-3uZoaa .roleCircle-1EgnFN {
+  flex-shrink: 0;
+}
+.rolesList-3uZoaa .roleName-2ZJJYR {
+  margin: auto;
+}
+.addButton-1_dZYu {
+  grid-column: 1 / span var(--roleslist-columns);
+}
+.addButton-1_dZYu::before {
+  content: attr(aria-label);
+  text-transform: capitalize;
+}
+.addButtonIcon-3HZ_2f {
+  display: none;
+}

@@ -1,0 +1,162 @@
+/*BetterStatusIndicators*/
+.peopleListItem-u6dGxF,
+.userInfo-2WpsYG,
+.wrapper-1VLyxH svg {
+  overflow: visible;
+}
+.avatar-6qzftW {
+  margin-left: 5px;
+}
+.wrapper-1VLyxH > svg > foreignObject {
+  mask: none;
+  border-radius: var(--avatar-shape);
+}
+:not(.UserDetails-mutualFriends-mutualFriend) > .mask-1FEkla > foreignObject + rect,
+:not(.UserDetails-mutualFriends-mutualFriend) > .mask-2Me5HY > foreignObject + rect,
+:not(.UserDetails-mutualFriends-mutualFriend) > .mask-1FEkla > svg > rect,
+:not(.UserDetails-mutualFriends-mutualFriend) > .mask-2Me5HY > svg > rect,
+:not(.UserDetails-mutualFriends-mutualFriend) > .mask-1FEkla > rect,
+:not(.UserDetails-mutualFriends-mutualFriend) > .mask-2Me5HY > rect {
+  mask: none;
+  rx: 5;
+  width: 2px;
+}
+:not(.UserDetails-mutualFriends-mutualFriend) > .mask-1FEkla > foreignObject + rect,
+:not(.UserDetails-mutualFriends-mutualFriend) > .mask-2Me5HY > foreignObject + rect,
+:not(.UserDetails-mutualFriends-mutualFriend) > .mask-1FEkla > rect,
+:not(.UserDetails-mutualFriends-mutualFriend) > .mask-2Me5HY > rect {
+  y: 6;
+  x: -10;
+  height: 20px;
+}
+:not(.UserDetails-mutualFriends-mutualFriend) > .mask-1FEkla > svg > rect,
+:not(.UserDetails-mutualFriends-mutualFriend) > .mask-2Me5HY > svg > rect {
+  y: -15;
+  x: -30;
+  height: 23px;
+}
+.message-2CShn3 .wrapper-1VLyxH > svg > rect {
+  y: 6;
+  height: 25px;
+}
+.channel-1Shao0 :not(.UserDetails-mutualFriends-mutualFriend) > .mask-1FEkla > svg > rect,
+.channel-1Shao0 :not(.UserDetails-mutualFriends-mutualFriend) > .mask-2Me5HY > svg > rect {
+  y: -11;
+  x: -24;
+  height: 20px;
+}
+.userPopout-2j1gM4 :not(.UserDetails-mutualFriends-mutualFriend) > .wrapper-1VLyxH > svg > rect {
+  y: 13;
+  height: 50px;
+}
+.focusLock-2tveLW .header-S26rhB .wrapper-1VLyxH > svg > rect {
+  y: 14;
+  height: 90px;
+}
+.focusLock-2tveLW .body-1Ukv50 .wrapper-1VLyxH > svg > rect {
+  height: 25px;
+  y: 7;
+}
+.container-YkUktl .wrapper-1VLyxH > svg > svg > rect {
+  x: -20;
+  y: -10;
+  height: 20px;
+}
+.container-YkUktl .wrapper-1VLyxH > svg > rect {
+  x: -5;
+}
+[data-status="streaming"] > .StatusEverywhere-avatar-chatAvatar > svg.mask-1FEkla.svg-2azL_l,
+.wrapper-1VLyxH[aria-label*="Streaming"]>svg.mask-1FEkla.svg-2azL_l {
+  filter: drop-shadow(0 0 5px var(--streaming));
+}
+[data-status="offline"] > .StatusEverywhere-avatar-chatAvatar > svg.mask-1FEkla.svg-2azL_l,
+.wrapper-1VLyxH[aria-label*="Offline"]>svg.mask-1FEkla.svg-2azL_l {
+  filter: drop-shadow(0 0 7px var(--offline));
+}
+[data-status="dnd"] > .StatusEverywhere-avatar-chatAvatar > svg.mask-1FEkla.svg-2azL_l,
+.wrapper-1VLyxH[aria-label*="Do Not Disturb"]>svg.mask-1FEkla.svg-2azL_l {
+  filter: drop-shadow(0 0 5px var(--dnd));
+}
+[data-status="idle"] > .StatusEverywhere-avatar-chatAvatar > svg.mask-1FEkla.svg-2azL_l,
+.wrapper-1VLyxH[aria-label*="Idle"]>svg.mask-1FEkla.svg-2azL_l {
+  filter: drop-shadow(0 0 5px var(--idle));
+}
+[data-status="online"] > .StatusEverywhere-avatar-chatAvatar > svg.mask-1FEkla.svg-2azL_l,
+.wrapper-1VLyxH[aria-label*="Online"]>svg.mask-1FEkla.svg-2azL_l {
+  filter: drop-shadow(0 0 5px var(--online));
+}
+[data-status="online"] .mask-1FEkla > foreignObject + rect,
+[data-status="online"] .mask-2Me5HY > foreignObject + rect,
+[data-status="online"] .mask-1FEkla > svg > rect,
+[data-status="online"] .mask-2Me5HY > svg > rect,
+[aria-label*="Online"] .mask-1FEkla > foreignObject + rect,
+[aria-label*="Online"] .mask-2Me5HY > foreignObject + rect,
+[aria-label*="Online"] .mask-1FEkla > svg > rect,
+[aria-label*="Online"] .mask-2Me5HY > svg > rect {
+fill: var(--online);
+}
+[data-status="idle"] .mask-1FEkla > foreignObject + rect,
+[data-status="idle"] .mask-2Me5HY > foreignObject + rect,
+[data-status="idle"] .mask-1FEkla > svg > rect,
+[data-status="idle"] .mask-2Me5HY > svg > rect,
+[aria-label*="Idle"] .mask-1FEkla > foreignObject + rect,
+[aria-label*="Idle"] .mask-2Me5HY > foreignObject + rect,
+[aria-label*="Idle"] .mask-1FEkla > svg > rect,
+[aria-label*="Idle"] .mask-2Me5HY > svg > rect {
+  fill: var(--idle);
+}
+[data-status="dnd"] .mask-1FEkla > foreignObject + rect,
+[data-status="dnd"] .mask-2Me5HY > foreignObject + rect,
+[data-status="dnd"] .mask-1FEkla > svg > rect,
+[data-status="dnd"] .mask-2Me5HY > svg > rect,
+[aria-label*="Do Not Disturb"] .mask-1FEkla > foreignObject + rect,
+[aria-label*="Do Not Disturb"] .mask-2Me5HY > foreignObject + rect,
+[aria-label*="Do Not Disturb"] .mask-1FEkla > svg > rect,
+[aria-label*="Do Not Disturb"] .mask-2Me5HY > svg > rect {
+  fill: var(--dnd);
+}
+[data-status="offline"] .mask-1FEkla > foreignObject + rect,
+[data-status="offline"] .mask-2Me5HY > foreignObject + rect,
+[data-status="offline"] .mask-1FEkla > svg > rect,
+[data-status="offline"] .mask-2Me5HY > svg > rect,
+[aria-label*="Offline"] .mask-1FEkla > foreignObject + rect,
+[aria-label*="Offline"] .mask-2Me5HY > foreignObject + rect,
+[aria-label*="Offline"] .mask-1FEkla > svg > rect,
+[aria-label*="Offline"] .mask-2Me5HY > svg > rect {
+  fill: var(--offline);
+}
+[data-status="invisible"] .mask-1FEkla > foreignObject + rect,
+[data-status="invisible"] .mask-2Me5HY > foreignObject + rect,
+[data-status="invisible"] .mask-1FEkla > svg > rect,
+[data-status="invisible"] .mask-2Me5HY > svg > rect,
+[aria-label*="Invisible"] .mask-1FEkla > foreignObject + rect,
+[aria-label*="Invisible"] .mask-2Me5HY > foreignObject + rect,
+[aria-label*="Invisible"] .mask-1FEkla > svg > rect,
+[aria-label*="Invisible"] .mask-2Me5HY > svg > rect {
+  fill: var(--offline);
+}
+[data-status="streaming"] .mask-1FEkla > foreignObject + rect,
+[data-status="streaming"] .mask-2Me5HY > foreignObject + rect,
+[data-status="streaming"] .mask-1FEkla > svg > rect,
+[data-status="streaming"] .mask-2Me5HY > svg > rect,
+[aria-label*="Streaming"] .mask-1FEkla > foreignObject + rect,
+[aria-label*="Streaming"] .mask-2Me5HY > foreignObject + rect,
+[aria-label*="Streaming"] .mask-1FEkla > svg > rect,
+[aria-label*="Streaming"] .mask-2Me5HY > svg > rect {
+  fill: var(--streaming);
+}
+.dots-1BwzZQ {
+  overflow: visible;
+}
+#app-mount .message-2CShn3 .wrapper-1VLyxH .dots-1BwzZQ circle {
+  cy: -10px;
+}
+#app-mount .message-2CShn3 .wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(1) {
+  cx: -10.5;
+}
+#app-mount .message-2CShn3 .wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(2) {
+  cx: -3.25;
+}
+#app-mount .message-2CShn3 .wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(3) {
+  cx: 4;
+}

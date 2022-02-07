@@ -1,0 +1,17 @@
+/*Friendlist*/
+  /*Friendlist Top Buttons*/
+  #app-mount .container-2cd8Mz {
+    background-color: var(--background-primary);
+  }
+  #app-mount .children-3xh0VB .topPill-3DJJNV .item-3XjbnG {
+    background-color: transparent;
+    color: rgb(202, 202, 202);
+    text-transform: uppercase;
+  }
+  #app-mount .children-3xh0VB .topPill-3DJJNV .item-3XjbnG:hover {
+    text-shadow: 0 0 4px rgb(202, 202, 202);
+  }
+  #app-mount .children-3xh0VB .topPill-3DJJNV .item-3XjbnG.selected-g-kMVV {
+    color: white;
+    text-shadow: 0 0 4px rgb(202, 202, 202);
+  }

@@ -1,0 +1,241 @@
+/*Guilds*/
+.guilds-2JjMmN {
+  width: 200px;
+}
+.guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .wrapper-38slSD > ul,
+.guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .wrapper-38slSD,
+.guilds-2JjMmN .scroller-3X7KbA > [aria-label] {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .wrapper-38slSD > ul {
+  height: fit-content !important;
+}
+.guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .listItem-3SmSlK > div:nth-of-type(2) > [data-dnd-name]::after {
+  width: 134px;
+}
+.guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .listItem-3SmSlK > div:nth-of-type(2) > [data-dnd-name] {
+  background-color: var(--background-secondary);
+}
+.guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .listItem-3SmSlK {
+  column-gap: 5px;
+}
+.expandedFolderBackground-1kSAf6.collapsed-uGXEbi, 
+.expandedFolderBackground-1kSAf6.collapsed-uGXEbi.hover-3m7-WT {
+  background-color: var(--background-secondary);
+}
+.expandedFolderBackground-1kSAf6.collapsed-uGXEbi + .listItem-3SmSlK {
+  margin-bottom: 8px;
+}
+.wrapper-38slSD,
+.listItem-3SmSlK {
+  inset: 0;
+  margin: 0;
+  padding: 0;
+}
+.listItem-3SmSlK {
+  width: calc(100% - 11px);
+}
+.wrapper-38slSD,
+.wrapper-38slSD .listItem-3SmSlK {
+  width: calc(100% - 8px);
+}
+.expandedFolderBackground-1kSAf6 {
+  width: calc(100% - 15px);
+  top: -4px;
+  bottom: 3px;
+  border-radius: 8px;
+}
+.listItem-3SmSlK {
+  display: flex;
+  column-gap: 10px;
+  justify-content: flex-start;
+}
+.tutorialContainer-2jwoiB,
+.tutorialContainer-2jwoiB + .listItem-3SmSlK,
+.tutorialContainer-1pL9QS > .listItem-3SmSlK {
+  column-gap: 5px;
+}
+.guilds-2JjMmN .scroller-3X7KbA > .tutorialContainer-2jwoiB {
+  margin-left: 12px;
+  margin-right: 10px;
+  margin-bottom: 8px;
+  margin-top: 3px;
+}
+#app-mount .tutorialContainer-2jwoiB:hover .listItem-3SmSlK .listItemWrapper-3d87LP,
+.tutorialContainer-2jwoiB + .listItem-3SmSlK:hover .listItemWrapper-3d87LP,
+.wrapper-38slSD > .listItem-3SmSlK:hover > div:nth-of-type(2)[data-dnd-name],
+#app-mount .listItem-3SmSlK:hover > div:nth-of-type(2) > [data-dnd-name],
+.tutorialContainer-1pL9QS > .listItem-3SmSlK .listItemWrapper-3d87LP:hover {
+  background-color: var(--background-secondary-alt);
+}
+.tutorialContainer-2jwoiB .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z foreignObject .circleIconButton-1VxDrg,
+.tutorialContainer-2jwoiB + .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z foreignObject .circleIconButton-1VxDrg,
+.tutorialContainer-1pL9QS > .listItem-3SmSlK .listItemWrapper-3d87LP .childWrapper-1j_1ub {
+  background-color: transparent;
+}
+.guilds-2JjMmN .scroller-3X7KbA > .tutorialContainer-2jwoiB .listItemWrapper-3d87LP,
+.tutorialContainer-2jwoiB + .listItem-3SmSlK > .listItemWrapper-3d87LP,
+.tutorialContainer-1pL9QS > .listItem-3SmSlK .listItemWrapper-3d87LP {
+  background-color: var(--background-secondary);
+  transition: background-color .5s;
+  transition-delay: .1s;
+  border-radius: 5px;
+  padding: 5px;
+}
+.wrapper-38slSD > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name], 
+.listItem-3SmSlK > div:nth-of-type(2) > [data-dnd-name] {
+  background-color: var(--background-primary);
+  transition: background-color .5s;
+  transition-delay: .1s;
+  border-radius: 5px;
+  padding: 5px;
+}
+.listItem-3SmSlK > div:nth-of-type(2) {
+  width: 100%;
+}
+.svg-2zuE5p {
+  width: 20px;
+  height: 20px;
+}
+.wrapper-28eC3z {
+  height: 20px;
+  width: 20px;
+}
+.wrapper-z5ab_q,
+.pill-1NRFie,
+.pill-L_aLMQ,
+.pill-2RsI5Q {
+  position: relative;
+  height: 30px;
+  overflow: visible;
+}
+.pill-1NRFie .item-2LIpTv,
+.pill-L_aLMQ .item-2LIpTv,
+.pill-2RsI5Q .item-2LIpTv {
+  height: 8px !important;
+}
+.pill-1NRFie .item-2LIpTv[style*="height: 40px;"],
+.pill-L_aLMQ .item-2LIpTv[style*="height: 40px;"],
+.pill-2RsI5Q .item-2LIpTv[style*="height: 40px;"] {
+  height: 20px !important;
+}
+.listItem-3SmSlK .wrapperSimple-Js2rIO,
+.listItem-3SmSlK .folderIconWrapper-1oRIZr,
+.listItem-3SmSlK foreignObject {
+  mask: none;
+  border-radius: 0;
+}
+.guilds-2JjMmN .scroller-3X7KbA > .tutorialContainer-2jwoiB *,
+.tutorialContainer-2jwoiB + .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z *,
+.tutorialContainer-2jwoiB + .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z,
+.tutorialContainer-1pL9QS .listItem-3SmSlK .listItemWrapper-3d87LP,
+.tutorialContainer-1pL9QS .listItem-3SmSlK .listItemWrapper-3d87LP *,
+.guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .wrapper-38slSD > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name] > .wrapper-28eC3z *:not(.expandedFolderIconWrapper-3RwQpD),
+.guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .wrapper-38slSD > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name] > .wrapper-28eC3z,
+.listItem-3SmSlK > div:nth-of-type(2) > [data-dnd-name] > .wrapper-28eC3z *:not(img),
+.listItem-3SmSlK > div:nth-of-type(2) > [data-dnd-name] > .wrapper-28eC3z {
+  width: 100%;
+}
+.listItem-3SmSlK > div:nth-of-type(2) > [data-dnd-name] > .wrapper-28eC3z foreignObject {
+  width: 365px;
+  x: -160;
+}
+.guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .listItem-3SmSlK > div:nth-of-type(2) > [data-dnd-name] > .wrapper-28eC3z foreignObject {
+  width: 400px;
+  x: -175;
+}
+#app-mount .guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .wrapper-38slSD > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name] > .wrapper-28eC3z foreignObject {
+  width: 370px;
+  x: -160;
+}
+.tutorialContainer-2jwoiB + .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z foreignObject {
+  width: 395px;
+  x: -175;
+}
+.tutorialContainer-2jwoiB .listItem-3SmSlK .listItemWrapper-3d87LP foreignObject,
+.tutorialContainer-1pL9QS .listItem-3SmSlK .listItemWrapper-3d87LP foreignObject {
+  width: 400px;
+  x: -175;
+}
+.tutorialContainer-2jwoiB .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z foreignObject .circleIcon-3489FI,
+.tutorialContainer-2jwoiB + .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z foreignObject .circleIcon-3489FI,
+.tutorialContainer-1pL9QS .listItem-3SmSlK .listItemWrapper-3d87LP foreignObject .childWrapper-1j_1ub svg {
+  width: 48px;
+  height: 30px;
+}
+#app-mount .guilds-2JjMmN .folder-241Joy {
+  background: transparent;
+}
+.guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .wrapper-38slSD > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name] > .wrapper-28eC3z .expandedFolderIconWrapper-3RwQpD {
+  background-color: var(--background-secondary);
+}
+.guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .wrapper-38slSD > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name] > .wrapper-28eC3z .folderIconWrapper-1oRIZr {
+  border-radius: 5px;
+}
+.guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .wrapper-38slSD > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name] > .wrapper-28eC3z .closedFolderIconWrapper-3tRb2d,
+.guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .wrapper-38slSD > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name] > .wrapper-28eC3z .expandedFolderIconWrapper-3RwQpD {
+  width: 48px;
+}
+.listItem-3SmSlK > div:nth-of-type(2) > [data-dnd-name] > .wrapper-28eC3z .wrapper-3kah-n {
+  justify-content: flex-start;
+}
+.tutorialContainer-2jwoiB .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z foreignObject .circleIconButton-1VxDrg,
+.tutorialContainer-2jwoiB + .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z foreignObject .circleIconButton-1VxDrg,
+.tutorialContainer-1pL9QS .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-3kah-n .childWrapper-1j_1ub,
+.tutorialContainer-1pL9QS .listItem-3SmSlK .listItemWrapper-3d87LP,
+.wrapper-38slSD > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name],
+.listItem-3SmSlK > div:nth-of-type(2) > [data-dnd-name] {
+  display: flex;
+  column-gap: 10px;
+  justify-content: flex-start;
+}
+.tutorialContainer-1pL9QS .listItem-3SmSlK .listItemWrapper-3d87LP::after {
+  content: "Home";
+}
+.tutorialContainer-2jwoiB + .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z::after {
+  content: "Explore Public Servers";
+  margin-top: 1px;
+}
+.tutorialContainer-2jwoiB .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z::after {
+  content: "Add a Server";
+}
+.tutorialContainer-2jwoiB .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z::after,
+.tutorialContainer-2jwoiB + .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z::after,
+.tutorialContainer-1pL9QS .listItem-3SmSlK .listItemWrapper-3d87LP::after {
+  position: absolute;
+  pointer-events: none;
+  align-self: center;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 18px;
+  width: 140px;
+  margin-left: 25px;
+}
+.wrapper-38slSD > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name]::after,
+.listItem-3SmSlK > div:nth-of-type(2) > [data-dnd-name]::after {
+  content: attr(data-dnd-name);
+  position: absolute;
+  pointer-events: none;
+  align-self: center;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 18px;
+  width: 110px;
+  margin-left: 25px;
+}
+#app-mount .listItem-3SmSlK .iconBadge-32fMme,
+#app-mount .listItem-3SmSlK .upperBadge-1V6Iyi {
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+}
+#app-mount .iconSizeSmol-qsFaRK {
+  width: 16px;
+  height: 16px;
+}
