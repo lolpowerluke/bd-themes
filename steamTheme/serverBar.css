@@ -178,6 +178,16 @@
   width: 48px;
   height: 30px;
 }
+.guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .wrapper-38slSD > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name] > .wrapper-28eC3z .expandedFolderIconWrapper-3RwQpD {
+  background-color: transparent;
+}
+.guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .wrapper-38slSD > .expandedFolderBackground-1kSAf6:not(.collapsed-uGXEbi) + .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name] > .wrapper-28eC3z .expandedFolderIconWrapper-3RwQpD svg {
+  height: 40px;
+}
+.guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .wrapper-38slSD > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name] > .wrapper-28eC3z .folderIconWrapper-1oRIZr,
+.listItem-3SmSlK > div:nth-of-type(2) > [data-dnd-name] > .wrapper-28eC3z .childWrapper-1j_1ub {
+  width: 48px;
+}
 #app-mount .guilds-2JjMmN .folder-241Joy {
   background: transparent;
 }
@@ -243,8 +253,10 @@
 }
 #app-mount .listItem-3SmSlK .iconBadge-32fMme,
 #app-mount .listItem-3SmSlK .upperBadge-1V6Iyi {
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
+  top: -10px;
+  right: -5px;
   border-radius: 15px;
 }
 #app-mount .iconSizeSmol-qsFaRK {
