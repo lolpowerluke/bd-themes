@@ -2,6 +2,13 @@
 .guilds-2JjMmN {
   width: 200px;
 }
+.guilds-2JjMmN .scroller-3X7KbA {
+  margin: 0;
+  padding: 0;
+}
+.guildSeparator-a4uisj {
+  width: 100%;
+}
 .guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .wrapper-38slSD > ul,
 .guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .wrapper-38slSD,
 .guilds-2JjMmN .scroller-3X7KbA > [aria-label] {
@@ -62,6 +69,16 @@
   flex-direction: row;
   column-gap: 8px;
   margin-right: 11px;
+  height: 44px;
+}
+.tutorialContainer-1pL9QS > * {
+  height: 30px;
+  align-self: center;
+}
+.tutorialContainer-1pL9QS + .listItem-3SmSlK {
+  padding: 2px 0px;
+  margin: 0 10px 0 12px;
+  width: calc(100% - 22px);
 }
 .guilds-2JjMmN .scroller-3X7KbA > .tutorialContainer-2jwoiB {
   margin-left: 12px;
