@@ -260,3 +260,16 @@
   margin-left: -240px;
   width: calc(100% + 240px);
 }
+/*Search popup*/
+#app-mount .elevationBorderHigh-3drnJX {
+  background-color: var(--background-primary);
+  border: 1px solid var(--background-primary);
+  box-shadow: inset 0 0 4px var(--background-secondary-alt);
+}
+#app-mount .option-2KkUJO:hover {
+  background-color: var(--background-secondary);
+}
+.option-2KkUJO:hover:before,
+.option-2KkUJO::after {
+  display: none;
+}
