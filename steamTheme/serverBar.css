@@ -191,9 +191,6 @@
 #app-mount .guilds-2JjMmN .folder-241Joy {
   background: transparent;
 }
-.guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .wrapper-38slSD > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name] > .wrapper-28eC3z .expandedFolderIconWrapper-3RwQpD {
-  background-color: var(--background-secondary);
-}
 .guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .wrapper-38slSD > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name] > .wrapper-28eC3z .folderIconWrapper-1oRIZr {
   border-radius: 5px;
 }
