@@ -519,10 +519,10 @@ a.selected-1-Z6gm .name-3Vmqxm {
   display: none;
 }
 .expandedFolderBackground-1kSAf6 {
-  background-color: var(--back-server-folder-icon);
+  background-color: var(--back-expanded-server-folder);
 }
 .folder-241Joy[aria-expanded="true"] {
-  background-color: var(--back-expanded-server-folder);
+  background-color: var(--back-expanded-server-folder-icon);
   border-radius: 24px;
 }
 /*scrollbar*/

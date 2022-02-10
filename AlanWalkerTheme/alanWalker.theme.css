@@ -91,7 +91,7 @@
   --info-warning-foreground: red;
 
   /*server folders*/
-  --back-server-folder-icon: rgba(122, 122, 122, 0.548);
+  --back-expanded-server-folder-icon: rgba(122, 122, 122, 0.548);
   --back-expanded-server-folder: rgba(34, 34, 34, 0.582);
 
   /*other stuff*/
