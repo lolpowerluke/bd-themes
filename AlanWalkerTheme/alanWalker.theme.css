@@ -91,8 +91,8 @@
   --info-warning-foreground: red;
 
   /*server folders*/
-  --back-expanded-server-folder-icon: rgba(122, 122, 122, 0.548);
-  --back-expanded-server-folder: rgba(34, 34, 34, 0.582);
+  --back-expanded-server-folder-icon: rgba(73, 73, 73, 0.548);
+  --back-expanded-server-folder: rgba(73, 73, 73, 0.582);
 
   /*other stuff*/
   --channeltextarea-background: rgba(77, 77, 77, 0.425);
