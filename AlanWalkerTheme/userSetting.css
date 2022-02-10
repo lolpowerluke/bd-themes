@@ -21,7 +21,7 @@
 .bdcompat-addon-panel-list .bd-addon-card,
 .bd-addon-list .bd-addon-card {
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-  border-radius: 10px !important;
+  border-radius: 10px;
 }
 .bd-addon-list .bd-footer .bd-controls .bd-addon-button {
   background-color: var(--back-color-boxes);
@@ -81,7 +81,19 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 5px;
+  gap: 1px;
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: rgb(var(--border-color-1), var(--border-opacity-1));
+}
+#app-mount .holy-settings-panel .holy-settings-card-scroller .holy-card-container,
+#app-mount .kernel-card-scroller .kernel-card,
+#app-mount .pc-settings-panel .pc-settings-card-scroller .pc-settings-addon-card,
+#app-mount .bdcompat-addon-panel-list > .bd-addon-card {
+  border-radius: 0 !important;
+  background-color: black;
+  border: 0;
 }
 #app-mount .kernel-card-scroller .kernel-card {
   margin: 0;
