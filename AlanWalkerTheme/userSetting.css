@@ -95,10 +95,7 @@
   background-color: black;
   border: 0;
 }
-#app-mount .kernel-card-scroller .kernel-card {
-  margin: 0;
-  flex: 1 1 400px;
-}
+#app-mount .kernel-card-scroller .kernel-card,
 #app-mount .holy-card-container,
 .pc-settings-addon-card,
 .bdcompat-addon-panel-list > div {
