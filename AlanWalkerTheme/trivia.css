@@ -568,6 +568,7 @@ div:not(.messagesWrapper-RpOMA3) > .scrollerBase-_bVAAt::-webkit-scrollbar,
 .messagesWrapper-RpOMA3 .scroller-kQBbkU::-webkit-scrollbar-track {
   margin-top: 45px;
 }
+#app-mount .wrapper-1gVUIN + .content-1jQy2l .chatContent-3KubbW .scroller-kQBbkU::-webkit-scrollbar-track,
 #app-mount .wrapper-1gVUIN + .content-1jQy2l .chatContent-3KubbW {
   margin-top: 0;
 }
