@@ -76,7 +76,7 @@
 #app-mount .holy-settings-panel .holy-settings-card-scroller,
 #app-mount .kernel-card-scroller,
 #app-mount .pc-settings-panel .pc-settings-card-scroller,
-.bdcompat-addon-panel-list {
+#app-mount .bdc-addon-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -90,7 +90,7 @@
 #app-mount .holy-settings-panel .holy-settings-card-scroller .holy-card-container,
 #app-mount .kernel-card-scroller .kernel-card,
 #app-mount .pc-settings-panel .pc-settings-card-scroller .pc-settings-addon-card,
-#app-mount .bdcompat-addon-panel-list > .bd-addon-card {
+#app-mount .bdc-addon-list > .bd-addon-card {
   border-radius: 0 !important;
   background-color: black;
   border: 0;
@@ -98,7 +98,7 @@
 #app-mount .kernel-card-scroller .kernel-card,
 #app-mount .holy-card-container,
 .pc-settings-addon-card,
-.bdcompat-addon-panel-list > div {
+.bdc-addon-list > div {
   margin: 0;
   flex: 1 1 400px;
 }
