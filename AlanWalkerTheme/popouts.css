@@ -230,18 +230,6 @@
   border-right: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 /*Menu Popout*/
-.menu-1QACrS {
-  animation: menu-open-animation 250ms ease;
-  transform-origin: top;
-}
-@keyframes menu-open-animation {
-  0% {
-    transform: scaleY(0);
-  }
-  100% {
-    transform: scaleY(1);
-  }
-}
 .labelContainer-2vJzYL,
 .scroller-1bVxF5 {
   padding: 0;
