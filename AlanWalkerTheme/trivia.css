@@ -551,7 +551,7 @@ div:not(.messagesWrapper-RpOMA3) > .scrollerBase-_bVAAt::-webkit-scrollbar,
 }
 /*CodeBlocks Scroller (lenght)*/
 .scrollbarGhostHairline-2LpzZ9 {
-  max-width: 45vw;
+  max-width: unset;
   overflow-x: scroll;
   white-space: pre !important;
 }
