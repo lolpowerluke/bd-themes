@@ -149,32 +149,32 @@
 .search-39IXmY {
   order: 1;
 }
-.search-1FM8Qc:hover {
+.search-2Mwzzq:hover {
   background-color: var(--back-color-search-bar);
   border-radius: 5px;
 }
-#app-mount .search-1FM8Qc.open-3y3yI_ .searchBar-zdmu7v {
+#app-mount .search-2Mwzzq.open-1F8u2c .searchBar-jGtisZ {
   background-color: var(--back-color-search-bar);
 }
-.search-1FM8Qc:not(.open-3y3yI_) .searchBar-zdmu7v {
+.search-2Mwzzq:not(.open-1F8u2c) .searchBar-jGtisZ {
   width: 27px;
   transition: 0.25s;
   background-color: transparent;
 }
-.search-1FM8Qc:not(.open-3y3yI_):hover .searchBar-zdmu7v {
+.search-2Mwzzq:not(.open-1F8u2c):hover .searchBar-jGtisZ {
   width: 240px;
   transition: 0.25s;
   background-color: var(--background-tertiary);
 }
-.search-1FM8Qc:not(.open-3y3yI_) .iconContainer-1RqWJj {
+.search-2Mwzzq:not(.open-1F8u2c) .iconContainer-1RqWJj {
   transform: scale(1.2);
   transition: 0.25s;
 }
-.search-1FM8Qc:not(.open-3y3yI_):hover .iconContainer-1RqWJj {
+.search-2Mwzzq:not(.open-1F8u2c):hover .iconContainer-1RqWJj {
   transform: scale(1);
   transition: 0.25s;
 }
-#app-mount .search-1FM8Qc .searchBar-zdmu7v {
+#app-mount .search-2Mwzzq .searchBar-jGtisZ {
   background: transparent;
 }
 /*Title Bar*/
