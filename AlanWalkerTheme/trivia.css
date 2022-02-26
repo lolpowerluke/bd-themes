@@ -1,16 +1,18 @@
 /*Userbuttons In Side Panel*/
-.panels-3wFtMD > .container-YkUktl > .flex-2S1XBF {
-  position: fixed;
-  bottom: 0px;
-  left: 0px;
-  width: 72px;
-  z-index: 1;
-  padding: 20px 0 10px 0;
-  flex-direction: column;
-  background: linear-gradient(transparent, var(--back-user-buttons) 15%);
-}
-.panels-3wFtMD > .container-YkUktl > .flex-2S1XBF > .button-12Fmur {
-  margin: var(--user-buttons-spacing) auto 0 auto;
+@media (min-width:700px) {
+  .panels-3wFtMD > .container-YkUktl > .flex-2S1XBF {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 72px;
+    z-index: 1;
+    padding: 20px 0 10px 0;
+    flex-direction: column;
+    background: linear-gradient(transparent, var(--back-user-buttons) 15%);
+  }
+  .panels-3wFtMD > .container-YkUktl > .flex-2S1XBF > .button-12Fmur {
+    margin: var(--user-buttons-spacing) auto 0 auto;
+  }
 }
 .content-2a4AW9 {
   height: 850px !important;
