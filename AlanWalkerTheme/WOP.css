@@ -1,3 +1,4 @@
+@import url(https://smolalli.github.io/Themes/MinimalMode/source.css) (max-width: 700px);
 /*implementing minimalmode*/
 /* return transition */
 /* 400 */
@@ -467,17 +468,15 @@
 
   .sidebar-1tnWFu .container-1NXEtd,
   .sidebar-1tnWFu .privateChannels-oVe7HL {
-    position: fixed !important;
+    position: fixed;
     -webkit-box-shadow: var(--elevation-high);
     box-shadow: var(--elevation-high);
-    border-radius: 0 !important;
-    width: 0 !important;
-    min-height: 40px;
+    border-radius: 0;
+    width: 0;
     max-height: calc(100% - var(--header-height) - 22px - 100px);
-    resize: vertical;
     overflow: hidden;
     top: calc(var(--header-height) + 22px);
-    z-index: 2 !important;
+    z-index: 2;
     -webkit-transition: width var(--float-guildbar-hover-speed) ease;
     transition: width var(--float-guildbar-hover-speed) ease;
   }
