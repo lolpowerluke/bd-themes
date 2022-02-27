@@ -26,22 +26,9 @@
 }
 
 @media (min-width: 700px) {
-
   .membersWrap-3NUR2t,
   .ChannelDms-channelmembers-wrap {
     min-height: 100%;
-  }
-
-  .bd-addon-list #Float-card .bd-description::before {
-    position: absolute;
-    content: "Window not thin enough.";
-    word-break: break-word;
-    padding: 16px 0;
-    max-width: 175px;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 18px;
-    color: var(--header-secondary);
   }
 }
 
@@ -347,34 +334,6 @@
   /* channel */
   html:not(.platform-osx) .base-2jDfDU {
     border-radius: 8px 0 0 0;
-  }
-
-  html.platform-osx .container-1NXEtd,
-  html.platform-osx .sidebar-1tnWFu .privateChannels-oVe7HL {
-    max-height: calc(100% - var(--header-height) - 100px);
-    top: var(--header-height);
-  }
-
-  .sidebar-1tnWFu {
-    width: 0 !important;
-    z-index: 2 !important;
-    -webkit-transition: var(--float-guildbar-hover-speed) ease;
-    transition: var(--float-guildbar-hover-speed) ease;
-  }
-
-  .sidebar-1tnWFu .container-1NXEtd,
-  .sidebar-1tnWFu .privateChannels-oVe7HL {
-    position: fixed;
-    -webkit-box-shadow: var(--elevation-high);
-    box-shadow: var(--elevation-high);
-    border-radius: 0;
-    width: 0;
-    max-height: calc(100% - var(--header-height) - 22px - 100px);
-    overflow: hidden;
-    top: calc(var(--header-height) + 22px);
-    z-index: 2;
-    -webkit-transition: width var(--float-guildbar-hover-speed) ease;
-    transition: width var(--float-guildbar-hover-speed) ease;
   }
 
   .sidebar-1tnWFu .header-3OsQeK>*,
