@@ -33,7 +33,7 @@
 /*Badges*/
 #app-mount .focusLock-2tveLW[aria-label="User Profile Modal"] .root-8LYsGj .badgeList-2aoHPw {
   position: absolute;
-  right: -745px;
+  right: 0;
   top: 240px;
   display: flex;
   flex-direction: row;
@@ -88,6 +88,7 @@
 }
 .focusLock-2tveLW[aria-label="User Profile Modal"] .header-S26rhB {
   height: 240px;
+  position: unset;
 }
 #app-mount .focusLock-2tveLW[aria-label="User Profile Modal"] .root-8LYsGj .item-3XjbnG::before {
   content: "";
@@ -305,8 +306,5 @@
   }
   .connectedAccountOpenIcon-1yfBsb {
     margin-right: 10px;
-  }
-  #app-mount .focusLock-2tveLW[aria-label="User Profile Modal"] .root-8LYsGj .badgeList-2aoHPw {
-    right: -560px;
   }
 }
