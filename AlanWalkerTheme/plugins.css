@@ -84,37 +84,36 @@
 }
 /*Spotify Controls*/
 .container-6sXIoE .timeline-UWmgAx { 
-  position: relative !important;
+  position: relative;
 }
 .container-6sXIoE .bar-g2ZMIm { 
-  position: absolute !important; 
-  bottom: -4px !important; 
-  left: -8px !important; 
-  width: 240px !important; 
-  height: 66px !important;
-  margin: 0 !important;
-  -webkit-mask-image: linear-gradient(0.25turn, #0008, #0002) !important;
-  mask-image: linear-gradient(0.25turn, #0008, #0002) !important;
-  border-radius: 0 !important;
+  position: absolute; 
+  bottom: -4px; 
+  left: -8px; 
+  width: 240px; 
+  height: 66px;
+  margin: 0;
+  mask-image: linear-gradient(0.25turn, #0008, #0002);
+  border-radius: 0;
 }
 .barFill-Dhkah7 { 
-  border-radius: 0 !important;
+  border-radius: 0;
 }
 .container-6sXIoE.maximized-vv2Wr0 .bar-g2ZMIm { 
-  height: 101px !important;
-  bottom: -4px !important;
+  height: 101px;
+  bottom: -4px;
 }
 .container-6sXIoE .button-12Fmur:hover { 
-  background-color: transparent !important;
+  background-color: transparent;
 }
-.barFill-Dhkah7, 
-.timeline-UWmgAx:hover .barFill-Dhkah7 { 
-  background: var(--spotify-color) !important;
+#app-mount .barFill-Dhkah7,
+#app-mount .timeline-UWmgAx:hover .barFill-Dhkah7 { 
+  background: var(--spotify-color);
 }
 .inner-WRV6k5 { 
-  z-index: 1 !important;
+  z-index: 1;
 }
-.timeline-UWmgAx:hover .grabber-7sd5f5 {
+#app-mount .timeline-UWmgAx .grabber-7sd5f5 {
   display: none;
 }
 /*VoiceChatLogger*/
