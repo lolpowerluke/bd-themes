@@ -821,3 +821,8 @@ fill: var(--online);
     width: 240px;
   }
 }
+/*DM/Channel list*/
+#app-mount .sidebar-1tnWFu>.privateChannels-oVe7HL,
+#app-mount .sidebar-1tnWFu>.container-1NXEtd {
+  background-color: var(--back-sidebar);
+}
