@@ -460,30 +460,6 @@
     max-height: 100vh;
   }
 
-  .content-1jQy2l>.membersWrap-3NUR2t,
-  .content-1jQy2l>.container-2o3qEW .membersWrap-3NUR2t,
-  .ChannelDms-channelmembers-wrap {
-    position: absolute;
-    right: 0;
-    resize: vertical;
-    overflow: hidden;
-    height: var(--float-initial-memberlist-height);
-    min-height: 135px;
-    max-height: 80%;
-    -webkit-box-shadow: var(--elevation-stroke), var(--elevation-high);
-    box-shadow: var(--elevation-stroke), var(--elevation-high);
-    z-index: 1 !important;
-  }
-
-  .iconWrapper-2awDjA[aria-label="Hide Member List"]::before {
-    position: fixed;
-    content: '';
-    width: var(--float-sidebar-hide-width);
-    height: 80%;
-    top: var(--header-height);
-    right: var(--sidebar-width);
-  }
-
   /* quick switcher */
   .quickswitcher-pKcM9U {
     padding-top: var(--header-height);
