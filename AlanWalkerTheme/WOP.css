@@ -8,21 +8,17 @@
 #app-mount,
 .sidebar-1tnWFu,
 .container-1NXEtd,
-.container-ZMc96U {
-  -webkit-transition: var(--float-app-transition-speed) ease;
-  transition: var(--float-app-transition-speed) ease;
-}
-
+.container-ZMc96U,
 .guilds-2JjMmN,
 .guilds-2JjMmN div,
 .guilds-2JjMmN svg {
-  -webkit-transition: height var(--float-app-transition-speed) ease, width var(--float-app-transition-speed) ease;
-  transition: height var(--float-app-transition-speed) ease, width var(--float-app-transition-speed) ease;
+  -webkit-transition: height .5s ease, width .5s ease;
+  transition: height .5s ease, width .5s ease;
 }
 
 .cozy-VmLDNB.wrapper-30-Nkg {
-  -webkit-transition: padding-left var(--float-app-transition-speed) ease;
-  transition: padding-left var(--float-app-transition-speed) ease;
+  -webkit-transition: padding-left .5s ease;
+  transition: padding-left .5s ease;
 }
 
 @media (min-width: 400px) {
@@ -71,8 +67,8 @@
   .cozy-VmLDNB .repliedMessage-3Z6XBG:before,
   .contents-2MsGLg img,
   .iconContainer-2rPbqG {
-    -webkit-transition: var(--float-app-transition-speed) ease;
-    transition: var(--float-app-transition-speed) ease;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
   }
 
   .cozy-VmLDNB .repliedMessage-3Z6XBG:before {
@@ -85,8 +81,8 @@
 
   .cozy-VmLDNB.wrapper-30-Nkg {
     padding-left: 35px;
-    -webkit-transition: padding-left var(--float-app-transition-speed) ease;
-    transition: padding-left var(--float-app-transition-speed) ease;
+    -webkit-transition: padding-left .5s ease;
+    transition: padding-left .5s ease;
   }
 
   .topic-11NuQZ.expandable-3CaLeS,
@@ -156,15 +152,15 @@
   /* transition */
   #app-mount,
   .container-ZMc96U {
-    -webkit-transition: var(--float-app-transition-speed) ease;
-    transition: var(--float-app-transition-speed) ease;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
   }
 
   .guilds-2JjMmN,
   .guilds-2JjMmN div,
   .guilds-2JjMmN svg {
-    -webkit-transition: height var(--float-app-transition-speed) ease, width var(--float-app-transition-speed) ease;
-    transition: height var(--float-app-transition-speed) ease, width var(--float-app-transition-speed) ease;
+    -webkit-transition: height .5s ease, width .5s ease;
+    transition: height .5s ease, width .5s ease;
   }
 
   /* transparency */
