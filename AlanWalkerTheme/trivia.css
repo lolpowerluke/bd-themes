@@ -266,7 +266,7 @@
   border-radius: 20px;
   opacity: 1;
   text-overflow: ellipsis;
-  z-index: 5;
+  z-index: 2;
   border-width: 1px;
   border-style: solid;
   border-color: rgb(var(--border-color-1), var(--border-opacity-1));
