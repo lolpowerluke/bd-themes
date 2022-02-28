@@ -398,19 +398,6 @@
     max-width: 240px;
   }
 
-  .panels-3wFtMD .panel-2ZFCRb.activityPanel-9icbyU .actions-zk2vB_,
-  .panels-3wFtMD .panel-2ZFCRb.activityPanel-9icbyU .info-88fTUI,
-  .panels-3wFtMD .container-6sXIoE.withTimeline-824fT_ .flex-2S1XBF,
-  .panels-3wFtMD .container-6sXIoE.withTimeline-824fT_ .timeline-UWmgAx .barText-lmqc5O>:nth-child(2) {
-    display: none;
-  }
-
-  .panels-3wFtMD .panel-2ZFCRb.activityPanel-9icbyU:hover .actions-zk2vB_,
-  .panels-3wFtMD .panel-2ZFCRb.activityPanel-9icbyU:hover .info-88fTUI,
-  .panels-3wFtMD .container-6sXIoE.withTimeline-824fT_:hover .flex-2S1XBF,
-  .panels-3wFtMD .container-6sXIoE.withTimeline-824fT_:hover .timeline-UWmgAx .barText-lmqc5O>:nth-child(2) {
-    display: flex;
-  }
 
   .panels-3wFtMD .wrapper-3Hk9OB {
     max-width: 56px;
@@ -419,19 +406,6 @@
 
   .panels-3wFtMD .wrapper-3Hk9OB:hover {
     max-width: 240px;
-  }
-
-  .panels-3wFtMD .wrapper-3Hk9OB [aria-label="Noise Suppression powered by Krisp"],
-  .panels-3wFtMD .wrapper-3Hk9OB [aria-label="Disconnect"],
-  .panels-3wFtMD .wrapper-3Hk9OB .actionButtons-2vEOUh,
-  .panels-3wFtMD .nameTag-sc-gpq {
-    display: none;
-  }
-
-  .panels-3wFtMD .wrapper-3Hk9OB:hover [aria-label="Noise Suppression powered by Krisp"],
-  .panels-3wFtMD .wrapper-3Hk9OB:hover [aria-label="Disconnect"],
-  .panels-3wFtMD .wrapper-3Hk9OB:hover .actionButtons-2vEOUh {
-    display: flex;
   }
 
   .panels-3wFtMD .button-1EGGcP.buttonColor-3bP3fX:not(.buttonActive-Uc1jHx) {
