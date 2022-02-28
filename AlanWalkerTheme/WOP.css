@@ -359,7 +359,7 @@
   .panels-3wFtMD {
     position: fixed;
     bottom: 6px;
-    left: 4px;
+    left: 0;
     background: none !important;
     border: none !important;
     z-index: 100;
