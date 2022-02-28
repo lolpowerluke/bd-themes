@@ -1,2 +1,2 @@
 # Alan Walker Theme
-Dark theme build around Alan Walker
+Dark theme with Alan Walker's logo as background
