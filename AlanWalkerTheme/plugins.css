@@ -296,3 +296,9 @@ body .pc-notices .pc-notice-container {
 .ChannelDms-channelmembers-wrap:not(:hover) .RestoreDirectMessages-style-divider {
   display: none;
 }
+/*ChatUserIDsRedux*/
+@media (max-width: 700px) {
+  #app-mount .tagID {
+    display: none;
+  }
+}
