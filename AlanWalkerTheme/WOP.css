@@ -373,7 +373,7 @@
   .panels-3wFtMD .container-1zzFcN,
   .panels-3wFtMD .container-6sXIoE,
   .panels-3wFtMD .panel-2ZFCRb {
-    background-color: var(--background-floating);
+    background-color: var(--back-activity-panels);
     border-radius: 5px;
     border: none;
     -webkit-box-shadow: var(--elevation-high);
