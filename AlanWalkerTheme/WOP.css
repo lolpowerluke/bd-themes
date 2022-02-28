@@ -332,16 +332,16 @@
 
   .sidebar-1tnWFu .header-3OsQeK {
     padding: 0 0;
-    -webkit-transition: var(--float-guildbar-hover-speed) ease;
-    transition: var(--float-guildbar-hover-speed) ease;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
   }
 
   .wrapper-1_HaEi:hover+.base-2jDfDU .sidebar-1tnWFu .header-3OsQeK,
   .sidebar-1tnWFu .container-1NXEtd:hover .header-3OsQeK,
   .sidebar-1tnWFu .container-1NXEtd:active .header-3OsQeK {
     padding: 0 16px;
-    -webkit-transition: var(--float-guildbar-hover-speed) ease;
-    transition: var(--float-guildbar-hover-speed) ease;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
   }
 
   /* user panel */
@@ -497,8 +497,8 @@
     max-width: 56px !important;
     min-width: 56px;
     padding: 60px 6px 60px 15px !important;
-    -webkit-transition: var(--float-guildbar-hover-speed) ease;
-    transition: var(--float-guildbar-hover-speed) ease;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
   }
 
   #app-mount .layer-86YKbF~.layer-86YKbF .sidebar-nqHbhN:hover {
