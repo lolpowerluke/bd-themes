@@ -3,7 +3,7 @@
 }
 .app-2CXKsg::before {
   content: "theme outdated, please redownload from https://lolpowerluke.github.io/";
-  display: var(--version-1-1-4);
+  display: var(--version-1-1-5);
   color:#fff;
   position:relative;
   text-align: center;
