@@ -362,7 +362,7 @@
     left: 4px;
     background: none !important;
     border: none !important;
-    z-index: 2;
+    z-index: 100;
   }
 
   .panels-3wFtMD .container-YkUktl {
