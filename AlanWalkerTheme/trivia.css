@@ -773,6 +773,15 @@ fill: var(--online);
   transition-delay: 0.2s;
 }
 /*Member List*/
+.content-1jQy2l>.membersWrap-3NUR2t,
+.content-1jQy2l>.container-2o3qEW .membersWrap-3NUR2t,
+#app-mount .ChannelDms-channelmembers-wrap {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.members-3WRCEx,
+.members-3WRCEx>div {
+  background-color: transparent;
+}
 @media (min-width:700px) {
   .membersWrap-3NUR2t:not(#dv-mount),
   .membersWrap-3NUR2t:not(#dv-mount) > div {

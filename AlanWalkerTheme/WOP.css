@@ -25,13 +25,6 @@
   transition: padding-left var(--float-app-transition-speed) ease;
 }
 
-@media (min-width: 700px) {
-  .membersWrap-3NUR2t,
-  .ChannelDms-channelmembers-wrap {
-    min-height: 100%;
-  }
-}
-
 @media (min-width: 400px) {
 
   .cozy-VmLDNB.wrapper-30-Nkg .avatar-2e8lTP {
@@ -696,19 +689,6 @@
     display: block;
     height: fit-content;
     max-height: none;
-  }
-  
-  /* Sidebars */
-  
-  .sidebar-1tnWFu,
-  .members-3WRCEx,
-  .membersWrap-3NUR2t,
-  .nowPlayingColumn-1eCBCN,
-  .bannerImage-ubW8K-,
-  .container-NkLXgf,
-  .privateChannels-oVe7HL {
-    width: var(--sidebar-width);
-    min-width: auto;
   }
   
   /* Fixes overflow for unread bars */
