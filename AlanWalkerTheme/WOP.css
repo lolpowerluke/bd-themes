@@ -369,14 +369,17 @@
     background: none !important;
   }
 
-  .panels-3wFtMD>.container-YkUktl>.flex-2S1XBF,
+  .panels-3wFtMD>.container-YkUktl>.flex-2S1XBF {
+    background-color: var(--back-activity-panels);
+    border: none;
+    box-shadow: var(--elevation-high);
+  }
   .panels-3wFtMD .container-1zzFcN,
   .panels-3wFtMD .container-6sXIoE,
   .panels-3wFtMD .panel-2ZFCRb {
     background-color: var(--back-activity-panels);
     border-radius: 5px;
     border: none;
-    -webkit-box-shadow: var(--elevation-high);
     box-shadow: var(--elevation-high);
   }
 
