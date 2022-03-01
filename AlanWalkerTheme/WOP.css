@@ -267,7 +267,7 @@
     width: 90%;
     height: 80%;
     top: var(--header-height);
-    left: var(--guildbar-width);
+    left: 56px;
   }
 
   .container-1-h9mY {
@@ -639,15 +639,6 @@
 }
 /*MinimalMode*/
 @media (max-width: 700px) {
-  :root {
-    color: var(--channels-default);
-  
-    /* Variables */
-    --guildbar-width: 56px;
-    --sidebar-width: 200px;
-    --header-height: 40px;
-  }
-  
   /* Makes all member list/"channel information" areas work */
   .container-2Oqvgx {
     width: auto;
@@ -802,59 +793,6 @@
   .form-3gdLxP {
     padding-left: 10px;
     padding-right: 10px;
-  }
-  
-  /* Guilds */
-  
-  .guilds-2JjMmN {
-    width: var(--guildbar-width);
-  }
-  
-  .guilds-2JjMmN .wrapper-z5ab_q {
-    height: calc(var(--guildbar-width) * 0.625) !important;
-  }
-  
-  .guilds-2JjMmN .wrapper-z5ab_q span {
-    max-height: calc(var(--guildbar-width) * 0.375) !important;
-  }
-  
-  .guilds-2JjMmN div[style*='height: 56px'],
-  .guilds-2JjMmN [role='group'] {
-    height: auto !important;
-  }
-  
-  .guilds-2JjMmN .listItem-GuPuDH,
-  .guilds-2JjMmN [class*='unreadMentionsIndicator'],
-  .guilds-2JjMmN .wrapper-3Njo_c {
-    width: 100%;
-  }
-  
-  .guilds-2JjMmN .wrapper-28eC3z,
-  .guilds-2JjMmN [class*='guildsError-'],
-  .guilds-2JjMmN svg[width='48'] {
-    width: calc(var(--guildbar-width) * 0.625) !important;
-    height: calc(var(--guildbar-width) * 0.625) !important;
-  }
-  
-  .guilds-2JjMmN .wrapper-3Njo_c > span {
-    left: calc(var(--guildbar-width) * 0.175) !important;
-    width: calc(var(--guildbar-width) * 0.625) !important;
-  }
-  
-  .guilds-2JjMmN #bd-pub-button {
-    height: calc(var(--guildbar-width) * 0.375) !important;
-    line-height: calc(var(--guildbar-width) * 0.375) !important;
-    font-size: 10px;
-  }
-  
-  .listItem-3SmSlK {
-    width: var(--guildbar-width) !important;
-  }
-  
-  /* Makes open folders look normal */
-  .expandedFolderBackground-1kSAf6 {
-    left: calc(var(--guildbar-width) * 0.2) !important;
-    width: calc(var(--guildbar-width) * 0.625) !important;
   }
   
   /* Private channels horizontal icons */
