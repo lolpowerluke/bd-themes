@@ -13,6 +13,13 @@
   .panels-3wFtMD > .container-YkUktl > .flex-2S1XBF > .button-12Fmur {
     margin: var(--user-buttons-spacing) auto 0 auto;
   }
+  .panels-3wFtMD > .container-YkUktl > .flex-2S1XBF {
+    pointer-events: none;
+  }
+  .panels-3wFtMD > .container-YkUktl > .flex-2S1XBF > .button-12Fmur {
+    pointer-events: auto;
+    border-radius: 50%;
+  }
 }
 @media (max-width: 700px) {
   .panels-3wFtMD > .container-YkUktl > .flex-2S1XBF {
@@ -34,13 +41,6 @@
 }
 .content-2a4AW9 {
   height: 850px !important;
-}
-.panels-3wFtMD > .container-YkUktl > .flex-2S1XBF {
-  pointer-events: none;
-}
-.panels-3wFtMD > .container-YkUktl > .flex-2S1XBF > .button-12Fmur {
-  pointer-events: auto;
-  border-radius: 50%;
 }
 /*Account Background*/
 .panels-3wFtMD,
