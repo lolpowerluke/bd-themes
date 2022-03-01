@@ -230,6 +230,73 @@ body #clockPluginClock {
 .ShowSessions-list-item {
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
+.ShowSessions-modal-item{
+  padding:20px 20px 0!important;
+  background:var(--background-secondary);
+}
+.ShowSessions-modal-headerContainer>b{
+  order:1;
+  padding-bottom:10px;
+  font-weight:600;
+  color:var(--header-primary);
+  font-family:var(--font-display);
+}
+.ShowSessions-modal-avatarWrapper .wrapper-1VLyxH{
+  width:40px!important;
+  height:40px!important;
+}
+.ShowSessions-modal-badgesContainer{
+  padding:0 0 10px 8px !important;
+  order:1;
+}
+.ShowSessions-modal-headerContainer{
+  margin-bottom:20px!important;
+}
+.ShowSessions-modal-headerContainer .ShowSessions-modal-avatarWrapper{
+  margin:0 10px 0 0 !important;
+  order:0!important;
+}
+.ShowSessions-modal-message{
+  position:absolute;
+  padding:20px 50px;
+  font-size:14px;
+  line-height:1.4;
+  color:var(--header-secondary);
+}
+.ShowSessions-modal-body{
+  height:0;
+  overflow:hidden;
+  background-color:var(--background-primary);
+  border-radius:5px;
+  padding:0 20px;
+  transition:.5s ease;
+}
+.ShowSessions-modal-item:hover .ShowSessions-modal-body{
+  height:162px;
+  margin-bottom:20px;
+  transition:.5s ease;
+}
+.ShowSessions-modal-sessionInfo b{
+  text-transform:uppercase;
+  font-size:12px;
+  font-weight:600;
+  color:var(--header-secondary);
+  font-family:var(--font-display);
+}
+.ShowSessions-modal-sessionInfo span{
+  font-size:14px;
+}
+.ShowSessions-modal-sessionInfo:nth-child(1){
+  position:absolute;
+  right:40px;
+  transform:translate(0,-58px);
+}
+.ShowSessions-modal-sessionInfo:nth-child(1) b{
+  display:none;
+}
+.ShowSessions-modal-sessionInfo:nth-child(2){
+  margin:20px 0 0;
+}
 /*Powercord Notices*/
 body .pc-notices .pc-notice-container {
   background: var(--back-powercord-notices);
