@@ -732,41 +732,6 @@
     }
   }
   
-  .nowPlayingColumn-1eCBCN {
-    min-width: unset;
-    position: absolute;
-    right: 0;
-    height: 100%;
-    width: 300px;
-    transform: translateX(250px);
-    background: var(--background-secondary-alt);
-    transition: 250ms cubic-bezier(0.52, 0, 0.74, 0);
-    z-index: 1;
-  }
-  
-  .nowPlayingColumn-1eCBCN::after {
-    content: '|||';
-    color: var(--header-primary);
-    font-size: 12px;
-    position: absolute;
-    left: 25px;
-    top: 50%;
-    transform: translateY(-50%) translateX(-50%);
-    transition: 250ms ease;
-  }
-  
-  .nowPlayingColumn-1eCBCN:hover::after {
-    opacity: 0;
-  }
-  
-  .nowPlayingColumn-1eCBCN:hover {
-    transform: none;
-  }
-  
-  .peopleColumn-1wMU14 {
-    margin-right: 50px;
-  }
-  
   @media (max-width: 1200px) {
     .peopleColumn-1wMU14 {
       margin-right: 0;
