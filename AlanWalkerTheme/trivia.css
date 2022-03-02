@@ -382,17 +382,15 @@
   height: 22px;
 }
 .channelAttachmentArea-1wlgJV {
-  padding: 15px 0 15px 15px;
   background-color: var(--channeltextarea-background);
-  animation: uploads-popup-2 1s ease;
   overflow: hidden;
 }
-.scrollableContainer-15eg7h > div:not(.inner-NQg18Y):not(.divider-2rZFJK) {
+.scrollableContainer-15eg7h > .channelAttachmentArea-HwpkuQ {
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   border-radius: 8px;
   overflow: hidden;
+  margin: 0;
   margin-bottom: 5px;
-  animation: uploads-popup 1s ease;
   max-height: 246px;
   background-color: var(--user-popout);
 }
@@ -414,11 +412,11 @@
   background-color: var(--channeltextarea-background);
   border-color: rgb(var(--border-color-1), var(--border-opacity-1));
 }
-.upload-3GTSF9 {
+.upload-vLbqu- {
   background: var(--user-popout);
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
-.upload-3GTSF9 .image-2dAEjD {
+.upload-vLbqu- .image-2dAEjD {
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   border-radius: 4px;
 }
