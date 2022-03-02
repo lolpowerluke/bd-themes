@@ -127,14 +127,14 @@
   border-radius: 8px 8px 0px 0px;
   border-bottom: 0px;
 }
-.itemCard-3Etziu:hover + div[style*="height: 16px;"] {
+.itemCard-3Etziu:hover + div[style*="height"] {
   background-color: var(--back-color-boxes-hover);
 }
-.itemCard-3Etziu + div[style*="height: 16px;"] {
-  width: unset !important;
+.itemCard-3Etziu + div[style*="height"] {
+  width: unset;
   background-color: var(--back-color-boxes);
-  top: 0px !important;
-  left: 0px !important;
+  top: 0px;
+  left: 0px;
   position: relative !important;
   --__adaptive-focus-color: rgba(255, 255, 255, 0);
   display: block;
