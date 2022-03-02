@@ -285,12 +285,20 @@
   content: "Press crtl + shift + i to track down which plugin caused this";
   margin-top: 10px;
 }
-/*Message Hover Color*/
+/*Message Stuff*/
 #app-mount .scrollerContent-2SW0kQ .message-2CShn3 {
-    transition: background-color 0.3s;
+  transition: background-color 0.3s;
 }
 #app-mount .scrollerContent-2SW0kQ .message-2CShn3:hover {
   background-color: var(--message-hover);
+}
+@media (max-width: 700px) {
+  .cozy-VmLDNB.wrapper-30-Nkg .avatar-2e8lTP {
+    transform: scale(0.75);
+  }
+  .cozy-VmLDNB.wrapper-30-Nkg {
+    padding-left: 64px;
+  }
 }
 /*Message Hover Buttons*/
 .message-2CShn3:hover .buttons-3dF5Kd {
@@ -299,6 +307,12 @@
 }
 .buttons-3dF5Kd {
   transition: opacity 0.3s;
+}
+@media (max-width: 700px) {
+  .buttons-3dF5Kd {
+    transform: scale(0.75);
+    transform-origin: right;
+  }
 }
 /*Typing Status*/
 #app-mount .chat-2ZfjoI form .typing-2J1mQU {
@@ -430,6 +444,12 @@
 }
 .form-3gdLxP:before {
   display: none;
+}
+@media (max-width: 700px) {
+  .form-3gdLxP {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 /*Stage Pannels*/
 .container-S9SaVf:hover {
