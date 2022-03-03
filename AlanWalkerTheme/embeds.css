@@ -6,30 +6,6 @@
   display: flex ;
   flex-wrap: wrap ;
 }
-/*fallback coloring*/
-.embedWrapper-1MtIDg[aria-hidden="false"] {
-  border-color: rgb(255, 123, 0);
-  background-color: rgba(255, 166, 0, 0.212);
-}
-/*embeds with color*/
-.embedWrapper-1MtIDg[style*="border-color: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);"] {
-  background-color: rgba(255, 255, 255, 0.164);
-}
-.embedWrapper-1MtIDg[style*="border-color: hsl(0, calc(var(--saturation-factor, 1) * 100%), 50%);"] {
-  background-color: rgba(255, 0, 0, 0.26);
-}
-.embedWrapper-1MtIDg[style*="border-color: hsl(216, calc(var(--saturation-factor, 1) * 53.8%), 49.2%);"] {
-  background-color: rgba(0, 191, 255, 0.199);
-}
-.embedWrapper-1MtIDg[style*="border-color: hsl(203, calc(var(--saturation-factor, 1) * 89.1%), 53.1%);"] {
-  background-color: rgba(0, 153, 255, 0.288);
-}
-.embedWrapper-1MtIDg[style*="border-color: hsl(207, calc(var(--saturation-factor, 1) * 13%), 13.5%);"] {
-  background-color: rgba(48, 49, 49, 0.356);
-}
-.embedWrapper-1MtIDg[style*="border-color: hsl(242, calc(var(--saturation-factor, 1) * 25.3%), 48.8%);"] {
-  background-color: rgba(158, 73, 214, 0.274);
-}
 /*Invite Embed*/
 #app-mount .guildIconImage-74OdmM {
   background-color: transparent;
