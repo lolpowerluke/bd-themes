@@ -128,6 +128,9 @@
   /*menu*/
   --menu-item-hover-color: rgb(170, 170, 170);
   
+  /*Embeds*/
+  --embed-width: 500px;
+
   /*user popouts*/
   --big-user-popout: black;
   --big-user-popout-body: black;
