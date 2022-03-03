@@ -6,6 +6,26 @@
   display: flex ;
   flex-wrap: wrap ;
 }
+/*fallback coloring*/
+.embedWrapper-1MtIDg[aria-hidden="false"] {
+  border-color: rgba(255, 123, 0, 0.418);
+}
+/*Embeds*/
+:root {
+  --embed-width: 500px;
+}
+.embedFull-1HGV2S {
+  border-left: calc(4px + var(--embed-width)) solid transparent;
+  background: var(--background-secondary);
+}
+.grid-1aWVsE {
+  margin-left: calc( -1 * var(--embed-width));
+  z-index: 1;
+  width:  var(--embed-width);
+  height: 100%;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 /*Invite Embed*/
 #app-mount .guildIconImage-74OdmM {
   background-color: transparent;
