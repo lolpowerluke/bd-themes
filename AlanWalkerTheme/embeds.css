@@ -12,10 +12,6 @@
   background-color: rgba(255, 166, 0, 0.212);
 }
 /*embeds with color*/
-.embedWrapper-1MtIDg[style*="border-color: hsl(0, calc(var(--saturation-factor, 1) * 0%), 9.8%);"] {
-  border-color: blue !important;
-  background-color: rgba(0, 0, 255, 0.301) !important;
-}
 .embedWrapper-1MtIDg[style*="border-color: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);"] {
   background-color: rgba(255, 255, 255, 0.164);
 }
