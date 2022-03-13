@@ -20,6 +20,16 @@
 .focusLock-2tveLW[aria-label="User Profile Modal"] .scrollerBase-_bVAAt {
   padding-right: 20px !important;
 }
+.focusLock-2tveLW[aria-label="User Profile Modal"] .body-1Ukv50 {
+  height: unset;
+  margin-top: 240px;
+  background-color:  var(--big-user-popout-body);
+  border-top: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+  overflow-y: scroll ;
+}
+.body-1Ukv50 > div {
+  padding-top: 25px;
+}
 /*Backdrop*/
 #app-mount .backdrop-2ByYRN {
   background: var(--backdrop) !important;
@@ -33,8 +43,8 @@
 /*Badges*/
 #app-mount .focusLock-2tveLW[aria-label="User Profile Modal"] .root-8LYsGj .badgeList-2aoHPw {
   position: absolute;
-  right: 0;
-  top: 240px;
+  right: -10px;
+  top: 231px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -63,13 +73,6 @@
 #app-mount .focusLock-2tveLW[aria-label="User Profile Modal"] .topSection-13QKHs {
   background-color: var(--big-user-popout-topsection);
   border-right: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-}
-.focusLock-2tveLW[aria-label="User Profile Modal"] .body-1Ukv50 {
-  height: unset;
-  margin-top: 240px;
-  background-color:  var(--big-user-popout-body);
-  border-top: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-  overflow-y: scroll ;
 }
 /*info/activity/server/friends*/
 .focusLock-2tveLW[aria-label="User Profile Modal"] .tabBarContainer-sCZC4w {
