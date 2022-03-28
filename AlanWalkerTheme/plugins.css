@@ -26,20 +26,20 @@
   min-width: unset;
 }
 /*Platform Indicator Desktop*/
-.PI-indicatorContainer div[aria-label="Desktop: Online"] .PI-icon_desktop {color: var(--online) !important;}
-.PI-indicatorContainer div[aria-label="Desktop: Idle"] .PI-icon_desktop {color: var(--idle) !important;}
-.PI-indicatorContainer div[aria-label="Desktop: Do Not Disturb"] .PI-icon_desktop {color: var(--dnd) !important;}
-.PI-indicatorContainer div[aria-label="Desktop: Streaming"] .PI-icon_desktop {color: var(--streaming) !important;}
+.PI-indicatorContainer .PI-icon_desktop[data-status="online"] {color: var(--online) !important;}
+.PI-indicatorContainer .PI-icon_desktop[data-status="idle"] {color: var(--idle) !important;}
+.PI-indicatorContainer .PI-icon_desktop[data-status="dnd"] {color: var(--dnd) !important;}
+.PI-indicatorContainer .PI-icon_desktop[data-status="streaming"] {color: var(--streaming) !important;}
 /*Platform Indicator Mobile*/
-.PI-indicatorContainer div[aria-label="Mobile: Online"] .PI-icon_mobile {color: var(--online) !important;}
-.PI-indicatorContainer div[aria-label="Mobile: Idle"] .PI-icon_mobile {color: var(--idle) !important;}
-.PI-indicatorContainer div[aria-label="Mobile: Do Not Disturb"] .PI-icon_mobile {color: var(--dnd) !important;}
-.PI-indicatorContainer div[aria-label="Mobile: Streaming"] .PI-icon_mobile {color: var(--streaming) !important;}
+.PI-indicatorContainer .PI-icon_mobile[data-status="online"] {color: var(--online) !important;}
+.PI-indicatorContainer .PI-icon_mobile[data-status="idle"] {color: var(--idle) !important;}
+.PI-indicatorContainer .PI-icon_mobile[data-status="dnd"] {color: var(--dnd) !important;}
+.PI-indicatorContainer .PI-icon_mobile[data-status="streaming"] {color: var(--streaming) !important;}
 /*Platform Indicator Web*/
-.PI-indicatorContainer div[aria-label="Web: Online"] .PI-icon_web {color: var(--online) !important;}
-.PI-indicatorContainer div[aria-label="Web: Idle"] .PI-icon_web {color: var(--idle) !important;}
-.PI-indicatorContainer div[aria-label="Web: Do Not Disturb"] .PI-icon_web {color: var(--dnd) !important;}
-.PI-indicatorContainer div[aria-label="Web: Streaming"] .PI-icon_web {color: var(--streaming) !important;}
+.PI-indicatorContainer .PI-icon_web[data-status="online"] {color: var(--online) !important;}
+.PI-indicatorContainer .PI-icon_web[data-status="idle"] {color: var(--idle) !important;}
+.PI-indicatorContainer .PI-icon_web[data-status="dnd"] {color: var(--dnd) !important;}
+.PI-indicatorContainer .PI-icon_web[data-status="streaming"] {color: var(--streaming) !important;}
 /*pin DMs*/
 .privateChannelsHeaderContainer-1UWASm {
   padding-bottom: 0;
