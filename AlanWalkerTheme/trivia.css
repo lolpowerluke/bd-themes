@@ -692,7 +692,7 @@ div:not(.messagesWrapper-RpOMA3) > .scrollerBase-_bVAAt::-webkit-scrollbar,
 .newMessagesBar-1hF-9G {
   margin-top: 45px;
 }
-#app-mount .wrapper-1gVUIN + .content-1jQy2l .chatContent-3KubbW .newMessagesBar-1hF-9G {
+#app-mount .wrapper-1gVUIN ~ .content-1jQy2l .chatContent-3KubbW .newMessagesBar-1hF-9G {
   margin-top: 0;
 }
 .container-ZMc96U.themed-Hp1KC_ {
