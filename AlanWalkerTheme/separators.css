@@ -47,6 +47,9 @@
   background-color: var(--unread-pill);
 }
 /*Time Stamp Divider */
+#app-mount .divider-2rZFJK {
+  border: 0;
+}
 #app-mount .divider-2rZFJK.isUnread-3Lojb- span {
   display: none;
 }
