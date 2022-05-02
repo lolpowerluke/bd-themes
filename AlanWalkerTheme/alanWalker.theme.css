@@ -10,6 +10,8 @@
 
 @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/main.css');
 /*all variables here*/
+.theme-light,
+.theme-dark,
 :root {
   /*title bar*/
   --title-bar-color: rgb(116, 116, 116); /*change to --title-bar-color*/
