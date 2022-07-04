@@ -21,6 +21,10 @@
   background-color: var(--popout-header);
   border-radius: 10px 10px 0 0;
 }
+/*Events*/
+.content-2hZxGK {
+  padding-right: 16px !important;
+}
 /*Emoji & Gif */
 .contentWrapper-3vHNP2 {
   display: grid;
