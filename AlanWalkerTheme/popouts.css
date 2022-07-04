@@ -8,6 +8,17 @@
 .container-36u7Lw {
   background-color: var(--create-server);
 }
+/*Inbox*/
+.recentMentionsPopout-2bI1ZN .scrollerBase-_bVAAt {
+  padding-right: 16px !important;
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+  border-radius: 0 0 5px 5px;
+}
+.recentMentionsPopout-2bI1ZN .header-145e10 {
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+  border-bottom: 0;
+  border-radius: 10px 10px 0 0;
+}
 /*Emoji & Gif */
 .contentWrapper-3vHNP2 {
   display: grid;

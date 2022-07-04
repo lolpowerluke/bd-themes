@@ -107,8 +107,8 @@
   --text-focus: white;
   --back-account: black;
   --standard-account-height: 52px;
-  --popout-header: rgb(34, 34, 34);
-  --popout-scroller: rgba(179, 179, 179, 0.247);
+  --popout-header: rgb(3, 3, 3);
+  --popout-scroller: rgb(41, 41, 41);
   --create-server: rgba(0, 0, 0, 0.911);
   --create-server-text-color: rgb(255, 255, 255);
   --create-server-choices: black;
