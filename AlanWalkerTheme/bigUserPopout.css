@@ -18,7 +18,10 @@
   flex-direction: column;
 }
 .focusLock-2tveLW[aria-label="User Profile Modal"] .scrollerBase-_bVAAt {
-  padding-right: 20px !important;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 16px;
 }
 .focusLock-2tveLW[aria-label="User Profile Modal"] .body-1Ukv50 {
   height: unset;
@@ -177,13 +180,13 @@
   margin-top: 70px;
 }
 /*Connections*/
-.connectedAccounts-1YaT2t {
+.connectedAccounts-fvr7-7 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   margin-top: 10px;
 }
-.connectedAccount-1xKpli {
+.connectedAccountContainer-SlCC-S {
   border: solid #151b27;
   border-width: 1.2px 1.2px 3px 1.2px;
   border-radius: 4px;
@@ -193,25 +196,35 @@
   box-sizing: border-box;
   background-color: rgba(0, 0, 0, 0.3);
 }
-.connectedAccount-1xKpli:active {
+.connectedAccountContainer-SlCC-S:active {
   border-width: 1.2px 1.2px 1.2px 1.2px;
   transform: translateY(1px);
   margin-bottom: 2px;
 }
-#app-mount .root-8LYsGj .userInfoSection-2u2hir + .userInfoSection-2u2hir::before {
+.connectedAccountsColumn-2LgTkZ+.connectedAccountsColumn-2LgTkZ {
+  margin: 0;
+}
+.userInfoSection-2u2hir+.userInfoSection-2u2hir {
+  border: 0;
+}
+.userInfoSection-2u2hir {
+  padding: 0;
+}
+.userInfoSection-2u2hir.connectedAccounts-fvr7-7::before {
   content: "Connections";
+  position: absolute;
   color: var(--text-normal);
   font-size: 11px;
   font-weight: var(--font-weight-bold);
   text-transform: uppercase;
-  margin-bottom: 8px;
+  margin-top: -15px;
   display: block;
 }
-.connectedAccountIcon-2vls0t {
+.connectedAccountIcon-1FXG0p {
   padding: 5px;
   border-radius: 4px;
 }
-.connectedAccountNameInner-t24B11 {
+.connectedAccountNameContainer-EXbBUQ {
   margin-left: 13px;
 }
 [alt*="Facebook"] {
@@ -294,11 +307,14 @@
   #app-mount .root-8LYsGj  {
     width: 800px;
   }
-  .connectedAccounts-1YaT2t {
+  .connectedAccounts-fvr7-7 {
     grid-template-columns: 1fr;
     gap: 5px;
   }
-  .connectedAccount-1xKpli {
+  .connectedAccountsColumn-2LgTkZ {
+    gap: 5px;
+  }
+  .connectedAccountContainer-SlCC-S {
     margin: 0px;
     padding: 4px;
   }
