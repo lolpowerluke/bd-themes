@@ -128,11 +128,11 @@
   overflow: visible;
   white-space: pre-wrap;
 }
-.roleCircle-1EgnFN {
+.roleCircle-3K9O3d {
   width: var(--role-circle) !important;
   height: var(--role-circle) !important;
 }
-.roleCircle-1EgnFN::before {
+.roleCircle-3K9O3d::before {
   position: absolute;
   content: "";
   top: 0px;
