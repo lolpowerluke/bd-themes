@@ -1,5 +1,5 @@
 /*Big User Popout*/
-.focusLock-2tveLW[aria-label="User Profile Modal"] .root-8LYsGj {
+.focusLock-2tveLW .root-8LYsGj {
   display: grid;
   grid-template-columns: 240px 1fr;
   width: 980px;
@@ -9,21 +9,21 @@
   min-height: 500px;
 }
 @media (max-height: 600px) {
-  .focusLock-2tveLW[aria-label="User Profile Modal"] .root-8LYsGj {
+  .focusLock-2tveLW .root-8LYsGj {
     min-height: unset;
   }
 }
-.focusLock-2tveLW[aria-label="User Profile Modal"] .root-8LYsGj .topSection-13QKHs > header {
+.focusLock-2tveLW .root-8LYsGj .topSection-13QKHs > header {
   display: flex;
   flex-direction: column;
 }
-.focusLock-2tveLW[aria-label="User Profile Modal"] .scrollerBase-_bVAAt {
+.focusLock-2tveLW .scrollerBase-_bVAAt {
   display: flex;
   flex-direction: column;
   gap: 10px;
   padding: 16px;
 }
-.focusLock-2tveLW[aria-label="User Profile Modal"] .body-1Ukv50 {
+.focusLock-2tveLW .body-1Ukv50 {
   height: unset;
   margin-top: 240px;
   background-color:  var(--big-user-popout-body);
@@ -44,7 +44,7 @@
   left: 80px;
 }
 /*Badges*/
-#app-mount .focusLock-2tveLW[aria-label="User Profile Modal"] .root-8LYsGj .badgeList-2aoHPw {
+#app-mount .focusLock-2tveLW .root-8LYsGj .badgeList-2aoHPw {
   position: absolute;
   right: -10px;
   top: 231px;
@@ -55,9 +55,9 @@
   padding: 0;
 }
 /*Profile Banner*/
-#app-mount .focusLock-2tveLW[aria-label="User Profile Modal"] .root-8LYsGj .profileBannerPremium-KD60EB,
-#app-mount .focusLock-2tveLW[aria-label="User Profile Modal"] .root-8LYsGj .profileBanner-1owKI5,
-#app-mount .focusLock-2tveLW[aria-label="User Profile Modal"] .root-8LYsGj .UserBackgrounds-banner-container {
+#app-mount .focusLock-2tveLW .root-8LYsGj .profileBannerPremium-KD60EB,
+#app-mount .focusLock-2tveLW .root-8LYsGj .profileBanner-1owKI5,
+#app-mount .focusLock-2tveLW .root-8LYsGj .UserBackgrounds-banner-container {
   position: absolute;
   top: 0;
   right: 0;
@@ -73,30 +73,30 @@
 #app-mount .root-8LYsGj .UserBackgrounds-banner-arrow.UserBackgrounds-banner-left {
   border-radius: 0px 0px 8px 0px;
 }
-#app-mount .focusLock-2tveLW[aria-label="User Profile Modal"] .topSection-13QKHs {
+#app-mount .focusLock-2tveLW .topSection-13QKHs {
   background-color: var(--big-user-popout-topsection);
   border-right: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 /*info/activity/server/friends*/
-.focusLock-2tveLW[aria-label="User Profile Modal"] .tabBarContainer-sCZC4w {
+.focusLock-2tveLW .tabBarContainer-sCZC4w {
   border-bottom: 0;
 }
-.focusLock-2tveLW[aria-label="User Profile Modal"] .tabBarContainer-sCZC4w .tabBar-2hXqzU {
+.focusLock-2tveLW .tabBarContainer-sCZC4w .tabBar-2hXqzU {
   display: flex;
   flex-direction: column;
   height: fit-content;
 }
-.focusLock-2tveLW[aria-label="User Profile Modal"] .tabBarContainer-sCZC4w .tabBar-2hXqzU .tabBarItem-30Te4- {
+.focusLock-2tveLW .tabBarContainer-sCZC4w .tabBar-2hXqzU .tabBarItem-30Te4- {
   border: none;
 }
-.focusLock-2tveLW[aria-label="User Profile Modal"] .body-1Ukv50::-webkit-scrollbar {
+.focusLock-2tveLW .body-1Ukv50::-webkit-scrollbar {
   display: none;
 }
-.focusLock-2tveLW[aria-label="User Profile Modal"] .header-S26rhB {
+.focusLock-2tveLW .header-S26rhB {
   height: 240px;
   position: unset;
 }
-#app-mount .focusLock-2tveLW[aria-label="User Profile Modal"] .root-8LYsGj .item-3XjbnG::before {
+#app-mount .focusLock-2tveLW .root-8LYsGj .item-3XjbnG::before {
   content: "";
   width: 18px;
   height: 18px;
@@ -137,14 +137,14 @@
   background: var(--back-color-boxes);
 }
 /*UserDetails*/
-#app-mount .focusLock-2tveLW[aria-label="User Profile Modal"] .UserDetails-dates-wrapper {
+#app-mount .focusLock-2tveLW .UserDetails-dates-wrapper {
   margin: 0;
 }
-#app-mount .focusLock-2tveLW[aria-label="User Profile Modal"] .nameTag-2Nlmsy {
+#app-mount .focusLock-2tveLW .nameTag-2Nlmsy {
   margin-top: 0;
 }
 /*Avatar*/
-.focusLock-2tveLW[aria-label="User Profile Modal"] .header-S26rhB .avatar-3QF_VA {
+.focusLock-2tveLW .header-S26rhB .avatar-3QF_VA {
   width: 210px !important;
   height: 210px !important;
   margin: 15px;
@@ -153,22 +153,22 @@
   left: 0;
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
-.focusLock-2tveLW[aria-label="User Profile Modal"] .header-S26rhB .avatar-3QF_VA rect {
+.focusLock-2tveLW .header-S26rhB .avatar-3QF_VA rect {
   x: 110;
   y: 101;
 }
-.focusLock-2tveLW[aria-label="User Profile Modal"] .header-S26rhB .avatar-3QF_VA > svg {
+.focusLock-2tveLW .header-S26rhB .avatar-3QF_VA > svg {
   width: 208px;
   height: 208px;
 }
-.focusLock-2tveLW[aria-label="User Profile Modal"] .header-S26rhB .avatarStack-3vfSFa .avatar-b5OQ1N {
+.focusLock-2tveLW .header-S26rhB .avatarStack-3vfSFa .avatar-b5OQ1N {
   margin: 10px;
   width: 118px;
   height: 118px;
   border-radius: 10px;
   background-color: var(--big-user-popout-avatar);
 }
-.focusLock-2tveLW[aria-label="User Profile Modal"] .header-S26rhB .avatar-3QF_VA foreignObject {
+.focusLock-2tveLW .header-S26rhB .avatar-3QF_VA foreignObject {
   mask: none;
   border-radius: 20px;
   width: 138px;
@@ -318,9 +318,9 @@
     margin: 0px;
     padding: 4px;
   }
-  #app-mount .focusLock-2tveLW[aria-label="User Profile Modal"] .root-8LYsGj .profileBannerPremium-KD60EB,
-  #app-mount .focusLock-2tveLW[aria-label="User Profile Modal"] .root-8LYsGj .profileBanner-1owKI5,
-  #app-mount .focusLock-2tveLW[aria-label="User Profile Modal"] .root-8LYsGj .UserBackgrounds-banner-container {
+  #app-mount .focusLock-2tveLW .root-8LYsGj .profileBannerPremium-KD60EB,
+  #app-mount .focusLock-2tveLW .root-8LYsGj .profileBanner-1owKI5,
+  #app-mount .focusLock-2tveLW .root-8LYsGj .UserBackgrounds-banner-container {
     width: 560px;
   }
   .connectedAccountOpenIcon-1yfBsb {
