@@ -940,3 +940,31 @@ fill: var(--online);
 .background-fkKrXt.title-31SJ6t {
   background: var(--background-primary);
 }
+/*Forums*/
+.theme-dark .container-3wLKDe {
+  background-color: transparent;
+}
+.chatContent-3KubbW .container-3YcgdM {
+  position: fixed;
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+  border-top: 0;
+  border-radius: 0 0 10px 10px;
+  padding: 5px;
+  right: 17px;
+  top: 70px;
+  margin: 0;
+}
+.container-ZMc96U.themed-Hp1KC_ {
+  border-bottom: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+}
+.tags-3s41VI .pill-3pRQlO {
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+  background-color: transparent;
+}
+.tags-3s41VI .pill-3pRQlO.clickable-3YTfAq:not(.disabled-3Rezaw):hover {
+  background-color: var(--background-secondary-alt);
+  border: 1px solid rgb(var(--border-color-hover), var(--border-opacity-hover));
+} 
+.row-uezxzk:not(.headerRow-1MKoR-) .container-2qVG6q {
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+}
