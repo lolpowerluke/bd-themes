@@ -6,6 +6,10 @@
   z-index: 1;
 }
 /*General Content Area*/
+.layer-86YKbF .contentRegion-3HkfJJ,
+.layer-86YKbF .contentRegion-3HkfJJ .contentTransitionWrap-1YD530 {
+  overflow: hidden;
+}
 .standardSidebarView-E9Pc3j .contentColumnDefault-3eyv5o {
   padding: 20px 40px 80px;
 }
