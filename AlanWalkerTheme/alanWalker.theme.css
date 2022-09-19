@@ -145,6 +145,7 @@
   --big-user-popout-avatar: black;
   --user-popout: black;
   --user-popout-alt: rgba(0, 0, 255, 0.24);
+  --back-small-user-popout-badges: rgba(0, 0, 0, 0.75);
 
   /*plugin popups*/
   --back-color-tooltips: black;
@@ -175,7 +176,7 @@
   --linkpreview-background: transparent;
 
   /*Version*/
-  --version-1-1-6: none;
+  --version-1-1-7: none;
   
   /*other*/
   --backdrop: hsl(0, 0%, 0%, 0.6);

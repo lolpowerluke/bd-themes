@@ -228,3 +228,12 @@
   width: calc(100% - 12px);
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
+/*Badges*/
+.profileBadges-2pItdR {
+  background-color: var(--back-small-user-popout-badges);
+  border-radius: 7px;
+  padding: 3px;
+}
+.profileBadges-2pItdR .clickable-1knRMS {
+  margin: 0;
+}
