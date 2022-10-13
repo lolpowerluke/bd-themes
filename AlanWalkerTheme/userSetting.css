@@ -223,3 +223,6 @@
 #app-mount [class*="pccompat-settings"] svg {
   transform: scaleX(1);
 }
+#app-mount .bd-addon-list > .bd-addon-card.bd-addon-card-disabled {
+  background-color: rgb(61, 0, 0);
+}
