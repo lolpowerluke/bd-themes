@@ -471,23 +471,28 @@
   margin-bottom: -1px;
 }
 /*Pins (personal and public)*/
-[aria-label="Pinned Messages"] .messagesPopoutWrap-3zryHW {
+.messagesPopoutWrap-3zryHW {
   width: 700px;
-  max-height: 950px !important;
-  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+  padding-bottom: 60px;
+  background-color: transparent;
+}
+.messagesPopoutWrap-3zryHW .messageGroupWrapper-1jf_7C {
+  background-color: var(--back-color-boxes);
 }
 .layer-2aCOJ3 .popout-2iWAc- {
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
-[aria-label="Pinned Messages"] .messagesPopoutWrap-3zryHW .header-1w9Q93 {
+.messagesPopoutWrap-3zryHW .header-1w9Q93 {
   background-color: black;
-  border-bottom: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 .emptyPlaceholder-1-a1LK {
   background-color: transparent;
 }
-[aria-label="Pinned Messages"] .messagesPopoutWrap-3zryHW .messagesPopout-eVzQcI {
+.messagesPopoutWrap-3zryHW .messagesPopout-eVzQcI {
   background-color: black;
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+  border-top: 0;
 }
 /*Chat AutoComplete Popup*/
 .wrapper-3z7DuG {
