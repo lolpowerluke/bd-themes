@@ -55,14 +55,14 @@
   padding: 0;
 }
 /*Profile Banner*/
-#app-mount .focusLock-2tveLW .root-8LYsGj .profileBannerPremium-KD60EB,
-#app-mount .focusLock-2tveLW .root-8LYsGj .profileBanner-1owKI5,
+#app-mount .focusLock-2tveLW .root-8LYsGj .banner-1YaD3N,
+#app-mount .focusLock-2tveLW .root-8LYsGj .bannerSVGWrapper-qc0szY,
 #app-mount .focusLock-2tveLW .root-8LYsGj .UserBackgrounds-banner-container {
   position: absolute;
   top: 0;
   right: 0;
-  width: 740px;
   height: 240px;
+  width: 740px;
 }
 #app-mount .root-8LYsGj .UserBackgrounds-banner-arrow {
   background-color: rgba(0, 0, 0, 0.514);
@@ -76,6 +76,22 @@
 #app-mount .focusLock-2tveLW .topSection-13QKHs {
   background-color: var(--big-user-popout-topsection);
   border-right: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+}
+#app-mount .focusLock-2tveLW .root-8LYsGj .bannerSVGWrapper-qc0szY {
+  width: 740px;
+  z-index: 0;
+}
+#app-mount .focusLock-2tveLW .root-8LYsGj .bannerSVGWrapper-qc0szY foreignObject {
+  width: 740px;
+  x: -70;
+}
+#app-mount .focusLock-2tveLW .root-8LYsGj .profileBannerPremium-KD60EB {
+  width: 740px;
+  max-width: unset;
+}
+#app-mount .focusLock-2tveLW .root-8LYsGj .bannerSVGWrapper-qc0szY .profileBanner-1owKI5 {
+  top: -60px;
+  max-width: unset;
 }
 /*info/activity/server/friends*/
 .focusLock-2tveLW .tabBarContainer-sCZC4w {
@@ -155,7 +171,7 @@
 }
 .focusLock-2tveLW .header-S26rhB .avatar-3QF_VA rect {
   x: 110;
-  y: 101;
+  y: 110;
 }
 .focusLock-2tveLW .header-S26rhB .avatar-3QF_VA > svg {
   width: 208px;
@@ -174,7 +190,6 @@
   width: 138px;
   height: 138px;
   overflow: visible;
-  y: -9;
 }
 .UserDetails-dates-wrapper {
   margin-top: 70px;
