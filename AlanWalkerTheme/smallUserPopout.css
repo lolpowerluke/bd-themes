@@ -20,7 +20,7 @@
 }
 /*Profile Picture*/
 .avatarWrapper-eenWra {
-  border: 8px solid var(--user-popout);
+  border: 8px solid var(--background-floating);
 }
 .avatarPositionNormal-2jWoC2 {
   top: 13px;
