@@ -12,7 +12,7 @@
   height: 100%;
 }
 .headerNormal-3Zn_yu {
-  height: 64px;
+  height: 120px;
   border: 1px solid rgba(var(--border-color-1));
   box-sizing: border-box;
   overflow: hidden;
@@ -162,10 +162,6 @@
   opacity: 0.2;
 }
 /*Fake Popout In Settings*/
-.popoutBannerPremium-3i5EEI,
-.bannerNormal-22rPhb {
-  border-radius: 10px 10px 0px 0px;
-}
 .popoutInfo-pKbpvG {
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   border-radius: 0px 0px 10px 10px;
