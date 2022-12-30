@@ -968,3 +968,13 @@ fill: var(--online);
 .row-uezxzk:not(.headerRow-1MKoR-) .container-2qVG6q {
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
+/*User profile (DM sidebar)*/
+.overlayBackground-1KgwVi {
+  border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+}
+.userPanelInnerThemed-2xZFjl {
+  background: linear-gradient(to bottom, var(--side-user-panel-top-color) 80%, var(--side-user-panel-bottom-color));
+}
+.buttonColor-XIRMbp {
+  border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+}
