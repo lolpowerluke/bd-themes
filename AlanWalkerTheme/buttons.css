@@ -61,7 +61,7 @@
 }
 /*Upload Button*/
 .attachButtonInner-2mwer8 svg {
-  background-color: rgb(25, 0, 255);
+  background-color: rgb(var(--border-color-1));
   border-radius: 50%;
 }
 .attachButtonInner-2mwer8 svg[aria-hidden="false"] {
