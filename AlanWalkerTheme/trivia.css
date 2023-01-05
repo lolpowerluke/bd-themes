@@ -6,9 +6,6 @@
 .nowPlayingColumn-1eCBCN {
   background: none;
 }
-.content-1jQy2l {
-  background-color: transparent !important;
-}
 /*Chat*/
 .chat-2ZfjoI {
   background: none;
@@ -17,7 +14,7 @@
 .scroller-WSmht3,
 .scroller-3X7KbA,
 .wrapper-1_HaEi,
-.content-1jQy2l,
+#app-mount .content-1jQy2l,
 .privateChannels-oVe7HL {
   background-color: transparent !important;
 }
