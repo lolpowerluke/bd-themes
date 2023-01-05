@@ -131,9 +131,9 @@
   --typing-border: rgb(122, 122, 122);
   --border-zoom: rgb(121, 121, 121);
   --back-activity-panels: rgb(39, 39, 39);
-  --side-user-panel-bottom-color: rgba(80, 80, 80, var(--side-user-panel-opacity-1));
-  --side-user-panel-top-color: rgba(0, 0, 0, var(--side-user-panel-opacity-1));
-  --side-user-panel-opacity-1: .9;
+  --back-gradient-opacity: .9;
+  --back-gradient-top: 0, 0, 0;
+  --back-gradient-bottom: 40, 40, 40;
   --profile-gradient-button-color: black;
 
   /*menu*/
@@ -180,7 +180,7 @@
   --linkpreview-background: transparent;
 
   /*Version*/
-  --version-1-1-8: none;
+  --version-1-1-9: none;
   
   /*other*/
   --backdrop: hsl(0, 0%, 0%, 0.6);
