@@ -458,6 +458,9 @@
   max-height: 246px;
   background-color: var(--user-popout);
 }
+.channelTextArea-1FufC0 .buttons-uaqb-5 {
+  margin-right: 4px;
+}
 .scrollableContainer-15eg7h,
 .channelTextArea-1FufC0 {
   background: none;
@@ -487,22 +490,6 @@
 .wrapper-2vIMkT {
   background-color: var(--user-popout);
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-}
-@keyframes uploads-popup {
-  0% {
-    max-height: 0;
-  }
-  100% {
-    max-height: 246px;
-  }
-}
-@keyframes uploads-popup-2 {
-  0% {
-    background-color: transparent;
-  }
-  100% {
-    background-color: var(--channeltextarea-background);
-  }
 }
 .form-3gdLxP:before {
   display: none;
