@@ -2,6 +2,9 @@
 .container-1eFtFS {
   background: linear-gradient(to bottom, rgba(var(--back-gradient-top), var(--back-gradient-opacity)) 80%, rgba(var(--back-gradient-bottom), var(--back-gradient-opacity)));
 }
+#app-mount .container-2cd8Mz {
+  background-color: transparent;
+}
 .container-1oAagU,
 .nowPlayingColumn-1eCBCN {
   background: none;
