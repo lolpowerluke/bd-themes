@@ -1003,20 +1003,6 @@ aside.profilePanel-2PWEok .userPanelInnerThemed-2xZFjl {
 aside.profilePanel-2PWEok .buttonColor-XIRMbp {
   border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
 }
-aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted foreignObject {
-  mask: none;
-  border-radius: 50%;
-}
-aside.profilePanel-2PWEok .avatarPositionPanel-3P4Ted rect {
-  stroke: black;
-  stroke-width: 7px;
-  x:58;
-  y:58;
-  rx:50;
-  mask: none;
-  width: 22px;
-  height: 22px;
-}
 .theme-dark .profileColors-3Y0XaR {
   background: none;
 }
