@@ -447,6 +447,9 @@
 .messagesWrapper-RpOMA3 .scrollerSpacer-3AqkT9 {
   height: 22px;
 }
+html #app-mount .scrollableContainer-15eg7h {
+  background: transparent;
+}
 .channelAttachmentArea-1wlgJV {
   background-color: var(--channeltextarea-background);
   overflow: hidden;
