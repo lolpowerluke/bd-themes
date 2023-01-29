@@ -691,8 +691,9 @@ div:not(.messagesWrapper-RpOMA3) > .scrollerBase-_bVAAt::-webkit-scrollbar,
 #app-mount .children-3xh0VB:after {
   display: none;
 }
-.chatContent-3KubbW {
+#app-mount .chatContent-3KubbW {
   margin-top: -45px;
+  background: transparent;
 }
 .container-1yy5xN {
   margin-top: 45px;
