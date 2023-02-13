@@ -974,13 +974,12 @@ fill: var(--online);
   background-color: transparent;
 }
 .chatContent-3KubbW .container-3YcgdM {
-  position: fixed;
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   border-top: 0;
   border-radius: 0 0 10px 10px;
   padding: 5px;
   right: 17px;
-  top: 70px;
+  top: 43px;
   margin: 0;
 }
 .container-ZMc96U.themed-Hp1KC_ {
