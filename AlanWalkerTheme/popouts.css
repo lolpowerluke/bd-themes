@@ -156,8 +156,8 @@
 }
 #app-mount .emojiSection-3QtaWO .assetWrapper-2hzITV,
 #app-mount .emojiSection-3QtaWO .emoji {
-  width: var(--popup-emoji-size, 180px);
-  height: var(--popup-emoji-size, 180px);
+  width: var(--popup-emoji-size, 180px) !important;
+  height: var(--popup-emoji-size, 180px) !important;
   margin: auto;
 }
 .popoutContainer-2wbmiM.popoutContent-3RWpUF {
