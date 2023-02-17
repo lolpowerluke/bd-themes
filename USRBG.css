@@ -15,6 +15,11 @@
 #app-mount [data-user-id="773628716537872404"] {
 	--user-background: url('https://i.imgur.com/r7yG08B.png');
 }
+/*lolpowerluke#8008*/
+#app-mount [data-list-item-id*="398131626695196672"],
+#app-mount [data-user-id="398131626695196672"] {
+	--user-background: url('https://i.imgur.com/9zkNBar.png');
+}
 /*𝕵𝖔#0084*/
 #app-mount [data-list-item-id*="368997053075816451"],
 #app-mount [data-user-id="368997053075816451"] {
