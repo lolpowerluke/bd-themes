@@ -668,7 +668,10 @@ html #app-mount .scrollableContainer-15eg7h {
   background-color: rgb(var(--border-color-hover), var(--border-opacity-1))!important;
 }
 .scrollerBase-_bVAAt {
-    padding-right: 4px !important;
+  padding-right: 4px !important;
+}
+.thin-RnSY0a::-webkit-scrollbar-track {
+  background-color: transparent !important;
 }
 .form-2oOOG9 .modalContent-3YXA7I::-webkit-scrollbar,
 div:not(.messagesWrapper-RpOMA3) > .scrollerBase-_bVAAt::-webkit-scrollbar,

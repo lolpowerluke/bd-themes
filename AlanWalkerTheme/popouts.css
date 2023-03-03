@@ -8,6 +8,10 @@
 .container-36u7Lw {
   background-color: var(--create-server);
 }
+[role="dialog"] {
+  border-radius: 4px;
+  background: linear-gradient(to top, var(--user-popout-gradient-bottom), var(--user-popout-gradient-top));
+}
 /*Inbox*/
 .recentMentionsPopout-2bI1ZN .scrollerBase-_bVAAt {
   padding-right: 16px !important;
@@ -178,7 +182,7 @@
   background-color: black;
 }
 .popoutLoadingForeground-3xnRkg {
-  background-image: linear-gradient(90deg,rgb(0 4 255 / .5),rgb(2 1 45),rgb(0 4 255 / .5))
+  background: linear-gradient(90deg, rgba(var(--border-color-1), 0.5), rgba(45, 45, 45, 0.5), rgba(var(--border-color-1), 0.5));
 }
 /*Changelog */
 .focusLock-2tveLW .scrollerBase-_bVAAt {

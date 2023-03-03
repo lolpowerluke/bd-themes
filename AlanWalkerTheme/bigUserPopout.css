@@ -33,6 +33,9 @@
 .body-1Ukv50 > div {
   padding-top: 25px;
 }
+.focusLock-bHVOlV[role="dialog"] {
+  background: none;
+}
 /*Backdrop*/
 #app-mount .backdrop-2ByYRN {
   background: var(--backdrop) !important;

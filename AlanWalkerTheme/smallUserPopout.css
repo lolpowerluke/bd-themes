@@ -4,6 +4,18 @@
 .userPopout-2j1gM4 {
   background-color: var(--user-popout);
 }
+.userProfileInnerThemedWithBanner-2624Yx {
+  border-radius: 4px;
+}
+.userProfileOuterUnthemed-2b2rsv {
+  padding: 5px;
+  border-radius: 4px;
+}
+.userProfileInnerThemedNonPremium-1gT-zY {
+  position: relative;
+  border-radius: 4px;
+  background: var(--user-popout);
+}
 /*Profile banner*/
 .bannerSVGWrapper-qc0szY foreignObject {
   mask: none;
@@ -17,6 +29,9 @@
   box-sizing: border-box;
   overflow: hidden;
   border-radius: 8px 8px 0 0;
+}
+.bannerSVGWrapper-qc0szY {
+  border-radius: 4px 4px 0 0;
 }
 /*Profile Picture*/
 .avatarWrapper-eenWra {
