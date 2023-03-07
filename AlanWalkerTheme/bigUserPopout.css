@@ -1,8 +1,8 @@
-[role="dialog"] {
+[role="dialog"]:not(.positionContainer-dMArNx):not([aria-labelledby]) {
   border-radius: 4px;
   background: linear-gradient(to top, var(--user-popout-gradient-bottom), var(--user-popout-gradient-top));
 }
-.focusLock-bHVOlV[role="dialog"] {
+.focusLock-bHVOlV[role="dialog"]:not([aria-labelledby]) {
   background: none;
 }
 .userProfileInnerThemedWithBanner-2624Yx {
