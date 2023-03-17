@@ -386,7 +386,7 @@
   margin: 0;
 }
 /*Server Bar*/
-@media (min-width:700px) {
+/* @media (min-width:700px) {
   .guilds-2JjMmN {
     margin-bottom: 180px;
   }
@@ -433,7 +433,7 @@
     left: calc(56px * 0.2);
     width: calc(56px * 0.625);
   }
-}
+} */
 /*Text Area*/
 .scrollableContainer-15eg7h .divider-2rZFJK {
   display: none;
@@ -848,44 +848,44 @@ div:not(.messagesWrapper-RpOMA3) > .scrollerBase-_bVAAt::-webkit-scrollbar,
 }
 /*Status Colors*/
 [data-status="online"] .wrapper-1VLyxH rect[fill*="#"],
-[aria-label*="Online"] .mask-1FEkla > foreignObject + rect,
+[aria-label*="Online"] .mask-1y0tyc > foreignObject + rect,
 [aria-label*="Online"] .mask-2Me5HY > foreignObject + rect,
-[aria-label*="Online"] .mask-1FEkla > svg > rect,
+[aria-label*="Online"] .mask-1y0tyc > svg > rect,
 [aria-label*="Online"] .mask-2Me5HY > svg > rect {
 fill: var(--online);
 }
 [data-status="idle"] .wrapper-1VLyxH rect[fill*="#"],
-[aria-label*="Idle"] .mask-1FEkla > foreignObject + rect,
+[aria-label*="Idle"] .mask-1y0tyc > foreignObject + rect,
 [aria-label*="Idle"] .mask-2Me5HY > foreignObject + rect,
-[aria-label*="Idle"] .mask-1FEkla > svg > rect,
+[aria-label*="Idle"] .mask-1y0tyc > svg > rect,
 [aria-label*="Idle"] .mask-2Me5HY > svg > rect {
   fill: var(--idle);
 }
 [data-status="dnd"] .wrapper-1VLyxH rect[fill*="#"],
-[aria-label*="Do Not Disturb"] .mask-1FEkla > foreignObject + rect,
+[aria-label*="Do Not Disturb"] .mask-1y0tyc > foreignObject + rect,
 [aria-label*="Do Not Disturb"] .mask-2Me5HY > foreignObject + rect,
-[aria-label*="Do Not Disturb"] .mask-1FEkla > svg > rect,
+[aria-label*="Do Not Disturb"] .mask-1y0tyc > svg > rect,
 [aria-label*="Do Not Disturb"] .mask-2Me5HY > svg > rect {
   fill: var(--dnd);
 }
 [data-status="offline"] .wrapper-1VLyxH rect[fill*="#"],
-[aria-label*="Offline"] .mask-1FEkla > foreignObject + rect,
+[aria-label*="Offline"] .mask-1y0tyc > foreignObject + rect,
 [aria-label*="Offline"] .mask-2Me5HY > foreignObject + rect,
-[aria-label*="Offline"] .mask-1FEkla > svg > rect,
+[aria-label*="Offline"] .mask-1y0tyc > svg > rect,
 [aria-label*="Offline"] .mask-2Me5HY > svg > rect {
   fill: var(--offline);
 }
 [data-status="invisible"] .wrapper-1VLyxH rect[fill*="#"],
-[aria-label*="Invisible"] .mask-1FEkla > foreignObject + rect,
+[aria-label*="Invisible"] .mask-1y0tyc > foreignObject + rect,
 [aria-label*="Invisible"] .mask-2Me5HY > foreignObject + rect,
-[aria-label*="Invisible"] .mask-1FEkla > svg > rect,
+[aria-label*="Invisible"] .mask-1y0tyc > svg > rect,
 [aria-label*="Invisible"] .mask-2Me5HY > svg > rect {
   fill: var(--offline);
 }
 [data-status="streaming"] .wrapper-1VLyxH rect[fill*="#"],
-[aria-label*="Streaming"] .mask-1FEkla > foreignObject + rect,
+[aria-label*="Streaming"] .mask-1y0tyc > foreignObject + rect,
 [aria-label*="Streaming"] .mask-2Me5HY > foreignObject + rect,
-[aria-label*="Streaming"] .mask-1FEkla > svg > rect,
+[aria-label*="Streaming"] .mask-1y0tyc > svg > rect,
 [aria-label*="Streaming"] .mask-2Me5HY > svg > rect {
   fill: var(--streaming);
 }
