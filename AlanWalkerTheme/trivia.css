@@ -386,7 +386,7 @@
   margin: 0;
 }
 /*Server Bar*/
-/* @media (min-width:700px) {
+@media (min-width:700px) {
   .guilds-2JjMmN {
     margin-bottom: 180px;
   }
@@ -433,7 +433,12 @@
     left: calc(56px * 0.2);
     width: calc(56px * 0.625);
   }
-} */
+  .wrapper-2PSQCG {
+    width: 35px;
+    height: unset;
+    aspect-ratio: 1;
+  }
+}
 /*Text Area*/
 .scrollableContainer-15eg7h .divider-2rZFJK {
   display: none;
