@@ -1,14 +1,3 @@
-/*positioning*/
-.container-2sjPya .embed-hKpSrO{
-  display: inline-block;
-}
-.container-2sjPya {
-  display: flex ;
-  flex-wrap: wrap ;
-}
-.container-2sjPya .messageAttachment-CZp8Iv {
-  flex-direction: column;
-}
 /*fallback coloring*/
 .embedWrapper-1MtIDg[aria-hidden="false"] {
   border-color: rgba(255, 123, 0, 0.418);
