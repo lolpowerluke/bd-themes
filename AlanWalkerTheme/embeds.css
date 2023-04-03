@@ -1,3 +1,8 @@
+/*Embed postioning*/
+.container-2sjPya > .directionRow-2Iu2A9 {
+  flex-direction: column;
+  align-items: start;
+}
 /*fallback coloring*/
 .embedWrapper-1MtIDg[aria-hidden="false"] {
   border-color: rgba(255, 123, 0, 0.418);
