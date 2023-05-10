@@ -351,11 +351,11 @@
   background-color: var(--back-color-boxes);
 }
 /*small popup*/
-.tooltipPointer-3L49xb {
-  border-top-color: rgb(var(--border-color-hover)) !important;
+#app-mount .tooltipPrimary-2466a2 .tooltipPointer-sMBQqe {
+  border-top-color: rgb(var(--border-color-hover));
 }
-.tooltipContent-Nejnvh {
-  background-color: black;
+#app-mount .tooltipContent-38tm3I {
+  background-color: var(--user-popout);
   border: 1px solid rgb(var(--border-color-hover));
   border-radius: 5px;
 }
