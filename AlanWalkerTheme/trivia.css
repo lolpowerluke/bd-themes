@@ -196,6 +196,21 @@
     border-left: 0;
     border-top: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   }
+  #app-mount .nowPlayingColumn-1eCBCN .scroller-hE2gWq > h2 {
+    position: fixed;
+    z-index: 1;
+    width: calc(100% - 10px);
+    text-align: center;
+    background-color: black;
+    margin: 7px 5px 0 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+    border-radius: 50px;
+  }
+  #app-mount .nowPlayingColumn-1eCBCN .scroller-hE2gWq > h2 + *  {
+    margin-top: 50px;
+  }
   .nowPlayingColumn-1eCBCN .header-Imy05m {
     align-self: center;
   }
