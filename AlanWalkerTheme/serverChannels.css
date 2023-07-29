@@ -144,6 +144,7 @@
 }
 .containerDefault-YUSmu3 .link-1_kTxV {
   margin-right: 8px;
+  overflow: hidden;
 }
 .CollapsibleThreads-Collapser-collapser + .container-1Bj0eq .containerDefault-YUSmu3:last-of-type::after {
   display: none;
