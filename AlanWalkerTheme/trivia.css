@@ -937,12 +937,13 @@ fill: var(--online);
     max-width:240px!important;
     width:60px;
     min-height: 100%;
-    transition: width .5s;
+    transition: min-width .5s;
   }
   .container-2o3qEW:hover,
   .membersWrap-3NUR2t:hover:not(#dv-mount),
   .membersWrap-3NUR2t:hover:not(#dv-mount) > div {
     width:240px;
+    min-width: 240px !important;
   }
 }
 @media (max-width: 700px) {
