@@ -920,8 +920,8 @@ fill: var(--online);
   transition-delay: 0.2s;
 }
 /*Member List*/
-.content-1jQy2l>.membersWrap-3NUR2t,
-.content-1jQy2l>.container-2o3qEW .membersWrap-3NUR2t,
+.content-18rAwf>.membersWrap-3GwLFp,
+.content-18rAwf>.container-2vWgD2 .membersWrap-3GwLFp,
 #app-mount .ChannelDms-channelmembers-wrap {
   background-color: rgba(0, 0, 0, 0.9);
 }
@@ -930,25 +930,25 @@ fill: var(--online);
   background-color: transparent;
 }
 @media (min-width:700px) {
-  .container-2o3qEW,
-  .membersWrap-3NUR2t:not(#dv-mount),
-  .membersWrap-3NUR2t:not(#dv-mount) > div {
+  .container-2vWgD2,
+  .membersWrap-3GwLFp:not(#dv-mount),
+  .membersWrap-3GwLFp:not(#dv-mount) > div {
     min-width:60px!important;
     max-width:240px!important;
     width:60px;
     min-height: 100%;
-    transition: min-width .5s;
+    transition: all .5s;
   }
-  .container-2o3qEW:hover,
-  .membersWrap-3NUR2t:hover:not(#dv-mount),
-  .membersWrap-3NUR2t:hover:not(#dv-mount) > div {
+  .container-2vWgD2:hover,
+  .membersWrap-3GwLFp:hover:not(#dv-mount),
+  .membersWrap-3GwLFp:hover:not(#dv-mount) > div {
     width:240px;
     min-width: 240px !important;
   }
 }
 @media (max-width: 700px) {
-  .content-1jQy2l>.membersWrap-3NUR2t,
-  .content-1jQy2l>.container-2o3qEW .membersWrap-3NUR2t,
+  .content-18rAwf>.membersWrap-3GwLFp,
+  .content-18rAwf>.container-2vWgD2 .membersWrap-3GwLFp,
   #app-mount .ChannelDms-channelmembers-wrap {
     position: fixed;
     right: 0;
@@ -961,19 +961,19 @@ fill: var(--online);
     transform: translateX(calc(100vw - 60px));
     transition: transform 1s;
   }
-  .content-1jQy2l>.membersWrap-3NUR2t:hover,
-  .content-1jQy2l>.container-2o3qEW:hover .membersWrap-3NUR2t,
+  .content-18rAwf>.membersWrap-3GwLFp:hover,
+  .content-18rAwf>.container-2vWgD2:hover .membersWrap-3GwLFp,
   #app-mount .ChannelDms-channelmembers-wrap:hover {
     transform: translateX(0px);
   }
-  .membersWrap-3NUR2t:not(#dv-mount),
-  .membersWrap-3NUR2t:not(#dv-mount) > div {
+  .membersWrap-3GwLFp:not(#dv-mount),
+  .membersWrap-3GwLFp:not(#dv-mount) > div {
     width: 100vw;
   }
   .member-2gU6Ar {
     max-width: calc(100% - 16px);
   }
-  .container-2o3qEW {
+  .container-2vWgD2 {
     width: 0px;
   }
 }
