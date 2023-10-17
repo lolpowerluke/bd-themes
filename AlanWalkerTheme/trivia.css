@@ -714,7 +714,7 @@ div:not(.messagesWrapper-RpOMA3) > .scrollerBase-_bVAAt::-webkit-scrollbar,
 #app-mount .children-3xh0VB:after {
   display: none;
 }
-#app-mount .chatContent-3KubbW {
+#app-mount .chatContent-2O4SXb {
   margin-top: -45px;
   background: transparent;
 }
@@ -724,14 +724,14 @@ div:not(.messagesWrapper-RpOMA3) > .scrollerBase-_bVAAt::-webkit-scrollbar,
 .messagesWrapper-RpOMA3 .scroller-kQBbkU::-webkit-scrollbar-track {
   margin-top: 45px;
 }
-#app-mount .wrapper-1gVUIN ~ .content-1jQy2l .chatContent-3KubbW .scroller-kQBbkU::-webkit-scrollbar-track,
-#app-mount .wrapper-1gVUIN ~ .content-1jQy2l .chatContent-3KubbW {
+#app-mount .wrapper-1gVUIN ~ .content-1jQy2l .chatContent-2O4SXb .scroller-kQBbkU::-webkit-scrollbar-track,
+#app-mount .wrapper-1gVUIN ~ .content-1jQy2l .chatContent-2O4SXb {
   margin-top: 0;
 }
 .newMessagesBar-1hF-9G {
   margin-top: 45px;
 }
-#app-mount .wrapper-1gVUIN ~ .content-1jQy2l .chatContent-3KubbW .newMessagesBar-1hF-9G {
+#app-mount .wrapper-1gVUIN ~ .content-1jQy2l .chatContent-2O4SXb .newMessagesBar-1hF-9G {
   margin-top: 0;
 }
 .container-ZMc96U.themed-Hp1KC_ {
