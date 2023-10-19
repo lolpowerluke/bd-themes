@@ -1041,3 +1041,33 @@ aside.profilePanel-2PWEok .buttonColor-XIRMbp {
 .theme-dark .profileColors-3Y0XaR {
   background: none;
 }
+/*Call Buttons (only visible while in call)*/
+@media (max-width:800px) {
+  .wrapper-1gVUIN .bottomControls-31YuPK .wrapper-3t3Yqv .controlButton-2PMNom {
+    margin: 0;
+    transform: scale(0.8);
+  }
+  .wrapper-1gVUIN .bottomControls-31YuPK {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .wrapper-1gVUIN .bottomControls-31YuPK .flex-2S1XBF:first-child {
+    grid-row: 1 / 2;
+  }
+  .wrapper-1gVUIN .bottomControls-31YuPK .flex-2S1XBF:nth-child(2) {
+    grid-row: 2 / 3;
+    grid-column: 1 / 3;
+  }
+  .wrapper-1gVUIN .bottomControls-31YuPK > .flex-2S1XBF:first-of-type > .flex-2S1XBF:first-of-type {
+    margin: 0;
+  }
+  .wrapper-1gVUIN .bottomControls-31YuPK > .flex-2S1XBF:first-of-type {
+    gap: 5px;
+  }
+  .wrapper-1gVUIN .bottomControls-31YuPK .leftDivider-1HpX9I,
+  .wrapper-1gVUIN .bottomControls-31YuPK .actionBarButton-13NNTn,
+  .wrapper-1gVUIN .bottomControls-31YuPK .leftTrayIcon-3kMl25 {
+    margin-right: 0;
+  }
+}
