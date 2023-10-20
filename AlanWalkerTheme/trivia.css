@@ -387,14 +387,14 @@
   pointer-events: none;
   transition: border-bottom-color .5s ease;
 }
-#app-mount .messagesWrapper-RpOMA3 + .form-3gdLxP:not(:hover):not(:focus-within) > .channelTextArea-1FufC0 + .typing-2J1mQU::after,
-#app-mount .messagesWrapper-RpOMA3 + .form-3gdLxP:not(:hover):not(:focus-within) > [aria-controls*="popout_"] + .typing-2J1mQU::after {
+#app-mount .messagesWrapper-RpOMA3 + .form-3qe0Ni:not(:hover):not(:focus-within) > .channelTextArea-1FufC0 + .typing-2J1mQU::after,
+#app-mount .messagesWrapper-RpOMA3 + .form-3qe0Ni:not(:hover):not(:focus-within) > [aria-controls*="popout_"] + .typing-2J1mQU::after {
   border-bottom-color: rgb(var(--border-color-1), var(--border-opacity-1));
 }
 #app-mount .chat-9g_3Xj form .typing-2J1mQU:hover::after {
   border-bottom-color: rgb(var(--border-color-1), var(--border-opacity-1));
 }
-#app-mount .messagesWrapper-RpOMA3 + .form-3gdLxP:focus-within > [aria-controls*="popout_"] + .typing-2J1mQU::after {
+#app-mount .messagesWrapper-RpOMA3 + .form-3qe0Ni:focus-within > [aria-controls*="popout_"] + .typing-2J1mQU::after {
   border-bottom-color: black;
 }
 .typing-2J1mQU .cooldownWrapper-2k1jHK {
@@ -516,11 +516,11 @@ html #app-mount .scrollableContainer-15eg7h {
   background-color: var(--user-popout);
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
-.form-3gdLxP:before {
+.form-3qe0Ni:before {
   display: none;
 }
 @media (max-width: 700px) {
-  .form-3gdLxP {
+  .form-3qe0Ni {
     padding-left: 10px;
     padding-right: 10px;
   }
