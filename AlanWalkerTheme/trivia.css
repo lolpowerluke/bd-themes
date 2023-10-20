@@ -10,7 +10,7 @@
   background: none;
 }
 /*Chat*/
-.chat-2ZfjoI {
+.chat-9g_3Xj {
   background: none;
 }
 /*channel- and server- bar*/
@@ -358,7 +358,7 @@
   }
 }
 /*Typing Status*/
-#app-mount .chat-2ZfjoI form .typing-2J1mQU {
+#app-mount .chat-9g_3Xj form .typing-2J1mQU {
   background-color: var(--back-color-boxes);
   bottom: 100%;
   padding-left: 10px;
@@ -376,7 +376,7 @@
   border-color: rgb(var(--border-color-1), var(--border-opacity-1));
   border-bottom: 0;
 }
-#app-mount .chat-2ZfjoI form .typing-2J1mQU::after {
+#app-mount .chat-9g_3Xj form .typing-2J1mQU::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -391,7 +391,7 @@
 #app-mount .messagesWrapper-RpOMA3 + .form-3gdLxP:not(:hover):not(:focus-within) > [aria-controls*="popout_"] + .typing-2J1mQU::after {
   border-bottom-color: rgb(var(--border-color-1), var(--border-opacity-1));
 }
-#app-mount .chat-2ZfjoI form .typing-2J1mQU:hover::after {
+#app-mount .chat-9g_3Xj form .typing-2J1mQU:hover::after {
   border-bottom-color: rgb(var(--border-color-1), var(--border-opacity-1));
 }
 #app-mount .messagesWrapper-RpOMA3 + .form-3gdLxP:focus-within > [aria-controls*="popout_"] + .typing-2J1mQU::after {
