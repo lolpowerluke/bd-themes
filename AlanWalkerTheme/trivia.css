@@ -17,7 +17,7 @@
 .scroller-WSmht3,
 .scroller-3X7KbA,
 .wrapper-1_HaEi,
-#app-mount .content-1jQy2l,
+#app-mount .content-18rAwf,
 .privateChannels-oVe7HL {
   background-color: transparent !important;
 }
@@ -87,7 +87,7 @@
 .container-36u7Lw,
 .layer-86YKbF[aria-label="USER_SETTINGS"],
 .pageWrapper-2PwDoS,
-.content-1jQy2l,
+.content-18rAwf,
 .tabBody-2dgbAs {
   background: var(--main-background);
 }
@@ -728,7 +728,7 @@ div:not(.messagesWrapper-RpOMA3) > .scrollerBase-_bVAAt::-webkit-scrollbar,
 .newMessagesBar-1hF-9G {
   margin-top: 45px;
 }
-#app-mount .wrapper-1gVUIN ~ .content-1jQy2l .chatContent-2O4SXb .newMessagesBar-1hF-9G {
+#app-mount .wrapper-1gVUIN ~ .content-18rAwf .chatContent-2O4SXb .newMessagesBar-1hF-9G {
   margin-top: 0;
 }
 .container-ZMc96U.themed-Hp1KC_ {
