@@ -1,21 +1,21 @@
-.app__00c92::before {
-	display: block;
+.app-2CXKsg::before {
+  display: block;
 }
-.app__00c92::before {
-	content: "theme outdated, please redownload from https://lolpowerluke.github.io/";
-	display: var(--version-1-1-9);
-	color: #fff;
-	position: relative;
-	text-align: center;
-	padding: 10px;
-	background-color: rgb(22, 22, 22);
-	border-top: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-	border-bottom: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-	z-index: 999999;
+.app-2CXKsg::before {
+  content: "theme outdated, please redownload from https://lolpowerluke.github.io/";
+  display: var(--version-1-1-9);
+  color:#fff;
+  position:relative;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(22, 22, 22);
+  border-top: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+  border-bottom: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+  z-index:999999;
 }
 /*time of the year styling*/
 /*Christmas*/
-/* .message__80c10.groupStart__56db5:not(.systemMessage__6e6a4) .contents_f41bb2::before {
+/* .message-2CShn3.groupStart-3Mlgv1:not(.systemMessage-1H1Z20) .contents-2MsGLg::before {
   content: "";
   width: 50px;
   height: 50px;
@@ -26,6 +26,6 @@
   pointer-events: none;
   z-index: 2;
 }
-.newMessagesBar__8b6d7 {
+.newMessagesBar-1hF-9G {
   z-index: 3;
 } */

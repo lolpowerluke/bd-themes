@@ -1,57 +1,57 @@
-.wrapper_fbbb73 {
-	margin-bottom: 0;
-	border-radius: 0;
-	padding: 16.5px 0;
+.wrapper-2SplAX {
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 16.5px 0;
 }
-.form__13a2c {
-	padding: 0;
-	margin-top: 0;
-	display: flex;
-	flex-direction: column;
-	overflow: visible;
+.form-3qe0Ni {
+  padding: 0;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: visible;
 }
-.channelTextArea__2e60f {
-	margin-bottom: 0;
-	border-radius: 0;
+.channelTextArea-1deLlK {
+  margin-bottom: 0;
+  border-radius: 0;
 }
-.webkit__8d35a .buttons_ce5b56 {
-	margin-right: 4px;
+.webkit-QgSAqd .buttons-uaqb-5 {
+  margin-right: 4px;
 }
-.base__512ed {
-	position: absolute;
-	width: calc(100% - 16px);
-	display: flex;
-	justify-content: space-between;
-	padding: 0 8px;
-	box-sizing: border-box;
-	top: -24px;
-	left: 0;
-	background: var(--bg-overlay-chat, var(--background-primary));
+.base-3bcbY3 {
+  position: absolute;
+  width: calc(100% - 16px);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8px;
+  box-sizing: border-box;
+  top: -24px;
+  left: 0;
+  background: var(--bg-overlay-chat,var(--background-primary));
 }
-.base__512ed > .cooldownWrapper_de448f {
-	margin: 0;
-	position: static;
+.base-3bcbY3 > .cooldownWrapper-2k1jHK {
+  margin: 0;
+  position: static;
 }
-.scroller__1f96e {
-	position: static;
+.scroller-kQBbkU {
+  position: static;
 }
-.scrollableContainer__33e06 {
-	border-radius: 0;
+.scrollableContainer-15eg7h {
+  border-radius: 0;
 }
-.scrollableContainer__33e06 > .inner__9fd0b {
-	min-height: 54px;
-	align-items: center;
+.scrollableContainer-15eg7h > .inner-NQg18Y {
+  min-height: 54px;
+  align-items: center;
 }
 @media (max-width: 700px) {
-	.scrollableContainer__33e06 > .inner__9fd0b {
-		min-height: 48px;
-	}
+  .scrollableContainer-15eg7h > .inner-NQg18Y {
+    min-height: 48px;
+  }
 }
-.attachWrapper__6354f {
-	display: flex;
-	position: static;
-	align-items: center;
+.attachWrapper-3slhXI {
+  display: flex;
+  position: static;
+  align-items: center;
 }
-.attachedBars_da3c74 {
-	border-radius: 0;
+.attachedBars-2BCP3l {
+  border-radius: 0;
 }
