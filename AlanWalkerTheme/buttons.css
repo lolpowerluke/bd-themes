@@ -1,73 +1,73 @@
 /*Green buttons */
-.tabBar-ra-EuL .item-3mHhwr[aria-controls="ADD_FRIEND-tab"],
+.tabBar__73938 .item_e4ca95[aria-controls="ADD_FRIEND-tab"],
 .lookFilled-1Gx00P.colorGreen-29iAKY {
-    border-radius: 5px;
+	border-radius: 5px;
 }
-.tabBar-ra-EuL .item-3mHhwr[aria-controls="ADD_FRIEND-tab"]:hover,
+.tabBar__73938 .item_e4ca95[aria-controls="ADD_FRIEND-tab"]:hover,
 .lookFilled-1Gx00P.colorGreen-29iAKY:hover {
-    background-color: var(--back-color-button);
+	background-color: var(--back-color-button);
 }
 .lookFilled-1Gx00P.colorGreen-29iAKY {
-  background-color: transparent;
-  border: 2px solid var(--back-color-button);
+	background-color: transparent;
+	border: 2px solid var(--back-color-button);
 }
 /*Red buttons */
 .lookFilled-1Gx00P.colorRed-1TFJan {
-  color: rgb(255, 255, 255);
-  background-color: var(--back-color-danger-button);
-  border-radius: 5px;
+	color: rgb(255, 255, 255);
+	background-color: var(--back-color-danger-button);
+	border-radius: 5px;
 }
 /*Blue buttons*/
 .bd-addon-modal-footer .bd-button,
 .lookFilled-1Gx00P.colorBrand-3pXr91 {
-  background-color: var(--back-color-boxes);
+	background-color: var(--back-color-boxes);
 }
 .bd-addon-modal-footer .bd-button,
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
-  background-color: var(--back-color-boxes-hover);
+	background-color: var(--back-color-boxes-hover);
 }
 /*Home Button*/
-.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, 
-.wrapper-3kah-n:hover .childWrapper-1j_1ub {
-  background-color: transparent;
+.wrapper_d281dd.selected_f5ec8e .childWrapper__01b9c,
+.wrapper_d281dd:hover .childWrapper__01b9c {
+	background-color: transparent;
 }
-.homeIcon-r0w4ny path {
-  display: none;
+.homeIcon__00b1b path {
+	display: none;
 }
-.homeIcon-r0w4ny {
-  -webkit-mask: var(--home-button-background);
-  -webkit-mask-size: var(--home-button-background-size);
-  -webkit-mask-repeat: no-repeat;
-  -webkit-mask-position: center;
-  background-color: var(--unread-pill);
+.homeIcon__00b1b {
+	-webkit-mask: var(--home-button-background);
+	-webkit-mask-size: var(--home-button-background-size);
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-position: center;
+	background-color: var(--unread-pill);
 }
 /*Create Server And Explore Servers Buttons*/
-.listItemWrapper-3d87LP,
-.listItemWrapper-3ktTom {
-  background-color: black;
-  border: 1px solid rgb(var(--border-color-hover));
-  border-radius: 30px;
+.listItemWrapper__1f93b,
+.listItemWrapper__4078f {
+	background-color: black;
+	border: 1px solid rgb(var(--border-color-hover));
+	border-radius: 30px;
 }
-.circleIconButton-1VxDrg.selected-2r1Hvo,
-.circleIconButton-3lUBQk.selected-2tb4pB {
-  color: var(--unread-pill);
-  background-color: transparent;
+.circleIconButton_d8df29.selected__5250e,
+.circleIconButton__78ef6.selected__50120 {
+	color: var(--unread-pill);
+	background-color: transparent;
 }
 /*Mark As Read Button In Chat*/
-.newMessagesBar-1hF-9G {
-  background-color: var(--back-color-boxes);
-  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-  border-top: 0px;
+.newMessagesBar__8b6d7 {
+	background-color: var(--back-color-boxes);
+	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+	border-top: 0px;
 }
 /*Upload Button*/
-.attachButtonInner-2mwer8 svg {
-  background-color: rgb(var(--border-color-1));
-  border-radius: 50%;
+.attachButtonInner__3ce2b svg {
+	background-color: rgb(var(--border-color-1));
+	border-radius: 50%;
 }
-.attachButtonInner-2mwer8 svg[aria-hidden="false"] {
-  border-radius: 15px 15px 7px 15px;
+.attachButtonInner__3ce2b svg[aria-hidden="false"] {
+	border-radius: 15px 15px 7px 15px;
 }
-.attachButton-_ACFSu:hover .attachButtonPlus-3IYelE,
-.attachButtonPlus-3IYelE {
-  fill: black;
+.attachButton_b1db83:hover .attachButtonPlus_bf89ca,
+.attachButtonPlus_bf89ca {
+	fill: black;
 }

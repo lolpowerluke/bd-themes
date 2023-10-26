@@ -1,24 +1,24 @@
 /*General Sidebar*/
-.standardSidebarView-E9Pc3j .sidebarRegion-1VBisG {
-  -ms-flex: 0;
-  -ms-flex-pack: end;
-  flex: 0;
-  z-index: 1;
+.standardSidebarView__1129a .sidebarRegion__60457 {
+	-ms-flex: 0;
+	-ms-flex-pack: end;
+	flex: 0;
+	z-index: 1;
 }
 /*settings account area*/ /*Credit to DaBluLite#7409 for the idea and base css (I made some small changes to their snippet)*/
-/*.background-3d_SjE {
+/*.background_b61fcc {
   background-color: transparent;
 }
-.fieldList-in8WkP {
+.fieldList_aab0de {
   background-color: transparent;
 }
-.fieldList-in8WkP {
+.fieldList_aab0de {
   display: flex;
   gap: 5px;
   flex-direction: row;
   flex-wrap: wrap;
 }
-.field-21XZwa {
+.field__9e8e2 {
   order: 0;
   flex: 1 0 240px;
   border-radius: 8px;
@@ -32,203 +32,212 @@
   overflow-y: scroll;
   height: 125px;
 }
-.field-21XZwa:nth-child(2) {
+.field__9e8e2:nth-child(2) {
   order: 1;
 }
-.field-21XZwa::-webkit-scrollbar {
+.field__9e8e2::-webkit-scrollbar {
   display: none;
 }
-.field-21XZwa .fieldButton-14lHvK {
+.field__9e8e2 .fieldButton_a93f59 {
   background-color: var(--back-seeting-account-cards-buttons);
   border-radius: 8px;
   transition: .3s;
 }
-.field-21XZwa .fieldButton-14lHvK:hover {
+.field__9e8e2 .fieldButton_a93f59:hover {
   background-color: var(--back-seeting-account-cards-buttons-hover);
 }
-.field-21XZwa .fieldButton-14lHvK:hover > div {
+.field__9e8e2 .fieldButton_a93f59:hover > div {
   background-image: none;
 }
-.field-21XZwa .fieldButton-14lHvK:nth-child(1) {
+.field__9e8e2 .fieldButton_a93f59:nth-child(1) {
   right: 5px;
 }
-.field-21XZwa .fieldButton-14lHvK {
+.field__9e8e2 .fieldButton_a93f59 {
   bottom: 10px;
   position: absolute;
 }
-.avatar-3mTjvZ ~ button {
+.avatar__6c108 ~ button {
   margin-right: 15px;
   border-radius: 8px;
 }
-.accountProfileCard-lbN7n- .bannerSVGWrapper-qc0szY foreignObject {
+.accountProfileCard__22589 .bannerSVGWrapper-qc0szY foreignObject {
   mask: none;
 }
-.accountProfileCard-lbN7n- .avatar-3mTjvZ {
+.accountProfileCard__22589 .avatar__6c108 {
   top: unset;
 }*/
 /*General Content Area*/
-.layer-86YKbF .contentRegion-3HkfJJ,
-.layer-86YKbF .contentRegion-3HkfJJ .contentTransitionWrap-1YD530 {
-  overflow: hidden;
+.layer_e552e0 .contentRegion__0bec1,
+.layer_e552e0 .contentRegion__0bec1 .contentTransitionWrap_c5bc61 {
+	overflow: hidden;
 }
-.standardSidebarView-E9Pc3j .contentColumnDefault-3eyv5o {
-  padding: 20px 40px 80px;
+.standardSidebarView__1129a .contentColumnDefault_c66386 {
+	padding: 20px 40px 80px;
 }
-.standardSidebarView-E9Pc3j .contentColumn-1C7as6, 
-.standardSidebarView-E9Pc3j .customColumn-2n-oKU {
-  -ms-flex: 1 1 auto;
-  -webkit-box-flex: 1;
-  flex: 1 1 auto;
-  max-width: 100%;
-  min-height: 100%;
-  min-width: 460px;
+.standardSidebarView__1129a .contentColumn_dc7d36,
+.standardSidebarView__1129a .customColumn_e22a6e {
+	-ms-flex: 1 1 auto;
+	-webkit-box-flex: 1;
+	flex: 1 1 auto;
+	max-width: 100%;
+	min-height: 100%;
+	min-width: 460px;
 }
 .bdcompat-addon-panel-list .bd-addon-card,
 .bd-addon-list .bd-addon-card {
-  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-  border-radius: 10px;
+	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+	border-radius: 10px;
 }
 .bd-addon-list .bd-footer .bd-controls .bd-addon-button {
-  background-color: var(--back-color-boxes);
+	background-color: var(--back-color-boxes);
 }
 .bd-addon-list .bd-footer .bd-controls .bd-button-danger {
-  background-color: var(--back-color-danger-boxes);
+	background-color: var(--back-color-danger-boxes);
 }
 /*Switches*/
 .container-2nx-BQ[style*="hsl(218, calc(var(--saturation-factor, 1) * 4.6%), 46.9%);"],
 .bd-switch-body {
-  background: var(--switch-off) !important;
+	background: var(--switch-off) !important;
 }
 .container-2nx-BQ[style*="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"],
-.bd-switch input:checked+.bd-switch-body {
-  background: var(--switch-on) !important;
+.bd-switch input:checked + .bd-switch-body {
+	background: var(--switch-on) !important;
 }
 /*settingsIcons*/
-[aria-label="USER_SETTINGS"] .sidebar-nqHbhN {
-  width: 218px;
+[aria-label="USER_SETTINGS"] .sidebar__9e3e2 {
+	width: 218px;
 }
 /*Sidebar*/
-.sidebar-nqHbhN {
-  padding-top: 30px;
+.sidebar__9e3e2 {
+	padding-top: 30px;
 }
 /*profile banner*/
-.accountProfileCard-lbN7n- > .UserBackgrounds-banner-container {
-  height: 400px;
+.accountProfileCard__22589 > .UserBackgrounds-banner-container {
+	height: 400px;
 }
-.accountProfileCard-lbN7n- > .UserBackgrounds-banner-container > :last-child {
-  width: 100%;
-  background: center / cover;
-  height: 100%;
+.accountProfileCard__22589 > .UserBackgrounds-banner-container > :last-child {
+	width: 100%;
+	background: center / cover;
+	height: 100%;
 }
 #app-mount [aria-label="USER_SETTINGS"] .UserBackgrounds-banner-container {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  opacity: .5;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	opacity: 0.5;
 }
 /*Profile crad in settings*/
-#app-mount [aria-label="USER_SETTINGS"] .background-3d_SjE,
-#app-mount [aria-label="USER_SETTINGS"] .userInfo-regn9W {
-  position:relative
+#app-mount [aria-label="USER_SETTINGS"] .background_b61fcc,
+#app-mount [aria-label="USER_SETTINGS"] .userInfo__8f826 {
+	position: relative;
 }
-.userInfo-regn9W {
-  margin-bottom: 50px;
+.userInfo__8f826 {
+	margin-bottom: 50px;
 }
-#app-mount [aria-label="USER_SETTINGS"] .userInfo-regn9W .accountSettingsAvatar {
-  top: 0;
+#app-mount
+	[aria-label="USER_SETTINGS"]
+	.userInfo__8f826
+	.accountSettingsAvatar {
+	top: 0;
 }
 /*Compat lists (BD, PC, Kernel) + styling cards*/
 #app-mount .holy-settings-panel .holy-settings-card-scroller,
 #app-mount .kernel-card-scroller,
 #app-mount .pc-settings-panel .pc-settings-card-scroller,
 #app-mount .bd-addon-list.bd-grid-view {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1px;
-  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-  border-radius: 15px;
-  overflow: hidden;
-  background-color: rgb(var(--border-color-1), var(--border-opacity-1));
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 1px;
+	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+	border-radius: 15px;
+	overflow: hidden;
+	background-color: rgb(var(--border-color-1), var(--border-opacity-1));
 }
-#app-mount .holy-settings-panel .holy-settings-card-scroller .holy-card-container,
+#app-mount
+	.holy-settings-panel
+	.holy-settings-card-scroller
+	.holy-card-container,
 #app-mount .kernel-card-scroller .kernel-card,
-#app-mount .pc-settings-panel .pc-settings-card-scroller .pc-settings-addon-card,
+#app-mount
+	.pc-settings-panel
+	.pc-settings-card-scroller
+	.pc-settings-addon-card,
 #app-mount .bd-addon-list.bd-grid-view > .bd-addon-card {
-  border-radius: 0 !important;
-  background-color: black;
-  border: 0;
+	border-radius: 0 !important;
+	background-color: black;
+	border: 0;
 }
 #app-mount .kernel-card-scroller .kernel-card,
 #app-mount .holy-card-container,
 .pc-settings-addon-card,
 .bd-addon-list.bd-grid-view > div {
-  margin: 0;
-  flex: 1 1 400px;
+	margin: 0;
+	flex: 1 1 400px;
 }
 .bd-addon-card .bd-addoncard-header .bd-addoncard-info {
-  flex-wrap: wrap;
-  row-gap: 5px;
+	flex-wrap: wrap;
+	row-gap: 5px;
 }
 .bd-addon-card .bd-addoncard-header .bd-addoncard-info + .container-2nx-BQ {
-  flex: 0 0 40px;
+	flex: 0 0 40px;
 }
 #app-mount .kernel-card,
 #app-mount .holy-card-container {
-  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-  background: var(--user-popout);
+	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+	background: var(--user-popout);
 }
 #app-mount .holy-card-container,
 .kernel-card-scroller .kernel-card {
-  padding: 0;
+	padding: 0;
 }
 .kernel-card-scroller .kernel-card-header {
-  padding: 10px;
+	padding: 10px;
 }
 .kernel-footer,
 .kernel-card-scroller .kernel-card-desc {
-  padding: 10px;
-  padding-top: 0;
+	padding: 10px;
+	padding-top: 0;
 }
 #app-mount .holy-card-container .holy-card-header {
-  padding: 10px;
+	padding: 10px;
 }
 #app-mount .kernel-card .kernel-card-header,
 #app-mount .holy-card-container .holy-card-header {
-  background: var(--background-secondary-alt);
+	background: var(--background-secondary-alt);
 }
 #app-mount .kernel-card .kernel-card-tools {
-  top: 0;
-  right: 0;
-  padding: 3px;
-  background-color: transparent;
-  border: 0;
+	top: 0;
+	right: 0;
+	padding: 3px;
+	background-color: transparent;
+	border: 0;
 }
 #app-mount .holy-card-container .holy-card-description {
-  background: none;
+	background: none;
 }
 .holy-card-container .holy-card-footer .holy-card-controls {
-  padding: 10px;
-  padding-top: 0;
-  padding-left: 0;
+	padding: 10px;
+	padding-top: 0;
+	padding-left: 0;
 }
 #app-mount .pc-settings-addon-card {
-  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-  overflow: hidden;
-  margin: 0;
+	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+	overflow: hidden;
+	margin: 0;
 }
 #app-mount .pc-settings-addon-card::before {
-  content: "";
-  inset: 0;
-  position: absolute;
-  border-left: 4px solid var(--plugin-color);
-  pointer-events: none;
+	content: "";
+	inset: 0;
+	position: absolute;
+	border-left: 4px solid var(--plugin-color);
+	pointer-events: none;
 }
 #app-mount [class*="bdcompat-settings"] svg,
 #app-mount [class*="pccompat-settings"] svg {
-  transform: scaleX(1);
+	transform: scaleX(1);
 }
 #app-mount .bd-addon-list > .bd-addon-card.bd-addon-card-disabled {
-  background-color: rgb(61, 0, 0);
+	background-color: rgb(61, 0, 0);
 }
