@@ -112,12 +112,14 @@
 	background: var(--main-background);
 }
 /*Background Selected DM*/
-.selected__3b4cb .wrapper__7bcde,
-.selected-3veCBZ {
+.selected__3b4cb .wrapper__7bcde {
 	background: var(--back-selected-dm-pic);
 	background-color: var(--back-selected-dm);
 	background-size: cover;
 	background-position: var(--back-pos-dm);
+}
+.wrapper__7bcde {
+	margin-right: 8px;
 }
 /*DM-list*/
 .channel_c21703:hover {

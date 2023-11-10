@@ -5,7 +5,6 @@
 .containerDefault__23a29 + .containerDefault__3187b .link__95dc0 {
 	border-radius: 8px 8px 0px 0px;
 	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-	border-bottom: 0px;
 }
 .containerDefault__3187b .link__95dc0 {
 	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
@@ -53,7 +52,10 @@
 	.containerDefault__3187b
 	.link__95dc0,
 .container_f87d43:hover + .containerDefault__3187b .link__95dc0,
-.containerDefault__3187b:hover + .containerDefault__3187b .link__95dc0 {
+.containerDefault__3187b:hover + .containerDefault__3187b .link__95dc0,
+.containerDefault__3187b.selected__3b4cb
+	+ .containerDefault__3187b
+	.link__95dc0 {
 	border-top: 0px;
 }
 .container_f87d43:hover + .containerDefault__23a29::before,
@@ -144,7 +146,7 @@
 	width: calc(100% - 18px);
 }
 .containerDefault__3187b .link__95dc0 {
-	margin-right: 8px;
+	margin-right: 0px;
 	overflow: hidden;
 }
 .CollapsibleThreads-Collapser-collapser
