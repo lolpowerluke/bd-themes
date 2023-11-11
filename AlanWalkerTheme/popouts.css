@@ -17,11 +17,11 @@
 	);
 }
 /*Inbox*/
-.recentMentionsPopout__826a9 .scrollerBase-_bVAAt {
-	padding-right: 16px !important;
-	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-	background-color: var(--popout-scroller);
-	border-radius: 0 0 5px 5px;
+.recentMentionsPopout__826a9 .scrollerBase_dc3aa9 {
+  padding-right: 16px !important;
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+  background-color: var(--popout-scroller);
+  border-radius: 0 0 5px 5px;
 }
 .recentMentionsPopout__826a9 .header__28ebb {
 	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
@@ -79,7 +79,7 @@
   padding: 8px;
   border-bottom: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
-#sticker-picker-tab-panel .wrapper__4f229 .scrollerBase-_bVAAt {
+#sticker-picker-tab-panel .wrapper__4f229 .scrollerBase_dc3aa9 {
   margin-top: 1px;
   border-right: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
@@ -194,25 +194,21 @@
 	);
 }
 /*Changelog */
-.focusLock-2tveLW .scrollerBase-_bVAAt {
-	border-radius: 0px;
+.focusLock__10aa5 .scrollerBase_dc3aa9 {
+  border-radius: 0px;
 }
-.layerContainer-2v_Sit
-	.layer-1Ixpg3
-	.focusLock-2tveLW
-	.root_a28985
-	.content-2hZxGK {
-	background-color: black;
+.layerContainer_d5a653 .layer_ad604d .focusLock__10aa5 .root_a28985 .content-2hZxGK {
+  background-color: black;
 }
-.layerContainer-2v_Sit .layer-1Ixpg3 .focusLock-2tveLW .header-1zd7se {
-	border-bottom: 0px;
+.layerContainer_d5a653 .layer_ad604d .focusLock__10aa5 .header__6d5ea {
+  border-bottom: 0px;
 }
-.layerContainer-2v_Sit .layer-1Ixpg3 .focusLock-2tveLW .thin_b1c063 {
-	border-radius: 0px;
+.layerContainer_d5a653 .layer_ad604d .focusLock__10aa5 .thin_b1c063 {
+  border-radius: 0px;
 }
-.layerContainer-2v_Sit .layer-1Ixpg3 .focusLock-2tveLW .footer-31IekZ {
-	border-top: 0px;
-	background-color: var(--user-popout);
+.layerContainer_d5a653 .layer_ad604d .focusLock__10aa5 .footer__89240 {
+  border-top: 0px;
+  background-color: var(--user-popout);
 }
 /*Create Server */ /*
 .container-36u7Lw .content-2hZxGK,
