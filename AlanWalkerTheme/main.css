@@ -1,32 +1,32 @@
 /*Imports*/
-  /*USRBG*/
-  @import url('https://lolpowerluke.github.io/bd-themes/USRBG.css');
-  /*User Settings*/
-    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/userSetting.css');
-    @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css'); /*Thanks to DevilBro for letting me use this*/
-  /*Popouts*/
-    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/popouts.css');
-    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/bigUserPopout.css');
-    /*@import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/smallUserPopout.css');*/
-  /*Embeds*/
-    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/embeds.css');
-  /*Seperators*/
-    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/separators.css');
-  /*Buttons*/
-    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/buttons.css');
-  /*Plugins*/
-    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/plugins.css');
-  /*Other Stuff*/
-    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/version.css');
-    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/trivia.css');
-    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/serverChannels.css');
-    @import url('https://lolpowerluke.github.io/smallDMchannelList/smallDMchannelList.css');
-    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/friendList.css');
-    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/statusPicker.css');
-    /*Work in Progress*/
-    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/WIP.css');
-  /*Snippets*/
-    @import url('https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css'); /*Thanks to Disease for creating this*/
-    @import url('https://maendisease.github.io/BetterDiscordStuff/css/ChannelDms.css'); /*Thanks to Disease for creating this*/
-    @import url('https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css'); /*Thanks to Disease for creating this*/
-    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/ConsistantChatbar.css'); /*Thanks to dablulite for creating this*/
+/*USRBG*/
+@import url("https://lolpowerluke.github.io/bd-themes/USRBG.css");
+/*User Settings*/
+@import url("https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/userSetting.css");
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css"); /*Thanks to DevilBro for letting me use this*/
+/*Popouts*/
+@import url("https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/popouts.css");
+@import url("https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/bigUserPopout.css");
+/*@import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/smallUserPopout.css');*/
+/*Embeds*/
+@import url("https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/embeds.css");
+/*Seperators*/
+@import url("https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/separators.css");
+/*Buttons*/
+@import url("https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/buttons.css");
+/*Plugins*/
+@import url("https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/plugins.css");
+/*Other Stuff*/
+@import url("https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/version.css");
+@import url("https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/trivia.css");
+/* @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/serverChannels.css'); */
+@import url("https://lolpowerluke.github.io/smallDMchannelList/smallDMchannelList.css");
+@import url("https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/friendList.css");
+@import url("https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/statusPicker.css");
+/*Work in Progress*/
+@import url("https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/WIP.css");
+/*Snippets*/
+@import url("https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css"); /*Thanks to Disease for creating this*/
+@import url("https://maendisease.github.io/BetterDiscordStuff/css/ChannelDms.css"); /*Thanks to Disease for creating this*/
+@import url("https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css"); /*Thanks to Disease for creating this*/
+@import url("https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/ConsistantChatbar.css"); /*Thanks to dablulite for creating this*/
