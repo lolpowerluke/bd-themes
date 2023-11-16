@@ -643,3 +643,7 @@ body .bd-toasts .bd-toast {
 	right: 6px;
 	color: white;
 }
+/*Reaction Hover Popup*/
+.reactionTooltip__9384a {
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+}
