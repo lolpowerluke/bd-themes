@@ -34,16 +34,16 @@
 	border-radius: 4px 4px 0 0;
 }
 /*Profile Picture*/
-.avatarWrapper_f77579 {
+.avatarWrapper__0cd44 {
 	border: 8px solid var(--background-floating);
 }
-.avatarPositionNormal__1797c {
+.avatarPositionNormal_ba6daa {
 	top: 13px;
 }
-.avatarWrapper_f77579 {
+.avatarWrapper__0cd44 {
 	left: 14px;
 }
-.avatarWrapper_f77579 .avatarHoverTarget__3a360 foreignObject {
+.avatarWrapper__0cd44 .avatarHoverTarget__9b4a9 foreignObject {
 	background-color: var(--user-popout);
 }
 /*Top part*/
@@ -79,7 +79,7 @@
 	background: var(--user-popout-alt);
 }
 /*Activity cards*/
-.activityUserPopout_c7e67d {
+.activityUserPopout_eceeb9 {
 	border-radius: 5px;
 	margin: 0px 0 15px 0;
 	padding: 10px;
@@ -100,11 +100,11 @@
 	flex-direction: column;
 	gap: 10px;
 }
-.ShowAllActivities-wrapper-wrapper .activityUserPopout_c7e67d {
+.ShowAllActivities-wrapper-wrapper .activityUserPopout_eceeb9 {
 	margin: 0;
 	border: 0;
 }
-.ShowAllActivities-wrapper-wrapper .activityUserPopout_c7e67d:only-child {
+.ShowAllActivities-wrapper-wrapper .activityUserPopout_eceeb9:only-child {
 	background: unset;
 	padding: 0;
 }
@@ -116,7 +116,7 @@
 	background-color: black;
 }
 /*Roles*/
-.role__631a3 {
+.role_d81130 {
 	position: relative;
 	overflow: hidden;
 	z-index: 1;
@@ -126,7 +126,7 @@
 	background: transparent;
 	min-height: 22px;
 }
-#app-mount .userPopout-2j1gM4 .roleName_d19d33 {
+#app-mount .userPopout-2j1gM4 .roleName__851c9 {
 	overflow: visible;
 	white-space: pre-wrap;
 }
@@ -145,7 +145,7 @@
 	opacity: 0.3;
 	z-index: -1;
 }
-.roleRemoveButton__737f2 {
+.roleRemoveButton__20c70 {
 	position: static;
 }
 /*Roles selector*/
@@ -190,7 +190,7 @@
 	background-color: var(--user-popout);
 	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
-.avatarUploader__18c3f {
+.avatarUploader__1f1a2 {
 	border-radius: 50px;
 	border: 1px solid rgb(var(--border-color-1));
 	border-bottom: 0px;
@@ -209,7 +209,7 @@
 .popoutInfo-pKbpvG .headerTop-3GPUSF {
 	border: 0px;
 }
-.fakeActivityLayout__3607c {
+.fakeActivityLayout_d0301f {
 	border-radius: 5px;
 	margin: 15px 8px 15px 8px;
 	padding: 10px;
@@ -227,11 +227,11 @@
 	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 /*Badges*/
-.profileBadges__7a7cb {
+.profileBadges__1f2ab {
 	background-color: var(--back-small-user-popout-badges);
 	border-radius: 7px;
 	padding: 3px;
 }
-.profileBadges__7a7cb .clickable_a50745 {
+.profileBadges__1f2ab .clickable__1545b {
 	margin: 0;
 }

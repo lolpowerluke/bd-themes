@@ -27,14 +27,14 @@
 	background-color: var(--back-color-boxes-hover);
 }
 /*Home Button*/
-.wrapper_d281dd.selected_f5ec8e .childWrapper__01b9c,
-.wrapper_d281dd:hover .childWrapper__01b9c {
+.wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15,
+.wrapper__8436d:hover .childWrapper_a6ce15 {
 	background-color: transparent;
 }
-.homeIcon__00b1b path {
+.homeIcon__560eb path {
 	display: none;
 }
-.homeIcon__00b1b {
+.homeIcon__560eb {
 	-webkit-mask: var(--home-button-background);
 	-webkit-mask-size: var(--home-button-background-size);
 	-webkit-mask-repeat: no-repeat;
@@ -42,32 +42,32 @@
 	background-color: var(--unread-pill);
 }
 /*Create Server And Explore Servers Buttons*/
-.listItemWrapper__1f93b,
-.listItemWrapper__4078f {
+.listItemWrapper__3d465,
+.listItemWrapper__968be {
 	background-color: black;
 	border: 1px solid rgb(var(--border-color-hover));
 	border-radius: 30px;
 }
-.circleIconButton_d8df29.selected__5250e,
-.circleIconButton__78ef6.selected__50120 {
+.circleIconButton__05cf2.selected_aded59,
+.circleIconButton_d4e182.selected__7d836 {
 	color: var(--unread-pill);
 	background-color: transparent;
 }
 /*Mark As Read Button In Chat*/
-.newMessagesBar__8b6d7 {
+.newMessagesBar__8b272 {
 	background-color: var(--back-color-boxes);
 	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 	border-top: 0px;
 }
 /*Upload Button*/
-.attachButtonInner__3ce2b svg {
+.attachButtonInner__84c26 svg {
 	background-color: rgb(var(--border-color-1));
 	border-radius: 50%;
 }
-.attachButtonInner__3ce2b svg[aria-hidden="false"] {
+.attachButtonInner__84c26 svg[aria-hidden="false"] {
 	border-radius: 15px 15px 7px 15px;
 }
-.attachButton_b1db83:hover .attachButtonPlus_bf89ca,
-.attachButtonPlus_bf89ca {
+.attachButton__56f98:hover .attachButtonPlus_fd0021,
+.attachButtonPlus_fd0021 {
 	fill: black;
 }
