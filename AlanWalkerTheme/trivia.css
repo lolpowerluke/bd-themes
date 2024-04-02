@@ -516,12 +516,13 @@ html #app-mount .scrollableContainer_ff917f {
 	border-radius: unset;
 }
 .inner__9fd0b {
-	border-width: 1px;
+	border-width: 0 1px 0 1px;
+  box-sizing: border-box;
 	border-style: solid;
 	border-color: transparent;
 	background-color: transparent;
 	transition: border-color 0.5s, background-color 0.5s;
-	border-radius: 9px;
+	border-radius: 0;
 }
 .inner__9fd0b:focus-within,
 .inner__9fd0b:hover {
