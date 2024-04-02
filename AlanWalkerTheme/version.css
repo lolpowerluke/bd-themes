@@ -3,7 +3,7 @@
 }
 .app_de4237::before {
 	content: "theme outdated, please redownload from https://lolpowerluke.github.io/";
-	display: var(--version-1-1-9);
+	display: var(--version-1-2-1);
 	color: #fff;
 	position: relative;
 	text-align: center;
@@ -13,19 +13,3 @@
 	border-bottom: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 	z-index: 999999;
 }
-/*time of the year styling*/
-/*Christmas*/
-/* .message_ccca67.groupStart__7b93c:not(.systemMessage_fced96) .contents_d3ae0d::before {
-  content: "";
-  width: 50px;
-  height: 50px;
-  background: url("https://i.imgur.com/G260nlo.png") center/cover;
-  display: block;
-  transform: rotateY(180deg) translateX(65px) translateY(-25px);
-  position: absolute;
-  pointer-events: none;
-  z-index: 2;
-}
-.newMessagesBar__8b272 {
-  z-index: 3;
-} */
