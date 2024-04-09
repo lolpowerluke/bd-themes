@@ -370,6 +370,7 @@
 	}
 }
 /*Typing Status*/
+#app-mount .chat__1d65d form .typing__6fd1d,
 #app-mount .chat__52833 form .typing__6fd1d {
 	background-color: var(--back-color-boxes);
 	bottom: 100%;
@@ -388,6 +389,7 @@
 	border-color: rgb(var(--border-color-1), var(--border-opacity-1));
 	border-bottom: 0;
 }
+#app-mount .chat__1d65d form .typing__6fd1d::after,
 #app-mount .chat__52833 form .typing__6fd1d::after {
 	content: "";
 	position: absolute;
@@ -399,30 +401,26 @@
 	pointer-events: none;
 	transition: border-bottom-color 0.5s ease;
 }
-#app-mount
-	.messagesWrapper_add28b
-	+ .form_d8a4a1:not(:hover):not(:focus-within)
-	> .channelTextArea_c2094b
-	+ .typing__6fd1d::after,
-#app-mount
-	.messagesWrapper_add28b
-	+ .form_d8a4a1:not(:hover):not(:focus-within)
-	> [aria-controls*="popout_"]
-	+ .typing__6fd1d::after {
+#app-mount .messagesWrapper_add28b + .form_d8a4a1:not(:hover):not(:focus-within) > .channelTextArea_c2094b + .typing__6fd1d::after,
+#app-mount .messagesWrapper_add28b + .form_d8a4a1:not(:hover):not(:focus-within) > [aria-controls*="popout_"] + .typing__6fd1d::after {
 	border-bottom-color: rgb(var(--border-color-1), var(--border-opacity-1));
 }
+#app-mount .chat__1d65d form .typing__6fd1d:hover::after,
 #app-mount .chat__52833 form .typing__6fd1d:hover::after {
 	border-bottom-color: rgb(var(--border-color-1), var(--border-opacity-1));
 }
-#app-mount
-	.messagesWrapper_add28b
-	+ .form_d8a4a1:focus-within
-	> [aria-controls*="popout_"]
-	+ .typing__6fd1d::after {
+#app-mount .messagesWrapper_add28b + .form_d8a4a1:focus-within > [aria-controls*="popout_"] + .typing__6fd1d::after {
 	border-bottom-color: black;
 }
 .typing__6fd1d .cooldownWrapper__193b2 {
 	margin: 0;
+}
+.jumpToPresentBar__69174 .barButtonMain__984b4 {
+  width: fit-content;
+  flex: 0 0 auto;
+}
+.jumpToPresentBar__69174 .barButtonAlt_e800ef svg {
+  margin-top: 1px;
 }
 /*Server Bar*/
 @media (min-width: 700px) {
@@ -868,7 +866,11 @@ div:not(.messagesWrapper_add28b) > .scrollerBase-_bVAAt::-webkit-scrollbar,
 	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 	min-height: unset;
 	height: 15px;
-	margin-bottom: 8px;
+  width: fit-content;
+  margin: 0 auto -9px auto;
+}
+#app-mount .jumpToPresentBar__69174:active {
+  margin-bottom: -9px;
 }
 .jumpToPresentBar__69174 .barButtonBase__5e4cf {
 	margin-top: 7px;
