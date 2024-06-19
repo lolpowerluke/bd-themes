@@ -1,11 +1,13 @@
 /*Background Selected DM*/
+.wrapper_d8bfb3.modeSelected_d8bfb3 .link_d8bfb3,
 .channel_c91bad .selected_f5eb4b {
 	background: var(--back-selected-dm-pic);
 	background-color: transparent;
 	background-size: cover;
 	background-position: var(--back-pos-dm);
 }
-#app-mount .interactive_f5eb4b:hover {
+#app-mount .wrapper_d8bfb3 .link_d8bfb3,
+#app-mount .interactive_f5eb4b {
   background-color: transparent;
 }
 .wrapper_d8bfb3 {
