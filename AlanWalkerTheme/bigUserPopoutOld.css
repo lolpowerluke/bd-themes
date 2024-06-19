@@ -1,5 +1,5 @@
 /*Big User Popout*/
-.focusLock__28507 .root-8LYsGj {
+.focusLock_f9a4c9 .root-8LYsGj {
   display: grid;
   grid-template-columns: 240px 1fr;
   width: 980px;
@@ -9,21 +9,21 @@
   min-height: 500px;
 }
 @media (max-height: 600px) {
-  .focusLock__28507 .root-8LYsGj {
+  .focusLock_f9a4c9 .root-8LYsGj {
     min-height: unset;
   }
 }
-.focusLock__28507 .root-8LYsGj .topSection-13QKHs > header {
+.focusLock_f9a4c9 .root-8LYsGj .topSection-13QKHs > header {
   display: flex;
   flex-direction: column;
 }
-.focusLock__28507 .scrollerBase_f742b2 {
+.focusLock_f9a4c9 .scrollerBase_eed6a8 {
   display: flex;
   flex-direction: column;
   gap: 10px;
   padding: 16px !important;
 }
-.focusLock__28507 .body-1Ukv50 {
+.focusLock_f9a4c9 .body-1Ukv50 {
   height: unset;
   margin-top: 240px;
   background-color:  var(--big-user-popout-body);
@@ -33,7 +33,7 @@
 .body-1Ukv50 > div {
 	padding-top: 25px;
 }
-.focusLock__28507[role="dialog"] {
+.focusLock_f9a4c9[role="dialog"] {
 	background: none;
 }
 /*Backdrop*/
@@ -47,7 +47,7 @@
 	left: 80px;
 }
 /*Badges*/
-#app-mount .focusLock__28507 .root-8LYsGj .badgeList-2aoHPw {
+#app-mount .focusLock_f9a4c9 .root-8LYsGj .badgeList-2aoHPw {
   position: absolute;
   right: -10px;
   top: 231px;
@@ -58,9 +58,9 @@
   padding: 0;
 }
 /*Profile Banner*/
-#app-mount .focusLock__28507 .root-8LYsGj .banner__6d414,
-#app-mount .focusLock__28507 .root-8LYsGj .bannerSVGWrapper-qc0szY,
-#app-mount .focusLock__28507 .root-8LYsGj .UserBackgrounds-banner-container {
+#app-mount .focusLock_f9a4c9 .root-8LYsGj .banner_c3e427,
+#app-mount .focusLock_f9a4c9 .root-8LYsGj .bannerSVGWrapper-qc0szY,
+#app-mount .focusLock_f9a4c9 .root-8LYsGj .UserBackgrounds-banner-container {
   position: absolute;
   top: 0;
   right: 0;
@@ -80,46 +80,46 @@
 	.UserBackgrounds-banner-arrow.UserBackgrounds-banner-left {
 	border-radius: 0px 0px 8px 0px;
 }
-#app-mount .focusLock__28507 .topSection-13QKHs {
+#app-mount .focusLock_f9a4c9 .topSection-13QKHs {
   background-color: var(--big-user-popout-topsection);
   border-right: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
-#app-mount .focusLock__28507 .root-8LYsGj .bannerSVGWrapper-qc0szY {
+#app-mount .focusLock_f9a4c9 .root-8LYsGj .bannerSVGWrapper-qc0szY {
   width: 740px;
   z-index: 0;
 }
-#app-mount .focusLock__28507 .root-8LYsGj .bannerSVGWrapper-qc0szY foreignObject {
+#app-mount .focusLock_f9a4c9 .root-8LYsGj .bannerSVGWrapper-qc0szY foreignObject {
   width: 740px;
   x: -70;
 }
-#app-mount .focusLock__28507 .root-8LYsGj .profileBannerPremium__6fb42 {
+#app-mount .focusLock_f9a4c9 .root-8LYsGj .profileBannerPremium__6fb42 {
   width: 740px;
   max-width: unset;
 }
-#app-mount .focusLock__28507 .root-8LYsGj .bannerSVGWrapper-qc0szY .profileBanner_f0f36c {
+#app-mount .focusLock_f9a4c9 .root-8LYsGj .bannerSVGWrapper-qc0szY .profileBanner_f0f36c {
   top: -60px;
   max-width: unset;
 }
 /*info/activity/server/friends*/
-.focusLock__28507 .tabBarContainer-sCZC4w {
+.focusLock_f9a4c9 .tabBarContainer-sCZC4w {
   border-bottom: 0;
 }
-.focusLock__28507 .tabBarContainer-sCZC4w .tabBar-2hXqzU {
+.focusLock_f9a4c9 .tabBarContainer-sCZC4w .tabBar-2hXqzU {
   display: flex;
   flex-direction: column;
   height: fit-content;
 }
-.focusLock__28507 .tabBarContainer-sCZC4w .tabBar-2hXqzU .tabBarItem_ce14f3 {
+.focusLock_f9a4c9 .tabBarContainer-sCZC4w .tabBar-2hXqzU .tabBarItem_b9fccc {
   border: none;
 }
-.focusLock__28507 .body-1Ukv50::-webkit-scrollbar {
+.focusLock_f9a4c9 .body-1Ukv50::-webkit-scrollbar {
   display: none;
 }
-.focusLock__28507 .header-S26rhB {
+.focusLock_f9a4c9 .header-S26rhB {
   height: 240px;
   position: unset;
 }
-#app-mount .focusLock__28507 .root-8LYsGj .item-3XjbnG::before {
+#app-mount .focusLock_f9a4c9 .root-8LYsGj .item-3XjbnG::before {
   content: "";
   width: 18px;
   height: 18px;
@@ -162,14 +162,14 @@
 	background: var(--back-color-boxes);
 }
 /*UserDetails*/
-#app-mount .focusLock__28507 .UserDetails-dates-wrapper {
+#app-mount .focusLock_f9a4c9 .UserDetails-dates-wrapper {
   margin: 0;
 }
-#app-mount .focusLock__28507 .nameTag-2Nlmsy {
+#app-mount .focusLock_f9a4c9 .nameTag-2Nlmsy {
   margin-top: 0;
 }
 /*Avatar*/
-.focusLock__28507 .header-S26rhB .avatar-3QF_VA {
+.focusLock_f9a4c9 .header-S26rhB .avatar-3QF_VA {
   width: 210px !important;
   height: 210px !important;
   margin: 15px;
@@ -178,22 +178,22 @@
   left: 0;
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
-.focusLock__28507 .header-S26rhB .avatar-3QF_VA rect {
+.focusLock_f9a4c9 .header-S26rhB .avatar-3QF_VA rect {
   x: 110;
   y: 110;
 }
-.focusLock__28507 .header-S26rhB .avatar-3QF_VA > svg {
+.focusLock_f9a4c9 .header-S26rhB .avatar-3QF_VA > svg {
   width: 208px;
   height: 208px;
 }
-.focusLock__28507 .header-S26rhB .avatarStack-3vfSFa .avatar-b5OQ1N {
+.focusLock_f9a4c9 .header-S26rhB .avatarStack-3vfSFa .avatar-b5OQ1N {
   margin: 10px;
   width: 118px;
   height: 118px;
   border-radius: 10px;
   background-color: var(--big-user-popout-avatar);
 }
-.focusLock__28507 .header-S26rhB .avatar-3QF_VA foreignObject {
+.focusLock_f9a4c9 .header-S26rhB .avatar-3QF_VA foreignObject {
   mask: none;
   border-radius: 20px;
   width: 138px;
@@ -285,7 +285,7 @@
 	background-color: #39546e62;
 }
 /*Playing*/
-.activityProfile__5d0ec {
+.activityProfile_d5089b {
 	margin: 0px 8px 15px 15px;
 	padding: 10px;
 	background: var(--back-color-boxes);
@@ -296,10 +296,10 @@
 	box-shadow: none;
 	top: 10px;
 }
-.buttonsWrapper__77788 {
+.buttonsWrapper_bf8eca {
 	background-color: rgb(var(--back-user-buttons)) !important;
 }
-.button__88ad4 {
+.button_da7790 {
 	background-color: var(--back-user-buttons);
 	border-color: rgb(
 		var(--border-color-1),
@@ -307,10 +307,10 @@
 	) !important;
 	transition: 0.15s;
 }
-.button__88ad4:hover {
+.button_da7790:hover {
 	background-color: hsla(0, 0%, 100%, 0.1);
 }
-.button__88ad4:active {
+.button_da7790:active {
 	transform: scale(0.9);
 }
 /*USRBG*/
@@ -324,7 +324,7 @@
 	backdrop-filter: blur(2px);
 	background-color: rgba(0, 0, 0, 0.65);
 }
-.listScroller__18a19 {
+.listScroller_e4be58 {
 	height: 100%;
 	backdrop-filter: blur(2px);
 	background-color: rgba(0, 0, 0, 0.65);
@@ -345,9 +345,9 @@
     margin: 0px;
     padding: 4px;
   }
-  #app-mount .focusLock__28507 .root-8LYsGj .profileBannerPremium__6fb42,
-  #app-mount .focusLock__28507 .root-8LYsGj .profileBanner_f0f36c,
-  #app-mount .focusLock__28507 .root-8LYsGj .UserBackgrounds-banner-container {
+  #app-mount .focusLock_f9a4c9 .root-8LYsGj .profileBannerPremium__6fb42,
+  #app-mount .focusLock_f9a4c9 .root-8LYsGj .profileBanner_f0f36c,
+  #app-mount .focusLock_f9a4c9 .root-8LYsGj .UserBackgrounds-banner-container {
     width: 560px;
   }
   .connectedAccountOpenIcon-1yfBsb {

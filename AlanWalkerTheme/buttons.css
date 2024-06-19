@@ -1,9 +1,9 @@
 /*Green buttons */
-.tabBar__73938 .item_e4ca95[aria-controls="ADD_FRIEND-tab"],
+.tabBar_c2739c .item_c2739c[aria-controls="ADD_FRIEND-tab"],
 .lookFilled-1Gx00P.colorGreen-29iAKY {
 	border-radius: 5px;
 }
-.tabBar__73938 .item_e4ca95[aria-controls="ADD_FRIEND-tab"]:hover,
+.tabBar_c2739c .item_c2739c[aria-controls="ADD_FRIEND-tab"]:hover,
 .lookFilled-1Gx00P.colorGreen-29iAKY:hover {
 	background-color: var(--back-color-button);
 }
@@ -42,32 +42,32 @@
 	background-color: var(--unread-pill);
 }
 /*Create Server And Explore Servers Buttons*/
-.listItemWrapper__3d465,
+.listItemWrapper_dfb2f8,
 .listItemWrapper__968be {
 	background-color: black;
 	border: 1px solid rgb(var(--border-color-hover));
 	border-radius: 30px;
 }
-.circleIconButton__05cf2.selected_aded59,
+.circleIconButton_db6521.selected_db6521,
 .circleIconButton_d4e182.selected__7d836 {
 	color: var(--unread-pill);
 	background-color: transparent;
 }
 /*Mark As Read Button In Chat*/
-.newMessagesBar__8b272 {
+.newMessagesBar_cf58b5 {
 	background-color: var(--back-color-boxes);
 	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 	border-top: 0px;
 }
 /*Upload Button*/
-.attachButtonInner__84c26 svg {
+.attachButtonInner_f298d4 svg {
 	background-color: rgb(var(--border-color-1));
 	border-radius: 50%;
 }
-.attachButtonInner__84c26 svg[aria-hidden="false"] {
+.attachButtonInner_f298d4 svg[aria-hidden="false"] {
 	border-radius: 15px 15px 7px 15px;
 }
-.attachButton__56f98:hover .attachButtonPlus_fd0021,
-.attachButtonPlus_fd0021 {
+.attachButton_f298d4:hover .attachButtonPlus_f298d4,
+.attachButtonPlus_f298d4 {
 	fill: black;
 }

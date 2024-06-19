@@ -1,4 +1,4 @@
-[role="dialog"]:not(.positionContainer_f54115):not([aria-labelledby]) {
+[role="dialog"]:not(.positionContainer_af5dbb):not([aria-labelledby]) {
 	border-radius: 4px;
 	background: linear-gradient(
 		to top,
@@ -6,7 +6,7 @@
 		var(--user-popout-gradient-top)
 	);
 }
-.focusLock__28507[role="dialog"]:not([aria-labelledby]) {
+.focusLock_f9a4c9[role="dialog"]:not([aria-labelledby]) {
 	background: none;
 }
 .userProfileInnerThemedWithBanner-2624Yx {
@@ -26,26 +26,26 @@
 }
 
 /*Big User Popout*/
-/* .focusLock__28507 .root-2uUafN {
+/* .focusLock_f9a4c9 .root-2uUafN {
   width: 800px;
   height: fit-content;
   height: 100%;
   max-height: 1000px;
 }
-.focusLock__28507 .userProfileModalOuter-1FYL8T  {
+.focusLock_f9a4c9 .userProfileModalOuter-1FYL8T  {
   width: unset;
   height: fit-content;
 }
-.focusLock__28507 .userProfileInner-3F03PX {
+.focusLock_f9a4c9 .userProfileInner-3F03PX {
   display: grid;
   grid-template-columns: 240px 1fr;
   max-height: 1000px;
   height: fit-content;
 }
-.focusLock__28507 .root-2uUafN .body-_QAKrE {
+.focusLock_f9a4c9 .root-2uUafN .body-_QAKrE {
   flex: 1 1 100%;
 }
-.focusLock__28507 .root-2uUafN .topSection-1Khgkv {
+.focusLock_f9a4c9 .root-2uUafN .topSection-1Khgkv {
   margin-bottom: 0;
   height: calc(100% + 200px);
 } */
@@ -58,7 +58,7 @@
 /*Badges*/
 
 /*Profile Banner*/
-/* .focusLock__28507 .root-2uUafN header .bannerSVGWrapper-qc0szY {
+/* .focusLock_f9a4c9 .root-2uUafN header .bannerSVGWrapper-qc0szY {
   position: absolute;
   right: 4px;
   border-radius: 0 3px 0 0;
@@ -69,7 +69,7 @@
 .roundedBanner-TdlJGa {
   border-radius: 0 3px 0 10px;
 }
-.focusLock__28507 .root-2uUafN header .bannerSVGWrapper-qc0szY foreignObject {
+.focusLock_f9a4c9 .root-2uUafN header .bannerSVGWrapper-qc0szY foreignObject {
   mask: none;
 }
 .profileBanner-2zIsK7 {
@@ -78,25 +78,25 @@
 /*info/activity/server/friends*/
 
 /*Note*/
-/* #app-mount .note-3TX9O7 .input_f27786:hover,
-#app-mount .note-3TX9O7 .input_f27786:focus {
+/* #app-mount .note-3TX9O7 .input_f8bc55:hover,
+#app-mount .note-3TX9O7 .input_f8bc55:focus {
   box-shadow: none;
   color: white;
   background: var(--back-color-boxes);
 } */
 /*Avatar*/
-/* .focusLock__28507 .root-2uUafN .avatar-1YsFQ1 {
+/* .focusLock_f9a4c9 .root-2uUafN .avatar-1YsFQ1 {
   top: 30px;
 }
-.focusLock__28507 .root-2uUafN .avatar-1YsFQ1 svg {
+.focusLock_f9a4c9 .root-2uUafN .avatar-1YsFQ1 svg {
   width: 240px;
   height: 240px;
 }
-.focusLock__28507 .root-2uUafN .avatar-1YsFQ1 svg foreignObject {
+.focusLock_f9a4c9 .root-2uUafN .avatar-1YsFQ1 svg foreignObject {
   mask: none;
   border-radius: 20px;
 }
-.focusLock__28507 .root-2uUafN .avatar-1YsFQ1 svg circle {
+.focusLock_f9a4c9 .root-2uUafN .avatar-1YsFQ1 svg circle {
   opacity: 1 !important;
 } */
 /*Connections*/
@@ -209,21 +209,21 @@
   backdrop-filter: blur(2px);
   background-color: rgba(0, 0, 0, 0.65);
 }
-.listScroller__18a19 {
+.listScroller_e4be58 {
   height: 100%;
   backdrop-filter: blur(2px);
   background-color: rgba(0, 0, 0, 0.65);
 } */
 /*Small fixes realted to the screenWidth of the client*/
 /* @media (max-width: 1040px) {
-  .focusLock__28507 .root-2uUafN {
+  .focusLock_f9a4c9 .root-2uUafN {
     width: 800px;
     max-height: 800px;
   }
-  .focusLock__28507 .root-2uUafN .body-_QAKrE {
+  .focusLock_f9a4c9 .root-2uUafN .body-_QAKrE {
     top: 0px;
   }
-  .focusLock__28507 .root-2uUafN .overlayBackground-1KgwVi {
+  .focusLock_f9a4c9 .root-2uUafN .overlayBackground-1KgwVi {
     height: calc(100% - 211px);
     top: 175px;
   }

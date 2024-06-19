@@ -30,7 +30,7 @@
 	padding-top: 0;
 	padding-bottom: 0;
 }
-.customStatusItem__4b8a0 {
+.customStatusItem_e0f739 {
 	padding-top: 0;
 	padding-bottom: 0;
 }
@@ -48,12 +48,12 @@
 	.item-1OdjEX:not([id*="status-picker-switch-account"]):not(
 		[id*="status-picker-custom-status"]
 	)
-	.status__0fce8,
+	.status_e0f739,
 #status-picker
 	.item-1OdjEX:not([id*="status-picker-switch-account"]):not(
 		[id*="status-picker-custom-status"]
 	)
-	.description__38e73 {
+	.description_e0f739 {
 	display: none;
 }
 #status-picker .item-1OdjEX:not(#status-picker-custom-status) {
@@ -66,7 +66,7 @@
 	width: 20px;
 	height: 20px;
 }
-[id*="status-picker-switch-account"] .statusItem__9b512 {
+[id*="status-picker-switch-account"] .statusItem_e0f739 {
 	margin-left: 3px;
 }
 #app-mount
@@ -78,7 +78,7 @@
 #status-picker
 	[aria-activedescendant*="status-picker-switch-account"]
 	.labelContainer-2vJzYL
-	.activeIcon_b2fa28 {
+	.activeIcon_e1268c {
 	margin-right: 5px;
 }
 #status-picker

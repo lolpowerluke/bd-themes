@@ -1,24 +1,24 @@
 /*General Sidebar*/
-.standardSidebarView__12528 .sidebarRegion__36437 {
+.standardSidebarView_c25c6d .sidebarRegion_c25c6d {
 	-ms-flex: 0;
 	-ms-flex-pack: end;
 	flex: 0;
 	z-index: 1;
 }
 /*settings account area*/ /*Credit to DaBluLite#7409 for the idea and base css (I made some small changes to their snippet)*/
-/*.background__4e802 {
+/*.background_b69b77 {
   background-color: transparent;
 }
-.fieldList__4e6dd {
+.fieldList_b69b77 {
   background-color: transparent;
 }
-.fieldList__4e6dd {
+.fieldList_b69b77 {
   display: flex;
   gap: 5px;
   flex-direction: row;
   flex-wrap: wrap;
 }
-.field__69fa0 {
+.field_b69b77 {
   order: 0;
   flex: 1 0 240px;
   border-radius: 8px;
@@ -32,50 +32,50 @@
   overflow-y: scroll;
   height: 125px;
 }
-.field__69fa0:nth-child(2) {
+.field_b69b77:nth-child(2) {
   order: 1;
 }
-.field__69fa0::-webkit-scrollbar {
+.field_b69b77::-webkit-scrollbar {
   display: none;
 }
-.field__69fa0 .fieldButton__1edf0 {
+.field_b69b77 .fieldButton_b69b77 {
   background-color: var(--back-seeting-account-cards-buttons);
   border-radius: 8px;
   transition: .3s;
 }
-.field__69fa0 .fieldButton__1edf0:hover {
+.field_b69b77 .fieldButton_b69b77:hover {
   background-color: var(--back-seeting-account-cards-buttons-hover);
 }
-.field__69fa0 .fieldButton__1edf0:hover > div {
+.field_b69b77 .fieldButton_b69b77:hover > div {
   background-image: none;
 }
-.field__69fa0 .fieldButton__1edf0:nth-child(1) {
+.field_b69b77 .fieldButton_b69b77:nth-child(1) {
   right: 5px;
 }
-.field__69fa0 .fieldButton__1edf0 {
+.field_b69b77 .fieldButton_b69b77 {
   bottom: 10px;
   position: absolute;
 }
-.avatar__6c108 ~ button {
+.avatar_b69b77 ~ button {
   margin-right: 15px;
   border-radius: 8px;
 }
-.accountProfileCard__744d8 .bannerSVGWrapper-qc0szY foreignObject {
+.accountProfileCard_b69b77 .bannerSVGWrapper-qc0szY foreignObject {
   mask: none;
 }
-.accountProfileCard__744d8 .avatar__6c108 {
+.accountProfileCard_b69b77 .avatar_b69b77 {
   top: unset;
 }*/
 /*General Content Area*/
-.layer_f7d46a  .contentRegion__08eba,
-.layer_f7d46a  .contentRegion__08eba .contentTransitionWrap__3ba4e {
+.layer_d4b6c5  .contentRegion_c25c6d,
+.layer_d4b6c5  .contentRegion_c25c6d .contentTransitionWrap_c25c6d {
 	overflow: hidden;
 }
-.standardSidebarView__12528 .contentColumnDefault__78de3 {
+.standardSidebarView_c25c6d .contentColumnDefault_c25c6d {
 	padding: 20px 40px 80px;
 }
-.standardSidebarView__12528 .contentColumn__5f80b,
-.standardSidebarView__12528 .customColumn__0b6a6 {
+.standardSidebarView_c25c6d .contentColumn_c25c6d,
+.standardSidebarView_c25c6d .customColumn_c25c6d {
 	-ms-flex: 1 1 auto;
 	-webkit-box-flex: 1;
 	flex: 1 1 auto;
@@ -104,18 +104,18 @@
 	background: var(--switch-on) !important;
 }
 /*settingsIcons*/
-[aria-label="USER_SETTINGS"] .sidebar__02e8d {
+[aria-label="USER_SETTINGS"] .sidebar_c25c6d {
 	width: 218px;
 }
 /*Sidebar*/
-.sidebar__02e8d {
+.sidebar_c25c6d {
 	padding-top: 30px;
 }
 /*profile banner*/
-.accountProfileCard__744d8 > .UserBackgrounds-banner-container {
+.accountProfileCard_b69b77 > .UserBackgrounds-banner-container {
 	height: 400px;
 }
-.accountProfileCard__744d8 > .UserBackgrounds-banner-container > :last-child {
+.accountProfileCard_b69b77 > .UserBackgrounds-banner-container > :last-child {
 	width: 100%;
 	background: center / cover;
 	height: 100%;
@@ -127,16 +127,16 @@
 	opacity: 0.5;
 }
 /*Profile crad in settings*/
-#app-mount [aria-label="USER_SETTINGS"] .background__4e802,
-#app-mount [aria-label="USER_SETTINGS"] .userInfo_fb7651 {
+#app-mount [aria-label="USER_SETTINGS"] .background_b69b77,
+#app-mount [aria-label="USER_SETTINGS"] .userInfo_b69b77 {
 	position: relative;
 }
-.userInfo_fb7651 {
+.userInfo_b69b77 {
 	margin-bottom: 50px;
 }
 #app-mount
 	[aria-label="USER_SETTINGS"]
-	.userInfo_fb7651
+	.userInfo_b69b77
 	.accountSettingsAvatar {
 	top: 0;
 }

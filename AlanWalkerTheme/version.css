@@ -1,7 +1,7 @@
-.app_de4237::before {
+.app_a01fb1::before {
 	display: block;
 }
-.app_de4237::before {
+.app_a01fb1::before {
 	content: "theme outdated, please redownload from https://lolpowerluke.github.io/";
 	display: var(--version-1-2-2);
 	color: #fff;
