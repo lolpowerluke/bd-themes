@@ -1,9 +1,12 @@
 /*Background Selected DM*/
 .channel_c91bad .selected_f5eb4b {
 	background: var(--back-selected-dm-pic);
-	background-color: var(--back-selected-dm);
+	background-color: transparent;
 	background-size: cover;
 	background-position: var(--back-pos-dm);
+}
+#app-mount .interactive_f5eb4b:hover {
+  background-color: transparent;
 }
 .wrapper_d8bfb3 {
 	margin-right: 8px;
