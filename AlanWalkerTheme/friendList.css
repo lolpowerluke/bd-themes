@@ -1,164 +1,166 @@
-/*Friend List*/
-.peopleList_e0840f > div {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 15px;
-	margin: 5px 15px 0 15px;
-}
-.peopleListItem_d51464 .listItemContents_e05dae .userInfo_f3939d {
-	grid-column: 1/2;
-	grid-row: 1/4;
-	display: grid;
-	grid-template-rows: 1fr 42px;
-	overflow: visible;
-}
-.peopleColumn_c2739c {
-	display: grid;
-	grid-template-rows: 40px 20px 1fr;
-}
-.peopleColumn_c2739c .title_a1cafe {
-	position: unset;
-	width: fit-content;
-	margin: 5px 20px;
-}
-.peopleColumn_c2739c .searchBar_e0840f {
-	margin: 5px 10px;
-}
-#app-mount .peopleListItem_d51464 {
-	transform: scale(1);
-	transition: transform 0.5s;
-}
-#app-mount .peopleListItem_d51464:hover {
-	transform: scale(1.04);
-}
-.peopleListItem_d51464 {
-	flex: 1 1 300px;
-	height: 140px !important;
-	max-width: 600px;
-	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-	border-radius: 10px;
-	margin: 0;
-	padding: 0;
-	background: var(--user-background);
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: right;
-	box-shadow: inset 0 0 10px
-		rgb(var(--border-color-1), var(--border-opacity-1));
-	transition: box-shadow 0.75s, border-color 1s;
-}
-#app-mount .peopleListItem_d51464 {
-	overflow: hidden;
-}
-#app-mount .actionButton_e01b91 {
-	background-color: rgba(0, 0, 0, 0.4);
-}
-.peopleListItem_d51464:hover {
-	border: 1px solid rgb(var(--border-color-hover));
-	margin: 0;
-	padding: 0;
-	background: var(--user-background);
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: right;
-	box-shadow: inset 0 0 20px rgb(var(--border-color-hover));
-}
-.peopleListItem_d51464:hover + .peopleListItem_d51464 {
-	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-}
-.peopleListItem_d51464.active_d51464 {
-	padding: 0;
-	margin: 0;
-	border: 1px solid rgb(var(--border-color-hover));
-	border-radius: 8px;
-	background: var(--user-background);
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: right;
-}
-.peopleListItem_d51464 .avatar_f3939d {
-	height: 80px !important;
-	width: 80px !important;
-	margin: 0;
-	margin-left: 15px;
-	margin-top: 10px;
-}
-.peopleListItem_d51464 .avatar_f3939d svg {
-	width: 80px;
-	height: 80px;
-}
-.peopleListItem_d51464 .avatar_f3939d svg foreignObject {
-	width: 40px;
-	height: 40px;
-}
-.peopleListItem_d51464 .avatar_f3939d svg rect {
-	width: 13px;
-	height: 13px;
-	x: 27;
-	y: 27;
-}
-.peopleListItem_d51464 .avatar_f3939d svg rect[width="10"][height="15"] {
-	height: 19px;
-	y: 21;
-}
-.peopleListItem_d51464 .text_f3939d {
-	margin: 0;
-	margin-left: 15px;
-	white-space: normal;
-	text-overflow: clip;
-}
-#app-mount .iconContainer_ebd74a,
-#app-mount .pd-mutualGuilds,
-#app-mount .actionButton_e01b91,
-#app-mount .actions_e05dae {
-	inset: 0;
-	margin: 0;
-}
-#app-mount .actions_e05dae {
-	display: flex;
-	flex-direction: row;
-	align-self: center;
-	justify-self: end;
-	column-gap: 10px;
-	margin: 0;
-	grid-column: 2/3;
-	grid-row: 3/4;
-}
-.peopleListItem_d51464 .subtext_f3939d {
-	max-width: 100%;
-	max-height: 50px;
-	text-overflow: clip;
-}
-.peopleListItem_d51464 .listItemContents_e05dae {
-	display: grid;
-	padding: 0;
-	padding-right: 10px;
-	box-sizing: unset;
-	grid-template-rows: 40px 50px 40px;
-	grid-template-columns: 1fr 160px;
-	background-color: rgba(0, 0, 0, 0.295);
-	backdrop-filter: blur(2px);
-}
-.peopleColumn_c2739c .ring-370dIp {
-	display: none !important;
-}
-/*plugins*/
-/*BetterFriendslist by devilbro*/
-body #app-mount .mutualGuilds-s7F2aa {
-	margin: 0;
-	align-self: center;
-	justify-self: end;
-	grid-column: 2/3;
-	grid-row: 1/2;
-}
-/*pinDMs by Bricklou*/
-#app-mount .pd-mutualGuilds {
-	margin: 0;
-	align-self: center;
-	justify-self: end;
-	grid-column: 2/3;
-	grid-row: 2/3;
-}
-.pd-mutualGuilds > div:first-child {
-	margin-right: 0;
+@media (min-width: 700px) {
+  /*Friend List*/
+  .peopleList_e0840f > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 5px 15px 0 15px;
+  }
+  .peopleListItem_d51464 .listItemContents_e05dae .userInfo_f3939d {
+    grid-column: 1/2;
+    grid-row: 1/4;
+    display: grid;
+    grid-template-rows: 1fr 42px;
+    overflow: visible;
+  }
+  .peopleColumn_c2739c {
+    display: grid;
+    grid-template-rows: 40px 20px 1fr;
+  }
+  .peopleColumn_c2739c .title_a1cafe {
+    position: unset;
+    width: fit-content;
+    margin: 5px 20px;
+  }
+  .peopleColumn_c2739c .searchBar_e0840f {
+    margin: 5px 10px;
+  }
+  #app-mount .peopleListItem_d51464 {
+    transform: scale(1);
+    transition: transform 0.5s;
+  }
+  #app-mount .peopleListItem_d51464:hover {
+    transform: scale(1.04);
+  }
+  .peopleListItem_d51464 {
+    flex: 1 1 300px;
+    height: 140px !important;
+    max-width: 600px;
+    border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+    background: var(--user-background);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    box-shadow: inset 0 0 10px
+      rgb(var(--border-color-1), var(--border-opacity-1));
+    transition: box-shadow 0.75s, border-color 1s;
+  }
+  #app-mount .peopleListItem_d51464 {
+    overflow: hidden;
+  }
+  #app-mount .actionButton_e01b91 {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .peopleListItem_d51464:hover {
+    border: 1px solid rgb(var(--border-color-hover));
+    margin: 0;
+    padding: 0;
+    background: var(--user-background);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    box-shadow: inset 0 0 20px rgb(var(--border-color-hover));
+  }
+  .peopleListItem_d51464:hover + .peopleListItem_d51464 {
+    border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+  }
+  .peopleListItem_d51464.active_d51464 {
+    padding: 0;
+    margin: 0;
+    border: 1px solid rgb(var(--border-color-hover));
+    border-radius: 8px;
+    background: var(--user-background);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .peopleListItem_d51464 .avatar_f3939d {
+    height: 80px !important;
+    width: 80px !important;
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  .peopleListItem_d51464 .avatar_f3939d svg {
+    width: 80px;
+    height: 80px;
+  }
+  .peopleListItem_d51464 .avatar_f3939d svg foreignObject {
+    width: 40px;
+    height: 40px;
+  }
+  .peopleListItem_d51464 .avatar_f3939d svg rect {
+    width: 13px;
+    height: 13px;
+    x: 27;
+    y: 27;
+  }
+  .peopleListItem_d51464 .avatar_f3939d svg rect[width="10"][height="15"] {
+    height: 19px;
+    y: 21;
+  }
+  .peopleListItem_d51464 .text_f3939d {
+    margin: 0;
+    margin-left: 15px;
+    white-space: normal;
+    text-overflow: clip;
+  }
+  #app-mount .iconContainer_ebd74a,
+  #app-mount .pd-mutualGuilds,
+  #app-mount .actionButton_e01b91,
+  #app-mount .actions_e05dae {
+    inset: 0;
+    margin: 0;
+  }
+  #app-mount .actions_e05dae {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-self: end;
+    column-gap: 10px;
+    margin: 0;
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  .peopleListItem_d51464 .subtext_f3939d {
+    max-width: 100%;
+    max-height: 50px;
+    text-overflow: clip;
+  }
+  .peopleListItem_d51464 .listItemContents_e05dae {
+    display: grid;
+    padding: 0;
+    padding-right: 10px;
+    box-sizing: unset;
+    grid-template-rows: 40px 50px 40px;
+    grid-template-columns: 1fr 160px;
+    background-color: rgba(0, 0, 0, 0.295);
+    backdrop-filter: blur(2px);
+  }
+  .peopleColumn_c2739c .ring-370dIp {
+    display: none !important;
+  }
+  /*plugins*/
+  /*BetterFriendslist by devilbro*/
+  body #app-mount .mutualGuilds-s7F2aa {
+    margin: 0;
+    align-self: center;
+    justify-self: end;
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  /*pinDMs by Bricklou*/
+  #app-mount .pd-mutualGuilds {
+    margin: 0;
+    align-self: center;
+    justify-self: end;
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .pd-mutualGuilds > div:first-child {
+    margin-right: 0;
+  }
 }

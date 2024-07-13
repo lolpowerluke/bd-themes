@@ -222,6 +222,7 @@
 	}
 	#app-mount .nowPlayingColumn_c2739c .scroller_bf550a > h2 + * {
 		margin-top: 50px;
+    background-color: transparent;
 	}
 	.nowPlayingColumn_c2739c .header_bf550a {
 		align-self: center;
