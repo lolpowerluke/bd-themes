@@ -1,15 +1,15 @@
 /*Unread */
-.isUnread_fc5f50 {
+.isUnread_c2654d {
 	border-color: transparent;
 }
-.unreadPillCapStroke_fc5f50 {
+.unreadPillCapStroke_c2654d {
 	fill: transparent;
 	color: transparent;
 }
-#app-mount .divider_fc5f50.isUnread_fc5f50 .unreadPillCap_fc5f50 {
+#app-mount .divider_c2654d.isUnread_c2654d .unreadPillCap_c2654d {
 	display: none;
 }
-#app-mount .divider_fc5f50.isUnread_fc5f50:after {
+#app-mount .divider_c2654d.isUnread_c2654d:after {
 	margin-left: 30px;
 	background: linear-gradient(
 		to right,
@@ -17,11 +17,11 @@
 		transparent
 	);
 }
-.unreadPill_fc5f50 {
+.unreadPill_c2654d {
 	display: flex !important;
 	color: var(--unread-message) !important;
 }
-.pill-1z4sAY .item_fd07a3 {
+.pill-1z4sAY .item_c4cd66 {
 	background-color: var(--unread-pill);
 	animation-name: channel-unread-1;
 	animation-duration: 2s;
@@ -49,17 +49,17 @@
 		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 	}
 }
-.item_fd07a3 {
+.item_c4cd66 {
 	background-color: var(--unread-pill);
 }
 /*Time Stamp Divider */
-#app-mount .divider_fc5f50 {
+#app-mount .divider_c2654d {
 	border: 0;
 }
-#app-mount .divider_fc5f50.isUnread_fc5f50 span {
+#app-mount .divider_c2654d.isUnread_c2654d span {
 	display: none;
 }
-#app-mount .divider_fc5f50 span {
+#app-mount .divider_c2654d span {
 	left: 0;
 	right: unset;
 	background: transparent;
@@ -67,7 +67,7 @@
 	flex-flow: row wrap;
 	color: rgb(var(--separator));
 }
-#app-mount .divider_fc5f50:after {
+#app-mount .divider_c2654d:after {
 	content: "";
 	position: relative;
 	flex: 1 0 auto;

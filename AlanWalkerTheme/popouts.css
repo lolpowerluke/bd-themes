@@ -389,10 +389,10 @@
 	border: 1px solid rgb(var(--border-color-hover));
 }
 /*date picker*/
-#app-mount .calendarPicker__47c85 .react-datepicker {
+#app-mount .calendarPicker_be05cd .react-datepicker {
 	background-color: var(--user-popout);
 }
-#app-mount .calendarPicker__47c85 .react-datepicker__day {
+#app-mount .calendarPicker_be05cd .react-datepicker__day {
 	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 	border-bottom: 0px solid var(--user-popout);
 	border-right: 0px solid var(--user-popout);
@@ -415,26 +415,26 @@
 	border-bottom: 1px solid rgb(var(--border-color-hover));
 }
 #app-mount
-	.calendarPicker__47c85
+	.calendarPicker_be05cd
 	.react-datepicker__week
 	.react-datepicker__day:last-of-type {
 	border-right: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
-#app-mount .calendarPicker__47c85 .react-datepicker__day:hover {
+#app-mount .calendarPicker_be05cd .react-datepicker__day:hover {
 	border: 1px solid rgb(var(--border-color-hover));
 	box-shadow: inset 0 0 10px rgb(var(--border-color-hover));
 	background-color: var(--user-popout);
 }
-.calendarPicker__47c85
+.calendarPicker_be05cd
 	.react-datepicker__week:first-of-type
 	> .react-datepicker__day:last-of-type,
-.calendarPicker__47c85
+.calendarPicker_be05cd
 	.react-datepicker__week:first-of-type
 	> .react-datepicker__day:first-of-type {
 	border-radius: 0px;
 }
 #app-mount
-	.calendarPicker__47c85
+	.calendarPicker_be05cd
 	.react-datepicker__day--keyboard-selected:hover,
 #app-mount .react-datepicker__day--keyboard-selected {
 	background-color: var(--user-popout-alt);
@@ -443,12 +443,12 @@
 	background-color: var(--user-popout);
 }
 #app-mount
-	.calendarPicker__47c85
+	.calendarPicker_be05cd
 	.react-datepicker__day:hover
 	+ .react-datepicker__day {
 	border-left: 1px solid var(--user-popout);
 }
-.calendarPicker__47c85
+.calendarPicker_be05cd
 	.react-datepicker__day.react-datepicker__day--selected:after {
 	background-color: rgb(var(--border-color-hover));
 }
@@ -492,7 +492,7 @@
 #app-mount .react-datepicker__week:hover .react-datepicker__day:hover {
 	border-bottom-color: rgb(var(--border-color-hover));
 }
-.calendarPicker__47c85
+.calendarPicker_be05cd
 	.react-datepicker__week:hover
 	.react-datepicker__day.react-datepicker__day--selected:after {
 	margin-bottom: -1px;
@@ -619,7 +619,7 @@
 	box-shadow: inset 0 -4px 0 rgb(var(--border-color-hover), var(--border-opacity-1));
 }
 /*Discord's Role member popup*/
-.roleScroller_d6076c {
+.roleScroller_f8f345 {
 	background-color: var(--back-role-scroller);
 	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 	border-radius: 5px;

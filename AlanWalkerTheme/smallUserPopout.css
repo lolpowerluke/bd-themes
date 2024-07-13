@@ -79,7 +79,7 @@
 	background: var(--user-popout-alt);
 }
 /*Activity cards*/
-.activityUserPopout_d5089b {
+.activityUserPopout_c1d9fd {
 	border-radius: 5px;
 	margin: 0px 0 15px 0;
 	padding: 10px;
@@ -100,11 +100,11 @@
 	flex-direction: column;
 	gap: 10px;
 }
-.ShowAllActivities-wrapper-wrapper .activityUserPopout_d5089b {
+.ShowAllActivities-wrapper-wrapper .activityUserPopout_c1d9fd {
 	margin: 0;
 	border: 0;
 }
-.ShowAllActivities-wrapper-wrapper .activityUserPopout_d5089b:only-child {
+.ShowAllActivities-wrapper-wrapper .activityUserPopout_c1d9fd:only-child {
 	background: unset;
 	padding: 0;
 }
@@ -145,7 +145,7 @@
 	opacity: 0.3;
 	z-index: -1;
 }
-.roleRemoveButton_e4010c {
+.roleRemoveButton_f9575e {
 	position: static;
 }
 /*Roles selector*/
