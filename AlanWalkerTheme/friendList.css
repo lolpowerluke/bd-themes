@@ -15,7 +15,7 @@
   }
   .peopleColumn_c2739c {
     display: grid;
-    grid-template-rows: 40px 20px 1fr;
+    grid-template-rows: 45px 20px 1fr;
   }
   #app-mount .peopleListItem_d51464 {
     transform: scale(1);
