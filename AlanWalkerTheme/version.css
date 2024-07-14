@@ -3,7 +3,7 @@
 }
 .app_a01fb1::before {
 	content: "theme outdated, please redownload from https://lolpowerluke.github.io/";
-	display: var(--version-1-2-2);
+	display: var(--version-1-2-3);
 	color: #fff;
 	position: relative;
 	text-align: center;
