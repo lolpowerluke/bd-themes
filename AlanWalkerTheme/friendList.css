@@ -1,10 +1,13 @@
 @media (min-width: 700px) {
   /*Friend List*/
+  #app-mount .peopleList_e0840f {
+    margin: 0;
+  }
   .peopleList_e0840f > div {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    margin: 5px 10px 0 10px;
+    margin: 10px 10px 0 10px;
   }
   .peopleListItem_d51464 .listItemContents_e05dae .userInfo_f3939d {
     grid-column: 1/2;
@@ -177,7 +180,7 @@
   }
 }
 .peopleColumn_c2739c .searchBar_e0840f {
-  margin: 0 0 5px 0;
+  margin: 0;
   border: 0px;
   border-bottom: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   border-radius: 0;
@@ -185,5 +188,5 @@
 .peopleColumn_c2739c .title_a1cafe {
   position: unset;
   width: fit-content;
-  margin: 5px 20px;
+  margin: 9px 10px 0;
 }
