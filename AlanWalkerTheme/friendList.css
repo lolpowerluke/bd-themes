@@ -3,8 +3,8 @@
   .peopleList_e0840f > div {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
-    margin: 5px 15px 0 15px;
+    gap: 10px;
+    margin: 5px 10px 0 10px;
   }
   .peopleListItem_d51464 .listItemContents_e05dae .userInfo_f3939d {
     grid-column: 1/2;
@@ -22,12 +22,12 @@
     transition: transform 0.5s;
   }
   #app-mount .peopleListItem_d51464:hover {
-    transform: scale(1.04);
+    transform: scale(1.02);
   }
   .peopleListItem_d51464 {
-    flex: 1 1 300px;
+    flex: 1 0 300px;
     height: 140px !important;
-    max-width: 600px;
+    max-width: 650px;
     border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
     border-radius: 10px;
     margin: 0;
@@ -36,8 +36,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
-    box-shadow: inset 0 0 10px
-      rgb(var(--border-color-1), var(--border-opacity-1));
+    box-shadow: inset 0 0 10px rgb(var(--border-color-1), var(--border-opacity-1));
     transition: box-shadow 0.75s, border-color 1s;
   }
   #app-mount .peopleListItem_d51464 {
@@ -178,8 +177,10 @@
   }
 }
 .peopleColumn_c2739c .searchBar_e0840f {
-  margin: 5px 10px;
-  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+  margin: 0 0 5px 0;
+  border: 0px;
+  border-bottom: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+  border-radius: 0;
 }
 .peopleColumn_c2739c .title_a1cafe {
   position: unset;
