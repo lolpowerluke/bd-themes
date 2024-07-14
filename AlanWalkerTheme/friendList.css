@@ -17,14 +17,6 @@
     display: grid;
     grid-template-rows: 40px 20px 1fr;
   }
-  .peopleColumn_c2739c .title_a1cafe {
-    position: unset;
-    width: fit-content;
-    margin: 5px 20px;
-  }
-  .peopleColumn_c2739c .searchBar_e0840f {
-    margin: 5px 10px;
-  }
   #app-mount .peopleListItem_d51464 {
     transform: scale(1);
     transition: transform 0.5s;
@@ -163,4 +155,34 @@
   .pd-mutualGuilds > div:first-child {
     margin-right: 0;
   }
+}
+@media (max-width: 700px) {
+  .peopleListItem_d51464:hover,
+  .peopleListItem_d51464 {
+    margin: 0px;
+    padding: 15px 15px;
+    border-radius: 0;
+    transition: box-shadow .5s, border .5s;
+  }
+  .peopleListItem_d51464 {
+    border-bottom-color: transparent;
+  }
+  .peopleListItem_d51464:hover {
+    box-shadow: inset 0 0 8px rgb(var(--border-color-hover));
+    border-bottom-color: rgb(var(--border-color-hover), var(--border-opacity-1));
+    border-top-color: rgb(var(--border-color-hover), var(--border-opacity-1));
+    background-color: transparent;
+  }
+  .peopleListItem_d51464 .avatar_f3939d {
+    top: 3px;
+  }
+}
+.peopleColumn_c2739c .searchBar_e0840f {
+  margin: 5px 10px;
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+}
+.peopleColumn_c2739c .title_a1cafe {
+  position: unset;
+  width: fit-content;
+  margin: 5px 20px;
 }

@@ -203,6 +203,6 @@
 
   /*Window width 700px or smaller*/
   --back-user-buttons-700: rgb(0,0,0,0.2);
-  --back-user-buttons-hover-700: rgb(0,0,0,0.5);
+  --back-user-buttons-hover-700: rgba(255, 255, 255, 0.2);
   --guild-bar-width-700: 56px;
 }

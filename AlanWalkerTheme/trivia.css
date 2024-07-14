@@ -63,7 +63,7 @@
 		> .container_b2ca13
 		> .flex_bba380
 		> .button_f67531 {
-		border-radius: 0px;
+		border-radius: 4px;
 		background-color: var(--back-user-buttons-700);
 	}
 	#app-mount
@@ -78,14 +78,14 @@
 		> .container_b2ca13
 		> .flex_bba380
 		> .button_f67531:first-child {
-		border-radius: 16px 0px 0px 16px;
+		border-radius: 4px;
 	}
 	#app-mount
 		.panels_a4d4d9
 		> .container_b2ca13
 		> .flex_bba380
 		> .button_f67531:last-child {
-		border-radius: 0px 16px 16px 0px;
+		border-radius: 4px 15px 4px 4px;
 	}
 }
 .content-2a4AW9 {
