@@ -317,27 +317,27 @@
 	color: var(--title-bar-color);
 }
 /*Crash Screen*/
-.image_b06619 {
+.image_a2a7b5 {
 	background-image: var(--crash-screen-image) !important;
 }
-.flexWrapper_b06619 .lookFilled-1Gx00P .contents-18-Yxp::after {
+.flexWrapper_a2a7b5 .lookFilled-1Gx00P .contents-18-Yxp::after {
 	content: " Last Respawn Point";
 }
-.note_b06619 div {
+.note_a2a7b5 div {
 	visibility: hidden;
 	height: 0px;
 }
-.note_b06619 {
+.note_a2a7b5 {
 	margin-top: -50px;
 }
-.title_b06619 {
+.title_a2a7b5 {
 	display: none;
 }
-.note_b06619::before {
+.note_a2a7b5::before {
 	content: "Your discord got obliberated by one of your plugins";
 	margin-bottom: 10px;
 }
-.note_b06619::after {
+.note_a2a7b5::after {
 	content: "Press crtl + shift + i to track down which plugin caused this";
 	margin-top: 10px;
 }
@@ -733,7 +733,7 @@ html #app-mount .scrollableContainer_d0696b {
 	padding-top: 5px;
 	padding-bottom: 0;
 }
-#app-mount .anchor-1MIwyf.embedMedia_ad0b71::after {
+#app-mount .anchor-1MIwyf.embedMedia_b0068a::after {
 	left: 0;
 	bottom: 0;
 	width: 100%;
@@ -1324,7 +1324,7 @@ aside.profilePanel-2PWEok .buttonColor-XIRMbp {
   }
   .topic_bf3bbb.expandable_bf3bbb,
   .toolbar_fc4f04>[aria-label="Threads"],
-  .buttonContainer_d0696b:not(#sendAudioButtons):not(.send-button) .button_dd4f85[aria-label]:not(.apateEncryptionKeyButton) .button_cecf00:not(.stickerButton_d0696b) {
+  .buttonContainer_d0696b:not(#sendAudioButtons):not(.send-button) .button_dd4f85[aria-label]:not(.apateEncryptionKeyButton) .button_f9af59:not(.stickerButton_d0696b) {
     display: none;
   }
   .bd-addon-list.bd-grid-view {
@@ -1500,9 +1500,9 @@ aside.profilePanel-2PWEok .buttonColor-XIRMbp {
   .scroller_e2e187::-webkit-scrollbar {
     width: 12px;
   }
-  .embedWrapper_b558d0>img:not(.embedGalleryImageElement_ad0b71),
+  .embedWrapper_b558d0>img:not(.embedGalleryImageElement_b0068a),
   .embedWrapper_b558d0>.imageWrapper__178ee img,
-  .embedWrapper_b558d0>.grid_ad0b71>.imageWrapper__178ee img {
+  .embedWrapper_b558d0>.grid_b0068a>.imageWrapper__178ee img {
     position: relative;
     height: auto !important;
     width: unset !important;
