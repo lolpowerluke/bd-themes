@@ -11,11 +11,11 @@
 :root {
 	--embed-width: 500px;
 }
-.embedFull_ad0b71 {
+.embedFull_b0068a {
 	border-left: calc(4px + var(--embed-width)) solid transparent;
 	background: var(--background-secondary);
 }
-.grid_ad0b71 {
+.grid_b0068a {
 	margin-left: calc(-1 * var(--embed-width));
 	z-index: 1;
 	width: var(--embed-width);
@@ -24,10 +24,10 @@
 	background-color: rgba(0, 0, 0, 0.5);
 }
 /*Invite Embed*/
-#app-mount .guildIconImage_b9fe76 {
+#app-mount .guildIconImage_a71a1c {
 	background-color: transparent;
 }
-.wrapper_b9fe76 {
+.wrapper_a71a1c {
 	border: 1px solid
 		rgb(var(--border-color-hover), var(--border-opacity-hover));
 }
