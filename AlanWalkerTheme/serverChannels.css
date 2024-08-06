@@ -137,10 +137,10 @@
 	border-right: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 	width: calc(100% - 18px);
 }
-.content_cdc675 {
+.content_d80634 {
 	width: calc(100% + 5px);
 }
-.content_cdc675 .ownerIcon_a31c43 {
+.content_d80634 .ownerIcon_a31c43 {
 	margin-right: 9px;
 }
 .containerDefault_f6f816:hover .list_a478e5 :first-child.draggable_ac3629 {
@@ -195,7 +195,7 @@
 	opacity: 0;
 	transition: margin-left 0.2s, opacity 0.5s;
 }
-.CollapsibleThreads-Collapser-collapser .flex_bba380 {
+.CollapsibleThreads-Collapser-collapser .flex_dc333f {
 	display: grid;
 	grid-auto-flow: column;
 }
