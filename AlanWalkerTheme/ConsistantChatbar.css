@@ -78,6 +78,7 @@
 .channelAppLauncher_df39bd .buttonContainer_df39bd {
   margin-right: 11px;
 }
+.channelBottomBarArea_a7d72e:focus-within .channelAppLauncher_df39bd,
 .channelBottomBarArea_a7d72e:hover .channelAppLauncher_df39bd {
   background-color: var(--channeltextarea-background);
   border-color: rgb(var(--border-color-1), var(--border-opacity-1));
