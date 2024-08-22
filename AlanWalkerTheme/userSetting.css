@@ -241,3 +241,26 @@
 #app-mount .bd-addon-list > .bd-addon-card.bd-addon-card-disabled {
 	background-color: rgb(61, 0, 0);
 }
+.contentRegion_c25c6d .container_f70f48,
+.contentRegion_c25c6d .max-width_a2e886,
+.contentRegion_c25c6d .max-width_d00e26 {
+  max-width: unset !important;
+}
+.standardSidebarView_c25c6d .contentColumn_c25c6d[id="my-account-tab"] {
+  max-width: var(--settings-myaccount-max-width);
+}
+.standardSidebarView_c25c6d .contentColumn_c25c6d {
+  max-width: var(--settings-max-width);
+}
+.contentRegion_c25c6d .tierImage_cf74b3 {
+  max-height: 459px;
+}
+.contentRegion_c25c6d .notificationSettings_af804a {
+  max-width: 600px;
+}
+.contentRegionScroller_c25c6d .toolsContainer_c25c6d.closeIconOnly_c25c6d {
+  padding-top: 20px;
+}
+.contentRegion_c25c6d .contentRegionScroller_c25c6d {
+  justify-content: space-between;
+}

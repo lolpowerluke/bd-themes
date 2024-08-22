@@ -2,7 +2,7 @@
  * @name         Alan Walker Theme
  * @description  dark theme with Alan Walker's logo as background, credit to DevilBro#4401 for settingsicons, credit to Nyria#3863 for userbuttons in the serverbar and spotifyControls
  * @author       lolpowerluke
- * @version      1.2.3
+ * @version      1.2.4
  * @source       https://github.com/lolpowerluke/discordtheme/blob/main/alanWalker.theme.css
  * @website      https://github.com/lolpowerluke
 */
@@ -82,6 +82,8 @@
   --back-seeting-account-cards: rgba(43, 43, 43, 0.75);
   --back-seeting-account-cards-buttons: rgba(78, 78, 78, 0.5);
   --back-seeting-account-cards-buttons-hover: rgba(78, 78, 78, 0.25);
+  --settings-max-width: 1650px; /*"unset" for full screen width, "1650px" for default*/
+  --settings-myaccount-max-width: 740px; /*"unset" for full screen width, "740px" for default (740px is still full screen width for 1080p monitors or lower)*/
 
   /*discords integrated colors*/
   --interactive-normal: white;
@@ -190,7 +192,7 @@
   --linkpreview-background: transparent;
 
   /*Version*/
-  --version-1-2-3: none;
+  --version-1-2-4: none;
   
   /*other*/
   --backdrop: hsl(0, 0%, 0%, 0.6);
