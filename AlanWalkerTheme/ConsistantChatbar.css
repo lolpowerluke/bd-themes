@@ -55,3 +55,30 @@
 .attachedBars_d0696b {
 	border-radius: 0;
 }
+.channelAppLauncher_df39bd {
+  margin: 0px;
+}
+.channelAppLauncher_df39bd .button_df39bd {
+  background: unset;
+}
+.channelAppLauncher_df39bd {
+  border-width: 1px 0 1px 0;
+  border-style: solid;
+  border-color: transparent;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  transition: background .5s, border-color .5s;
+}
+.channelAppLauncher_df39bd .buttonContainer_df39bd .button_df39bd,
+.channelAppLauncher_df39bd .buttonContainer_df39bd {
+  margin-top: 0;
+  width: 24px;
+}
+.channelAppLauncher_df39bd .buttonContainer_df39bd {
+  margin-right: 11px;
+}
+.channelBottomBarArea_a7d72e:hover .channelAppLauncher_df39bd {
+  background-color: var(--channeltextarea-background);
+  border-color: rgb(var(--border-color-1), var(--border-opacity-1));
+}
