@@ -523,6 +523,13 @@ html #app-mount .scrollableContainer_d0696b {
 	transition: border-color 0.5s, background-color 0.5s;
 	border-radius: 0;
 }
+.header_f9f2ca + div > .channelTextArea_d0696b .inner_d0696b {
+	background-color: var(--channeltextarea-background);
+  border-radius: 10px;
+  border-width: 1px;
+	border-color: rgb(var(--border-color-1), var(--border-opacity-1));
+  padding-right: 10px;
+}
 .channelBottomBarArea_a7d72e:focus-within .inner_d0696b,
 .channelBottomBarArea_a7d72e:hover .inner_d0696b {
 	background-color: var(--channeltextarea-background);
