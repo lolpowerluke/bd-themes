@@ -58,7 +58,9 @@
   outline: 0;
   border-radius: 2px;
 }
-.icon_b52bef { margin: 0;}
+.icon_b52bef {
+  margin-right: 4px;
+}
 .attachment_b52bef {
   background-color: transparent;
   border: unset;
