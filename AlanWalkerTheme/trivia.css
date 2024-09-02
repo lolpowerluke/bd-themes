@@ -1511,7 +1511,7 @@ aside.profilePanel-2PWEok .buttonColor-XIRMbp {
   .embedWrapper_b558d0>.imageWrapper__178ee img,
   .embedWrapper_b558d0>.grid_b0068a>.imageWrapper__178ee img {
     position: relative;
-    height: auto !important;
+    height: 30px !important;
     width: unset !important;
     max-width: 100%;
   }

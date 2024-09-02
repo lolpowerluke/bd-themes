@@ -32,11 +32,6 @@
 		rgb(var(--border-color-hover), var(--border-opacity-hover));
 }
 /*Smaller download embeds*/
-.embedWrapper_b558d0>img:not(.embedGalleryImageElement_b0068a),
-.embedWrapper_b558d0>.imageWrapper__178ee img,
-.embedWrapper_b558d0>.grid_b0068a>.imageWrapper__178ee img {
-  height: 30px !important;
-}
 .container_b558d0 .nonVisualMediaItemContainer_cda674 {
   display: flex;
   flex-direction: row;
