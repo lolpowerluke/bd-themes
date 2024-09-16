@@ -88,6 +88,9 @@
 .oneByOneGridSingle_cda674 {
   border-radius: 2px;
 }
+.oneByOneGrid_cda674 {
+  max-height: unset;
+}
 .imageWrapper_d4597d {
   border-radius: 0;
 }
