@@ -28,9 +28,9 @@
     transform: scale(1.02);
   }
   .peopleListItem_d51464 {
-    flex: 1 0 300px;
+    flex: 1 0 var(--friendlist-friends-min-width, 300px);
     height: 140px !important;
-    max-width: 650px;
+    max-width: var(--friendlist-friends-max-width, 650px);
     border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
     border-radius: 10px;
     margin: 0;

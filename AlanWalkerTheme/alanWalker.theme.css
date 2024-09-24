@@ -140,6 +140,10 @@
   /*menu*/
   --menu-item-hover-color: rgb(170, 170, 170);
   
+  /*Frienlist*/
+  --friendlist-friends-min-width: 300px;
+  --friendlist-friends-max-width: 650px;
+  
   /*Embeds*/
   --embed-width: 500px;
   
