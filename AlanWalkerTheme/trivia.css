@@ -424,6 +424,16 @@
   margin-top: 1px;
 }
 /*Server Bar*/
+.guilds_a4d4d9 .scrollerBase_c49869 {
+  flex: 0 1 auto;
+}
+.guilds_a4d4d9 .footer_aa1bff {
+  background: unset;
+  padding: 0;
+}
+.guilds_a4d4d9 .footer_aa1bff .svg_c5f96a .fixedDiscoveryIcon_fea3ef {
+  color: var(--green-360);
+}
 @media (min-width: 700px) {
 	.guilds_a4d4d9 {
 		margin-bottom: 180px;
