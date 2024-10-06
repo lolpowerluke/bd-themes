@@ -2,7 +2,7 @@
  * @name         Alan Walker Theme
  * @description  dark theme with Alan Walker's logo as background, credit to DevilBro#4401 for settingsicons, credit to Nyria#3863 for userbuttons in the serverbar and spotifyControls
  * @author       lolpowerluke
- * @version      1.2.4
+ * @version      1.2.5
  * @source       https://github.com/lolpowerluke/discordtheme/blob/main/alanWalker.theme.css
  * @website      https://github.com/lolpowerluke
 */
@@ -199,7 +199,7 @@
   --linkpreview-background: transparent;
 
   /*Version*/
-  --version-1-2-4: none;
+  --version-1-2-5: none;
   
   /*other*/
   --backdrop: hsl(0, 0%, 0%, 0.6);
