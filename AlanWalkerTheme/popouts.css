@@ -647,3 +647,63 @@ body .bd-toasts .bd-toast {
 .reactionTooltip_fba897 {
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
+/*Server Memberlist activity popup*/
+.popout_a35965 .popoutContentWrapper_a35965 {
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+  border-bottom: 0px;
+  padding: 0;
+}
+.popout_a35965 .popoutContentWrapper_a35965 .popoutContentHeader_a35965 {
+  padding: 8px;
+  margin: 0;
+}
+.popout_a35965 .popoutContentWrapper_a35965 .hero_a35965 {
+  border-radius: 0;
+}
+.popout_a35965 .interactionsContainer_a35965 {
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+  border-top: 0px;
+  padding: 0;
+}
+.popout_a35965 .interactionsContainer_a35965 .emojiHotrailShareToChannel_a35965 {
+  padding: 8px 16px;
+}
+.popout_a35965 .interactionsContainer_a35965 .inputContainerShareToChannel_a35965 {
+  width: 100%;
+}
+.popout_a35965 .interactionsContainer_a35965 .inputContainerShareToChannel_a35965 .channelTextArea_d0696b {
+  border-radius: 0 0 var(--radius-md) var(--radius-md);
+  display: flex;
+  flex-direction: column;
+}
+.popout_a35965 .interactionsContainer_a35965 .inputContainerShareToChannel_a35965 .channelTextArea_d0696b .scrollableContainer_d0696b {
+  order: 2;
+}
+.popout_a35965 .interactionsContainer_a35965 .inputContainerShareToChannel_a35965 .bf-toolbar {
+  position: relative;
+  order: 1;
+  margin: 0;
+  padding: 5px;
+  border-top: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+  border-bottom: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+  background-color: var(--background-floating);
+  border-radius: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.popout_a35965 .interactionsContainer_a35965 .inputContainerShareToChannel_a35965 .bf-toolbar .format {
+  padding: 0;
+}
+.popout_a35965 .interactionsContainer_a35965 .inputContainerShareToChannel_a35965 .bf-toolbar .format svg,
+.popout_a35965 .interactionsContainer_a35965 .inputContainerShareToChannel_a35965 .bf-toolbar .format img {
+  width: 20px;
+  height: 20px;
+}
+.popout_a35965 .interactionsContainer_a35965 .inputContainerShareToChannel_a35965 .bf-toolbar,
+.popout_a35965 .interactionsContainer_a35965 .inputContainerShareToChannel_a35965 .bf-toolbar * {
+  transform: unset;
+}
+.popout_a35965 .interactionsContainer_a35965 .inputContainerShareToChannel_a35965 .bf-toolbar::before,
+.popout_a35965 .interactionsContainer_a35965 .inputContainerShareToChannel_a35965 .bf-toolbar .bf-arrow {
+  display: none;
+}
