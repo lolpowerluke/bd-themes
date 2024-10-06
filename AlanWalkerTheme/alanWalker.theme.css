@@ -90,12 +90,15 @@
   --interactive-active: white;
   --interactive-hover: white;
   --channels-default: white;
-  --background-primary: rgba(0, 0, 0, 0.514);
-  --background-secondary: rgba(35, 35, 39, 0.267);
+  --background-primary: rgba(0, 0, 0, 0.5);
+  --background-secondary: rgba(35, 35, 39, 0.25);
   --background-secondary-alt: var(--back-color-boxes);
   --background-tertiary: rgb(1, 0, 5);
-  --background-floating: rgb(63, 63, 63);
-  --background-mentioned: rgba(255, 0, 0, 0.281);
+  --background-floating: rgb(7, 7, 7);
+  --background-mentioned: rgba(255, 0, 0, 0.3);
+  --background-modifier-hover: rgb(22, 22, 22);
+  --background-modifier-selected: rgb(19, 19, 19);
+  --background-modifier-selected-hover: rgb(41, 41, 41);
   --info-warning-foreground: red;
 
   /*server folders*/
