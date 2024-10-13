@@ -484,7 +484,7 @@ body .pc-notices .pc-notice-container {
       box-sizing: border-box;
 
       &.channelTabs-selected {
-        background-color: var(--background-modifier-selected);
+        background-color: var(--back-channel-tabs-selected);
       }
       .channelTabs-tabNavClose {
         div {
