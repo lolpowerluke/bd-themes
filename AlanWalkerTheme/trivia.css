@@ -6,8 +6,12 @@
 		rgba(var(--back-gradient-bottom), var(--back-gradient-opacity))
 	);
 }
+.bg_d4b6c5,
+.app_a01fb1,
+.appMount_ea7e65,
+body,
 #app-mount .container_c2739c {
-	background-color: transparent;
+	background: transparent;
 }
 .container_bf550a,
 .nowPlayingColumn_c2739c {
