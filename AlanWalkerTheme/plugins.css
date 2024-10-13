@@ -483,6 +483,9 @@ body .pc-notices .pc-notice-container {
       margin: 0;
       box-sizing: border-box;
 
+      &.channelTabs-selected {
+        background-color: var(--background-modifier-selected);
+      }
       .channelTabs-tabNavClose {
         div {
           margin-top: 1px;
