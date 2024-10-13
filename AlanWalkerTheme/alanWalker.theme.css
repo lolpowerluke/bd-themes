@@ -70,6 +70,7 @@
   --permission-perm-side: rgba(0, 0, 0, 0.678);
   --image-utils-back: black;
   --image-utils-border: rgb(59, 59, 59);
+  --back-channel-tabs: rgb(22, 22, 22);
 
   /*status colors*/
   --online: rgb(0, 255, 0);
