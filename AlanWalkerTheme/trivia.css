@@ -14,6 +14,7 @@ body,
 	background: transparent;
   filter: blur(0px);
 }
+/*Transparency for various elements*/
 #app-mount .container_b2ca13,
 .container_fc4f04.themed_fc4f04,
 .peopleColumn_c2739c .searchBar_e0840f,
@@ -23,23 +24,15 @@ body,
 .listItemWrapper_dfb2f8,
 .listItemWrapper__968be,
 .container_bf550a,
-.nowPlayingColumn_c2739c {
-	background: transparent;
-}
-/*Chat*/
-.chat_a7d72e {
-	background: none;
-}
-/*channel- and server- bar*/
+.nowPlayingColumn_c2739c,
+.chat_a7d72e,
+#app-mount .panels_a4d4d9 > .container_b2ca13 > .flex_dc333f,
 .scroller_c47fa9,
 .scroller_fea3ef,
 .wrapper_fea3ef,
 #app-mount .content_a7d72e,
 .privateChannels_f0963d {
-	background-color: transparent !important;
-}
-#app-mount .panels_a4d4d9 > .container_b2ca13 > .flex_dc333f {
-	background: none;
+	background: transparent !important;
 }
 .panels_a4d4d9 .container_b2ca13:hover {
 	background-color: black;
