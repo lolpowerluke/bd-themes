@@ -12,10 +12,19 @@
 body,
 #app-mount .container_c2739c {
 	background: transparent;
+  filter: blur(0px);
 }
+#app-mount .container_b2ca13,
+.container_fc4f04.themed_fc4f04,
+.peopleColumn_c2739c .searchBar_e0840f,
+.wrapper_f90abb:hover .childWrapper_f90abb,
+.wrapper_f90abb.selected_f90abb .childWrapper_f90abb,
+.circleIconButton_db6521,
+.listItemWrapper_dfb2f8,
+.listItemWrapper__968be,
 .container_bf550a,
 .nowPlayingColumn_c2739c {
-	background: none;
+	background: transparent;
 }
 /*Chat*/
 .chat_a7d72e {
@@ -857,9 +866,15 @@ div:not(.messagesWrapper_e2e187) > .scrollerBase-_bVAAt::-webkit-scrollbar,
 	.newMessagesBar_cf58b5 {
 	margin-top: 0;
 }
+.subtitleContainer_a7d72e {
+  filter: blur(0px);
+  backdrop-filter: blur(2px);
+  z-index: 1;
+}
 .container_fc4f04.themed_fc4f04 {
-	backdrop-filter: blur(1px);
+	border-bottom: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 	pointer-events: none;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 .container_fc4f04.themed_fc4f04 div * {
 	pointer-events: auto;
@@ -1148,9 +1163,6 @@ div:not(.messagesWrapper_e2e187) > .scrollerBase-_bVAAt::-webkit-scrollbar,
 	right: 17px;
 	top: 43px;
 	margin: 0;
-}
-.container_fc4f04.themed_fc4f04 {
-	border-bottom: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 .tags-3s41VI .pill_c993da {
 	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));

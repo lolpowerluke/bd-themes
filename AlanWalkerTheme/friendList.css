@@ -131,8 +131,20 @@
     box-sizing: unset;
     grid-template-rows: 40px 50px 40px;
     grid-template-columns: 1fr 160px;
-    background-color: rgba(0, 0, 0, 0.295);
+    background-color: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(2px);
+  }
+  .peopleListItem_d51464 .listItemContents_e05dae::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: blur(2px);
+    background: var(--user-background);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: -1;
   }
   .peopleColumn_c2739c .ring-370dIp {
     display: none !important;
@@ -168,6 +180,7 @@
   }
   .peopleListItem_d51464 {
     border-bottom-color: transparent;
+    background: unset;
   }
   .peopleListItem_d51464:hover {
     box-shadow: inset 0 0 8px rgb(var(--border-color-hover));
