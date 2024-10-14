@@ -2,7 +2,7 @@
  * @name         Alan Walker Theme
  * @description  dark theme with Alan Walker's logo as background, credit to DevilBro#4401 for settingsicons, credit to Nyria#3863 for userbuttons in the serverbar and spotifyControls
  * @author       lolpowerluke
- * @version      1.2.6
+ * @version      1.2.7
  * @source       https://github.com/lolpowerluke/discordtheme/blob/main/alanWalker.theme.css
  * @website      https://github.com/lolpowerluke
 */
@@ -202,7 +202,7 @@
   --linkpreview-background: transparent;
 
   /*Version*/
-  --version-1-2-6: none;
+  --version-1-2-7: none;
   
   /*other*/
   --backdrop: hsl(0, 0%, 0%, 0.6);
@@ -217,4 +217,10 @@
   --back-user-buttons-700: rgb(0,0,0,0.2);
   --back-user-buttons-hover-700: rgba(255, 255, 255, 0.2);
   --guild-bar-width-700: 56px;
+}
+.bd-transparency {
+  /*Put any variable here you want to apply only if bd's transpareny settings is enabled*/
+  --back-gradient-opacity: .8;
+  --back-gradient-top: 0, 0, 0;
+  --back-gradient-bottom: 0, 0, 0;
 }
