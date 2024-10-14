@@ -137,7 +137,7 @@
   --typing-border: rgb(122, 122, 122);
   --border-zoom: rgb(121, 121, 121);
   --back-activity-panels: rgb(39, 39, 39);
-  --back-gradient-opacity: .9;
+  --back-gradient-opacity: 1;
   --back-gradient-top: 0, 0, 0;
   --back-gradient-bottom: 40, 40, 40;
   --profile-gradient-button-color: black;
