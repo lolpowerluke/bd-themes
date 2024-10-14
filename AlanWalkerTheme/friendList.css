@@ -5,6 +5,7 @@
   }
   .peopleList_e0840f > div {
     display: flex;
+    align-content: flex-start;
     flex-wrap: wrap;
     gap: 10px;
     margin: 10px 10px 0 10px;
