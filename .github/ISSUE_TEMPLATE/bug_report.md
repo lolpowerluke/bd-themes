@@ -27,3 +27,4 @@ If applicable, add screenshots to help explain your problem.
  - OS: [e.g. iOS]
  - Discord type [e.g. Stable, Canary, Ptb]
  - Version [e.g. 1.0.309]
+ - Theme Version [e.g. 1.2.0]
