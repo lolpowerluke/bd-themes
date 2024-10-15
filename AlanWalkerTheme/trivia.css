@@ -20,6 +20,8 @@ body,
   padding-top: 4px;
 }
 /*Transparency for various elements*/
+.bd-transparency #app-mount .wrapper_d880dc,
+.callContainer_d880dc,
 #app-mount .container_b2ca13,
 .container_fc4f04.themed_fc4f04,
 .peopleColumn_c2739c .searchBar_e0840f,
