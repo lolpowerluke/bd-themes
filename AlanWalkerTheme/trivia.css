@@ -20,6 +20,11 @@ body,
   padding-top: 4px;
 }
 /*Transparency for various elements*/
+.panels_a4d4d9,
+.activityPanel_a4d4d9,
+.container_adcaac,
+.container-6sXIoE,
+.container_b2ca13,
 .bd-transparency #app-mount .wrapper_d880dc,
 .callContainer_d880dc,
 #app-mount .container_b2ca13,
@@ -1875,7 +1880,7 @@ aside.profilePanel-2PWEok .buttonColor-XIRMbp {
   }
 }
 /*Streamer mode*/
-.notice__5fd4c.colorStreamerMode_cb7f84 {
+.notice_be03aa.colorStreamerMode_be03aa {
   position: absolute;
   top: 50px;
   right: 10px;
@@ -1897,13 +1902,13 @@ aside.profilePanel-2PWEok .buttonColor-XIRMbp {
     font-size var(--stream-mode-hover-duration),
     color var(--stream-mode-hover-duration);
 }
-.notice__5fd4c.colorStreamerMode_cb7f84:hover {
+.notice_be03aa.colorStreamerMode_cb7f84:hover {
   font-size: 14px;
   border-radius: 5px;
   color: white;
   transition-delay: var(--stream-mode-hover-delay);
 }
-.notice__5fd4c.colorStreamerMode_cb7f84 .button__33db6 {
+.notice_be03aa.colorStreamerMode_be03aa .button_be03aa {
   top: 0;
   margin: 0;
   padding: 0 3px;
@@ -1913,12 +1918,12 @@ aside.profilePanel-2PWEok .buttonColor-XIRMbp {
     margin-left var(--stream-mode-hover-duration),
     transform var(--stream-mode-hover-duration);
 }
-.notice__5fd4c.colorStreamerMode_cb7f84:hover .button__33db6 {
+.notice_be03aa.colorStreamerMode_cb7f84:hover .button_be03aa {
   transform: scaleX(1);
   margin-left: 5px;
   transition-delay: var(--stream-mode-hover-delay);
 }
-.notice__5fd4c.colorStreamerMode_cb7f84 .closeButton__90904 {
+.notice_be03aa.colorStreamerMode_be03aa .closeButton_be03aa {
   position: static;
   order: 1;
   width: 22px;
@@ -1926,7 +1931,7 @@ aside.profilePanel-2PWEok .buttonColor-XIRMbp {
   margin-top: 1px;
   justify-content: flex-end;
 }
-.notice__5fd4c.colorStreamerMode_cb7f84 .closeButton__90904 {
+.notice_be03aa.colorStreamerMode_be03aa .closeButton_be03aa {
   width: 22px;
   height: 22px;
 }
