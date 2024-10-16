@@ -20,6 +20,12 @@ body,
   padding-top: 4px;
 }
 /*Transparency for various elements*/
+#app-mount .container_ee69e0,
+.members_cbd271,
+.container_cbd271,
+.content_a7d72e > .membersWrap_cbd271,
+.content_a7d72e > .container_cbd271 .membersWrap_cbd271,
+#app-mount .ChannelDms-channelmembers-wrap,
 .panels_a4d4d9,
 .activityPanel_a4d4d9,
 .container_adcaac,
@@ -48,6 +54,9 @@ body,
 }
 .panels_a4d4d9 .container_b2ca13:hover {
 	background-color: black;
+}
+.avatarWrapper_b2ca13:hover {
+  background: rgba(70, 70, 70, 0.2);
 }
 /*Userbuttons In Side Panel*/
 @media (min-width: 700px) {
@@ -1071,6 +1080,9 @@ div:not(.messagesWrapper_e2e187) > .scrollerBase-_bVAAt::-webkit-scrollbar,
 .content_a7d72e > .container_cbd271 .membersWrap_cbd271,
 #app-mount .ChannelDms-channelmembers-wrap {
 	background-color: rgba(0, 0, 0, 0.9);
+}
+.bd-transparency #app-mount aside.membersWrap_cbd271 {
+  background-color: rgb(var(--back-memberlist), var(--back-memberlist-opacity));
 }
 .members_cbd271,
 .members_cbd271 > div {
