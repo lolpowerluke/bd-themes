@@ -5,6 +5,14 @@
 	flex: 0;
 	z-index: 1;
 }
+#app-mount .layer_d4b6c5 ~.layer_d4b6c5 .sidebarRegionScroller_c25c6d:hover {
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(2px);
+}
+.sidebarRegion_c25c6d .sidebarRegionScroller_c25c6d::-webkit-scrollbar-track {
+  border-radius: 15px;
+  margin-block: 5px;
+}
 /*settings account area*/ /*Credit to DaBluLite#7409 for the idea and base css (I made some small changes to their snippet)*/
 /*.background_b69b77 {
   background-color: transparent;
@@ -297,4 +305,20 @@
   background-color: var(--background-secondary);
   border-radius: 8px;
   overflow: hidden;
+}
+.standardSidebarView_c25c6d:has(.socialLinks_c44e94) {
+  .contentColumnDefault_c25c6d:not(.repoScroller_9JnAPs),
+  .contentColumnDefault_c25c6d.repoHeader_2KfNvH,
+  .contentColumnWide_c25c6d:not(.repoScroller_9JnAPs) {
+    div:first-child > div:first-child > .sectionTitle_a6ae9b:first-child .title_c46f6a::before, 
+    div:first-child > div:first-child > h2.title_c46f6a::before, 
+    div:first-child > .sectionTitle_a206c7::before, 
+    .title_c46f6a::before, 
+    & > h2:first-child::before, 
+    & > h2:first-child::before, 
+    & > .settingsTabBar_f62afd:first-child::before, 
+    & > *:first-child > .settingsTabBar_d576e9::before {
+      z-index: 0;
+    }
+  }
 }

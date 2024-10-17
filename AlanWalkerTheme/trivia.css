@@ -1657,6 +1657,9 @@ aside.profilePanel-2PWEok .buttonColor-XIRMbp {
     padding: 0;
     margin: 0 !important;
   }
+  [id="my-account-tab"] + .toolsContainer_c25c6d {
+    top: 15px;
+  }
   .contentRegionScroller_c25c6d::-webkit-scrollbar {
     width: 12px;
   }
