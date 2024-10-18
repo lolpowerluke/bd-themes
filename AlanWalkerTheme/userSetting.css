@@ -5,10 +5,6 @@
 	flex: 0;
 	z-index: 1;
 }
-#app-mount .layer_d4b6c5 ~.layer_d4b6c5 .sidebarRegionScroller_c25c6d:hover {
-  background: rgba(0, 0, 0, 0.6);
-  backdrop-filter: blur(2px);
-}
 .sidebarRegion_c25c6d .sidebarRegionScroller_c25c6d::-webkit-scrollbar-track {
   border-radius: 15px;
   margin-block: 5px;
@@ -320,5 +316,11 @@
     & > *:first-child > .settingsTabBar_d576e9::before {
       z-index: 0;
     }
+  }
+}
+@media (max-width:700px) {
+  #app-mount .layer_d4b6c5 ~.layer_d4b6c5 .sidebarRegionScroller_c25c6d:hover {
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(2px);
   }
 }
