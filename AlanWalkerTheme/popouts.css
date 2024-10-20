@@ -1,4 +1,7 @@
 /*Popouts */
+.layerContainer_cd0de5 {
+  filter: blur(0px);
+}
 .header_f0cd33 {
 	background-color: var(--popout-header);
 }
@@ -338,11 +341,7 @@
 .focusLock_f9a4c9 .scrollerBase_eed6a8 {
 	border-radius: 0px;
 }
-.layerContainer_cd0de5
-	.layer_c9e2da
-	.focusLock_f9a4c9
-	.root_f9a4c9
-	.content-2hZxGK {
+.layerContainer_cd0de5 .layer_c9e2da .focusLock_f9a4c9 .root_f9a4c9 .content-2hZxGK {
 	background-color: black;
 }
 .layerContainer_cd0de5 .layer_c9e2da .focusLock_f9a4c9 .header_f9a4c9 {
