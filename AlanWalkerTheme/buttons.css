@@ -39,7 +39,7 @@
 	-webkit-mask-size: var(--home-button-background-size);
 	-webkit-mask-repeat: no-repeat;
 	-webkit-mask-position: center;
-	background-color: var(--unread-pill);
+	background-color: var(--back-home-button);
 }
 /*Create Server And Explore Servers Buttons*/
 .listItemWrapper_dfb2f8,

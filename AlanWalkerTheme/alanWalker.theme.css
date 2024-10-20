@@ -2,7 +2,7 @@
  * @name         Alan Walker Theme
  * @description  dark theme with Alan Walker's logo as background, credit to DevilBro#4401 for settingsicons, credit to Nyria#3863 for userbuttons in the serverbar and spotifyControls
  * @author       lolpowerluke
- * @version      1.2.9
+ * @version      1.2.9.1
  * @source       https://github.com/lolpowerluke/bd-themes/blob/main/AlanWalkerTheme/alanWalker.theme.css
  * @website      https://github.com/lolpowerluke
 */
@@ -20,6 +20,7 @@
   --main-background: url('https://i.imgur.com/tt9snCk.png?1') center right no-repeat;
   --back-selected-dm-pic: url('https://i.imgur.com/tmY77W1.png') center left no-repeat;
   --home-button-background: url('https://i.imgur.com/PrJ5xwf.png');
+  --back-home-button: rgb(145, 145, 151);
   --back-pos-dm: 0px;
   --home-button-background-size: 45px;
 
@@ -206,7 +207,7 @@
   --linkpreview-background: transparent;
 
   /*Version*/
-  --version-1-2-9: none;
+  --version-1-2-9-1: none;
   
   /*other*/
   --backdrop: hsl(0, 0%, 0%, 0.6);
