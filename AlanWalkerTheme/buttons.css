@@ -27,14 +27,14 @@
 	background-color: var(--back-color-boxes-hover);
 }
 /*Home Button*/
-.wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15,
-.wrapper__8436d:hover .childWrapper_a6ce15 {
+.wrapper_f90abb.selected_f90abb .childWrapper_f90abb,
+.wrapper_f90abb:hover .childWrapper_f90abb {
 	background-color: transparent;
 }
-.homeIcon__560eb path {
+.childWrapper_f90abb > svg path {
 	display: none;
 }
-.homeIcon__560eb {
+.childWrapper_f90abb > svg {
 	-webkit-mask: var(--home-button-background);
 	-webkit-mask-size: var(--home-button-background-size);
 	-webkit-mask-repeat: no-repeat;
