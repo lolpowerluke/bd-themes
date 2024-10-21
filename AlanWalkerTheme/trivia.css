@@ -59,7 +59,7 @@ body,
   background: rgba(70, 70, 70, 0.2);
 }
 /*Userbuttons In Side Panel*/
-@media (min-width: 700px) {
+@media (min-width: 701px) {
 	.panels_a4d4d9 > .container_b2ca13 > .flex_dc333f {
 		position: fixed;
 		bottom: 0px;
@@ -212,7 +212,7 @@ body,
 #app-mount .inset_ac5d22 {
 	background-color: transparent;
 }
-@media (min-width: 700px) {
+@media (min-width: 701px) {
 	.nowPlayingColumn_c2739c {
 		width: 360px;
 		min-width: 360px;
@@ -464,7 +464,7 @@ body,
 .guilds_a4d4d9 .footer_aa1bff .svg_c5f96a .fixedDiscoveryIcon_fea3ef {
   color: var(--green-360);
 }
-@media (min-width: 700px) {
+@media (min-width: 701px) {
 	.guilds_a4d4d9 {
 		margin-bottom: 180px;
 	}
@@ -1088,7 +1088,7 @@ div:not(.messagesWrapper_e2e187) > .scrollerBase-_bVAAt::-webkit-scrollbar,
 .members_cbd271 > div {
 	background-color: transparent;
 }
-@media (min-width: 700px) {
+@media (min-width: 701px) {
 	.container_cbd271,
 	.membersWrap_cbd271:not(#dv-mount),
 	.membersWrap_cbd271:not(#dv-mount) > div {
@@ -1157,7 +1157,7 @@ div:not(.messagesWrapper_e2e187) > .scrollerBase-_bVAAt::-webkit-scrollbar,
 			rgb(var(--border-color-1), var(--border-opacity-1));
 	}
 }
-@media (min-width: 700px) {
+@media (min-width: 701px) {
 	.sidebar_a4d4d9 {
 		background: none;
 		border-right: 1px solid
