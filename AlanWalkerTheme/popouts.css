@@ -640,8 +640,9 @@
 /*Pins (personal and public)*/
 .messagesPopoutWrap_ac90a2 {
 	width: 700px;
-	padding-bottom: 60px;
+  box-shadow: unset;
 	background-color: transparent;
+	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 .messagesPopoutWrap_ac90a2 .messageGroupWrapper_ac90a2 {
 	background-color: var(--back-color-boxes);
@@ -651,15 +652,18 @@
 }
 .messagesPopoutWrap_ac90a2 .header_ac90a2 {
 	background-color: black;
-	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+	border-bottom: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 .emptyPlaceholder_ac90a2 {
 	background-color: transparent;
 }
 .messagesPopoutWrap_ac90a2 .messagesPopout_ac90a2 {
 	background-color: black;
-	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-	border-top: 0;
+}
+.messagesPopoutWrap_ac90a2 .messagesPopout_ac90a2::-webkit-scrollbar-track {
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-block-end: 2px;
 }
 /*Chat AutoComplete Popup*/
 .wrapper_efd8e6 {

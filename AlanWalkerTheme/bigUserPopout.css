@@ -1,10 +1,6 @@
 [role="dialog"]:not(.positionContainer_af5dbb):not([aria-labelledby]) {
 	border-radius: 4px;
-	background: linear-gradient(
-		to top,
-		var(--user-popout-gradient-bottom),
-		var(--user-popout-gradient-top)
-	);
+	background: transparent;
 }
 .focusLock_f9a4c9[role="dialog"]:not([aria-labelledby]) {
 	background: none;
