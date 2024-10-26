@@ -517,85 +517,6 @@ body,
 		aspect-ratio: 1;
 	}
 }
-/*Text Area*/
-.scrollableContainer_d0696b .divider_c2654d {
-	display: none;
-}
-.scrollableContainer_d0696b .divider_c2654d::after {
-	display: none;
-}
-.messagesWrapper_e2e187 {
-	margin-bottom: 8px;
-}
-.messagesWrapper_e2e187 .scrollerSpacer_e2e187 {
-	height: 22px;
-}
-html #app-mount .scrollableContainer_d0696b {
-	background: transparent;
-}
-.channelAttachmentArea-1wlgJV {
-	background-color: var(--channeltextarea-background);
-	overflow: hidden;
-}
-.scrollableContainer_d0696b > .channelAttachmentArea_e8c527 {
-	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-	border-radius: 8px;
-	overflow: hidden;
-	margin: 0;
-	margin-bottom: 5px;
-	max-height: 246px;
-	background-color: var(--user-popout);
-}
-.channelTextArea_a7d72e .buttons_d0696b {
-	margin-right: 4px;
-}
-.scrollableContainer_d0696b,
-.channelTextArea_a7d72e {
-	background: none;
-	border-radius: unset;
-}
-.inner_d0696b {
-	border-width: 1px 0 1px 0;
-  box-sizing: border-box;
-	border-style: solid;
-	border-color: transparent;
-	background-color: transparent;
-	transition: border-color 0.5s, background-color 0.5s;
-	border-radius: 0;
-}
-.messageListItem_d5deea .channelTextArea_d0696b .inner_d0696b {
-	background-color: var(--channeltextarea-background);
-  border-radius: 10px;
-  border-width: 1px;
-	border-color: rgb(var(--border-color-1), var(--border-opacity-1));
-  padding-right: 10px;
-}
-.channelBottomBarArea_a7d72e:focus-within .inner_d0696b,
-.channelBottomBarArea_a7d72e:hover .inner_d0696b {
-	background-color: var(--channeltextarea-background);
-	border-color: rgb(var(--border-color-1), var(--border-opacity-1));
-}
-.upload_df1eaf {
-	background: var(--user-popout);
-	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-}
-.upload_df1eaf .image-2dAEjD {
-	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-	border-radius: 4px;
-}
-.wrapper_f7e168 {
-	background-color: var(--user-popout);
-	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-}
-.form_a7d72e:before {
-	display: none;
-}
-@media (max-width: 700px) {
-	.form_a7d72e {
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-}
 /*Stage Pannels*/
 .container-S9SaVf:hover {
 	background-color: var(--back-color-boxes-hover) !important;
@@ -838,7 +759,7 @@ div:not(.messagesWrapper_e2e187) > .scrollerBase-_bVAAt::-webkit-scrollbar,
 .peopleList_e0840f::-webkit-scrollbar,
 .nowPlayingColumn_c2739c .scroller_bf550a::-webkit-scrollbar,
 .membersWrap_cbd271 .members_cbd271::-webkit-scrollbar,
-.scrollableContainer_d0696b::-webkit-scrollbar,
+.scrollableContainer_bdf0de::-webkit-scrollbar,
 .sidebar_a4d4d9 .container_ee69e0 .scroller_c43953::-webkit-scrollbar {
 	display: none;
 }
