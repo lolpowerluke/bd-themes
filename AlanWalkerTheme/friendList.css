@@ -36,10 +36,6 @@
     border-radius: 10px;
     margin: 0;
     padding: 0;
-    background: var(--user-background);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right;
     box-shadow: inset 0 0 10px rgb(var(--border-color-1), var(--border-opacity-1));
     transition: box-shadow 0.75s, border-color 1s;
   }
