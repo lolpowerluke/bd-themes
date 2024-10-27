@@ -772,6 +772,8 @@
 body .bd-toasts .bd-toast {
 	padding: 8px;
 	margin-top: 5px;
+}
+.bd-toast.icon {
 	padding-left: 30px;
 }
 /*BD Updater circle*/
