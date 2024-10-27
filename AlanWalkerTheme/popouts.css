@@ -517,10 +517,10 @@
 /*toasts*/
 .bd-toast {
 	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-	background: black;
+	background: var(--user-popout);
 }
 .toast {
-	background: black !important;
+	background: var(--user-popout) !important;
 	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 /*Search*/
