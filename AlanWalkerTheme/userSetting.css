@@ -69,6 +69,11 @@
 	width: 100%;
 	opacity: 0.5;
 }
+/*Devices*/
+.sessionIcon_c7a2c0 {
+  background: var(--background-secondary);
+  color: var(--interactive-normal);
+}
 /*Profile crad in settings*/
 #app-mount [aria-label="USER_SETTINGS"] .background_b69b77,
 #app-mount [aria-label="USER_SETTINGS"] .userInfo_b69b77 {
