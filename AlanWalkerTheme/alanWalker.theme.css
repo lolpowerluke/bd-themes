@@ -2,7 +2,7 @@
  * @name         Alan Walker Theme
  * @description  dark theme with Alan Walker's logo as background, credit to DevilBro#4401 for settingsicons, credit to Nyria#3863 for userbuttons in the serverbar and spotifyControls
  * @author       lolpowerluke
- * @version      1.3
+ * @version      1.3.0.1
  * @source       https://github.com/lolpowerluke/bd-themes/blob/main/AlanWalkerTheme/alanWalker.theme.css
  * @website      https://github.com/lolpowerluke
 */
@@ -52,7 +52,7 @@
   --siderbar-no-hover-width: 60px; /*60px for just the channelIcon, 80px for the 1st 2/3 letters of the channel names*/
 
   /*Version*/
-  --version-1-3: none;
+  --version-1-3-0-1: none;
 
   /*Window width 700px or smaller*/
   --guild-bar-width-700: 56px;
