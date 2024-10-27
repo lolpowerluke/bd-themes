@@ -61,7 +61,7 @@
 }
 /*Upload Button*/
 .attachButtonInner_f298d4 svg {
-	background-color: rgb(var(--border-color-1));
+  background-color: var(--back-upload-button);
 	border-radius: 50%;
 }
 .attachButtonInner_f298d4 svg[aria-hidden="false"] {
@@ -69,5 +69,5 @@
 }
 .attachButton_f298d4:hover .attachButtonPlus_f298d4,
 .attachButtonPlus_f298d4 {
-	fill: black;
+	fill: var(--fill-upload-button);
 }
