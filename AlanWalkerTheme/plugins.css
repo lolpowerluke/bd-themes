@@ -153,7 +153,7 @@
 }
 /*VoiceChatLogger*/
 #app-mount .root_f9a4c9 {
-	background-color: black;
+	background-color: var(--user-popout);
 	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 /*Role Members*/
