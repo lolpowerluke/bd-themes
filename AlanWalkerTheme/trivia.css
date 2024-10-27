@@ -167,9 +167,6 @@ body,
 .wrapper_cd82a7:hover {
 	background-color: var(--back-color-boxes-hover) !important;
 }
-.section_cd82a7 {
-	background-color: black;
-}
 .itemCard_f02fcf:first-of-type {
 	margin-top: -8px;
 	border-radius: 8px 8px 0px 0px;
