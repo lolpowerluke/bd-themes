@@ -43,7 +43,7 @@
     overflow: hidden;
   }
   #app-mount .actionButton_e01b91 {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: var(--back-friendlist-friends);
   }
   .peopleListItem_d51464:hover {
     border: 1px solid rgb(var(--border-color-hover));
@@ -128,7 +128,7 @@
     box-sizing: unset;
     grid-template-rows: 40px 50px 40px;
     grid-template-columns: 1fr 160px;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: var(--back-friendlist-friends);
     backdrop-filter: blur(2px);
   }
   .peopleListItem_d51464 .listItemContents_e05dae::after {
