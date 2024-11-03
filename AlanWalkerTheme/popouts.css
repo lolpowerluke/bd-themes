@@ -651,17 +651,17 @@
 	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 .messagesPopoutWrap_ac90a2 .header_ac90a2 {
-	background-color: black;
+	background-color: var(--user-popout);
 	border-bottom: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 .emptyPlaceholder_ac90a2 {
 	background-color: transparent;
 }
 .messagesPopoutWrap_ac90a2 .messagesPopout_ac90a2 {
-	background-color: black;
+	background-color: var(--user-popout);
 }
 .messagesPopoutWrap_ac90a2 .messagesPopout_ac90a2::-webkit-scrollbar-track {
-  border: 2px solid black;
+  border: 2px solid var(--user-popout);
   border-radius: 5px;
   margin-block-end: 2px;
 }

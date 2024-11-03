@@ -1835,7 +1835,7 @@ aside.profilePanel-2PWEok .buttonColor-XIRMbp {
     font-size var(--stream-mode-hover-duration),
     color var(--stream-mode-hover-duration);
 }
-.notice_be03aa.colorStreamerMode_cb7f84:hover {
+.notice_be03aa.colorStreamerMode_be03aa:hover {
   font-size: 14px;
   border-radius: 5px;
   color: white;
@@ -1851,7 +1851,7 @@ aside.profilePanel-2PWEok .buttonColor-XIRMbp {
     margin-left var(--stream-mode-hover-duration),
     transform var(--stream-mode-hover-duration);
 }
-.notice_be03aa.colorStreamerMode_cb7f84:hover .button_be03aa {
+.notice_be03aa.colorStreamerMode_be03aa:hover .button_be03aa {
   transform: scaleX(1);
   margin-left: 5px;
   transition-delay: var(--stream-mode-hover-delay);
