@@ -33,6 +33,8 @@
   --standard-account-height: 52px;
   --avatar-radius: 5px;
   --role-circle: 5px;
+  --guild-margin-bottom: 120px; /* default: 120px, change to 180px if you have the gameactivitytoggle plugin*/
+
 
   /*Frienlist*/
   --friendlist-friends-min-width: 300px;

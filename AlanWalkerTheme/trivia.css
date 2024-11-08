@@ -463,8 +463,8 @@ body,
 }
 @media (min-width: 701px) {
 	.guilds_a4d4d9 {
-		margin-bottom: 180px;
-	}
+    margin-bottom: var(--guild-margin-bottom);
+  }
 }
 @media (max-width: 700px) {
 	.guilds_a4d4d9 {
