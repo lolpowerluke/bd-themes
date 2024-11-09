@@ -648,63 +648,7 @@ body,
 .selected_f5eb4b .name_ec8679 {
 	color: var(--selected-dm-color);
 }
-/*Force Show Link*/
-#app-mount .anchor-1MIwyf::after {
-	left: 148px;
-}
-[href*="/"]::after {
-	content: attr(href);
-	display: flex;
-	align-items: center;
-	z-index: 9999;
-	background: var(--back-color-boxes);
-	line-height: normal;
-	font-weight: normal;
-	font-size: 12px;
-	padding: 3px 4px;
-	padding-right: 6px;
-	position: fixed;
-	bottom: 2px;
-	left: 328px;
-	opacity: 0;
-	transition: 200ms ease;
-	white-space: nowrap;
-	border-top: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-	border-radius: 0px 0px 5px 5px;
-	pointer-events: none;
-	color: var(--text-link);
-}
-[href*="/"]:hover::after {
-	opacity: 1;
-}
-#app-mount [aria-label="USER_SETTINGS"] .anchor-1MIwyf::after {
-	left: 254px;
-	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-	border-bottom: 0;
-	border-left: 0;
-	border-radius: 0 10px 0 0;
-	padding-top: 5px;
-	padding-bottom: 0;
-}
-#app-mount .userPopout-2j1gM4 .anchor-1MIwyf::after {
-	left: 0;
-	max-width: calc(100% - 11px);
-	white-space: pre-wrap;
-}
-#app-mount .focusLock-2tveLW .anchor-1MIwyf::after {
-	left: 0;
-	border-right: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-	border-radius: 0 10px 0 0;
-	padding-top: 5px;
-	padding-bottom: 0;
-}
-#app-mount .anchor-1MIwyf.embedMedia_b0068a::after {
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	white-space: pre-wrap;
-	background: rgba(0, 0, 0, 0.7);
-}
+
 /*ServerFolders Expanded*/
 .expandedFolderIconWrapper_bc7085::after {
 	content: "";
