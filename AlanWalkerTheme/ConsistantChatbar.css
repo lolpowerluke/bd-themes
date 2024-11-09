@@ -36,7 +36,7 @@ html #app-mount .scrollableContainer_bdf0de {
 	border-radius: unset;
 }
 .inner_bdf0de {
-	border-width: 1px 0 1px 0;
+	border-width: 1px 0 0 0;
   box-sizing: border-box;
 	border-style: solid;
 	border-color: transparent;
@@ -141,13 +141,18 @@ html #app-mount .scrollableContainer_bdf0de {
   height: 54px;
   box-sizing: border-box;
   margin-top: auto;
-  border-width: 1px 0 1px 0;
+  border-width: 1px 0 0 0;
   border-style: solid;
   border-color: transparent;
   display: flex;
   align-content: center;
   flex-wrap: wrap;
   transition: background .5s, border-color .5s;
+}
+@media (max-width: 700px) {
+  .channelAppLauncher_df39bd {
+    height: 48px;
+  }
 }
 .channelAppLauncher_df39bd .buttonContainer_df39bd .button_df39bd,
 .channelAppLauncher_df39bd .buttonContainer_df39bd {
