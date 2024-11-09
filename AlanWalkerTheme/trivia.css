@@ -309,6 +309,11 @@ body,
 #app-mount .search_a46bef .searchBar_a46bef {
 	background: transparent;
 }
+.searchBar_f0963d .searchBarComponent_f0963d {
+  border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+  border-radius: 50px;
+  padding-left: 8px;
+}
 /*Title Bar*/
 .wordmarkWindows_a934d8 {
 	display: none;
@@ -648,7 +653,6 @@ body,
 .selected_f5eb4b .name_ec8679 {
 	color: var(--selected-dm-color);
 }
-
 /*ServerFolders Expanded*/
 .expandedFolderIconWrapper_bc7085::after {
 	content: "";
@@ -745,7 +749,8 @@ div:not(.messagesWrapper_e2e187) > .scrollerBase-_bVAAt::-webkit-scrollbar,
 .subtitleContainer_a7d72e {
   filter: blur(0px);
   backdrop-filter: blur(2px);
-  z-index: 1;
+  z-index: 2;
+  background-color: var(--background-primary);
 }
 .container_fc4f04.themed_fc4f04 {
 	border-bottom: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
@@ -1002,18 +1007,13 @@ div:not(.messagesWrapper_e2e187) > .scrollerBase-_bVAAt::-webkit-scrollbar,
 @media (max-width: 700px) {
 	#app-mount .sidebar_a4d4d9 > .privateChannels_f0963d,
 	#app-mount .sidebar_a4d4d9 > .container_ee69e0 {
-		background-color: var(--back-sidebar);
+		background-color: var(--back-sidebar) !important;
 	}
 	#app-mount .sidebar_a4d4d9 > .privateChannels_f0963d {
 		border-left: 1px solid
 			rgb(var(--border-color-1), var(--border-opacity-1));
 	}
-	#app-mount
-		.wrapper_fea3ef:hover
-		+ .base_a4d4d9
-		> .content_a4d4d9
-		> .sidebar_a4d4d9
-		> .privateChannels_f0963d,
+	#app-mount .wrapper_fea3ef:hover + .base_a4d4d9 > .content_a4d4d9 > .sidebar_a4d4d9 > .privateChannels_f0963d,
 	#app-mount .sidebar_a4d4d9 > .privateChannels_f0963d:hover {
 		border-right: 1px solid
 			rgb(var(--border-color-1), var(--border-opacity-1));
