@@ -5,9 +5,16 @@
 	flex: 0;
 	z-index: 1;
 }
+.sidebarRegionScroller_c25c6d {
+  background-color: var(--background-primary);
+}
 .sidebarRegion_c25c6d .sidebarRegionScroller_c25c6d::-webkit-scrollbar-track {
   border-radius: 15px;
-  margin-block: 5px;
+  background-color: transparent !important;
+  margin-block: 1px;
+}
+.sidebarRegionScroller_c25c6d .side_a0 .item_a0.selected_a0:hover {
+  background-color: var(--background-modifier-selected-hover);
 }
 /*General Content Area*/
 .layer_d4b6c5  .contentRegion_c25c6d,
@@ -87,6 +94,11 @@
 	.userInfo_b69b77
 	.accountSettingsAvatar {
 	top: 0;
+}
+.accountProfileCard_b69b77,
+.background_b69b77 {
+  border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+  background-color: var(--background-primary);
 }
 /*Compat lists (BD, PC, Kernel) + styling cards*/
 #app-mount .holy-settings-panel .holy-settings-card-scroller,
@@ -222,7 +234,6 @@
 .contentRegion_c25c6d .itemFilled_eb92a8[aria-checked=false] {
   background-color: var(--background-primary);
 }
-
 .contentRegion_c25c6d .item_eb92a8 {
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   background-color: var(--background-primary);

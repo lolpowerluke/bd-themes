@@ -1,11 +1,4 @@
 /*Full window*/
-.container_a4d4d9 {
-	background: linear-gradient(
-		to bottom,
-		rgba(var(--back-gradient-top), var(--back-gradient-opacity)) 80%,
-		rgba(var(--back-gradient-bottom), var(--back-gradient-opacity))
-	);
-}
 .bg_d4b6c5,
 .app_a01fb1,
 .appMount_ea7e65,
@@ -19,7 +12,36 @@ body,
   margin: 0px;
   padding-top: 4px;
 }
+/*Background*/
+.bg_d4b6c5 {
+  background: linear-gradient(
+		to bottom,
+		rgba(var(--back-gradient-top), var(--back-gradient-opacity)) 80%,
+		rgba(var(--back-gradient-bottom), var(--back-gradient-opacity))
+	);
+}
+.bg_d4b6c5::after {
+  content: "";
+  position: absolute;
+  background: var(--main-background);
+  width: 100%;
+  height: 100%;
+}
 /*Transparency for various elements*/
+#app-mount .perksModal-fSYqOq,
+.pageContent-1xgXch,
+.applicationStore_cecc86,
+.container-36u7Lw,
+.layer_d4b6c5 [aria-label="USER_SETTINGS"],
+.pageWrapper_a3a4ce,
+.content_a7d72e,
+.tabBody_c2739c,
+.container_a4d4d9,
+.fieldList_b69b77,
+.contentRegionScroller_c25c6d,
+.contentRegion_c25c6d,
+.layer_d4b6c5,
+.standardSidebarView_c25c6d,
 #app-mount .container_ee69e0,
 .members_cbd271,
 .container_cbd271,
@@ -85,33 +107,17 @@ body,
 	.panels_a4d4d9 > .container_b2ca13 > .flex_dc333f {
 		column-gap: 2px;
 	}
-	#app-mount
-		.panels_a4d4d9
-		> .container_b2ca13
-		> .flex_dc333f
-		> .button_adca65 {
+	#app-mount .panels_a4d4d9 > .container_b2ca13 > .flex_dc333f > .button_adca65 {
 		border-radius: 4px;
 		background-color: var(--back-user-buttons-700);
 	}
-	#app-mount
-		.panels_a4d4d9
-		> .container_b2ca13
-		> .flex_dc333f
-		> .button_adca65:hover {
+	#app-mount .panels_a4d4d9 > .container_b2ca13 > .flex_dc333f > .button_adca65:hover {
 		background-color: var(--back-user-buttons-hover-700);
 	}
-	#app-mount
-		.panels_a4d4d9
-		> .container_b2ca13
-		> .flex_dc333f
-		> .button_adca65:first-child {
+	#app-mount .panels_a4d4d9 > .container_b2ca13 > .flex_dc333f > .button_adca65:first-child {
 		border-radius: 4px;
 	}
-	#app-mount
-		.panels_a4d4d9
-		> .container_b2ca13
-		> .flex_dc333f
-		> .button_adca65:last-child {
+	#app-mount .panels_a4d4d9 > .container_b2ca13 > .flex_dc333f > .button_adca65:last-child {
 		border-radius: 4px 15px 4px 4px;
 	}
 }
@@ -126,17 +132,6 @@ body,
 .container_b2ca13 {
 	background: var(--back-account);
 	margin-bottom: 0;
-}
-/*Background*/
-#app-mount .perksModal-fSYqOq,
-.pageContent-1xgXch,
-.applicationStore_cecc86,
-.container-36u7Lw,
-.layer_d4b6c5 [aria-label="USER_SETTINGS"],
-.pageWrapper_a3a4ce,
-.content_a7d72e,
-.tabBody_c2739c {
-	background: var(--main-background);
 }
 /*DM-list*/
 .channel_c91bad:hover {
