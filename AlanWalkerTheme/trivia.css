@@ -1246,9 +1246,6 @@ aside.profilePanel-2PWEok .buttonColor-XIRMbp {
   .buttonContainer_d0696b:not(#sendAudioButtons):not(.send-button) .button_dd4f85[aria-label]:not(.apateEncryptionKeyButton) .button_f9af59:not(.stickerButton_d0696b) {
     display: none;
   }
-  .bd-addon-list.bd-grid-view {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  }
   /* pin icon */
   .iconContainer_d76df7 {
     width: 32px !important;
@@ -1700,9 +1697,6 @@ aside.profilePanel-2PWEok .buttonColor-XIRMbp {
   }
   .bd-addon-list .bd-addon-card {
     margin-bottom: 10px;
-  }
-  .bd-addon-list.bd-grid-view {
-    grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
   }
   @keyframes slide-out-enable {
     0% {
