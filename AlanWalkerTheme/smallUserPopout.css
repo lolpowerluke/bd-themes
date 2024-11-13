@@ -235,3 +235,25 @@
 .profileBadges_f89da9 .clickable__1545b {
 	margin: 0;
 }
+/*max height*/
+.inner_c69a7b .scrollerBase_c49869 {
+  overflow: unset !important;
+  padding-right: 0 !important;
+}
+.inner_c69a7b .scrollerBase_c49869 > * {
+  padding-right: 8px;
+}
+.inner_c69a7b .scrollerBase_c49869 .root_e6f2d0 {
+  overflow: hidden auto;
+  max-height: 200px;
+  padding-right: 0;
+  margin-right: 4px;
+}
+.inner_c69a7b .scrollerBase_c49869 .root_e6f2d0::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+.inner_c69a7b .scrollerBase_c49869 .root_e6f2d0::-webkit-scrollbar-thumb,
+.inner_c69a7b .scrollerBase_c49869 .root_e6f2d0::-webkit-scrollbar-track {
+  border-radius: 5px;
+}
