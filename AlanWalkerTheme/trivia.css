@@ -37,6 +37,7 @@ body,
 .content_a7d72e,
 .tabBody_c2739c,
 .container_a4d4d9,
+.footer_f8ec41,
 .fieldList_b69b77,
 .contentRegionScroller_c25c6d,
 .contentRegion_c25c6d,
@@ -460,6 +461,12 @@ body,
 }
 .guilds_a4d4d9 .footer_aa1bff .svg_c5f96a .fixedDiscoveryIcon_fea3ef {
   color: var(--green-360);
+}
+.listItem_c96c45 .circleIcon_db6521 {
+  color: var(--text-normal);
+}
+.listItem_c96c45:hover .circleIcon_db6521 {
+  color: var(--unread-pill);
 }
 @media (min-width: 701px) {
 	.guilds_a4d4d9 {
