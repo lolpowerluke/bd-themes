@@ -541,94 +541,30 @@ body,
 .numberBadge__40d6f:nth-last-child(3) {
 	background-color: red !important;
 }
-.guilds_a4d4d9
-	> ul
-	> .scrollerBase-_bVAAt
-	> .tutorialContainer_f9623d
-	.listItemWrapper_dfb2f8,
-.guilds_a4d4d9
-	> ul
-	> .scrollerBase-_bVAAt
-	> .tutorialContainer-2sGCg9
-	.listItemWrapper__968be {
+.guilds_a4d4d9 > ul > .scrollerBase-_bVAAt > .tutorialContainer_f9623d .listItemWrapper_dfb2f8,
+.guilds_a4d4d9 > ul > .scrollerBase-_bVAAt > .tutorialContainer-2sGCg9 .listItemWrapper__968be {
 	overflow: hidden;
 }
-.guilds_a4d4d9
-	> ul
-	> .scrollerBase-_bVAAt
-	> .tutorialContainer_f9623d
-	.listItemWrapper_dfb2f8
-	.UnreadCountBadges-badge-unread,
-.guilds_a4d4d9
-	> ul
-	> .scrollerBase-_bVAAt
-	> .tutorialContainer_f9623d
-	.listItemWrapper_dfb2f8
-	.lowerBadge-3WTshO,
-.guilds_a4d4d9
-	> ul
-	> .scrollerBase-_bVAAt
-	> .tutorialContainer-2sGCg9
-	.listItemWrapper__968be
-	.UnreadCountBadges-badge-unread,
-.guilds_a4d4d9
-	> ul
-	> .scrollerBase-_bVAAt
-	> .tutorialContainer-2sGCg9
-	.listItemWrapper__968be
-	.lowerBadge-3WTshO {
+.guilds_a4d4d9 > ul > .scrollerBase-_bVAAt > .tutorialContainer_f9623d .listItemWrapper_dfb2f8 .UnreadCountBadges-badge-unread,
+.guilds_a4d4d9 > ul > .scrollerBase-_bVAAt > .tutorialContainer_f9623d .listItemWrapper_dfb2f8 .lowerBadge-3WTshO,
+.guilds_a4d4d9 > ul > .scrollerBase-_bVAAt > .tutorialContainer-2sGCg9 .listItemWrapper__968be .UnreadCountBadges-badge-unread,
+.guilds_a4d4d9 > ul > .scrollerBase-_bVAAt > .tutorialContainer-2sGCg9 .listItemWrapper__968be .lowerBadge-3WTshO {
 	width: 100%;
 	height: 100%;
 	pointer-events: none;
 }
-.guilds_a4d4d9
-	> ul
-	> .scrollerBase-_bVAAt
-	> .tutorialContainer_f9623d
-	.listItemWrapper_dfb2f8
-	.lowerBadge-3WTshO
-	.numberBadge__40d6f,
-.guilds_a4d4d9
-	> ul
-	> .scrollerBase-_bVAAt
-	> .tutorialContainer_f9623d
-	.listItemWrapper_dfb2f8
-	.UnreadCountBadges-badge-unread
-	.numberBadge__40d6f,
-.guilds_a4d4d9
-	> ul
-	> .scrollerBase-_bVAAt
-	> .tutorialContainer-2sGCg9
-	.listItemWrapper__968be
-	.lowerBadge-3WTshO
-	.numberBadge__40d6f,
-.guilds_a4d4d9
-	> ul
-	> .scrollerBase-_bVAAt
-	> .tutorialContainer-2sGCg9
-	.listItemWrapper__968be
-	.UnreadCountBadges-badge-unread
-	.numberBadge__40d6f {
+.guilds_a4d4d9 > ul > .scrollerBase-_bVAAt > .tutorialContainer_f9623d .listItemWrapper_dfb2f8 .lowerBadge-3WTshO .numberBadge__40d6f,
+.guilds_a4d4d9 > ul > .scrollerBase-_bVAAt > .tutorialContainer_f9623d .listItemWrapper_dfb2f8 .UnreadCountBadges-badge-unread .numberBadge__40d6f,
+.guilds_a4d4d9 > ul > .scrollerBase-_bVAAt > .tutorialContainer-2sGCg9 .listItemWrapper__968be .lowerBadge-3WTshO .numberBadge__40d6f,
+.guilds_a4d4d9 > ul > .scrollerBase-_bVAAt > .tutorialContainer-2sGCg9 .listItemWrapper__968be .UnreadCountBadges-badge-unread .numberBadge__40d6f {
 	height: 12px;
 	width: 100% !important;
 	font-size: 9px;
 	min-width: unset;
 	min-height: unset;
 }
-.guilds_a4d4d9
-	> ul
-	> .scrollerBase-_bVAAt
-	> .tutorialContainer_f9623d
-	.listItemWrapper_dfb2f8
-	.lowerBadge-3WTshO
-	.numberBadge__40d6f,
-.guilds_a4d4d9
-	> ul
-	> .scrollerBase-_bVAAt
-	> .tutorialContainer-2sGCg9
-	.listItemWrapper__968be
-	.lowerBadge-3WTshO
-	.numberBadge__40d6f {
+.guilds_a4d4d9 > ul > .scrollerBase-_bVAAt > .tutorialContainer_f9623d .listItemWrapper_dfb2f8 .lowerBadge-3WTshO .numberBadge__40d6f,
+.guilds_a4d4d9 > ul > .scrollerBase-_bVAAt > .tutorialContainer-2sGCg9 .listItemWrapper__968be .lowerBadge-3WTshO .numberBadge__40d6f {
 	margin-top: 38px;
 }
 /*blue ping on hover*/

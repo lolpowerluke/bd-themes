@@ -143,7 +143,3 @@
     display: none;
   }
 }
-/*other edge cases outside*/
-.container_fd6364:not(.hasBanner_fd6364) ~ [id="channels"] > ul > [aria-hidden="true"][style] {
-  display: none;
-}
