@@ -13,7 +13,7 @@
 }
 [role="dialog"] {
 	border-radius: 4px;
-	background: unset;
+	background: transparent;
 }
 .focusLock_f9a4c9[role="dialog"] .content_ed23b8::-webkit-scrollbar-track {
   border: 2px solid var(--back-emoji-etc-picker);
@@ -338,22 +338,7 @@
 	);
 }
 /*Changelog */
-.focusLock_f9a4c9 .scrollerBase_eed6a8 {
-	border-radius: 0px;
-}
-.layerContainer_cd0de5 .layer_c9e2da .focusLock_f9a4c9 .root_f9a4c9 .content-2hZxGK {
-	background-color: black;
-}
-.layerContainer_cd0de5 .layer_c9e2da .focusLock_f9a4c9 .header_f9a4c9 {
-	border-bottom: 0px;
-}
-.layerContainer_cd0de5 .layer_c9e2da .focusLock_f9a4c9 .thin_eed6a8 {
-	border-radius: 0px;
-}
-.layerContainer_cd0de5 .layer_c9e2da .focusLock_f9a4c9 .footer_f9a4c9 {
-	border-top: 0px;
-	background-color: var(--user-popout);
-}
+
 /*Create Server */ /*
 .container-36u7Lw .content-2hZxGK,
 .container-36u7Lw .flex_dc333f {
