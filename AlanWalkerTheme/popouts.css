@@ -387,15 +387,8 @@
 	margin-bottom: 0px !important;
 }
 /*screen share modal*/
-.focusLock_f9a4c9 {
-	background-color: var(--big-user-popout);
-}
 .focusLock_f9a4c9 .footer_f9a4c9 {
 	background-color: var(--screen-share-main);
-}
-.focusLock_f9a4c9 .root_f9a4c9:not(.root-2uUafN) {
-	background-color: var(--screen-share-main);
-	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 .modalSize_e1cc86 .sourceScroller_d7ec26 {
 	background-color: transparent !important;
