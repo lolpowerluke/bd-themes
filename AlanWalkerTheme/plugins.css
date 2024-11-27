@@ -151,11 +151,6 @@
 #app-mount .timeline-UWmgAx .grabber-7sd5f5 {
 	display: none;
 }
-/*VoiceChatLogger*/
-#app-mount .root_f9a4c9 {
-	background-color: var(--user-popout);
-	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-}
 /*Role Members*/
 .role-members-popout {
 	background: black !important;
