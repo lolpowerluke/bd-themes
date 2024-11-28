@@ -117,6 +117,9 @@
           border-top-color: transparent;
         }
       }
+      &.containerDefault_a08117 + .containerDefault_f6f816 {
+        border-radius: 8px 8px 0 0;
+      }
       .containerDefault_f6f816::after {
         display: none;
       }
