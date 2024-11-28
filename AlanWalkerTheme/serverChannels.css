@@ -122,13 +122,9 @@
       & + div {
         border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
         border-bottom-color: transparent;
-        border-radius: 8px 8px 0 0;
+        border-radius: 0;
         margin-top: -1px;
         transition: border-color .5s, box-shadow .5s;
-        
-        & + li {
-          border-radius: 0;
-        }
         &:hover {
           border-color: rgb(var(--border-color-hover));
           box-shadow: inset 0 0 10px rgb(var(--border-color-hover));
@@ -141,6 +137,10 @@
           & + .sectionDivider_c43953 + div[style] + .containerDefault_f6f816 {
             border-top-color: transparent;
           }
+        }
+        
+        & + li.containerDefault_a08117 + li.containerDefault_f6f816 {
+          border-radius: 8px 8px 0 0;
         }
         .wrapper_d8bfb3 {
           margin-top: -1px;
