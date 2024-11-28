@@ -99,13 +99,15 @@
       }
     }
     /*Fun edge cases for channels*/
+
     & > li:first-of-type {
-      border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
-      border-bottom-color: transparent;
-      border-radius: 8px 8px 0 0;
-      margin-top: -1px;
-      transition: border-color .5s, box-shadow .5s;
-  
+      &:not(.containerDefault_a08117) {
+        border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+        border-bottom-color: transparent;
+        border-radius: 8px 8px 0 0;
+        margin-top: -1px;
+        transition: border-color .5s, box-shadow .5s;
+      }
       &:hover {
         border-color: rgb(var(--border-color-hover));
         box-shadow: inset 0 0 10px rgb(var(--border-color-hover));
