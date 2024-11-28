@@ -108,7 +108,7 @@
         margin-top: -1px;
         transition: border-color .5s, box-shadow .5s;
       }
-      &:hover {
+      &:not(.containerDefault_a08117):hover {
         border-color: rgb(var(--border-color-hover));
         box-shadow: inset 0 0 10px rgb(var(--border-color-hover));
   
@@ -200,7 +200,7 @@
       border-top-color: transparent;
     }
     /*Categories*/
-    .containerDefault_a08117::before {
+    .containerDefault_a08117:not(:first-of-type)::before {
       content: "";
       position: absolute;
       border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
