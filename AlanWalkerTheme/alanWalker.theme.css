@@ -354,17 +354,12 @@
   --text-link-back: white;
   --text-focus: black;
   --back-account: white;
-  --popout-header: white;
-  --popout-scroller: rgb(214, 214, 214);
   --create-server: rgba(255, 255, 255, 0.9);
   --create-server-text-color: black;
   --create-server-choices: white;
   --create-server-choices-border: rgb(255, 0, 0);
   --create-server-footer-button: white;
   --create-server-footer-button-hover: rgba(0, 0, 0, 0.123);
-  --upload-popout-footer: rgba(255, 255, 255, 0.65);
-  --upload-popout-top: white;
-  --upload-popout-seperator: black;
   --back-color-search-bar: rgba(172, 172, 172, 0.35);
   --screen-share-main: rgba(255, 255, 255, 0);
   --message-hover: rgba(131, 131, 131, 0.25);
@@ -378,6 +373,12 @@
   --back-upload-button: rgb(116, 116, 116);
   --fill-upload-button: var(--background-primary);
 
+  /*popouts*/
+  --popout-header: black;
+  --popout-body: rgba(0, 0, 0);
+  --popout-footer: black;
+  --popout-scroller: rgb(41, 41, 41);
+  
   /*settings*/
   --back-bd-addon-cards: white;
 
@@ -419,14 +420,13 @@
   --back-color-menu: rgb(255, 255, 255, .8);
   --back-role-scroller: black;
 
-  /* message separator*/
+  /*message separator*/
   --message-separator-line: rgba(17, 0, 255, 0.5);
   --unread-message: rgb(255, 0, 0);
   --unread-message-line: rgb(255, 0, 0);
 
   /*emoji & gif*/
   --back-emoji-etc-picker: black;
-  --back-button-gifemoji-picker: rgba(0, 0, 255, 0.5);
 
   /*other stuff I tried to make work*/
   --scrollbar-auto-scrollbar-color-thumb: red;
