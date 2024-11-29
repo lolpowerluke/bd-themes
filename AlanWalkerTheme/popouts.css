@@ -1,7 +1,4 @@
 /*Popouts */
-.layerContainer_cd0de5 {
-  filter: blur(0px);
-}
 .header_f0cd33 {
 	background-color: var(--popout-header);
 }
@@ -10,10 +7,6 @@
 }
 .container-36u7Lw {
 	background-color: var(--create-server);
-}
-[role="dialog"] {
-	border-radius: 4px;
-	background: transparent;
 }
 .focusLock_f9a4c9[role="dialog"] .content_ed23b8::-webkit-scrollbar-track {
   border: 2px solid var(--back-emoji-etc-picker);
@@ -598,10 +591,7 @@
 	margin-top: 1px;
 	margin-right: 1px;
 }
-#app-mount
-	.react-datepicker__week:hover
-	+ .react-datepicker__week
-	.react-datepicker__day {
+#app-mount .react-datepicker__week:hover + .react-datepicker__week .react-datepicker__day {
 	border-top-color: var(--user-popout);
 }
 #app-mount .react-datepicker__week:hover .react-datepicker__day {
@@ -610,9 +600,7 @@
 #app-mount .react-datepicker__week:hover .react-datepicker__day:hover {
 	border-bottom-color: rgb(var(--border-color-hover));
 }
-.calendarPicker_be05cd
-	.react-datepicker__week:hover
-	.react-datepicker__day.react-datepicker__day--selected:after {
+.calendarPicker_be05cd .react-datepicker__week:hover .react-datepicker__day.react-datepicker__day--selected:after {
 	margin-bottom: -1px;
 }
 /*Pins (personal and public)*/
@@ -620,7 +608,6 @@
 	width: 700px;
   box-shadow: unset;
 	background-color: transparent;
-	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 .messagesPopoutWrap_ac90a2 .messageGroupWrapper_ac90a2 {
 	background-color: var(--back-color-boxes);
