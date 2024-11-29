@@ -2,7 +2,7 @@
  * @name         Alan Walker Theme
  * @description  dark theme with Alan Walker's logo as background, credit to DevilBro#4401 for settingsicons, credit to Nyria#3863 for userbuttons in the serverbar and spotifyControls
  * @author       lolpowerluke
- * @version      1.3.1.1
+ * @version      1.3.1.2
  * @source       https://github.com/lolpowerluke/bd-themes/blob/main/AlanWalkerTheme/alanWalker.theme.css
  * @website      https://github.com/lolpowerluke
 */
@@ -58,7 +58,7 @@
   --channel-name-no-hover-opacity: 0; /*0 for hiding the name, 1 for showing the name*/
 
   /*Version*/
-  --version-1-3-1-1: none;
+  --version-1-3-1-2: none;
 
   /*Window width 700px or smaller*/
   --guild-bar-width-700: 56px;
@@ -156,17 +156,12 @@
   --text-link-back: black;
   --text-focus: white;
   --back-account: black;
-  --popout-header: rgb(3, 3, 3);
-  --popout-scroller: rgb(41, 41, 41);
   --create-server: rgba(0, 0, 0, 0.911);
   --create-server-text-color: rgb(255, 255, 255);
   --create-server-choices: black;
   --create-server-choices-border: rgb(255, 0, 0);
   --create-server-footer-button: black;
   --create-server-footer-button-hover: rgba(255, 255, 255, 0.123);
-  --upload-popout-footer: rgba(0, 0, 0, 0.644);
-  --upload-popout-top: rgb(0, 0, 0);
-  --upload-popout-seperator: rgb(255, 255, 255);
   --back-color-search-bar: rgba(83, 83, 83, 0.349);
   --screen-share-main: rgba(0, 0, 0, 0);
   --message-hover: rgba(95, 95, 95, 0.267);
@@ -179,6 +174,12 @@
   --profile-gradient-button-color: black;
   --back-upload-button: rgb(var(--border-color-1));
   --fill-upload-button: black;
+
+  /*popouts*/
+  --popout-header: black;
+  --popout-body: rgba(0, 0, 0);
+  --popout-footer: black;
+  --popout-scroller: rgb(41, 41, 41);
 
   /*settings*/
   --back-bd-addon-cards: black;
@@ -221,14 +222,13 @@
   --back-color-menu: rgb(0, 0, 0, .8);
   --back-role-scroller: black;
 
-  /* message separator*/
+  /*message separator*/
   --message-separator-line: rgba(17, 0, 255, 0.5);
   --unread-message: rgb(255, 0, 0);
   --unread-message-line: rgb(255, 0, 0);
 
   /*emoji & gif*/
   --back-emoji-etc-picker: black;
-  --back-button-gifemoji-picker: rgba(0, 0, 255, 0.5);
 
   /*other stuff I tried to make work*/
   --scrollbar-auto-scrollbar-color-thumb: red;
@@ -244,15 +244,26 @@
   --back-sidebar: rgba(0, 0, 0, 0.8);
 
   /*Window width 700px or smaller*/
-  --back-user-buttons-700: rgb(0,0,0,0.2);
+  --back-user-buttons-700: rgb(0,0,0,0.4);
   --back-user-buttons-hover-700: rgba(255, 255, 255, 0.2);
 }
 .theme-dark .bd-transparency,
-:root.theme-dark .bd-transparency {
+:root.theme-dark .bd-transparency,
+.bd-transparency .theme-dark {
   /*Put any variable here you want to apply only if bd's transpareny settings is enabled*/
+  /*background gradient*/
   --back-gradient-opacity: .8;
   --back-gradient-top: 0, 0, 0;
   --back-gradient-bottom: 0, 0, 0;
+
+  /*emoji & gif*/
+  --back-emoji-etc-picker: rgba(0, 0, 0, 0.5);
+  
+  /*popouts*/
+  --popout-header: rgba(0, 0, 0, 0.5);
+  --popout-body: rgba(0, 0, 0, 0.5);
+  --popout-footer: rgba(0, 0, 0, 0.5);
+  --popout-scroller: rgb(0, 0, 0);
 }
 .theme-light,
 :root.theme-light {
@@ -435,9 +446,19 @@
   --back-user-buttons-hover-700: rgba(255, 255, 255, 0.2);
 }
 .theme-light .bd-transparency,
-:root.theme-light .bd-transparency {
+:root.theme-light .bd-transparency,
+.bd-transparency .theme-light {
   /*Put any variable here you want to apply only if bd's transpareny settings is enabled*/
   --back-gradient-opacity: .6;
   --back-gradient-top: 255, 255, 255;
   --back-gradient-bottom: 255, 255, 255;
+
+  /*emoji & gif*/
+  --back-emoji-etc-picker: rgba(255, 255, 255, 0.5);
+  
+  /*popouts*/
+  --popout-header: rgba(255, 255, 255, 0.5);
+  --popout-body: rgba(255, 255, 255, 0.5);
+  --popout-footer: rgba(255, 255, 255, 0.5);
+  --popout-scroller: rgb(255, 255, 255);
 }
