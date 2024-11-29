@@ -449,6 +449,7 @@
 :root.theme-light .bd-transparency,
 .bd-transparency .theme-light {
   /*Put any variable here you want to apply only if bd's transpareny settings is enabled*/
+  /*background gradient*/
   --back-gradient-opacity: .6;
   --back-gradient-top: 255, 255, 255;
   --back-gradient-bottom: 255, 255, 255;
