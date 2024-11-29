@@ -5,22 +5,22 @@
 	--user-background: var(--USRBG-popout-background);
 }
 /*my list*/
-/*Mouson#8981*/
+/*.faorin*/
 #app-mount [data-list-item-id*="374490674558533633"],
 #app-mount [data-user-id="374490674558533633"] {
 	--user-background: url('https://i.imgur.com/Rv3pBml.png');
 }
-/*nothingSuspicious#6246*/
+/*.nothingsuspicious*/
 #app-mount [data-list-item-id*="773628716537872404"],
 #app-mount [data-user-id="773628716537872404"] {
 	--user-background: url('https://i.imgur.com/r7yG08B.png');
 }
-/*lolpowerluke#8008*/
+/*lolpowerluke*/
 #app-mount [data-list-item-id*="398131626695196672"],
 #app-mount [data-user-id="398131626695196672"] {
 	--user-background: url('https://i.imgur.com/9zkNBar.png');
 }
-/*𝕵𝖔#0084*/
+/*jotry*/
 #app-mount [data-list-item-id*="368997053075816451"],
 #app-mount [data-user-id="368997053075816451"] {
 	--user-background: url('https://i.imgur.com/yLIE2N4.gif');
@@ -61,7 +61,7 @@
 	--user-background: url('https://i.imgur.com/Cl5pGmM.png');
 }
 /*high28dayo*/
-#app-mount [data-list-item-id*="1308317757124902922"],
-#app-mount [data-user-id="1308317757124902922"] {
+#app-mount [data-list-item-id*="1238034849789644863"],
+#app-mount [data-user-id="1238034849789644863"] {
 	--user-background: url('https://tenor.com/view/gura-%E3%81%90%E3%82%89-%E3%83%9B%E3%83%AD%E3%83%A9%E3%82 %A4%E3%83%96-gawr-gura-hololive-myth-gif-14332782943646064599');
 }
