@@ -50,13 +50,18 @@
 #app-mount [data-user-id="436178062015725569"] {
 	--user-background: url('https://i.imgur.com/21vma32.png');
 }
-/*kareldesp#8929*/
+/*kareldesp*/
 #app-mount [data-list-item-id*="454717754394804225"],
 #app-mount [data-user-id="454717754394804225"] {
 	--user-background: url('https://i.imgur.com/8Pts35N.png');
 }
-/*WAK_Senne3D#4687*/
+/*Senne3D*/
 #app-mount [data-list-item-id*="338591544091344897"],
 #app-mount [data-user-id="338591544091344897"] {
 	--user-background: url('https://i.imgur.com/Cl5pGmM.png');
+}
+/*high28dayo*/
+#app-mount [data-list-item-id*="1308317757124902922"],
+#app-mount [data-user-id="1308317757124902922"] {
+	--user-background: url('https://tenor.com/view/gura-%E3%81%90%E3%82%89-%E3%83%9B%E3%83%AD%E3%83%A9%E3%82 %A4%E3%83%96-gawr-gura-hololive-myth-gif-14332782943646064599');
 }
