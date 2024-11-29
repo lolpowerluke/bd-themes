@@ -28,7 +28,7 @@
   &:not(:hover) {
     .numberBadge_df8943 {
       position: absolute;
-      top: 0;
+      top: 1px;
       right: 0;
       border-radius: 0 0 0 7px;
       padding: 1px 3px 1px 4px !important;

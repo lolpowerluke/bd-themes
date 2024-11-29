@@ -75,8 +75,11 @@ body,
 .privateChannels_f0963d {
 	background: transparent !important;
 }
-.panels_a4d4d9 .container_b2ca13:hover {
-	background-color: black;
+@media (max-width: 700px) {
+  #app-mount .panels_a4d4d9 .container_b2ca13:hover {
+    background-color: var(--back-user-buttons) !important;
+    backdrop-filter: blur(2px);
+  }
 }
 .avatarWrapper_b2ca13:hover {
   background: rgba(70, 70, 70, 0.2);
