@@ -123,6 +123,9 @@
       .containerDefault_f6f816::after {
         display: none;
       }
+      & ~ li.containerDefault_a08117 + .containerDefault_f6f816 {
+        border-radius: 8px 8px 0 0;
+      }
       & ~ li:not(.containerDefault_a08117),
       & ~ div {
         border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
@@ -147,9 +150,6 @@
           margin-top: 16px;
           border-radius: 8px;
           border-bottom-color: rgba(var(--border-color-1), var(--border-opacity-1));
-        }
-        & + li.containerDefault_a08117 + li.containerDefault_f6f816 {
-          border-radius: 8px 8px 0 0;
         }
         .wrapper_d8bfb3 {
           margin-top: -1px;
