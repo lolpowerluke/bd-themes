@@ -63,10 +63,10 @@
                     border-radius: 10px;
                     width: 100%;
                     height: 100%;
+                    mask: url(https://i.imgur.com/8dNLS7D.png) 0 0/140px 140px luminance no-repeat !important;
                   }
                   circle {
-                    cx: 118;
-                    cy: 118;
+                    display: none;
                   }
                   rect {
                     x: 106;
