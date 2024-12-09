@@ -1756,3 +1756,12 @@ aside.profilePanel-2PWEok .buttonColor-XIRMbp {
   width: 22px;
   height: 22px;
 }
+/*Side Profile*/
+.chatContent_a7d72e + .outer_c69a7b.custom-theme-background {
+  background: transparent;
+  .inner_c69a7b {
+    --prof-grad-start: color-mix(in oklab, var(--profile-gradient-primary-color), transparent);
+    --prof-grad-end: color-mix(in oklab, var(--profile-gradient-secondary-color), transparent);
+    background: linear-gradient(var(--prof-grad-start), var(--prof-grad-start) var(--custom-user-profile-banner-height), var(--prof-grad-end));
+  }
+}
