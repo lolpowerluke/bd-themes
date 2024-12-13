@@ -83,7 +83,7 @@ body,
   background: rgba(70, 70, 70, 0.2);
 }
 /*Userbuttons In Side Panel*/
-/* @media (min-width: 701px) {
+@media (min-width: 701px) {
 	.panels_a4d4d9 > .container_b2ca13 > .flex_dc333f {
 		position: fixed;
 		bottom: 0px;
@@ -125,7 +125,10 @@ body,
 }
 .content-2a4AW9 {
 	height: 850px !important;
-} */
+}
+.container_b2ca13 {
+  container-type: unset;
+}
 /*Account Background*/
 .panels_a4d4d9,
 .activityPanel_a4d4d9,
