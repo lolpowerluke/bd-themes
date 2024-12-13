@@ -1,0 +1,64 @@
+/*CSS specifically for the serverlist*/
+.guilds_a4d4d9 {
+  margin-top: 80px;
+  .itemsContainer_fea3ef {
+    overflow: hidden scroll;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    .scroller_fea3ef {
+      padding-top: 0;
+      overflow: hidden !important;
+      height: fit-content;
+      flex: 0 0 auto;
+
+      .tutorialContainer_f9623d {
+        position: fixed;
+        top: 12px;
+        z-index: 1;
+
+        & + .listItem_c96c45 {
+          position: fixed;
+          top: 70px;
+          z-index: 1;
+        }
+      }
+    }
+    .footer_d71945 {
+      background: unset;
+      padding: 0;
+
+      .listItem_c96c45 {
+        margin: 0;
+      }
+    }
+  }
+  .unreadMentionsFixedFooter_fea3ef {
+    bottom: 0;
+  }
+}
+@media (max-width: 700px) {
+  .guilds_a4d4d9 {
+		width: 56px;
+		margin-bottom: 55px;
+    margin-top: 60px;
+
+    .itemsContainer_fea3ef {
+      .scroller_fea3ef {
+        .tutorialContainer_f9623d {
+          top: 6px;
+  
+          & + .listItem_c96c45 {
+            top: 50px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 701px) {
+	.guilds_a4d4d9 {
+    margin-bottom: var(--guild-margin-bottom);
+  }
+}
