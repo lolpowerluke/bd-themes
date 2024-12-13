@@ -8,16 +8,19 @@
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/popouts.css');
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/bigUserPopout.css');
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/smallUserPopout.css');
+    @import url('https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css'); /*Thanks to Disease for creating this*/
   /*Embeds*/
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/embeds.css');
   /*Seperators*/
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/separators.css');
   /*Buttons*/
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/buttons.css');
-  /*Plugins*/
+  /*Plugin compatibility*/
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/plugins.css');
   /*Server bar*/
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/serverList.css');
+  /*Message bar*/
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/ConsistantChatbar.css'); /*Thanks to dablulite for creating this*/
   /*Other Stuff*/
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/version.css');
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/trivia.css');
@@ -29,7 +32,4 @@
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/WIP.css');
   /*Snippets*/
     @import url('https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css'); /*Thanks to Disease for creating this*/
-    @import url('https://maendisease.github.io/BetterDiscordStuff/css/ChannelDms.css'); /*Thanks to Disease for creating this*/
-    @import url('https://maendisease.github.io/BetterDiscordStuff/css/bearableInbox.css'); /*Thanks to Disease for creating this*/
-    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/ConsistantChatbar.css'); /*Thanks to dablulite for creating this*/
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/audioFileRedesign.css'); /*Thanks to davart154 for creating this*/
