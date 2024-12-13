@@ -13,6 +13,10 @@
     }
     .expandedFolderBackground_bc7085 {
       background-color: var(--back-expanded-server-folder);
+
+      &.collapsed_bc7085 {
+        background-color: transparent;
+      }
     }
     .expandedFolderIconWrapper_bc7085::after {
       content: "";
