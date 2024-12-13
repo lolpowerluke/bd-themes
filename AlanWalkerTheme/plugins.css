@@ -25,45 +25,6 @@
 #app-mount .imageWrapper__178ee:not(a) {
 	min-width: unset;
 }
-/*Platform Indicator Desktop*/
-.PI-indicatorContainer .PI-icon_desktop[data-status="online"] {
-	color: var(--online) !important;
-}
-.PI-indicatorContainer .PI-icon_desktop[data-status="idle"] {
-	color: var(--idle) !important;
-}
-.PI-indicatorContainer .PI-icon_desktop[data-status="dnd"] {
-	color: var(--dnd) !important;
-}
-.PI-indicatorContainer .PI-icon_desktop[data-status="streaming"] {
-	color: var(--streaming) !important;
-}
-/*Platform Indicator Mobile*/
-.PI-indicatorContainer .PI-icon_mobile[data-status="online"] {
-	color: var(--online) !important;
-}
-.PI-indicatorContainer .PI-icon_mobile[data-status="idle"] {
-	color: var(--idle) !important;
-}
-.PI-indicatorContainer .PI-icon_mobile[data-status="dnd"] {
-	color: var(--dnd) !important;
-}
-.PI-indicatorContainer .PI-icon_mobile[data-status="streaming"] {
-	color: var(--streaming) !important;
-}
-/*Platform Indicator Web*/
-.PI-indicatorContainer .PI-icon_web[data-status="online"] {
-	color: var(--online) !important;
-}
-.PI-indicatorContainer .PI-icon_web[data-status="idle"] {
-	color: var(--idle) !important;
-}
-.PI-indicatorContainer .PI-icon_web[data-status="dnd"] {
-	color: var(--dnd) !important;
-}
-.PI-indicatorContainer .PI-icon_web[data-status="streaming"] {
-	color: var(--streaming) !important;
-}
 /*pin DMs*/
 .privateChannelsHeaderContainer_c47fa9 {
 	padding-bottom: 0;

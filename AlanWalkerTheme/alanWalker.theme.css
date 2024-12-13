@@ -119,13 +119,6 @@
   --back-channel-tabs: rgb(22, 22, 22);
   --back-channel-tabs-selected: rgb(46, 46, 46);
 
-  /*status colors*/
-  --online: rgb(0, 255, 0);
-  --idle: rgb(255, 166, 0);
-  --dnd: rgb(255, 0, 0);
-  --offline: #747f8d;
-  --streaming: #a068ff;
-
   /*discords integrated colors*/
   --interactive-normal: white;
   --interactive-active: white;
@@ -316,13 +309,6 @@
   --image-utils-border: rgb(196, 196, 196);
   --back-channel-tabs: rgb(233, 233, 233);
   --back-channel-tabs-selected: rgb(209, 209, 209);
-
-  /*status colors*/
-  --online: rgb(0, 255, 0);
-  --idle: rgb(255, 166, 0);
-  --dnd: rgb(255, 0, 0);
-  --offline: #747f8d;
-  --streaming: #a068ff;
 
   /*discords integrated colors*/
   --interactive-normal: black;
