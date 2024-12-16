@@ -158,6 +158,12 @@
           display: none;
         }
       }
+      & ~ li.containerDefault_a08117 {
+        & + .voiceChannelsButton_a08117:last-child {
+          border-radius: 8px;
+          border-bottom-color: rgba(var(--border-color-1), var(--border-opacity-1));
+        }
+      }
       & + li:not(.containerDefault_a08117) {
         border-radius: 0;
       }
