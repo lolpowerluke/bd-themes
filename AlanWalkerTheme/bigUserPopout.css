@@ -184,3 +184,105 @@
     }
   }
 }
+
+@media (max-width: 1000px) and (min-width: 701px) {
+  .layerContainer_cd0de5 {
+    .focusLock_f9a4c9 .root_f9a4c9 {
+      & > .fullSize_c69a7b {
+        width: 600px;
+        border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+        border-radius: 10px;
+        box-sizing: border-box;
+
+        .inner_c69a7b {
+          border-radius: 8px;
+
+          .body_b9fccc {
+            margin: 0;
+            gap: 5px;
+            border-radius: 8px;
+
+            .container_c32acf {
+              padding: 5px 10px;
+              border-radius: 8px;
+            }
+            .overlay_b9fccc {
+              border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+              border-radius: 8px;
+
+              .container_ecc04c {
+                display: grid;
+                grid-template-columns: 150px 1fr;
+                padding-right: 3px;
+                height: 100%;
+                box-sizing: border-box;
+    
+                .tabBar_ecc04c {
+                  margin: 0;
+                  padding: 10px 15px;
+                  border-right: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+                  border-bottom: 0;
+                  gap: 10px;
+                  flex-direction: column;
+                }
+                .scrollerBase_c49869 {
+                  overflow: hidden scroll !important;
+                  padding: 5px !important;
+    
+                  & > * {
+                    padding: 0;
+                  }
+                  .section_ba4d80 {
+                    gap: 5px;
+    
+                    .connectedAccounts_ab12c6 {
+                      display: flex;
+                      flex-direction: column;
+                      gap: 5px;
+                      margin: 0;
+    
+                      .connectedAccountsColumn_ab12c6 {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 5px;
+                        margin: 0;
+                        width: 100%;
+    
+                        .connectedAccountContainer_ab12c6 {
+                          margin: 0;
+                        }
+                      }
+                    }
+                    .card_ae1fa2 {
+                      border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+                      box-sizing: border-box;
+    
+                      .contextMenu_ae1fa2 {
+                        width: fit-content;
+                      }
+                    }
+                  }
+                  .listRow_d2d6cb {
+                    margin: 1px 8px;
+                  }
+                  &::-webkit-scrollbar {
+                    width: 4px;
+                    height: 4px;
+                  }
+                  &::-webkit-scrollbar-track {
+                    visibility: visible;
+                    margin: 5px;
+                  }
+                  &::-webkit-scrollbar-thumb {
+                    visibility: visible;
+                    border: 0;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
