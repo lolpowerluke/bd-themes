@@ -12,6 +12,9 @@
 }
 /*Server Channels*/
 .sidebar_a4d4d9 {
+  .numberBadge_df8943 {
+    background-color: var(--mentioned-badge) !important;
+  }
   &:hover {
     .container_ee69e0 .content_eed6a8 {
       .voiceChannelsButton_a08117 {
@@ -29,6 +32,18 @@
     li.containerDefault_f6f816 {
       .draggable_ac3629 + .draggable_ac3629 {
         display: none;
+      }
+    }
+    .newChannel_ecb303 {
+      border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+    }
+    .channelInfo_f6f816 {
+      border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+  
+      .wrapper_a5bc92 {
+        .users_a5bc92 {
+          border-bottom: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+        }
       }
     }
   }
