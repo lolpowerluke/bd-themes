@@ -239,7 +239,7 @@
 	margin: 0;
 }
 /*max height*/
-[role="dialog"] {
+:root .biteSize_c69a7b {
   .inner_c69a7b .scrollerBase_c49869 {
     overflow: unset !important;
     padding-right: 0 !important;
