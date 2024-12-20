@@ -71,3 +71,41 @@
 .attachButtonPlus_f298d4 {
 	fill: var(--fill-upload-button);
 }
+/*Call buttons*/
+.callContainer_d880dc .justifyCenter_ec1a20 {
+  height: 50px;
+
+  .buttonSection_b6e2f9 {
+    background: var(--background-primary);
+    border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+    gap: 4px;
+
+    .avSpacing_b6e2f9 {
+      display: none;
+    }
+    .caretButtonContainer_ef18ee {
+      gap: 0;
+    }
+    .colorable_ef18ee.button_dd4f85 {
+      box-sizing: border-box;
+      height: 40px;
+      width: 40px;
+    }
+    .colorable_ef18ee.white_ef18ee {
+      background: var(--back-call-buttons);
+      border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+
+      svg {
+        color: white;
+      }
+    }
+  }
+  .colorable_ef18ee.red_ef18ee {
+    background: var(--call-button-red);
+    border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+  }
+  .colorable_ef18ee.green_ef18ee {
+    background: var(--call-button-green);
+    border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+  }
+}

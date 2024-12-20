@@ -876,3 +876,43 @@ body .bd-toasts .bd-toast {
 .popout_a35965 .interactionsContainer_a35965 .inputContainerShareToChannel_a35965 .bf-toolbar .bf-arrow {
   display: none;
 }
+/*Call popup*/
+.notAppAsidePanel_bd26cc + .wrapper_cbf230 {
+  .root_cbf230 {
+    border-radius: 8px;
+    background-color: var(--background-primary);
+    border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+    backdrop-filter: blur(2px);
+    height: 267px;
+
+    .experimentActions_cbf230 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      height: 51px;
+      width: 100%;
+      gap: 16px;
+
+      .caretButtonContainer_ef18ee {
+        height: 100%;
+
+        button,
+        & > div {
+          width: 100%;
+          height: 100%;
+
+          .colorable_ef18ee.green_ef18ee {
+            background-color: var(--call-button-green);
+            border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+          }
+          .colorable_ef18ee.red_ef18ee {
+            background-color: var(--call-button-red);
+            border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+          }
+          svg {
+            padding: 0;
+          }
+        }
+      }
+    }
+  }
+}
