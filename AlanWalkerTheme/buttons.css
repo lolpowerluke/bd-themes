@@ -72,7 +72,7 @@
 	fill: var(--fill-upload-button);
 }
 /*Call buttons*/
-.callContainer_d880dc .justifyCenter_ec1a20 {
+/* .callContainer_d880dc .justifyCenter_ec1a20 {
   height: 50px;
 
   .buttonSection_b6e2f9 {
@@ -108,4 +108,4 @@
     background: var(--call-button-green);
     border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
   }
-}
+} */
