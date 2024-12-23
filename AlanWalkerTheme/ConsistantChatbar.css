@@ -149,6 +149,24 @@ html #app-mount .scrollableContainer_bdf0de {
   flex-wrap: wrap;
   transition: background .5s, border-color .5s;
 }
+.entryPointButtonContainer_a7d72e {
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+  border-width: 1px 0 0 0;
+  border-style: solid;
+  border-color: transparent;
+  transition: background .5s, border-color .5s;
+
+  .lookFilled_dd4f85.colorBrand_dd4f85 {
+    margin: 0;
+    height: 100%;
+    padding: 5px 20px;
+    width: fit-content;
+    min-width: unset;
+    min-height: unset;
+  }
+}
 @media (max-width: 700px) {
   .channelAppLauncher_df39bd {
     height: 48px;
@@ -162,6 +180,8 @@ html #app-mount .scrollableContainer_bdf0de {
 .channelAppLauncher_df39bd .buttonContainer_df39bd {
   margin-right: 11px;
 }
+.channelBottomBarArea_a7d72e:focus-within .entryPointButtonContainer_a7d72e,
+.channelBottomBarArea_a7d72e:hover .entryPointButtonContainer_a7d72e,
 .channelBottomBarArea_a7d72e:focus-within .channelAppLauncher_df39bd,
 .channelBottomBarArea_a7d72e:hover .channelAppLauncher_df39bd {
   background-color: var(--channeltextarea-background);
