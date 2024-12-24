@@ -62,7 +62,10 @@
         border-bottom-color: rgba(var(--border-color-hover), var(--border-opacity-hover));
   
         & + li,
-        & + div {
+        & + div,
+        & + div[style] + li,
+        & + .sectionDivider_c43953 + li,
+        & + .sectionDivider_c43953 + div[style] + li {
           border-top-color: transparent;
         }
       }
