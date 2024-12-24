@@ -140,7 +140,7 @@ body,
 }
 /*DM-list*/
 .channel_c91bad:hover {
-	box-shadow: inset 0 0 10px rgba(var(--border-color-hover), var(--border-opacity-1));
+	box-shadow: inset 0 0 10px rgba(var(--border-color-hover), var(--border-opacity-hover));
 	background-color: var(--back-selected-dm);
 }
 .channel_c91bad {
@@ -646,7 +646,7 @@ div:not(.messagesWrapper_e2e187) > .scrollerBase-_bVAAt::-webkit-scrollbar,
 }
 #app-mount .container_c2739c .topPill-3DJJNV .item-3XjbnG:hover {
 	border-right: 1px solid;
-	border-color: rgba(var(--border-color-hover), var(--border-opacity-1));
+	border-color: rgba(var(--border-color-hover), var(--border-opacity-hover));
 }
 .container_c2739c .topPill-3DJJNV .item-3XjbnG:nth-last-child(1) {
 	border-radius: 0px 20px 20px 0px;
@@ -815,7 +815,7 @@ div:not(.messagesWrapper_e2e187) > .scrollerBase-_bVAAt::-webkit-scrollbar,
 .tags-3s41VI .pill_c993da.clickable_c993da:not(.disabled_c993da):hover {
 	background-color: var(--background-secondary-alt);
 	border: 1px solid
-		rgb(var(--border-color-hover), var(--border-opacity-hover));
+		rgba(var(--border-color-hover), var(--border-opacity-hover));
 }
 .row-uezxzk:not(.headerRow-1MKoR-) .container-2qVG6q {
 	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
@@ -883,7 +883,7 @@ aside.profilePanel-2PWEok .buttonColor-XIRMbp {
 }
 .container_a6d69a .container_a57509:hover {
   background-color: transparent;
-  border: 1px solid rgb(var(--border-color-hover), var(--border-opacity-hover));
+  border: 1px solid rgba(var(--border-color-hover), var(--border-opacity-hover));
 }
 .card_a6d69a {
   padding: 0px;

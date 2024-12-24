@@ -29,7 +29,7 @@
 }
 .wrapper_a71a1c {
 	border: 1px solid
-		rgb(var(--border-color-hover), var(--border-opacity-hover));
+		rgba(var(--border-color-hover), var(--border-opacity-hover));
 }
 /*Smaller download embeds*/
 .container_b558d0 .nonVisualMediaItemContainer_cda674 {
