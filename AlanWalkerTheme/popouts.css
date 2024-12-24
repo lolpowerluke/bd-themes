@@ -105,10 +105,7 @@
 
         .container_af1167::-webkit-scrollbar-track {
           visibility: visible;
-          background-color: rgb(
-            var(--border-color-hover),
-            var(--border-opacity-1)
-          ) !important;
+          background-color: rgba(var(--border-color-hover), var(--border-opacity-1)) !important;
           border: 2px solid var(--back-emoji-etc-picker);
           border-radius: 5px;
           margin-block: 10px;
@@ -536,11 +533,11 @@
 }
 /*small popup*/
 #app-mount .tooltipPrimary_b6c360 .tooltipPointer_b6c360 {
-	border-top-color: rgb(var(--border-color-hover));
+	border-top-color: rgba(var(--border-color-hover), var(--border-opacity-1));
 }
 #app-mount .tooltipContent_b6c360 {
 	background-color: var(--user-popout);
-	border: 1px solid rgb(var(--border-color-hover));
+	border: 1px solid rgba(var(--border-color-hover), var(--border-opacity-1));
 	border-radius: 5px;
 }
 /*toasts*/
@@ -555,7 +552,7 @@
 /*Search*/
 .container_eedf95 {
 	background-color: var(--user-popout) !important;
-	border: 1px solid rgb(var(--border-color-hover));
+	border: 1px solid rgba(var(--border-color-hover), var(--border-opacity-1));
 }
 /*date picker*/
 #app-mount .calendarPicker_be05cd .react-datepicker {
@@ -581,7 +578,7 @@
 	.react-datepicker__month
 	.react-datepicker__week:last-of-type
 	.react-datepicker__day:hover {
-	border-bottom: 1px solid rgb(var(--border-color-hover));
+	border-bottom: 1px solid rgba(var(--border-color-hover), var(--border-opacity-1));
 }
 #app-mount
 	.calendarPicker_be05cd
@@ -590,8 +587,8 @@
 	border-right: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 #app-mount .calendarPicker_be05cd .react-datepicker__day:hover {
-	border: 1px solid rgb(var(--border-color-hover));
-	box-shadow: inset 0 0 10px rgb(var(--border-color-hover));
+	border: 1px solid rgba(var(--border-color-hover), var(--border-opacity-1));
+	box-shadow: inset 0 0 10px rgba(var(--border-color-hover), var(--border-opacity-1));
 	background-color: var(--user-popout);
 }
 .calendarPicker_be05cd
@@ -619,7 +616,7 @@
 }
 .calendarPicker_be05cd
 	.react-datepicker__day.react-datepicker__day--selected:after {
-	background-color: rgb(var(--border-color-hover));
+	background-color: rgba(var(--border-color-hover), var(--border-opacity-1));
 }
 #app-mount .react-datepicker__day--disabled {
 	background-color: var(--user-popout);
@@ -656,7 +653,7 @@
 	border-bottom: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 #app-mount .react-datepicker__week:hover .react-datepicker__day:hover {
-	border-bottom-color: rgb(var(--border-color-hover));
+	border-bottom-color: rgba(var(--border-color-hover), var(--border-opacity-1));
 }
 .calendarPicker_be05cd .react-datepicker__week:hover .react-datepicker__day.react-datepicker__day--selected:after {
 	margin-bottom: -1px;
@@ -752,7 +749,7 @@
 /*listbox popup*/
 .lookFilled-1GseHa.select-1Ia3hD:hover {
 	background-color: rgb(12, 12, 12);
-	border: 1px solid rgb(var(--border-color-hover));
+	border: 1px solid rgba(var(--border-color-hover), var(--border-opacity-1));
 }
 .lookFilled-1GseHa.select-1Ia3hD {
 	background-color: var(--user-popout);
@@ -778,12 +775,12 @@
 	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 #app-mount .keybindShortcut-3zF1P9 span:active {
-	box-shadow: inset 0 -2px 0 rgb(var(--border-color-hover), var(--border-opacity-1));
+	box-shadow: inset 0 -2px 0 rgba(var(--border-color-hover), var(--border-opacity-1));
 }
 #app-mount .keybindShortcut-3zF1P9 span {
 	background-color: var(--user-popout);
-	border: 1px solid rgb(var(--border-color-hover), var(--border-opacity-1));
-	box-shadow: inset 0 -4px 0 rgb(var(--border-color-hover), var(--border-opacity-1));
+	border: 1px solid rgba(var(--border-color-hover), var(--border-opacity-1));
+	box-shadow: inset 0 -4px 0 rgba(var(--border-color-hover), var(--border-opacity-1));
 }
 /*Discord's Role member popup*/
 .roleScroller_f8f345 {
@@ -803,7 +800,7 @@ body .bd-toasts .bd-toast {
 .bd-updater-wrapper .bd-updater-button {
 	background-color: black;
 	box-shadow: none;
-	border: 1px solid rgb(var(--border-color-hover));
+	border: 1px solid rgba(var(--border-color-hover), var(--border-opacity-1));
 }
 .bd-updater-wrapper .bd-updater-button::before {
 	background: black;

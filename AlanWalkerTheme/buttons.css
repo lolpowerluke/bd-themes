@@ -45,7 +45,7 @@
 .listItemWrapper_dfb2f8,
 .listItemWrapper__968be {
 	background-color: black;
-	border: 1px solid rgb(var(--border-color-hover));
+	border: 1px solid rgba(var(--border-color-hover), var(--border-opacity-1));
 	border-radius: 30px;
 }
 .circleIconButton_db6521.selected_db6521,

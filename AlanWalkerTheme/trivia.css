@@ -140,7 +140,7 @@ body,
 }
 /*DM-list*/
 .channel_c91bad:hover {
-	box-shadow: inset 0 0 10px rgb(var(--border-color-hover));
+	box-shadow: inset 0 0 10px rgba(var(--border-color-hover), var(--border-opacity-1));
 	background-color: var(--back-selected-dm);
 }
 .channel_c91bad {
@@ -646,7 +646,7 @@ div:not(.messagesWrapper_e2e187) > .scrollerBase-_bVAAt::-webkit-scrollbar,
 }
 #app-mount .container_c2739c .topPill-3DJJNV .item-3XjbnG:hover {
 	border-right: 1px solid;
-	border-color: rgb(var(--border-color-hover));
+	border-color: rgba(var(--border-color-hover), var(--border-opacity-1));
 }
 .container_c2739c .topPill-3DJJNV .item-3XjbnG:nth-last-child(1) {
 	border-radius: 0px 20px 20px 0px;
