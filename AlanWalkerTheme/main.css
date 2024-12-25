@@ -21,9 +21,11 @@
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/serverList.css');
   /*Message bar*/
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/ConsistantChatbar.css'); /*Thanks to dablulite for creating this*/
+  /*Trivia*/
+  @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/trivia.css');
+  @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/trivia/friendListPlayingCards.css');
   /*Other Stuff*/
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/version.css');
-    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/trivia.css');
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/serverChannels.css');
     @import url('https://lolpowerluke.github.io/smallDMchannelList/smallDMchannelList.css');
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/friendList.css');
