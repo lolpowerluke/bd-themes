@@ -1,0 +1,114 @@
+/*Playing Cards In Friendlist*/
+.tabBody_c2739c {
+  .nowPlayingColumn_c2739c {
+    display: block;
+    flex: 0 0 360px;
+    /* height: 100%; */
+    overflow: hidden;
+    min-width: unset;
+    max-width: unset;
+    border-left: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+    transition: flex .5s;
+
+    .scroller_bf550a {
+      display: flex;
+      flex-direction: column;
+      border: 0;
+      margin: 0;
+      padding: 8px !important;
+
+      .header_bf550a {
+        margin: 0 0 8px 8px;
+      }
+      & > .header_bf550a + .itemCard_f02fcf {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+      }
+      .itemCard_f02fcf {
+        background-color: var(--back-color-boxes);
+        border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+        border-radius: 0;
+        padding: 8px;
+
+        &:hover {
+          background-color: var(--back-color-boxes-hover);
+          border-color: rgba(var(--border-color-hover), var(--border-opacity-hover));
+        }
+        & > div {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          
+          .header_cd82a7 {
+            padding: 0 4px;
+          }
+          .body_cd82a7 {
+            margin: 0;
+            background-color: transparent;
+
+            .section_cd82a7 {
+              border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+            }
+          }
+        }
+      }
+      .itemCard_f02fcf:not(:has(+ .itemCard_f02fcf)) {
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+      }
+      .itemCard_f02fcf:has(+ .itemCard_f02fcf) {
+        border-bottom-color: transparent;
+      }
+      .emptyCard_f02fcf {
+        background-color: var(--back-color-boxes);
+        border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+        border-radius: 8px;
+      }
+    }
+  }
+}
+@media (max-width: 700px) {
+  .tabBody_c2739c {
+		display: flex;
+    flex-direction: column;
+
+    .peopleColumn_c2739c {
+      flex: 0 0 70%;
+      transition: flex .5s;
+
+      &:has(+ .nowPlayingColumn_c2739c:not(:hover)) {
+        flex: 0 0 90%;
+      }
+    }
+    .nowPlayingColumn_c2739c {
+      flex: 0 0 30%;
+      border-left: 0;
+      border-top: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+
+      &:not(:hover) {
+        flex: 0 0 10%;
+      }
+      .scroller_bf550a {
+        & > .header_bf550a {
+          position: sticky;
+          top: 0;
+          z-index: 1;
+          margin-left: 0;
+          text-align: center;
+          border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+          background-color: var(--background-primary);
+          backdrop-filter: blur(2px);
+          border-radius: 8px;
+          padding: 6px 0;
+        }
+      }
+    }
+	}
+}
+@media (max-width: 1200px) and (min-width: 701px) {
+  .tabBody_c2739c {
+    .nowPlayingColumn_c2739c:not(:hover) {
+      flex: 0 0 200px;
+    }
+  }
+}
