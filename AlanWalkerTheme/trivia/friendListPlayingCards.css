@@ -28,6 +28,8 @@
         background-color: var(--back-color-boxes);
         border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
         border-radius: 0;
+        margin: 0;
+        margin-top: -1px;
         padding: 8px;
 
         &:hover {
@@ -46,8 +48,16 @@
             margin: 0;
             background-color: transparent;
 
+            .separator_cd82a7 {
+              display: none;
+            }
             .section_cd82a7 {
               border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+              background-color: var(--background-primary);
+              margin-top: -1px;
+              &:where(:has(+ .separator_cd82a7 + .section_cd82a7)) {
+                border-bottom-color: transparent;
+              }
             }
           }
         }
@@ -56,7 +66,10 @@
         border-bottom-left-radius: 8px;
         border-bottom-right-radius: 8px;
       }
-      .itemCard_f02fcf:has(+ .itemCard_f02fcf) {
+      .itemCard_f02fcf:hover + .itemCard_f02fcf {
+        border-top-color: transparent;
+      }
+      .itemCard_f02fcf:where(:has(+ .itemCard_f02fcf)) {
         border-bottom-color: transparent;
       }
       .emptyCard_f02fcf {
