@@ -488,6 +488,10 @@ div:not(.messagesWrapper_e2e187) > .scrollerBase-_bVAAt::-webkit-scrollbar,
 	overflow-y: hidden;
 	overflow-x: auto;
 	align-items: center;
+
+  &::-webkit-scrollbar-thumb {
+    cursor: ew-resize;
+  }
 }
 .container_fc4f04 .children_fc4f04 .tabBar_c2739c,
 .container_fc4f04 .children_fc4f04 {
