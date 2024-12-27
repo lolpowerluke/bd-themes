@@ -1,202 +1,178 @@
-@media (min-width: 701px) {
-  /*Friend List*/
-  #app-mount .peopleList_e0840f {
+.peopleColumn_c2739c {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  .searchBar_e0840f {
     margin: 0;
+    border-radius: 0;
+    padding: 5px 5px 0;
+    height: 45px;
+
+    .inner_c18ec9 {
+      padding: 0;
+      border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+      border-radius: 8px;
+      box-sizing: border-box;
+
+      .input_c18ec9 {
+        margin: 0;
+        padding: 0 10px;
+        box-sizing: border-box;
+        height: 100%;
+      }
+      .iconLayout_c18ec9 {
+        margin: 0;
+        height: 100%;
+      }
+    }
   }
-  .peopleList_e0840f > div {
-    display: flex;
-    align-content: flex-start;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin: 10px 10px 0 10px;
-  }
-  .peopleListItem_d51464 .listItemContents_e05dae .userInfo_f3939d {
-    grid-column: 1/2;
-    grid-row: 1/4;
-    display: grid;
-    grid-template-rows: 1fr 42px;
-    overflow: visible;
-  }
-  .peopleColumn_c2739c {
-    display: grid;
-    grid-template-rows: 45px 20px 1fr;
-  }
-  #app-mount .peopleListItem_d51464 {
-    transform: scale(1);
-    transition: transform 0.5s;
-  }
-  #app-mount .peopleListItem_d51464:hover {
-    transform: scale(1.02);
-  }
-  .peopleListItem_d51464 {
-    flex: 1 0 var(--friendlist-friends-min-width, 300px);
-    height: 140px !important;
-    max-width: var(--friendlist-friends-max-width, 650px);
-    border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-    border-radius: 10px;
+  .title_a1cafe {
     margin: 0;
-    padding: 0;
-    box-shadow: inset 0 0 10px rgb(var(--border-color-1), var(--border-opacity-1));
-    transition: box-shadow 0.75s, border-color 1s;
+    padding: 0 20px;
+    box-sizing: border-box;
   }
-  #app-mount .peopleListItem_d51464 {
-    overflow: hidden;
-  }
-  #app-mount .actionButton_e01b91 {
-    background-color: var(--back-friendlist-friends);
-  }
-  .peopleListItem_d51464:hover {
-    border: 1px solid rgba(var(--border-color-hover), var(--border-opacity-hover));
+  .peopleList_e0840f {
     margin: 0;
-    padding: 0;
-    background: var(--user-background);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right;
-    box-shadow: inset 0 0 20px rgba(var(--border-color-hover), var(--border-opacity-hover));
-  }
-  .peopleListItem_d51464:hover + .peopleListItem_d51464 {
-    border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-  }
-  .peopleListItem_d51464.active_d51464 {
-    padding: 0;
-    margin: 0;
-    border: 1px solid rgba(var(--border-color-hover), var(--border-opacity-hover));
-    border-radius: 8px;
-    background: var(--user-background);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right;
-  }
-  .peopleListItem_d51464 .avatar_f3939d {
-    height: 80px !important;
-    width: 80px !important;
-    margin: 0;
-    margin-left: 15px;
-    margin-top: 10px;
-  }
-  .peopleListItem_d51464 .avatar_f3939d svg {
-    width: 80px;
-    height: 80px;
-  }
-  .peopleListItem_d51464 .avatar_f3939d svg foreignObject {
-    width: 40px;
-    height: 40px;
-  }
-  .peopleListItem_d51464 .avatar_f3939d svg rect {
-    width: 13px;
-    height: 13px;
-    x: 27;
-    y: 27;
-  }
-  .peopleListItem_d51464 .avatar_f3939d svg rect[width="10"][height="15"] {
-    height: 19px;
-    y: 21;
-  }
-  .peopleListItem_d51464 .text_f3939d {
-    margin: 0;
-    margin-left: 15px;
-    white-space: normal;
-    text-overflow: clip;
-  }
-  #app-mount .iconContainer_ebd74a,
-  #app-mount .pd-mutualGuilds,
-  #app-mount .actionButton_e01b91,
-  #app-mount .actions_e05dae {
-    inset: 0;
-    margin: 0;
-  }
-  #app-mount .actions_e05dae {
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-    justify-self: end;
-    column-gap: 10px;
-    margin: 0;
-    grid-column: 2/3;
-    grid-row: 3/4;
-  }
-  .peopleListItem_d51464 .subtext_f3939d {
-    max-width: 100%;
-    max-height: 50px;
-    text-overflow: clip;
-  }
-  .peopleListItem_d51464 .listItemContents_e05dae {
-    display: grid;
-    padding: 0;
-    padding-right: 10px;
-    box-sizing: unset;
-    grid-template-rows: 40px 50px 40px;
-    grid-template-columns: 1fr 160px;
-    background-color: var(--back-friendlist-friends);
-    backdrop-filter: blur(2px);
-  }
-  .peopleListItem_d51464 .listItemContents_e05dae::after {
-    content: "";
-    position: absolute;
+    padding: 0 5px !important;
     width: 100%;
-    height: 100%;
-    filter: blur(2px);
-    background: var(--user-background);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right;
-    z-index: -1;
-  }
-  .peopleColumn_c2739c .ring-370dIp {
-    display: none !important;
-  }
-  /*plugins*/
-  /*BetterFriendslist by devilbro*/
-  body #app-mount .mutualGuilds-s7F2aa {
-    margin: 0;
-    align-self: center;
-    justify-self: end;
-    grid-column: 2/3;
-    grid-row: 1/2;
-  }
-  /*pinDMs by Bricklou*/
-  #app-mount .pd-mutualGuilds {
-    margin: 0;
-    align-self: center;
-    justify-self: end;
-    grid-column: 2/3;
-    grid-row: 2/3;
-  }
-  .pd-mutualGuilds > div:first-child {
-    margin-right: 0;
+
+    .peopleListItem_d51464 {
+      margin: 0;
+      padding: 0;
+      border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+    }
   }
 }
 @media (max-width: 700px) {
-  .peopleListItem_d51464:hover,
-  .peopleListItem_d51464 {
-    margin: 0px;
-    padding: 15px 15px;
-    border-radius: 0;
-    transition: box-shadow .5s, border .5s;
-  }
-  .peopleListItem_d51464 {
-    border-bottom-color: transparent;
-    background: unset;
-  }
-  .peopleListItem_d51464:hover {
-    box-shadow: inset 0 0 8px rgba(var(--border-color-hover), var(--border-opacity-hover));
-    border-bottom-color: rgba(var(--border-color-hover), var(--border-opacity-hover));
-    border-top-color: rgba(var(--border-color-hover), var(--border-opacity-hover));
-    background-color: transparent;
-  }
-  .peopleListItem_d51464 .avatar_f3939d {
-    top: 3px;
+  .peopleColumn_c2739c .peopleList_e0840f {
+    .peopleListItem_d51464 {
+      margin: -1px 0 0 0;
+      padding: 0 12px;
+      border-radius: 0;
+      background-color: var(--back-friendlist-friends);
+    
+      &:has(+ .peopleListItem_d51464) {
+        border-bottom-color: transparent;
+      }
+      &:first-child {
+        margin: 0;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+      }
+      &:last-child {
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+      }
+      &:hover {
+        background-color: var(--back-friendlist-friends-hover);
+      }
+    }
   }
 }
-.peopleColumn_c2739c .searchBar_e0840f {
-  margin: 0;
-  border: 0px;
-  border-bottom: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-  border-radius: 0;
-}
-.peopleColumn_c2739c .title_a1cafe {
-  position: unset;
-  width: fit-content;
-  margin: 9px 10px 0;
+@media (min-width: 701px)  {
+  .peopleColumn_c2739c .peopleList_e0840f {
+    padding: 10px !important;
+    
+    & > div {
+      display: flex;
+      flex-direction: row;
+      align-content: flex-start;
+      gap: 10px;
+      flex-wrap: wrap;
+
+      .peopleListItem_d51464 {
+        flex: 1 0 var(--friendlist-friends-min-width);
+        max-width: var(--friendlist-friends-max-width);
+        border-radius: 8px;
+        height: 140px !important;
+        box-shadow: inset 0 0 10px rgb(var(--border-color-1), var(--border-opacity-1));
+        transition: box-shadow 0.5s, border-color .5s, transform .5s;
+        overflow: visible;
+        position: relative;
+
+        &::after {
+          content: "";
+          position: absolute;
+          inset: 0;
+          background-image: var(--user-background);
+          background-color: var(--back-friendlist-friends);
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: right;
+          z-index: -1;
+          filter: blur(2px);
+        }
+        .listItemContents_e05dae {
+          width: 100%;
+          padding: 10px;
+          display: grid;
+          grid-template-areas: 
+          "usr ."
+          "usr ."
+          "usr btns";
+          grid-template-columns: 1fr auto;
+          grid-template-rows: 1fr 1fr 1fr;
+
+          .userInfo_f3939d {
+            grid-area: usr;
+            height: 100%;
+            display: grid;
+            grid-template-rows: 2fr 1fr;
+            gap: 10px;
+
+            .avatar_f3939d {
+              width: unset !important;
+              height: 100% !important;
+              margin: 0;
+
+              .svg_c51b4e {
+                height: 100%;
+
+                foreignObject {
+                  mask: unset;
+                  border-radius: calc(8px / 2);
+                  width: 100%;
+                  height: 100%;
+                  mask: url(https://i.imgur.com/8dNLS7D.png) -10px -10px/50px 50px luminance no-repeat;
+                }
+                rect {
+                  x: 27;
+                  y: 27;
+                }
+                rect[mask*="mobile"] {
+                  width: 6px;
+                  height: 9px;
+                  x: 29;
+                  y: 28;
+                }
+              }
+            }
+          }
+          .actions_e05dae {
+            grid-area: btns;
+            margin: 0;
+            gap: 5px;
+            
+            .actionButton_e01b91 {
+              margin: 0;
+              background-color: var(--back-color-boxes);
+            }
+          }
+        }
+        &:hover {
+          background-color: var(--back-friendlist-friends-hover);
+          transform: scale(1.02);
+          box-shadow: inset 0 0 20px rgba(var(--border-color-hover), var(--border-opacity-hover));
+          border-color: rgba(var(--border-color-hover), var(--border-opacity-hover));
+
+          .listItemContents_e05dae .actions_e05dae {
+            .actionButton_e01b91 {
+              background-color: var(--back-color-boxes-hover);
+            }
+          }
+        }
+      }
+    }
+  }
 }
