@@ -20,7 +20,7 @@ html #app-mount .scrollableContainer_bdf0de {
 }
 .scrollableContainer_bdf0de > .channelAttachmentArea_e8c527 {
 	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-	border-radius: 8px;
+	border-radius: var(--border-radius-m);
 	overflow: hidden;
 	margin: 0;
 	margin-bottom: 5px;
@@ -42,11 +42,11 @@ html #app-mount .scrollableContainer_bdf0de {
 	border-color: transparent;
 	background-color: transparent;
 	transition: border-color 0.5s, background-color 0.5s;
-	border-radius: 0;
+	border-radius: var(--border-radius-0);
 }
 .messageListItem_d5deea .channelTextArea_d0696b .inner_bdf0de {
 	background-color: var(--channeltextarea-background);
-  border-radius: 10px;
+  border-radius: var(--border-radius-m);
   border-width: 1px;
 	border-color: rgb(var(--border-color-1), var(--border-opacity-1));
   padding-right: 10px;
@@ -62,7 +62,7 @@ html #app-mount .scrollableContainer_bdf0de {
 }
 .upload_df1eaf .image-2dAEjD {
 	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-	border-radius: 4px;
+	border-radius: var(--border-radius-s);
 }
 .wrapper_f7e168 {
 	background-color: var(--user-popout);
@@ -79,7 +79,7 @@ html #app-mount .scrollableContainer_bdf0de {
 }
 .wrapper_faf5ab {
 	margin-bottom: 0;
-	border-radius: 0;
+	border-radius: var(--border-radius-0);
 	padding: 16.5px 0;
 }
 .form_a7d72e {
@@ -91,7 +91,7 @@ html #app-mount .scrollableContainer_bdf0de {
 }
 .channelTextArea_a7d72e {
 	margin-bottom: 0;
-	border-radius: 0;
+	border-radius: var(--border-radius-0);
 }
 .webkit__8d35a .buttons_d0696b {
 	margin-right: 4px;
@@ -112,7 +112,7 @@ html #app-mount .scrollableContainer_bdf0de {
 	position: static;
 }
 .scrollableContainer_bdf0de {
-	border-radius: 0;
+	border-radius: var(--border-radius-0);
 }
 .scrollableContainer_bdf0de > .inner_bdf0de {
 	min-height: 54px;
@@ -129,7 +129,7 @@ html #app-mount .scrollableContainer_bdf0de {
 	align-items: center;
 }
 .attachedBars_d0696b {
-	border-radius: 0;
+	border-radius: var(--border-radius-0);
 }
 .channelAppLauncher_df39bd {
   margin: 0px;

@@ -5,14 +5,14 @@
 
   .searchBar_e0840f {
     margin: 0;
-    border-radius: 0;
+    border-radius: var(--border-radius-0);
     padding: 5px 5px 0;
     height: 45px;
 
     .inner_c18ec9 {
       padding: 0;
       border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
-      border-radius: 8px;
+      border-radius: var(--border-radius-m);
       box-sizing: border-box;
 
       .input_c18ec9 {
@@ -49,7 +49,7 @@
     .peopleListItem_d51464 {
       margin: -1px 0 0 0;
       padding: 0 12px;
-      border-radius: 0;
+      border-radius: var(--border-radius-0);
       background-color: var(--back-friendlist-friends);
     
       &:has(+ .peopleListItem_d51464) {
@@ -57,12 +57,12 @@
       }
       &:first-child {
         margin: 0;
-        border-top-left-radius: 8px;
-        border-top-right-radius: 8px;
+        border-top-left-radius: var(--border-radius-m);
+        border-top-right-radius: var(--border-radius-m);
       }
       &:last-child {
-        border-bottom-left-radius: 8px;
-        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: var(--border-radius-m);
+        border-bottom-right-radius: var(--border-radius-m);
       }
       &:hover {
         background-color: var(--back-friendlist-friends-hover);
@@ -84,7 +84,7 @@
       .peopleListItem_d51464 {
         flex: 1 0 var(--friendlist-friends-min-width);
         max-width: var(--friendlist-friends-max-width);
-        border-radius: 8px;
+        border-radius: var(--border-radius-m);
         height: 140px !important;
         box-shadow: inset 0 0 10px rgb(var(--border-color-1), var(--border-opacity-1));
         transition: box-shadow 0.5s, border-color .5s, transform .5s;
@@ -131,7 +131,7 @@
 
                 foreignObject {
                   mask: unset;
-                  border-radius: calc(8px / 2);
+                  border-radius: calc(var(--border-radius-m) / 2);
                   width: 100%;
                   height: 100%;
                   mask: url(https://i.imgur.com/8dNLS7D.png) -10px -10px/50px 50px luminance no-repeat;

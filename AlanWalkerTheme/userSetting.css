@@ -9,7 +9,7 @@
   background-color: var(--background-primary);
 }
 .sidebarRegion_c25c6d .sidebarRegionScroller_c25c6d::-webkit-scrollbar-track {
-  border-radius: 15px;
+  border-radius: var(--border-radius-xl);
   background-color: transparent !important;
   margin-block: 1px;
 }
@@ -37,7 +37,7 @@
 .bd-addon-list .bd-addon-card {
 	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   background-color: var(--back-bd-addon-cards);
-	border-radius: 10px;
+	border-radius: var(--border-radius-m);
 }
 .bd-addon-list .bd-footer .bd-controls .bd-addon-button {
 	background-color: var(--back-color-boxes);
@@ -115,7 +115,7 @@
 	justify-content: center;
 	gap: 1px;
 	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-	border-radius: 15px;
+	border-radius: var(--border-radius-xl);
 	overflow: hidden;
 	background-color: rgb(var(--border-color-1), var(--border-opacity-1));
 }
@@ -123,7 +123,7 @@
 #app-mount .kernel-card-scroller .kernel-card,
 #app-mount .pc-settings-panel .pc-settings-card-scroller .pc-settings-addon-card,
 #app-mount .bd-addon-list.bd-grid-view > .bd-addon-card {
-	border-radius: 0 !important;
+	border-radius: var(--border-radius-0) !important;
 	border: 0;
 }
 #app-mount .kernel-card-scroller .kernel-card,
@@ -234,7 +234,7 @@
 .contentRegion_c25c6d .item_eb92a8 {
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   background-color: var(--background-primary);
-  border-radius: 8px;
+  border-radius: var(--border-radius-m);
   overflow: hidden;
 }
 .contentRegion_c25c6d .item_eb92a8 .radioBar_eb92a8 {
@@ -243,7 +243,7 @@
 .contentRegion_c25c6d .connection_e2a436 {
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   background-color: var(--background-primary);
-  border-radius: 8px;
+  border-radius: var(--border-radius-m);
   overflow: hidden;
 }
 .contentRegion_c25c6d .connectContainer_e2a436,
@@ -251,7 +251,7 @@
 .contentRegion_c25c6d .cardPrimary_a298b8.outline_a298b8 {
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   background-color: var(--background-secondary);
-  border-radius: 8px;
+  border-radius: var(--border-radius-m);
   overflow: hidden;
 }
 .standardSidebarView_c25c6d:has(.socialLinks_c44e94) {

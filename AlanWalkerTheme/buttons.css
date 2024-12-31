@@ -1,7 +1,7 @@
 /*Green buttons */
 .tabBar_c2739c .item_c2739c[aria-controls="ADD_FRIEND-tab"],
 .lookFilled-1Gx00P.colorGreen-29iAKY {
-	border-radius: 5px;
+	border-radius: var(--border-radius-s);
 }
 .tabBar_c2739c .item_c2739c[aria-controls="ADD_FRIEND-tab"]:hover,
 .lookFilled-1Gx00P.colorGreen-29iAKY:hover {
@@ -15,7 +15,7 @@
 .lookFilled-1Gx00P.colorRed-1TFJan {
 	color: rgb(255, 255, 255);
 	background-color: var(--back-color-danger-button);
-	border-radius: 5px;
+	border-radius: var(--border-radius-s);
 }
 /*Blue buttons*/
 .bd-addon-modal-footer .bd-button,
@@ -46,7 +46,7 @@
 .listItemWrapper__968be {
 	background-color: black;
 	border: 1px solid rgba(var(--border-color-hover), var(--border-opacity-hover));
-	border-radius: 30px;
+	border-radius: var(--border-radius-xxl);
 }
 .circleIconButton_db6521.selected_db6521,
 .circleIconButton_d4e182.selected__7d836 {
@@ -65,7 +65,7 @@
 	border-radius: 50%;
 }
 .attachButtonInner_f298d4 svg[aria-hidden="false"] {
-	border-radius: 15px 15px 7px 15px;
+	border-radius: var(--border-radius-xl) var(--border-radius-xl) var(--border-radius-m) var(--border-radius-xl);
 }
 .attachButton_f298d4:hover .attachButtonPlus_f298d4,
 .attachButtonPlus_f298d4 {

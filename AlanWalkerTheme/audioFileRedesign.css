@@ -1,7 +1,7 @@
 /*Originaly made by davart154 (github), slightly edited by me*/
 .wrapperAudio_f72aac.wrapperAudio_f72aac {
   border: 0;
-  border-radius: 0px;
+  border-radius: var(--border-radius-0);
   background-color: var(--background-secondary);
   height: 56px !important;
   padding: 12px;
@@ -15,7 +15,7 @@
     height: 32px;
     transition: margin .1s, height .1s, width .1s,  border-radius .1s;
     background: var(--brand-500);
-    border-radius: 32px;
+    border-radius: var(--border-radius-xxl);
   }
 
   >* {
@@ -63,7 +63,7 @@
     width: 100%;
     height: 100%;
     transition: margin .1s, height .1s, width .1s;
-    border-radius: 0px;
+    border-radius: var(--border-radius-0);
   }
   .metadataDownload_f72aac {
     color: var(--white);

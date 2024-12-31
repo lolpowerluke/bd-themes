@@ -5,15 +5,15 @@
 	background-color: var(--user-popout);
 }
 .userProfileInnerThemedWithBanner-2624Yx {
-	border-radius: 4px;
+	border-radius: var(--border-radius-s);
 }
 .userProfileOuterUnthemed-2b2rsv {
 	padding: 5px;
-	border-radius: 4px;
+	border-radius: var(--border-radius-s);
 }
 .userProfileInnerThemedNonPremium-1gT-zY {
 	position: relative;
-	border-radius: 4px;
+	border-radius: var(--border-radius-s);
 	background: var(--user-popout);
 }
 .accountProfilePopoutWrapper_b2ca13 {
@@ -31,10 +31,10 @@
 	border: 1px solid rgba(var(--border-color-1));
 	box-sizing: border-box;
 	overflow: hidden;
-	border-radius: 8px 8px 0 0;
+	border-radius: var(--border-radius-m) var(--border-radius-m) var(--border-radius-0) var(--border-radius-0);
 }
 .bannerSVGWrapper-qc0szY {
-	border-radius: 4px 4px 0 0;
+	border-radius: var(--border-radius-s) var(--border-radius-s) var(--border-radius-0) var(--border-radius-0);
 }
 /*Profile Picture*/
 .avatarWrapper_f89da9 {
@@ -58,7 +58,7 @@
 /*Body*/
 #app-mount .body-2wLx-E {
 	border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
-	border-radius: 0px 0px 10px 10px;
+	border-radius: var(--border-radius-0) var(--border-radius-0) var(--border-radius-m) var(--border-radius-m);
 }
 .divider-1wtgZ3 {
 	height: 0px;
@@ -66,7 +66,7 @@
 /*Footer*/
 #app-mount .footer-3naVBw {
 	border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
-	border-radius: 10px;
+	border-radius: var(--border-radius-m);
 	padding: 0px;
 	margin-top: 10px;
 }
@@ -78,25 +78,23 @@
 .footer-1fjuF6 .inputDefault-3FGxgL {
 	border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
 	border-top: 0px;
-	border-radius: 0px 0px 5px 5px;
+	border-radius: var(--border-radius-0) var(--border-radius-0) var(--border-radius-s) var(--border-radius-s);
 	background: var(--user-popout-alt);
 }
 /*Activity cards*/
 .activityUserPopout_c1d9fd {
-	border-radius: 5px;
 	margin: 0px 0 15px 0;
 	padding: 10px;
 	background: var(--back-color-boxes);
 	border-bottom: 4px solid var(--playing-card-border);
-	border-radius: 11px;
+	border-radius: var(--border-radius-m);
 	box-shadow: none;
 }
 #app-mount .ShowAllActivities-wrapper-wrapper {
-	border-radius: 5px;
 	margin: 0px 0 15px 0;
 	background: var(--back-color-boxes);
 	border-bottom: 4px solid var(--playing-card-border);
-	border-radius: 11px;
+	border-radius: var(--border-radius-m);
 	box-shadow: none;
 	padding: 10px;
 	display: flex;
@@ -114,7 +112,7 @@
 #app-mount
 	.ShowAllActivities-wrapper-wrapper
 	.ShowAllActivities-wrapper-controls {
-	border-radius: 11px;
+	border-radius: var(--border-radius-m);
 	margin: 0;
 	background-color: black;
 }
@@ -125,7 +123,7 @@
 	z-index: 1;
 	border: solid;
 	border-width: 0px 0px 0px 3px;
-	border-radius: 1px 3px 3px 1px;
+	border-radius: var(--border-radius-xs) var(--border-radius-s) var(--border-radius-s) var(--border-radius-xs);
 	background: transparent;
 	min-height: 22px;
 }
@@ -172,7 +170,7 @@
 }
 .popoutRoleDot-2_Nt5g:before {
 	position: absolute;
-	border-radius: 5px;
+	border-radius: var(--border-radius-s);
 	content: "";
 	top: 0px;
 	left: 0px;
@@ -184,7 +182,7 @@
 /*Fake Popout In Settings*/
 .popoutInfo-pKbpvG {
 	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-	border-radius: 0px 0px 10px 10px;
+	border-radius: var(--border-radius-0) var(--border-radius-0) var(--border-radius-m) var(--border-radius-m);
 }
 .headerTop-3GPUSF {
 	background-color: var(--background-floating);
@@ -194,7 +192,7 @@
 	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 .avatarUploader_ab876d {
-	border-radius: 50px;
+	border-radius: var(--border-radius-xxl);
 	border: 1px solid rgb(var(--border-color-1));
 	border-bottom: 0px;
 }
@@ -213,12 +211,11 @@
 	border: 0px;
 }
 .fakeActivityLayout_dfbe6b {
-	border-radius: 5px;
 	margin: 15px 8px 15px 8px;
 	padding: 10px;
 	background: #120fa0b7;
 	border-bottom: 4px solid var(--playing-card-border);
-	border-radius: 11px;
+	border-radius: var(--border-radius-m);
 	box-shadow: none;
 	background: #120fa0b7;
 }
@@ -232,7 +229,7 @@
 /*Badges*/
 .profileBadges_f89da9 {
 	background-color: var(--back-small-user-popout-badges);
-	border-radius: 7px;
+	border-radius: var(--border-radius-m);
 	padding: 3px;
 }
 .profileBadges_f89da9 .clickable__1545b {
@@ -259,6 +256,6 @@
   }
   .inner_c69a7b .scrollerBase_c49869 .root_e6f2d0::-webkit-scrollbar-thumb,
   .inner_c69a7b .scrollerBase_c49869 .root_e6f2d0::-webkit-scrollbar-track {
-    border-radius: 5px;
+    border-radius: var(--border-radius-s);
   }
 }

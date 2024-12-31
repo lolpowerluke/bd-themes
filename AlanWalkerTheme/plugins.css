@@ -18,7 +18,7 @@
 	background-color: var(--text-link-back);
 }
 #app-mount .imageWrapper__178ee:not(.image_aee8c6) {
-	border-radius: 7px;
+	border-radius: var(--border-radius-m);
 	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 #app-mount .imageWrapper__178ee:not(a) > .wrapper_eb1d8c,
@@ -43,7 +43,7 @@
 	margin-bottom: 0;
 	overflow-y: visible;
 	height: 15px;
-	border-radius: 20px;
+	border-radius: var(--border-radius-xl);
 }
 .privateChannels_f0963d
 	.privateChannelsHeaderContainer_c47fa9
@@ -51,7 +51,7 @@
 	margin: 0;
 	margin-top: 8px;
 	height: 20px;
-	border-radius: 0;
+	border-radius: var(--border-radius-0);
 	white-space: nowrap;
 }
 .privateChannelsHeaderContainer_c47fa9:not(
@@ -59,11 +59,11 @@
 	)
 	.headerText_c47fa9 {
 	overflow-y: hidden;
-	border-radius: 0;
+	border-radius: var(--border-radius-0);
 }
 .privateChannels_f0963d .privateChannelsHeaderContainer_c47fa9 {
 	height: 30px;
-	border-radius: 0px 30% 30% 0px;
+	border-radius: var(--border-radius-0) 30% 30% var(--border-radius-0);
 }
 .privateChannels_f0963d .privateChannelsHeaderContainer_c47fa9:hover {
 	background: var(--gr-dm-headers);
@@ -90,10 +90,10 @@
 	height: 66px;
 	margin: 0;
 	-webkit-mask-image: linear-gradient(0.25turn, #0006, #0006);
-	border-radius: 0;
+	border-radius: var(--border-radius-0);
 }
 .barFill-Dhkah7 {
-	border-radius: 0;
+	border-radius: var(--border-radius-0);
 }
 .container-6sXIoE.maximized-vv2Wr0 .bar-g2ZMIm {
 	height: 101px;
@@ -261,7 +261,7 @@ body #clockPluginClock {
 	height: 0;
 	overflow: hidden;
 	background-color: var(--background-primary);
-	border-radius: 5px;
+	border-radius: var(--border-radius-s);
 	padding: 0 20px;
 	transition: 0.5s ease;
 }
@@ -340,16 +340,16 @@ body .pc-notices .pc-notice-container {
 	width: 240px;
 }
 .ChannelDms-channelmembers-wrap .item-3XjbnG {
-	border-radius: 0;
+	border-radius: var(--border-radius-0);
 	margin: 0;
 	border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 	border-right: 0;
 }
 .ChannelDms-channelmembers-wrap .item-3XjbnG:first-of-type {
-	border-radius: 20px 0 0 20px;
+	border-radius: var(--border-radius-xl) var(--border-radius-0) var(--border-radius-0) var(--border-radius-xl);
 }
 .ChannelDms-channelmembers-wrap .item-3XjbnG:last-of-type {
-	border-radius: 0 20px 20px 0;
+	border-radius: var(--border-radius-0) var(--border-radius-xl) var(--border-radius-xl) var(--border-radius-0);
 	border-right: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
 }
 .ChannelDms-channelmembers-wrap .item-3XjbnG:hover {
@@ -389,7 +389,7 @@ body .pc-notices .pc-notice-container {
     .channelTabs-fav {
       background-color: var(--back-channel-tabs);
       border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-      border-radius: 30px;
+      border-radius: var(--border-radius-xxl);
       margin: 0;
       box-sizing: border-box;
 
@@ -411,7 +411,7 @@ body .pc-notices .pc-notice-container {
     height: 32px;
     background-color: var(--back-channel-tabs);
     border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-    border-radius: 30px;
+    border-radius: var(--border-radius-xxl);
     box-sizing: border-box;
     margin: 1px 0 0 0;
   }
@@ -424,7 +424,7 @@ body .pc-notices .pc-notice-container {
       padding: 3px;
       background-color: var(--back-channel-tabs);
       border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-      border-radius: 30px;
+      border-radius: var(--border-radius-xxl);
       margin: 0;
 
       b {
@@ -435,7 +435,7 @@ body .pc-notices .pc-notice-container {
     .channelTabs-tab {
       background-color: var(--back-channel-tabs);
       border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-      border-radius: 30px;
+      border-radius: var(--border-radius-xxl);
       margin: 0;
       box-sizing: border-box;
 
