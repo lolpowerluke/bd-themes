@@ -36,13 +36,13 @@
   --guild-margin-bottom: 135px; /* default: 135px, change to 180px if you have the gameactivitytoggle plugin*/
 
   /*Border Radius*/
-  --border-radius-0: 0;
-  --border-radius-xs: 2px;
-  --border-radius-s: 4px;
-  --border-radius-m: 8px;
-  --border-radius-l: 12px;
-  --border-radius-xl: 16px;
-  --border-radius-xxl: 32px;
+  --border-radius-0: 0; /*Default 0*/
+  --border-radius-xs: 2px; /*Default 2px*/
+  --border-radius-s: 4px; /*Default 4px*/
+  --border-radius-m: 8px; /*Default 8px*/
+  --border-radius-l: 12px; /*Default 12px*/
+  --border-radius-xl: 16px; /*Default 16px*/
+  --border-radius-xxl: 32px; /*Default 32px*/
 
   /*Frienlist*/
   --friendlist-friends-min-width: 300px;
