@@ -99,13 +99,14 @@
       border-bottom-color: transparent;
     }
     & > .voiceUserSummary_c43953:has(+ .containerDefault_a08117),
-    & > li:not(.containerDefault_a08117):has(+ .sectionDivider_c43953 + :not(:has([style] + .containerDefault_f6f816))),
+    & > li:not(.containerDefault_a08117):has(+ .sectionDivider_c43953),
     & > div:not([style]):last-child,
     & > li:not(.containerDefault_a08117):last-child,
     & > li:not(.containerDefault_a08117):has(+ .containerDefault_a08117) {
       border-bottom-left-radius: var(--border-radius-m);
       border-bottom-right-radius: var(--border-radius-m);
     }
+    & > li:has(+ .sectionDivider_c43953 + [style] + .containerDefault_f6f816),
     & > li:not([class]):has(+ .sectionDivider_c43953 + [style]) {
       border-bottom-left-radius: 0;
       border-bottom-right-radius: 0;
