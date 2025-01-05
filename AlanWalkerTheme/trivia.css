@@ -116,9 +116,6 @@ body,
 	#app-mount .panels_a4d4d9 > .container_b2ca13 > .flex_dc333f > .button_adca65:hover {
 		background-color: var(--back-user-buttons-hover-700);
 	}
-	#app-mount .panels_a4d4d9 > .container_b2ca13 > .flex_dc333f > .button_adca65:first-child {
-		border-radius: var(--border-radius-s);
-	}
 	#app-mount .panels_a4d4d9 > .container_b2ca13 > .flex_dc333f > .button_adca65:last-child {
 		border-radius: var(--border-radius-s) var(--border-radius-xl) var(--border-radius-s) var(--border-radius-s);
 	}
