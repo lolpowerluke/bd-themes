@@ -152,6 +152,11 @@
         border-bottom-color: transparent;
       }
     }
+    &:has(+ .containerDefault_a08117) ul .containerDefault_f6f816:last-child {
+      border-bottom-color: rgba(var(--border-color-hover), var(--border-opacity-hover));
+      border-bottom-left-radius: var(--border-radius-m);
+      border-bottom-right-radius: var(--border-radius-m);
+    }
     &:has(+ .containerDefault_f6f816:hover) {
       li.containerDefault_f6f816:last-child {
         border-bottom-color: transparent;
