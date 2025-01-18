@@ -27,10 +27,14 @@
       }
     }
   }
-  .title_a1cafe {
-    margin: 0;
-    padding: 0 20px;
-    box-sizing: border-box;
+  .sectionTitle_e0840f {
+    position: sticky;
+    width: 100%;
+    top: 0;
+  
+    .title_a1cafe {
+      padding: 0 5px;
+    }
   }
   .peopleList_e0840f {
     margin: 0;
