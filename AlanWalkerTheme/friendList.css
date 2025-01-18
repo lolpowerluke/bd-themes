@@ -34,6 +34,8 @@
   
     .title_a1cafe {
       padding: 0 5px;
+      margin: 0;
+      box-sizing: border-box;
     }
   }
   .peopleList_e0840f {
