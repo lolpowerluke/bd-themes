@@ -28,9 +28,7 @@
     }
   }
   .sectionTitle_e0840f {
-    position: sticky;
     width: 100%;
-    top: 0;
   
     .title_a1cafe {
       padding: 0 5px;
@@ -80,16 +78,17 @@
   .peopleColumn_c2739c .peopleList_e0840f {
     padding: 10px !important;
     
+    .sectionTitle_e0840f {
+      position: relative;
+      grid-column: 1/-1;
+    }
     & > div {
-      display: flex;
-      flex-direction: row;
-      align-content: flex-start;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(var(--friendlist-friends-min-width), 1fr));
       gap: 10px;
-      flex-wrap: wrap;
 
       .peopleListItem_d51464 {
-        flex: 1 0 var(--friendlist-friends-min-width);
-        max-width: var(--friendlist-friends-max-width);
+        max-width: unset;
         border-radius: var(--border-radius-m);
         height: 140px !important;
         box-shadow: inset 0 0 10px rgb(var(--border-color-1), var(--border-opacity-1));
