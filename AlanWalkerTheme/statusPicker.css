@@ -75,15 +75,10 @@
 	.labelContainer-2vJzYL {
 	flex: 1 1 25px;
 }
-#status-picker
-	[aria-activedescendant*="status-picker-switch-account"]
-	.labelContainer-2vJzYL
-	.activeIcon_e1268c {
+#status-picker [aria-activedescendant*="status-picker-switch-account"] .labelContainer-2vJzYL .activeIcon_d40c56 {
 	margin-right: 5px;
 }
-#status-picker
-	[aria-activedescendant*="status-picker-switch-account"]
-	.scroller-1bVxF5 {
+#status-picker [aria-activedescendant*="status-picker-switch-account"] .scroller-1bVxF5 {
 	flex-direction: column;
 }
 #status-picker .labelContainer-2vJzYL {
