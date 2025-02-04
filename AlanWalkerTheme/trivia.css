@@ -93,16 +93,13 @@ body,
 		padding: 20px 0 10px 0;
 		flex-direction: column;
 		background: linear-gradient(transparent, var(--back-user-buttons) 15%);
-	}
-	.panels_c48ade > .container__37e49 > .flex__7c0ba > .button__67645 {
-		margin: var(--user-buttons-spacing) auto 0 auto;
-	}
-	.panels_c48ade > .container__37e49 > .flex__7c0ba {
 		pointer-events: none;
-	}
-	.panels_c48ade > .container__37e49 > .flex__7c0ba > .button__67645 {
-		pointer-events: auto;
-		border-radius: 50%;
+    
+    .button__67645 {
+      margin: var(--user-buttons-spacing) auto 0 auto;
+      pointer-events: auto;
+      border-radius: 50%;
+    }
 	}
 }
 @media (max-width: 700px) {
