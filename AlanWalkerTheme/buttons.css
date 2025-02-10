@@ -43,7 +43,6 @@
 }
 /*Create Server And Explore Servers Buttons*/
 .listItemWrapper__91816 {
-	background-color: black;
 	border: 1px solid rgba(var(--border-color-hover), var(--border-opacity-hover));
 	border-radius: var(--border-radius-xxl);
 }
