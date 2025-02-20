@@ -93,18 +93,24 @@
                   }
                 }
               }
+              .avatar__75742 + .referenceContainer_ab8609 {
+                display: none;
+              }
+              .avatar__75742 + div:not(.headerButtons__24502) + div:not(.headerButtons__24502),
               .avatar__75742 + div:not(.headerButtons__24502) {
                 position: relative;
                 width: 100%;
                 height: 100%;
                 margin: 0;
+                top: 0;
+                left: 0;
 
                 .visibleContainer_af9888 {
                   top: 0;
                   left: 0;
                 }
                 .statusBubbleOuter_af9888,
-                .outer_c8ce83 {
+                .outer_ab8609 {
                   &:after {
                     left: 28px;
                   }
