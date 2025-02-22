@@ -65,7 +65,8 @@ body,
 .container__7d20c,
 .nowPlayingColumn__133bf,
 .chat_f75fb0,
-#app-mount .panels_c48ade > .container__37e49 > .flex__7c0ba,
+#app-mount .panels_c48ade > .container__37e49 > .content__37e49,
+#app-mount .panels_c48ade > .container__37e49 > .content__37e49 > .flex__7c0ba,
 .scroller__99e7c,
 .scroller_ef3116,
 .wrapper_ef3116,
@@ -84,7 +85,7 @@ body,
 }
 /*Userbuttons In Side Panel*/
 @media (min-width: 701px) {
-	.panels_c48ade > .container__37e49 > .flex__7c0ba {
+	.panels_c48ade > .container__37e49 > .content__37e49 > .flex__7c0ba {
 		position: fixed;
 		bottom: 0px;
 		left: 0px;
@@ -103,17 +104,17 @@ body,
 	}
 }
 @media (max-width: 700px) {
-	.panels_c48ade > .container__37e49 > .flex__7c0ba {
+	.panels_c48ade > .container__37e49 > .content__37e49 > .flex__7c0ba {
 		column-gap: 2px;
 	}
-	#app-mount .panels_c48ade > .container__37e49 > .flex__7c0ba > .button__67645 {
+	#app-mount .panels_c48ade > .container__37e49 > .content__37e49 > .flex__7c0ba > .button__67645 {
 		border-radius: var(--border-radius-s);
 		background-color: var(--back-user-buttons-700);
 	}
-	#app-mount .panels_c48ade > .container__37e49 > .flex__7c0ba > .button__67645:hover {
+	#app-mount .panels_c48ade > .container__37e49 > .content__37e49 > .flex__7c0ba > .button__67645:hover {
 		background-color: var(--back-user-buttons-hover-700);
 	}
-	#app-mount .panels_c48ade > .container__37e49 > .flex__7c0ba > .button__67645:last-child {
+	#app-mount .panels_c48ade > .container__37e49 > .content__37e49 > .flex__7c0ba > .button__67645:last-child {
     border-radius: var(--border-radius-s) var(--border-radius-m) var(--border-radius-s) var(--border-radius-s);
   }
 }
@@ -696,11 +697,7 @@ aside.profilePanel-2PWEok .overlayBackground-1KgwVi {
 	border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
 }
 aside.profilePanel-2PWEok .userPanelInnerThemed-2xZFjl {
-	background: linear-gradient(
-		to bottom,
-		var(--back-gradient-top) 80%,
-		var(--back-gradient-bottom)
-	);
+	background: linear-gradient(to bottom,var(--back-gradient-top) 80%,	var(--back-gradient-bottom));
 }
 aside.profilePanel-2PWEok .buttonColor-XIRMbp {
 	border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
@@ -710,10 +707,7 @@ aside.profilePanel-2PWEok .buttonColor-XIRMbp {
 }
 /*Call Buttons (only visible while in call)*/
 @media (max-width: 800px) {
-	.wrapper_cb9592
-		.bottomControls_bfe55a
-		.wrapper__1405b
-		.controlButton__1405b {
+	.wrapper_cb9592 .bottomControls_bfe55a .wrapper__1405b .controlButton__1405b {
 		margin: 0;
 		transform: scale(0.8);
 	}
@@ -729,10 +723,7 @@ aside.profilePanel-2PWEok .buttonColor-XIRMbp {
 		grid-row: 2 / 3;
 		grid-column: 1 / 3;
 	}
-	.wrapper_cb9592
-		.bottomControls_bfe55a
-		> .flex__7c0ba:first-of-type
-		> .flex__7c0ba:first-of-type {
+	.wrapper_cb9592 .bottomControls_bfe55a > .flex__7c0ba:first-of-type > .flex__7c0ba:first-of-type {
 		margin: 0;
 	}
 	.wrapper_cb9592 .bottomControls_bfe55a > .flex__7c0ba:first-of-type {

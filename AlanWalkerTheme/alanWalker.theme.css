@@ -36,14 +36,14 @@
   --guild-margin-bottom: 135px; /* default: 135px, change to 180px if you have the gameactivitytoggle plugin*/
 
   /*Border Radius*/
-  --border-radius-0: 0; /*Default 0*/
-  --border-radius-xs: 2px; /*Default 2px*/
-  --border-radius-s: 4px; /*Default 4px*/
-  --border-radius-m: 8px; /*Default 8px*/
-  --border-radius-l: 12px; /*Default 12px*/
-  --border-radius-xl: 16px; /*Default 16px*/
-  --border-radius-xxl: 32px; /*Default 32px*/
-
+  --border-radius-0: 0;
+  --border-radius-xs: 2px;
+  --border-radius-s: 4px;
+  --border-radius-m: 8px;
+  --border-radius-l: 12px;
+  --border-radius-xl: 16px;
+  --border-radius-xxl: 32px;
+  
   /*Frienlist*/
   --friendlist-friends-min-width: 300px;
   --friendlist-friends-max-width: 650px;
@@ -74,7 +74,7 @@
 }
 :root .bd-transparency {
   /*Put any variable here you want to apply only if bd's transpareny settings is enabled*/
-  --bd-addon-cards-opacity: 0.7;
+  --bd-addon-cards-opacity: 0.8;
 }
 .theme-dark,
 :root.theme-dark {
@@ -271,11 +271,14 @@
   --popout-body: rgba(0, 0, 0, 0.5);
   --popout-footer: rgba(0, 0, 0, 0.5);
   --popout-scroller: rgb(0, 0, 0);
+
+  /*idk*/
+  --back-user-buttons: transparent;
 }
 .theme-light,
 :root.theme-light {
   /*title bar*/
-  --title-bar-color: rgb(116, 116, 116); /*change to --title-bar-color*/
+  --title-bar-color: rgb(116, 116, 116);
 
   /*Theme Dependent Stuff*/
   --back-home-button: rgb(70, 70, 70);
@@ -466,4 +469,7 @@
   --popout-body: rgba(255, 255, 255, 0.5);
   --popout-footer: rgba(255, 255, 255, 0.5);
   --popout-scroller: rgb(255, 255, 255);
+
+  /*idk*/
+  --back-user-buttons: transparent;
 }
