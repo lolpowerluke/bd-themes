@@ -65,6 +65,8 @@ body,
 .container__7d20c,
 .nowPlayingColumn__133bf,
 .chat_f75fb0,
+#app-mount .panels_c48ade > .container__37e49,
+#app-mount .panels_c48ade > .container__37e49 > .flex__7c0ba,
 #app-mount .panels_c48ade > .container__37e49 > .content__37e49,
 #app-mount .panels_c48ade > .container__37e49 > .content__37e49 > .flex__7c0ba,
 .scroller__99e7c,
@@ -85,6 +87,7 @@ body,
 }
 /*Userbuttons In Side Panel*/
 @media (min-width: 701px) {
+  .panels_c48ade > .container__37e49 > .flex__7c0ba,
 	.panels_c48ade > .container__37e49 > .content__37e49 > .flex__7c0ba {
 		position: fixed;
 		bottom: 0px;
@@ -104,16 +107,20 @@ body,
 	}
 }
 @media (max-width: 700px) {
+  .panels_c48ade > .container__37e49 > .flex__7c0ba,
 	.panels_c48ade > .container__37e49 > .content__37e49 > .flex__7c0ba {
 		column-gap: 2px;
 	}
+  #app-mount .panels_c48ade > .container__37e49 > .flex__7c0ba > .button__67645,
 	#app-mount .panels_c48ade > .container__37e49 > .content__37e49 > .flex__7c0ba > .button__67645 {
 		border-radius: var(--border-radius-s);
 		background-color: var(--back-user-buttons-700);
 	}
-	#app-mount .panels_c48ade > .container__37e49 > .content__37e49 > .flex__7c0ba > .button__67645:hover {
+	#app-mount .panels_c48ade > .container__37e49 > .flex__7c0ba > .button__67645:hover,
+  #app-mount .panels_c48ade > .container__37e49 > .content__37e49 > .flex__7c0ba > .button__67645:hover {
 		background-color: var(--back-user-buttons-hover-700);
 	}
+	#app-mount .panels_c48ade > .container__37e49 > .flex__7c0ba > .button__67645:last-child,
 	#app-mount .panels_c48ade > .container__37e49 > .content__37e49 > .flex__7c0ba > .button__67645:last-child {
     border-radius: var(--border-radius-s) var(--border-radius-m) var(--border-radius-s) var(--border-radius-s);
   }
