@@ -389,14 +389,14 @@ div:not(.messagesWrapper__36d07) > .scrollerBase-_bVAAt::-webkit-scrollbar,
 	display: none;
 }
 #app-mount .chatContent_f75fb0 {
-  margin-top: -48px;
+  margin-top: calc(var(--margin-chat-top) * -1);
 	background: transparent;
 }
 .container__00de6 {
-	margin-top: 45px;
+	margin-top: var(--margin-chat-top);
 }
 .messagesWrapper__36d07 .scroller__36d07::-webkit-scrollbar-track {
-	margin-top: 45px;
+	margin-top: var(--margin-chat-top);
 }
 #app-mount .wrapper_cb9592 ~ .content_f75fb0 .chatContent_f75fb0 .scroller__36d07::-webkit-scrollbar-track,
 #app-mount .wrapper_cb9592 ~ .content_f75fb0 .chatContent_f75fb0 {
@@ -404,7 +404,7 @@ div:not(.messagesWrapper__36d07) > .scrollerBase-_bVAAt::-webkit-scrollbar,
 }
 .chatHeaderBar_dc83f5 {
   position: fixed;
-  top: 48px;
+  top: var(--margin-chat-top);
   width: calc(100vw - 72px - var(--siderbar-no-hover-width) - 1px - 60px - 16px); /*full window width - guild - sidebar - sidebar border - member bar - extra space for scroll etc*/
   box-sizing: border-box;
   backdrop-filter: blur(2px);
@@ -415,12 +415,12 @@ div:not(.messagesWrapper__36d07) > .scrollerBase-_bVAAt::-webkit-scrollbar,
   width: calc(100vw - 72px - 240px - 1px - 60px - 16px); /*full window width - guild - sidebar - sidebar border - member bar - extra space for scroll etc*/
 }
 .chatHeaderBar_dc83f5 ~ .messagesWrapper__36d07 .newMessagesBar__0f481 {
-  margin-top: 88px;
+  margin-top: calc(var(--margin-chat-top) + 40px);
   left: 0;
   backdrop-filter: blur(2px);
 }
 .newMessagesBar__0f481 {
-	margin-top: 45px;
+	margin-top: var(--margin-chat-top);
 }
 #app-mount .wrapper_cb9592 ~ .content_f75fb0 .chatContent_f75fb0 .newMessagesBar__0f481 {
 	margin-top: 0;
