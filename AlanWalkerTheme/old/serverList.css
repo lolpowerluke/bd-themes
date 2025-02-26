@@ -1,0 +1,139 @@
+html:not(.visual-refresh) {
+  /*CSS specifically for the serverlist*/
+  .guilds_c48ade {
+    margin-top: 80px;
+    .itemsContainer_ef3116 {
+      overflow: hidden scroll;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+      .folder__48112[aria-expanded="true"] {
+        background-color: var(--back-expanded-server-folder-icon);
+        border-radius: 24px;
+      }
+      .expandedFolderBackground__48112 {
+        background-color: var(--back-expanded-server-folder);
+
+        &.collapsed__48112 {
+          background-color: transparent;
+        }
+      }
+      .expandedFolderIconWrapper__48112::after {
+        content: "";
+        margin-left: -22px;
+        background-image: var(--home-button-background);
+        background-size: 40px;
+        background-repeat: no-repeat;
+        width: 40px;
+        height: 40px;
+      }
+      .folderIconWrapper__48112 path {
+        display: none;
+      }
+      .scroller_ef3116 {
+        padding-top: 0;
+        overflow: hidden !important;
+        height: fit-content;
+        flex: 0 0 auto;
+
+        .tutorialContainer__1f388 {
+          position: fixed;
+          top: 12px;
+          z-index: 1;
+
+          & + .listItem__650eb {
+            position: fixed;
+            top: 70px;
+            z-index: 1;
+          }
+        }
+      }
+      .footer__214dc {
+        background: unset;
+        padding: 0;
+        margin: 0;
+
+        .listItem__650eb {
+          margin: 0;
+        }
+      }
+      .listItem__650eb .circleIcon__5bc7e {
+        color: var(--text-normal);
+      }
+      .listItem__650eb:hover .circleIcon__5bc7e {
+        color: var(--unread-pill);
+      }
+    }
+    .unreadMentionsFixedFooter_ef3116 {
+      bottom: 0;
+    }
+  }
+  @media (max-width: 700px) {
+    .guilds_c48ade {
+      width: 56px;
+      margin-bottom: 55px;
+      margin-top: 60px;
+
+      .itemsContainer_ef3116 {
+        .scroller_ef3116 {
+          .listItem__650eb {
+            width: 56px;
+          }
+          .expandedFolderBackground__48112 {
+            left: calc(56px * 0.2);
+            width: calc(56px * 0.625);
+          }
+          .tutorialContainer__1f388 {
+            top: 6px;
+    
+            & + .listItem__650eb {
+              top: 50px;
+            }
+          }
+        }
+      }
+      .wrapper__58105 {
+        height: calc(56px * 0.625);
+
+        span {
+          max-height: calc(56px * 0.375);
+        }
+      }
+      div[style*="height: 56px"],
+      [role="group"] {
+        height: auto !important;
+      }
+      .listItem-GuPuDH,
+      [class*="unreadMentionsIndicator"],
+      .wrapper-3Njo_c {
+        width: 100%;
+      }
+      .wrapper-28eC3z,
+      [class*="guildsError-"],
+      svg[width="48"] {
+        width: calc(56px * 0.625);
+        height: calc(56px * 0.625);
+      }
+      .wrapper-3Njo_c > span {
+        left: calc(56px * 0.175);
+        width: calc(56px * 0.625);
+      }
+      #bd-pub-button {
+        height: calc(56px * 0.375);
+        line-height: calc(56px * 0.375);
+        font-size: 10px;
+      }
+      .wrapper_cc5dd2 {
+        width: 35px;
+        height: unset;
+        aspect-ratio: 1;
+      }
+    }
+  }
+  @media (min-width: 701px) {
+    .guilds_c48ade {
+      margin-bottom: var(--guild-margin-bottom);
+    }
+  }
+}

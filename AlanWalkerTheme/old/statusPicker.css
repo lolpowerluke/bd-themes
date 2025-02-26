@@ -1,0 +1,110 @@
+html:not(.visual-refresh) {
+  #status-picker {
+    width: 220px;
+  }
+  #status-picker .scroller-1bVxF5::-webkit-scrollbar {
+    display: none;
+  }
+  #status-picker .scroller-1bVxF5 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0;
+  }
+  #status-picker .separator-1So4YB {
+    display: none;
+  }
+  #status-picker .scroller-1bVxF5 .submenuContainer-3EVTeH .mask-2Me5HY {
+    height: 12px;
+    width: 12px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  #app-mount
+    #status-picker
+    .scroller-1bVxF5
+    .submenuContainer-3EVTeH
+    .item-1OdjEX {
+    height: 25px;
+    min-height: unset;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .customStatusItem_e0f739 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  #status-picker-custom-status,
+  #status-picker .scroller-1bVxF5 [role="group"],
+  #status-picker .scroller-1bVxF5 .submenuContainer-3EVTeH {
+    flex: 1 1 0;
+    height: 25px;
+  }
+  #status-picker .submenu-1apzyU {
+    left: -10px;
+    padding-right: 0;
+  }
+  #status-picker
+    .item-1OdjEX:not([id*="status-picker-switch-account"]):not(
+      [id*="status-picker-custom-status"]
+    )
+    .status_e0f739,
+  #status-picker
+    .item-1OdjEX:not([id*="status-picker-switch-account"]):not(
+      [id*="status-picker-custom-status"]
+    )
+    .description_e0f739 {
+    display: none;
+  }
+  #status-picker .item-1OdjEX:not(#status-picker-custom-status) {
+    flex: 1 1 50px;
+    height: 40px;
+  }
+  #status-picker .mask-2Me5HY {
+    margin-top: 5px;
+    margin-left: 9px;
+    width: 20px;
+    height: 20px;
+  }
+  [id*="status-picker-switch-account"] .statusItem_e0f739 {
+    margin-left: 3px;
+  }
+  #app-mount
+    #status-picker
+    [aria-activedescendant*="status-picker-switch-account"]
+    .labelContainer-2vJzYL {
+    flex: 1 1 25px;
+  }
+  #status-picker [aria-activedescendant*="status-picker-switch-account"] .labelContainer-2vJzYL .activeIcon_d40c56 {
+    margin-right: 5px;
+  }
+  #status-picker [aria-activedescendant*="status-picker-switch-account"] .scroller-1bVxF5 {
+    flex-direction: column;
+  }
+  #status-picker .labelContainer-2vJzYL {
+    padding-left: 5px;
+  }
+  .imageContainer-1wSPgI,
+  .hintContainer-2UwhLP {
+    margin-right: 5px;
+  }
+  .imageContainer-1wSPgI {
+    margin-left: -2px;
+  }
+  #status-picker .focused-3qFvc8 {
+    background: linear-gradient(45deg, #2b45a2, #7289da);
+  }
+  #status-picker .focused-3qFvc8#status-picker-online {
+    background: linear-gradient(45deg, #21583f, #43b581);
+  }
+  #status-picker .focused-3qFvc8#status-picker-idle {
+    background: linear-gradient(45deg, #915c03, #faa61a);
+  }
+  #status-picker .focused-3qFvc8#status-picker-dnd {
+    background: linear-gradient(45deg, #aa0e0e, #f04747);
+  }
+  #status-picker .focused-3qFvc8#status-picker-invisible {
+    background: linear-gradient(45deg, #3a4047, #747f8d);
+  }
+}

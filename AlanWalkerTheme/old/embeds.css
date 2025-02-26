@@ -1,0 +1,101 @@
+html:not(.visual-refresh) {
+  /*Embed postioning*/
+  .container_b7e1cb > .directionRow__65900 {
+    flex-direction: column;
+    align-items: start;
+  }
+  /*fallback coloring*/
+  .embedWrapper_b7e1cb[aria-hidden="false"] {
+    border-color: rgba(255, 123, 0, 0.418);
+  }
+  /*Embeds*/
+  :root {
+    --embed-width: 500px;
+  }
+  .embedFull__623de {
+    border-left: calc(4px + var(--embed-width)) solid transparent;
+    background: var(--background-secondary);
+  }
+  .grid__623de {
+    margin-left: calc(-1 * var(--embed-width));
+    z-index: 1;
+    width: var(--embed-width);
+    height: 100%;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  /*Invite Embed*/
+  #app-mount .guildIconImage_d5f3cd {
+    background-color: transparent;
+  }
+  .wrapper_d5f3cd {
+    border: 1px solid
+      rgba(var(--border-color-hover), var(--border-opacity-hover));
+  }
+  /*Smaller download embeds*/
+  .container_b7e1cb .nonVisualMediaItemContainer_f4758a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 2px;
+  }
+  #app-mount .nonVisualMediaItemContainer_f4758a .nonVisualMediaItem_f4758a {
+    flex: 1 0 200px;
+    max-width: 300px;
+    width: unset;
+    margin-top: 0;
+  }
+  .fileWrapper__0ccae.newMosaicStyle_b52bef {
+    width: fit-content;
+    padding: 0;
+  }
+  .fileWrapper__0ccae + .hoverButtonGroup__06ab4 {
+    position: relative;
+    top: 0;
+    right: 0;
+    opacity: 1;
+    background-color: transparent;
+    outline: 0;
+    border-radius: var(--border-radius-xs);
+  }
+  .icon__0ccae {
+    margin-right: 4px;
+  }
+  .fileWrapper__0ccae {
+    background-color: transparent;
+    border: unset;
+  }
+  .mosaicItem__6c706 {
+    box-sizing: border-box;
+    padding: 2px;
+    border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+    background-color: var(--background-secondary);
+  }
+  .newMosaicStyle__4d95d > * {
+    border: 0;
+    background-color: transparent;
+  }
+  .newMosaicStyle__4d95d .textContainer__4d95d {
+    border-radius: var(--border-radius-xs);
+  }
+  .textContainer__4d95d pre code.codeView__4d95d {
+    margin: 0;
+  }
+  .newMosaicStyle__4d95d .footer__4d95d {
+    padding: 0 4px;
+  }
+  .visualMediaItemContainer_f4758a,
+  .oneByOneGridSingle_f4758a {
+    border-radius: var(--border-radius-xs);
+  }
+  .oneByOneGrid_f4758a {
+    max-height: unset;
+  }
+  .imageWrapper_af017a {
+    border-radius: var(--border-radius-0);
+  }
+  .lazyImg_f4758a {
+    max-width: 100% !important;
+  }
+}
