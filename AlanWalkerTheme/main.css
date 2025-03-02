@@ -24,6 +24,7 @@
   /*Trivia*/
   @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/old/trivia.css');
   @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/old/trivia/friendListPlayingCards.css');
+  @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/trivia/streamerMode.css');
   /*Other Stuff*/
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/version.css');
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/serverChannels.css');
@@ -58,6 +59,7 @@
   /*Trivia*/
   @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/trivia.css');
   @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/trivia/friendListPlayingCards.css');
+  @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/trivia/transparency.css');
   /*Other Stuff*/
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/statusPicker.css');
   /*Snippets*/

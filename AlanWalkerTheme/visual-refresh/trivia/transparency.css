@@ -1,0 +1,20 @@
+
+.visual-refresh {
+  body,
+  #app-mount,
+  .app__160d8,
+  .wrapper_ef3116,
+  .container__2637a,
+  .chat_f75fb0,
+  .chatContent_f75fb0,
+  .title_f75fb0,
+  .privateChannels__35e86,
+  .scroller__99e7c,
+  .tabBody__133bf,
+  .container__133bf,
+  .container__7d20c,
+  .nowPlayingColumn__133bf,
+  .searchBar__5ec2f {
+    background: transparent !important;
+  }
+}

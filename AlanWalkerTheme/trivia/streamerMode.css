@@ -1,0 +1,56 @@
+/*Streamer mode*/
+.notice__6e2b9.colorStreamerMode__6e2b9 {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  padding: 5px 5px 5px 7px;
+  line-height: 24px;
+  height: 34px;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+  font-size: 0;
+  border-radius: var(--border-radius-s);
+  color: transparent;
+  transform-origin: right;
+  transition:
+    transform var(--stream-mode-hover-duration),
+    border-radius var(--stream-mode-hover-duration),
+    font-size var(--stream-mode-hover-duration),
+    color var(--stream-mode-hover-duration);
+}
+.notice__6e2b9.colorStreamerMode__6e2b9:hover {
+  font-size: 14px;
+  border-radius: var(--border-radius-s);
+  color: white;
+  transition-delay: var(--stream-mode-hover-delay);
+}
+.notice__6e2b9.colorStreamerMode__6e2b9 .button__6e2b9 {
+  top: 0;
+  margin: 0;
+  padding: 0 3px;
+  margin-left: 0px;
+  transform-origin: right;
+  transition: 
+    margin-left var(--stream-mode-hover-duration),
+    transform var(--stream-mode-hover-duration);
+}
+.notice__6e2b9.colorStreamerMode__6e2b9:hover .button__6e2b9 {
+  transform: scaleX(1);
+  margin-left: 5px;
+  transition-delay: var(--stream-mode-hover-delay);
+}
+.notice__6e2b9.colorStreamerMode__6e2b9 .closeButton__6e2b9 {
+  position: static;
+  order: 1;
+  width: 22px;
+  height: 22px;
+  margin-top: 1px;
+  justify-content: flex-end;
+}
+.notice__6e2b9.colorStreamerMode__6e2b9 .closeButton__6e2b9 {
+  width: 22px;
+  height: 22px;
+}
