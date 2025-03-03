@@ -1,14 +1,36 @@
 /*Background Selected DM*/
-.wrapper__2ea32.modeSelected__2ea32 .link__2ea32,
-.channel__972a0 .selected_bf202d {
+.icon_c9d15c {
+  color: white;
+}
+#app-mount .wrapper__2ea32.modeSelected__2ea32 .link__2ea32,
+#app-mount .channel__972a0 .selected_bf202d {
   background: var(--back-selected-dm-pic);
   background-color: transparent;
   background-size: cover;
   background-position: var(--back-pos-dm);
+
+  .subText__20a53,
+  .name__20a53 {
+    color: var(--dm-selected-color);
+  }
 }
 #app-mount .wrapper__2ea32 .link__2ea32,
 #app-mount .interactive_bf202d {
   background-color: transparent;
+  
+  .subText__20a53,
+  .name__20a53 {
+    color: var(--dm-color);
+  }
+}
+#app-mount .wrapper__2ea32 .link__2ea32,
+#app-mount .interactive_bf202d.muted_bf202d {
+  background-color: transparent;
+  
+  .subText__20a53,
+  .name__20a53 {
+    color: var(--dm-muted-color);
+  }
 }
 /*Server Channels*/
 .sidebar_c48ade {

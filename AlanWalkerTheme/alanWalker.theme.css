@@ -61,6 +61,10 @@
   --stream-mode-hover-duration: .2s;
   --stream-mode-hover-delay: 1s;
 
+  /*Spacing*/
+  --spacing-8: 8px;
+  --spacing-4: 4px;
+
   /*emoji & gif*/
   --popup-emoji-size: 180px;
 
@@ -116,7 +120,6 @@
   --separator: 77, 77, 77;
 
   --back-user-buttons: rgba(255, 255, 255, 0.116);
-  --selected-dm-color: rgba(189, 189, 189, 0.822);
 
   /*unread pill*/
   --unread-pill: rgb(145, 145, 151);
@@ -147,11 +150,14 @@
   --background-modifier-selected-hover: rgb(135, 135, 135, 0.2);
   --info-warning-foreground: red;
 
-  /*Discord text colors*/
+  /*Text colors*/
   --text-normal: rgb(240, 240, 240);
   --text-link: #00ff15;
   --text-link-back: black;
   --text-focus: white;
+  --dm-color: white;
+  --dm-muted-color: rgb(59, 59, 59);
+  --dm-selected-color: rgba(189, 189, 189, 0.822);
 
   /*server folders*/
   --back-expanded-server-folder-icon: rgba(73, 73, 73, 0.548);
@@ -318,7 +324,6 @@
   --separator: 77, 77, 77;
 
   --back-user-buttons: rgba(255, 255, 255, 0.116);
-  --selected-dm-color: rgba(65, 65, 65, 0.8);
 
   /*unread pill*/
   --unread-pill: rgb(110, 110, 110);
@@ -349,11 +354,14 @@
   --background-modifier-selected-hover: rgb(110, 110, 110, 0.2);
   --info-warning-foreground: red;
 
-  /*Discord text colors*/
+  /*Text colors*/
   --text-normal: rgb(15, 15, 15);
   --text-link: #007a0a;
   --text-link-back: white;
   --text-focus: black;
+  --dm-color: black;
+  --dm-muted-color: rgb(151, 151, 151);
+  --dm-selected-color: rgba(65, 65, 65, 0.8);
   
   /*server folders*/
   --back-expanded-server-folder-icon: rgba(133, 133, 133, 0.55);

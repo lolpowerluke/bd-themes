@@ -343,14 +343,6 @@ html:not(.visual-refresh) {
   .discriminator__0a06e {
     display: none;
   }
-  /*Friend List*/
-  .icon_c9d15c {
-    color: white;
-  }
-  .selected_bf202d .subText__20a53,
-  .selected_bf202d .name__20a53 {
-    color: var(--selected-dm-color);
-  }
   /*scrollbar*/
   ::-webkit-scrollbar-thumb {
     background-color: rgb(
