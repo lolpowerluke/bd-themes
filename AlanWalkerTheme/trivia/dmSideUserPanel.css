@@ -1,0 +1,9 @@
+/*Side Profile*/
+.chatContent_f75fb0 + .outer_c0bea0.custom-theme-background {
+  background: transparent;
+  .inner_c0bea0 {
+    --prof-grad-start: color-mix(in oklab, var(--profile-gradient-primary-color), transparent);
+    --prof-grad-end: color-mix(in oklab, var(--profile-gradient-secondary-color), transparent);
+    background: linear-gradient(var(--prof-grad-start), var(--prof-grad-start) var(--custom-user-profile-banner-height), var(--prof-grad-end));
+  }
+}
