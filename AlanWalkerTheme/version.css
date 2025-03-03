@@ -3,7 +3,7 @@
 }
 .app__160d8::before {
 	content: "theme outdated, please redownload from https://lolpowerluke.github.io/bd-stuff/bd.html";
-	display: var(--version-1-3-4-3);
+	display: var(--version-1-3-4-4);
 	color: #fff;
 	position: relative;
 	text-align: center;
