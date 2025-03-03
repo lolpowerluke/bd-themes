@@ -1,30 +1,17 @@
 /*Thanks to davart154 for making this*/
 .visual-refresh {
-  .container_c48ade {
-    --custom-chat-input-margin-bottom: 0px;
-  }
-  html.density-compact .container_c48ade {
-    --custom-chat-input-margin-bottom: 0px;
-  }
-
   .scrollerSpacer__36d07.scrollerSpacer__36d07 {
     height: 30px;
   }
   .bottomBar__0f481.bottomBar__0f481 {
     bottom: 16px;
   }
-
-  .form_f75fb0.form_f75fb0 {
-    margin-top: -8px;
-  }
-  .formWithLoadedChatInput_f75fb0.formWithLoadedChatInput_f75fb0 {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
   .channelBottomBarArea_f75fb0.channelBottomBarArea_f75fb0 {
     margin: 0;
   }
-
+  .formWithLoadedChatInput_f75fb0:before {
+    display: none;
+  }
   .channelTextArea__74017.channelTextArea__74017 {
     display: grid;
     grid-template-areas: "floatingBars floatingBars floatingBars floatingBars" "stackedBars stackedBars stackedBars stackedBars" "stickers stickers stickers stickers" "stickerSep stickerSep stickerSep stickerSep" "attachmentBar attachmentBar attachmentBar attachmentBar" "accessoryLeft textBar accessoryRight sendButton";
@@ -53,7 +40,7 @@
 
   .accessoryBarLeft__74017.accessoryBarLeft__74017 {
     grid-area: accessoryLeft;
-    margin-left: 16px;
+    margin-left: 14px;
     margin-right: -12px;
     position: unset;
   }
@@ -79,7 +66,7 @@
   }
   .textArea__74017 {
     grid-area: textBar;
-    min-height: 48px;
+    min-height: 54px;
     height: unset !important;
     max-height: 144px;
     overflow: hidden scroll;
