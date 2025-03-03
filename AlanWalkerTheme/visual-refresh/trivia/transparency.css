@@ -1,4 +1,3 @@
-
 .visual-refresh {
   body,
   #app-mount,
@@ -16,5 +15,19 @@
   .nowPlayingColumn__133bf,
   .searchBar__5ec2f {
     background: transparent !important;
+  }
+  .bg__960e4 {
+    background: linear-gradient(
+      to bottom,
+      rgba(var(--back-gradient-top), var(--back-gradient-opacity)) 80%,
+      rgba(var(--back-gradient-bottom), var(--back-gradient-opacity))
+    );
+  }
+  .bg__960e4::after {
+    content: "";
+    position: absolute;
+    background: var(--main-background);
+    width: 100%;
+    height: 100%;
   }
 }

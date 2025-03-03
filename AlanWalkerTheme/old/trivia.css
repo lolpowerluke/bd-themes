@@ -86,47 +86,6 @@ html:not(.visual-refresh) {
   .avatarWrapper__37e49:hover {
     background: rgba(70, 70, 70, 0.2);
   }
-  /*Userbuttons In Side Panel*/
-  @media (min-width: 701px) {
-    .panels_c48ade .container__37e49 .buttons__37e49 {
-      position: fixed;
-      bottom: 0px;
-      left: 0px;
-      width: 72px;
-      z-index: 1;
-      padding: 20px 0 10px 0;
-      flex-direction: column;
-      background: linear-gradient(transparent, var(--back-user-buttons) 15%);
-      pointer-events: none;
-      
-      .button__67645 {
-        margin: var(--user-buttons-spacing) auto 0 auto;
-        pointer-events: auto;
-        border-radius: 50%;
-      }
-    }
-  }
-  @media (max-width: 700px) {
-    .panels_c48ade .container__37e49 .buttons__37e49 {
-      column-gap: 2px;
-    }
-    #app-mount .panels_c48ade .container__37e4 .buttons__37e49 .button__67645 {
-      border-radius: var(--border-radius-s);
-      background-color: var(--back-user-buttons-700);
-    }
-    #app-mount .panels_c48ade .container__37e49 .buttons__37e49 .button__67645:hover {
-      background-color: var(--back-user-buttons-hover-700);
-    }
-    #app-mount .panels_c48ade .container__37e49 .buttons__37e49 .button__67645:last-child {
-      border-radius: var(--border-radius-s) var(--border-radius-m) var(--border-radius-s) var(--border-radius-s);
-    }
-  }
-  .content-2a4AW9 {
-    height: 850px !important;
-  }
-  .container__37e49 {
-    container-type: unset;
-  }
   /*Account Background*/
   .panels_c48ade,
   .activityPanel_c48ade,
