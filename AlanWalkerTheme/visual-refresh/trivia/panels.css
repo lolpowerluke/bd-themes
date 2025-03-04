@@ -1,0 +1,43 @@
+.visual-refresh {
+  .panels_c48ade {
+    width: calc(100% - var(--custom-guild-list-width) - 3px);
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    padding-bottom: 1px;
+    left: calc(var(--custom-guild-list-width) + 2px);
+    bottom: 0;
+    background: transparent;
+
+    .container__37e49 {
+      padding: 0;
+      border-top: 1px solid transparent;
+      transition: background .5s, border .5s;
+      height: 53px;
+      box-sizing: border-box;
+
+      &:hover {
+        border-top-color: rgba(var(--border-color-1), var(--border-opacity-1));
+        background-color: var(--back-user-area);
+      }
+      .avatarWrapper__37e49 {
+        background: transparent;
+        padding: var(--space-6) var(--space-8);
+        margin: 0;
+
+        .wrapper__44b0c {
+          width: 32px !important;
+          height: 32px !important;
+
+          .mask__44b0c {
+            width: 40px;
+            height: 40px;
+          }
+        }
+        .nameTag__37e49 {
+          margin: 0;
+        }
+      }
+    }
+  }
+}

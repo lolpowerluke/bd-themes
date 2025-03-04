@@ -34,7 +34,9 @@
       grid-template-columns: 1fr 84px;
 
       .title_f75fb0 {
-        padding-right: 0;
+        padding: 7px 0 7px 12px;
+        min-height: unset;
+        height: fit-content;
 
         .children__9293f:after {
           display: none;
@@ -95,6 +97,8 @@
 
       .sidebarList_c48ade {
         height: 100vh;
+        border: 0;
+        border-right: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
       }
       .guilds_c48ade {
         height: calc(100vh - var(--guild-margin-bottom) - 62px);
@@ -118,13 +122,6 @@
       height: 100vh;
       max-height: 100vh;
     }
-  }
-  .panels_c48ade {
-    width: calc(100% - var(--custom-guild-list-width));
-    border-radius: 0 0 0 0;
-    padding: 0 0 0 var(--spacing-4);
-    left: var(--custom-guild-list-width);
-    bottom: 0;
   }
   .searchBar__5ec2f {
     border: 0;
