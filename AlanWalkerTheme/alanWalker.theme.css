@@ -155,7 +155,8 @@
   --text-link: #00ff15;
   --text-link-back: black;
   --text-focus: white;
-  --dm-color: white;
+  --dm-color: rgb(182, 182, 182);
+  --dm-unread-color: rgb(255, 255, 255);
   --dm-muted-color: rgb(59, 59, 59);
   --dm-selected-color: rgba(189, 189, 189, 0.822);
 
@@ -359,7 +360,8 @@
   --text-link: #007a0a;
   --text-link-back: white;
   --text-focus: black;
-  --dm-color: black;
+  --dm-color: rgb(32, 32, 32);
+  --dm-unread-color: black;
   --dm-muted-color: rgb(151, 151, 151);
   --dm-selected-color: rgba(65, 65, 65, 0.8);
   

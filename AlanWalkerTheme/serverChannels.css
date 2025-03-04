@@ -24,6 +24,12 @@
     color: var(--dm-color);
   }
 }
+#app-mount .dm__972a0 .interactive_bf202d .highlighted__20a53 {
+  .subText__20a53,
+  .name__20a53 {
+    color: var(--dm-unread-color);
+  }
+}
 #app-mount .wrapper__2ea32 .link__2ea32,
 #app-mount .interactive_bf202d.muted_bf202d {
   background-color: transparent;
