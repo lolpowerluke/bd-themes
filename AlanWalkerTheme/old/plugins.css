@@ -264,12 +264,12 @@ html:not(.visual-refresh) {
     background-color: var(--background-primary);
     border-radius: var(--border-radius-s);
     padding: 0 20px;
-    transition: 0.5s ease;
+    transition: var(--animation-duration-3) ease;
   }
   .ShowSessions-modal-item:hover .ShowSessions-modal-body {
     height: 162px;
     margin-bottom: 20px;
-    transition: 0.5s ease;
+    transition: var(--animation-duration-3) ease;
   }
   .ShowSessions-modal-sessionInfo b {
     text-transform: uppercase;
@@ -331,7 +331,7 @@ html:not(.visual-refresh) {
   }
   .ChannelDms-channelmembers-wrap {
     width: 60px;
-    transition: width 0.5s;
+    transition: width var(--animation-duration-3);
   }
   .ChannelDms-channelmembers-wrap:hover .membersWrap_c8ffbb:not(#dv-mount),
   .ChannelDms-channelmembers-wrap:hover .membersWrap_c8ffbb:not(#dv-mount) > div {

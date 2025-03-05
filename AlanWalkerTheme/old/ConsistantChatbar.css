@@ -42,7 +42,7 @@ html:not(.visual-refresh) {
     border-style: solid;
     border-color: transparent;
     background-color: transparent;
-    transition: border-color 0.5s, background-color 0.5s;
+    transition: border-color var(--animation-duration-3), background-color var(--animation-duration-3);
     border-radius: var(--border-radius-0);
   }
   .messageListItem__5126c .channelTextArea__74017 .inner__74017 {
@@ -148,7 +148,7 @@ html:not(.visual-refresh) {
     display: flex;
     align-content: center;
     flex-wrap: wrap;
-    transition: background .5s, border-color .5s;
+    transition: background var(--animation-duration-3), border-color var(--animation-duration-3);
   }
   .entryPointButtonContainer_f75fb0 {
     margin: 0;
@@ -157,7 +157,7 @@ html:not(.visual-refresh) {
     border-width: 1px 0 0 0;
     border-style: solid;
     border-color: transparent;
-    transition: background .5s, border-color .5s;
+    transition: background var(--animation-duration-3), border-color var(--animation-duration-3);
 
     .lookFilled__201d5.colorBrand__201d5 {
       margin: 0;

@@ -92,7 +92,7 @@
       border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
       border-radius: var(--border-radius-0);
       margin-top: -1px;
-      transition: border-color .5s, box-shadow .5s;
+      transition: border-color var(--animation-duration-3), box-shadow var(--animation-duration-3);
 
       &:hover {
         border-color: rgba(var(--border-color-hover), var(--border-opacity-hover));
@@ -164,7 +164,7 @@
       text-wrap: nowrap;
       transform: translateX(var(--channel-name-no-hover-margin, 15px));
       opacity: var(--channel-name-no-hover-opacity, 0);
-      transition: transform 0.2s, opacity 0.5s;
+      transition: transform 0.2s, opacity var(--animation-duration-3);
     }
   }
   .listCollapse__07f91 {
@@ -195,7 +195,7 @@
       border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
       border-radius: var(--border-radius-0);
       margin-top: -1px;
-      transition: border-color .5s, box-shadow .5s;
+      transition: border-color var(--animation-duration-3), box-shadow var(--animation-duration-3);
 
       &::after {
         display: none;

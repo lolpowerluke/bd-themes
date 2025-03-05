@@ -102,7 +102,7 @@ html:not(.visual-refresh) {
   }
   .channel__972a0 {
     box-shadow: 0px;
-    transition: box-shadow 0.75s, background-color 1s;
+    transition: box-shadow var(--animation-duration-4), background-color var(--animation-duration-5);
     border-radius: var(--border-radius-xxl);
     background-color: transparent;
     overflow: hidden;
@@ -120,21 +120,21 @@ html:not(.visual-refresh) {
   }
   .search__97492:not(.open__97492) .searchBar__97492 {
     width: 27px;
-    transition: 0.25s;
+    transition: var(--animation-duration-2);
     background-color: transparent;
   }
   .search__97492:not(.open__97492):hover .searchBar__97492 {
     width: 240px;
-    transition: 0.25s;
+    transition: var(--animation-duration-2);
     background-color: var(--background-tertiary);
   }
   .search__97492:not(.open__97492) .iconContainer_fea832 {
     transform: scale(1.2);
-    transition: 0.25s;
+    transition: var(--animation-duration-2);
   }
   .search__97492:not(.open__97492):hover .iconContainer_fea832 {
     transform: scale(1);
-    transition: 0.25s;
+    transition: var(--animation-duration-2);
   }
   #app-mount .search__97492 .searchBar__97492 {
     background: transparent;
@@ -262,7 +262,7 @@ html:not(.visual-refresh) {
     border-bottom-color: black;
     border-radius: var(--border-radius-xl);
     pointer-events: none;
-    transition: border-bottom-color 0.5s ease;
+    transition: border-bottom-color var(--animation-duration-3) ease;
   }
   #app-mount .messagesWrapper__36d07 + .form_f75fb0:not(:hover):not(:focus-within) > .channelTextArea_f75fb0 + .typing_b88801::after,
   #app-mount .messagesWrapper__36d07 + .form_f75fb0:not(:hover):not(:focus-within) > [aria-controls*="popout_"] + .typing_b88801::after {
@@ -363,7 +363,7 @@ html:not(.visual-refresh) {
     box-sizing: border-box;
     backdrop-filter: blur(2px);
     z-index: 1;
-    transition: width .5s;
+    transition: width var(--animation-duration-3);
   }
   .sidebar_c48ade:hover + .chat_f75fb0 .chatHeaderBar_dc83f5 {
     width: calc(100vw - 72px - 240px - 1px - 60px - 16px); /*full window width - guild - sidebar - sidebar border - member bar - extra space for scroll etc*/
@@ -529,7 +529,7 @@ html:not(.visual-refresh) {
   /*Discord Nitro Feature Animations*/
   .featureGrid-SSlfD0 .feature-2IUcBI {
     z-index: 0;
-    transition: transform 0.5s;
+    transition: transform var(--animation-duration-3);
   }
   .featureGrid-SSlfD0 .feature-2IUcBI:hover {
     z-index: 1;
@@ -557,7 +557,7 @@ html:not(.visual-refresh) {
       max-width: 240px !important;
       width: 60px;
       min-height: 100%;
-      transition: all 0.5s;
+      transition: all var(--animation-duration-3);
     }
     .container_c8ffbb:hover,
     .membersWrap_c8ffbb:hover:not(#dv-mount),
@@ -579,7 +579,7 @@ html:not(.visual-refresh) {
       box-shadow: var(--elevation-stroke), var(--elevation-high);
       z-index: 1;
       transform: translateX(calc(100vw - 60px));
-      transition: transform 1s;
+      transition: transform var(--animation-duration-5);
     }
     .content_f75fb0 > .membersWrap_c8ffbb:hover,
     .content_f75fb0 > .container_c8ffbb:hover .membersWrap_c8ffbb,
@@ -771,12 +771,10 @@ html:not(.visual-refresh) {
   .guilds_c48ade,
   .guilds_c48ade div,
   .guilds_c48ade svg {
-    -webkit-transition: height .5s ease, width .5s ease;
-    transition: height .5s ease, width .5s ease;
+    transition: height var(--animation-duration-3) ease, width var(--animation-duration-3) ease;
   }
   .cozy_c19a55.wrapper_c19a55 {
-    -webkit-transition: padding-left .5s ease;
-    transition: padding-left .5s ease;
+    transition: padding-left var(--animation-duration-3) ease;
   }
   @media (min-width: 400px) {
     .cozy_c19a55.wrapper_c19a55 .avatar_c19a55 {
@@ -810,7 +808,7 @@ html:not(.visual-refresh) {
     .cozy_c19a55 .repliedMessage_c19a55:before,
     .contents_c19a55 img,
     .iconContainer__235ca {
-      transition: .5s ease;
+      transition: var(--animation-duration-3) ease;
     }
     .cozy_c19a55 .repliedMessage_c19a55:before {
       --gutter: -1px;
@@ -868,12 +866,12 @@ html:not(.visual-refresh) {
     /* transition */
     #app-mount,
     .container__9293f {
-      transition: .5s ease;
+      transition: var(--animation-duration-3) ease;
     }
     .guilds_c48ade,
     .guilds_c48ade div,
     .guilds_c48ade svg {
-      transition: height .5s ease, width .5s ease;
+      transition: height var(--animation-duration-3) ease, width var(--animation-duration-3) ease;
     }
     /* transparency */
     .children__9293f::after,
@@ -1011,14 +1009,13 @@ html:not(.visual-refresh) {
     }
     .sidebar_c48ade .header_f37cb1 {
       padding: 0 0;
-      -webkit-transition: .5s ease;
-      transition: .5s ease;
+      transition: var(--animation-duration-3) ease;
     }
     .wrapper_ef3116:hover+.base_c48ade .sidebar_c48ade .header_f37cb1,
     .sidebar_c48ade .container__2637a:hover .header_f37cb1,
     .sidebar_c48ade .container__2637a:active .header_f37cb1 {
       padding: 0 16px;
-      transition: .5s ease;
+      transition: var(--animation-duration-3) ease;
     }
     /* memberlist */
     .members_c8ffbb {
@@ -1066,7 +1063,7 @@ html:not(.visual-refresh) {
       max-width: 56px !important;
       min-width: 56px;
       padding: 60px 6px 60px 15px !important;
-      transition: .5s ease;
+      transition: var(--animation-duration-3) ease;
     }
     #app-mount .layer__960e4 ~.layer__960e4  .sidebar__23e6b:hover {
       min-width: 213px;

@@ -9,7 +9,7 @@ html:not(.visual-refresh) {
       min-width: unset;
       max-width: unset;
       border-left: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
-      transition: flex .5s;
+      transition: flex var(--animation-duration-3);
 
       .scroller__7d20c {
         display: flex;
@@ -88,7 +88,7 @@ html:not(.visual-refresh) {
 
       .peopleColumn__133bf {
         flex: 0 0 70%;
-        transition: flex .5s;
+        transition: flex var(--animation-duration-3);
 
         &:has(+ .nowPlayingColumn__133bf:not(:hover)) {
           flex: 0 0 90%;

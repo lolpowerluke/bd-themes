@@ -12,7 +12,7 @@
     .container__37e49 {
       padding: 0;
       border-top: 1px solid transparent;
-      transition: background .5s, border .5s;
+      transition: background var(--animation-duration-3), border var(--animation-duration-3);
       height: 53px;
       box-sizing: border-box;
 

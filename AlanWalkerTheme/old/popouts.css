@@ -446,7 +446,7 @@ html:not(.visual-refresh) {
     padding: 0;
     flex: 1 1 30% !important;
     height: 150px;
-    transition: border 0.5s;
+    transition: border var(--animation-duration-3);
     max-width: fit-content;
   }
   .tile_a2de16:hover {
@@ -564,7 +564,7 @@ html:not(.visual-refresh) {
     border-bottom: 0px solid var(--user-popout);
     border-right: 0px solid var(--user-popout);
     box-shadow: 0;
-    transition: box-shadow 0.5s;
+    transition: box-shadow var(--animation-duration-3);
   }
   #app-mount .react-datepicker__month {
     border-radius: var(--border-radius-0);

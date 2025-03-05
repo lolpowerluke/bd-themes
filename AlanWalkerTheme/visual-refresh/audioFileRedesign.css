@@ -13,7 +13,7 @@
     margin: 12px;
     width: 32px;
     height: 32px;
-    transition: margin .1s, height .1s, width .1s,  border-radius .1s;
+    transition: margin var(--animation-duration-1), height var(--animation-duration-1), width var(--animation-duration-1),  border-radius var(--animation-duration-1);
     background: var(--brand-500);
     border-radius: var(--border-radius-xxl);
   }
@@ -62,7 +62,7 @@
     margin: 0;
     width: 100%;
     height: 100%;
-    transition: margin .1s, height .1s, width .1s;
+    transition: margin var(--animation-duration-1), height var(--animation-duration-1), width var(--animation-duration-1);
     border-radius: var(--border-radius-0);
   }
   .metadataDownload_cf09d8 {
