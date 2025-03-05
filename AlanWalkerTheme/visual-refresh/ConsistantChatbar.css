@@ -50,9 +50,8 @@
     border-color: rgb(var(--border-color-1), var(--border-opacity-1));
     padding-right: 10px;
   }
-  #app-mount .form_f75fb0:hover .channelTextArea_f75fb0,
-  .channelBottomBarArea_f75fb0:focus-within .inner__74017,
-  .channelBottomBarArea_f75fb0:hover .inner__74017 {
+  #app-mount .form_f75fb0:focus-within .channelTextArea_f75fb0,
+  #app-mount .form_f75fb0:hover .channelTextArea_f75fb0 {
     background-color: var(--channeltextarea-background);
     border-color: rgb(var(--border-color-1), var(--border-opacity-1));
   }

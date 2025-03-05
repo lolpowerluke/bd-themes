@@ -14,8 +14,31 @@
   }
   .channelTextArea__74017.channelTextArea__74017 {
     display: grid;
-    grid-template-areas: "floatingBars floatingBars floatingBars floatingBars" "stackedBars stackedBars stackedBars stackedBars" "stickers stickers stickers stickers" "stickerSep stickerSep stickerSep stickerSep" "attachmentBar attachmentBar attachmentBar attachmentBar" "accessoryLeft textBar accessoryRight sendButton";
+    grid-template-areas:  "floatingBars floatingBars floatingBars floatingBars"
+                          "stackedBars stackedBars stackedBars stackedBars"
+                          "stickers stickers stickers stickers"
+                          "stickerSep stickerSep stickerSep stickerSep"
+                          "attachmentBar attachmentBar attachmentBar attachmentBar"
+                          "accessoryLeft textBar accessoryRight sendButton";
     grid-template-columns: [start] min-content [textBar-start] 1fr [textBar-end] min-content [end];
+  }
+  .messageListItem__5126c {.channelTextArea__74017.channelTextArea__74017 {
+    grid-template-areas:  "textBar accessoryRight sendButton"
+                          "accessoryLeft accessoryLeft accessoryLeft";
+    grid-template-columns: [start] 1fr [textBar-start] min-content [textBar-end] min-content [end];
+
+    .accessoryBarLeft__74017.accessoryBarLeft__74017 {
+      margin: 0;
+      padding-left: var(--space-6);
+      padding-right: var(--space-6);
+      box-sizing: border-box;
+
+      .operations_bab751 {
+        padding: var(--space-6) var(--space-4);
+        border-top: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+      }
+    }
+  }
   }
 
   .floatingBars__74017 {
@@ -72,6 +95,29 @@
     overflow: hidden scroll;
     margin-right: 4px;
     padding-left: 12px;
+  }
+  .messageListItem__5126c {
+    .channelTextArea__5126c {
+      background-color: transparent;
+      box-shadow: unset;
+      border: 0;
+      border-width: 1px;
+      box-sizing: border-box;
+      border-style: solid;
+      border-color: transparent;
+      background-color: transparent;
+      transition: border-color 0.5s, background-color 0.5s;
+      border-radius: var(--border-radius-m);
+
+      .textArea__74017 {
+        min-height: unset;
+      }
+      &:focus-within,
+      &:hover {
+        background-color: var(--channeltextarea-background);
+        border-color: rgb(var(--border-color-1), var(--border-opacity-1));
+      }
+    }
   }
   .placeholder__1b31f {
     padding-left: 12px !important;
@@ -158,8 +204,8 @@
   }
 
   .operations_bab751 {
-    position: absolute;
-    bottom: -26px;
+    position: relative;
+    bottom: 0px;
     left: 0;
     right: 0;
   }
