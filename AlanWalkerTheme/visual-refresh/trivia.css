@@ -99,6 +99,10 @@
         height: 100vh;
         border: 0;
         border-right: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+
+        .scroller__99e7c {
+          margin-bottom: var(--custom-app-panels-height);
+        }
       }
       .guilds_c48ade {
         height: calc(100vh - var(--guild-margin-bottom) - 62px);
