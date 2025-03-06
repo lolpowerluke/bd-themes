@@ -205,7 +205,7 @@ html:not(.visual-refresh) {
   }
   /*Message Stuff*/
   #app-mount .scrollerContent__36d07 .message__5126c {
-    transition: background-color 0.3s;
+    transition: background-color var(--animation-duration-2);
   }
   #app-mount .scrollerContent__36d07 .message__5126c:hover {
     background-color: var(--message-hover);
@@ -224,7 +224,7 @@ html:not(.visual-refresh) {
     pointer-events: auto;
   }
   .buttons__5126c {
-    transition: opacity 0.3s;
+    transition: opacity var(--animation-duration-2);
   }
   @media (max-width: 700px) {
     .buttons__5126c {
@@ -534,7 +534,7 @@ html:not(.visual-refresh) {
   .featureGrid-SSlfD0 .feature-2IUcBI:hover {
     z-index: 1;
     transform: scale(1.2);
-    transition-delay: 0.2s;
+    transition-delay: var(--animation-duration-2);
   }
   /*Member List*/
   .content_f75fb0 > .membersWrap_c8ffbb,

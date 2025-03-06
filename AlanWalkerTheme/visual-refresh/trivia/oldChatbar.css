@@ -106,7 +106,7 @@
       border-style: solid;
       border-color: transparent;
       background-color: transparent;
-      transition: border-color 0.5s, background-color 0.5s;
+      transition: border-color var(--animation-duration-3), background-color var(--animation-duration-3);
       border-radius: var(--border-radius-m);
 
       .textArea__74017 {

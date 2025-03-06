@@ -15,11 +15,7 @@
   border-radius: var(--border-radius-s);
   color: transparent;
   transform-origin: right;
-  transition:
-    transform var(--stream-mode-hover-duration),
-    border-radius var(--stream-mode-hover-duration),
-    font-size var(--stream-mode-hover-duration),
-    color var(--stream-mode-hover-duration);
+  transition: transform var(--stream-mode-hover-duration), border-radius var(--stream-mode-hover-duration), font-size var(--stream-mode-hover-duration), color var(--stream-mode-hover-duration);
 }
 .notice__6e2b9.colorStreamerMode__6e2b9:hover {
   font-size: 14px;
@@ -33,9 +29,7 @@
   padding: 0 3px;
   margin-left: 0px;
   transform-origin: right;
-  transition: 
-    margin-left var(--stream-mode-hover-duration),
-    transform var(--stream-mode-hover-duration);
+  transition: margin-left var(--stream-mode-hover-duration), transform var(--stream-mode-hover-duration);
 }
 .notice__6e2b9.colorStreamerMode__6e2b9:hover .button__6e2b9 {
   transform: scaleX(1);

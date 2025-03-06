@@ -164,7 +164,7 @@
       text-wrap: nowrap;
       transform: translateX(var(--channel-name-no-hover-margin, 15px));
       opacity: var(--channel-name-no-hover-opacity, 0);
-      transition: transform 0.2s, opacity var(--animation-duration-3);
+      transition: transform var(--animation-duration-2), opacity var(--animation-duration-3);
     }
   }
   .listCollapse__07f91 {
