@@ -536,67 +536,6 @@ html:not(.visual-refresh) {
     transform: scale(1.2);
     transition-delay: var(--animation-duration-2);
   }
-  /*Member List*/
-  .content_f75fb0 > .membersWrap_c8ffbb,
-  .content_f75fb0 > .container_c8ffbb .membersWrap_c8ffbb,
-  #app-mount .ChannelDms-channelmembers-wrap {
-    background-color: rgba(0, 0, 0, 0.9);
-  }
-  .bd-transparency #app-mount aside.membersWrap_c8ffbb {
-    background-color: rgb(var(--back-memberlist), var(--back-memberlist-opacity));
-  }
-  .members_c8ffbb,
-  .members_c8ffbb > div {
-    background-color: transparent;
-  }
-  @media (min-width: 701px) {
-    .container_c8ffbb,
-    .membersWrap_c8ffbb:not(#dv-mount),
-    .membersWrap_c8ffbb:not(#dv-mount) > div {
-      min-width: 60px !important;
-      max-width: 240px !important;
-      width: 60px;
-      min-height: 100%;
-      transition: all var(--animation-duration-3);
-    }
-    .container_c8ffbb:hover,
-    .membersWrap_c8ffbb:hover:not(#dv-mount),
-    .membersWrap_c8ffbb:hover:not(#dv-mount) > div {
-      width: 240px;
-      min-width: 240px !important;
-    }
-  }
-  @media (max-width: 700px) {
-    .content_f75fb0 > .membersWrap_c8ffbb,
-    .content_f75fb0 > .container_c8ffbb .membersWrap_c8ffbb,
-    #app-mount .ChannelDms-channelmembers-wrap {
-      position: fixed;
-      right: 0;
-      overflow: hidden;
-      height: calc(100% - 64px);
-      width: 240px;
-      max-height: unset;
-      box-shadow: var(--elevation-stroke), var(--elevation-high);
-      z-index: 1;
-      transform: translateX(calc(100vw - 60px));
-      transition: transform var(--animation-duration-5);
-    }
-    .content_f75fb0 > .membersWrap_c8ffbb:hover,
-    .content_f75fb0 > .container_c8ffbb:hover .membersWrap_c8ffbb,
-    #app-mount .ChannelDms-channelmembers-wrap:hover {
-      transform: translateX(0px);
-    }
-    .membersWrap_c8ffbb:not(#dv-mount),
-    .membersWrap_c8ffbb:not(#dv-mount) > div {
-      width: 100vw;
-    }
-    .member__5d473 {
-      max-width: calc(100% - 16px);
-    }
-    .container_c8ffbb {
-      width: 0px;
-    }
-  }
   /*DM/Channel list*/
   @media (max-width: 700px) {
     #app-mount .sidebar_c48ade > .privateChannels__35e86,
