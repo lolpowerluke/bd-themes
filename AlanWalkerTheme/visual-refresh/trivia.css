@@ -11,6 +11,10 @@
       grid-template-rows: auto 1fr;
       grid-column: unset;
       grid-row: unset;
+
+      .chat_f75fb0 {
+        border: 0;
+      }
     }
     .bar_c38106 {
       position: fixed;
