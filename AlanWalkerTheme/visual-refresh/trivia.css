@@ -1,11 +1,17 @@
 .visual-refresh {
   /*base layout*/
   .base_c48ade {
-    grid-template-areas:
-        "guildsList channelsList notice"
-        "guildsList channelsList page";
-    grid-template-rows: [top] min-content [titleBarEnd] min-content [noticeEnd] 1fr [end];
+    display: block;
 
+    .content_c48ade {
+      grid-template-areas:
+          "sidebar notice"
+          "sidebar page";
+      grid-template-columns: auto 1fr;
+      grid-template-rows: auto 1fr;
+      grid-column: unset;
+      grid-row: unset;
+    }
     .bar_c38106 {
       position: fixed;
       top: 0;
@@ -94,11 +100,21 @@
     }
     .sidebar_c48ade {
       height: 100vh;
+      display: grid;
+      grid-template-areas: 
+          "guild channel"
+          "guild panels";
+      grid-template-columns: auto 1fr;
+      grid-template-rows: auto 1fr;
+      grid-column: unset;
+      grid-row: unset;
+      grid-area: sidebar;
 
       .sidebarList_c48ade {
         height: 100vh;
         border: 0;
         border-right: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+        grid-area: channel;
 
         .scroller__99e7c {
           margin-bottom: var(--custom-app-panels-height);
@@ -108,6 +124,7 @@
         height: calc(100vh - var(--guild-margin-bottom) - 62px);
         margin-bottom: var(--guild-margin-bottom);
         margin-top: 62px;
+        grid-area: guild;
 
         .tutorialContainer__1f388 {
           position: fixed;

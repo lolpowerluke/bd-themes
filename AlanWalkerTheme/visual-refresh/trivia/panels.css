@@ -1,11 +1,11 @@
 .visual-refresh {
   .panels_c48ade {
-    width: calc(100% - var(--custom-guild-list-width) - 3px);
+    grid-area: panels;
+    width: 100%;
     border: 0;
     border-radius: 0;
     padding: 0;
-    padding-bottom: 1px;
-    left: calc(var(--custom-guild-list-width) + 2px);
+    left: 0;
     bottom: 0;
     background: transparent;
 
