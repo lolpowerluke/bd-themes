@@ -76,7 +76,6 @@ html:not(.visual-refresh) {
       margin-top: 60px;
 
       .itemsContainer_ef3116 {
-        .scroller_ef3116 {
           .listItem__650eb {
             width: 56px;
           }
@@ -91,7 +90,6 @@ html:not(.visual-refresh) {
               top: 50px;
             }
           }
-        }
       }
       .wrapper__58105 {
         height: calc(56px * 0.625);
