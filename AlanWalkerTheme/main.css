@@ -16,6 +16,7 @@
   /*Buttons*/
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/old/buttons.css');
   /*Plugin compatibility*/
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/plugins.css');
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/old/plugins.css');
   /*Server bar*/
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/old/serverList.css');

@@ -1,0 +1,3 @@
+.panels_c48ade .container__37e49 .buttons__37e49:has(+ .buttons__37e49) {
+  margin-bottom: calc(var(--guild-margin-bottom) - 60px);
+}
