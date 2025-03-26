@@ -16,7 +16,7 @@
         border: 0;
       }
     }
-    .bar_c38106 {
+    /* .bar_c38106 {
       position: fixed;
       top: 0;
       right: 0;
@@ -37,7 +37,7 @@
       .title_c38106 {
         display: none;
       }
-    }
+    } */
     .subtitleContainer_f75fb0 {
       display: grid;
       grid-template-areas: 'chatbar .';
