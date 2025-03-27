@@ -2,6 +2,10 @@
   width: 16px;
   height: 16px;
 }
+#app-mount .none_d125d2::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
 #app-mount .thin__99f8c::-webkit-scrollbar {
   width: 8px;
   height: 8px;
