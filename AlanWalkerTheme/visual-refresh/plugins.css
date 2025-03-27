@@ -372,7 +372,6 @@ body .pc-notices .pc-notice-container {
 }
 /*Channeltabs*/
 #channelTabs-container {
-  background: rgb(var(--back-gradient-top), var(--back-gradient-opacity));
   padding: 4px 4px 4px 4px;
   display: flex;
   border-bottom: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
