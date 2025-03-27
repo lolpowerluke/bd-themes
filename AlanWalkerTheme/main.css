@@ -15,6 +15,8 @@
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/old/separators.css');
   /*Buttons*/
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/old/buttons.css');
+  /*Scrollbar*/
+    @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/scrollbar.css');
   /*Plugin compatibility*/
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/plugins.css');
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/old/plugins.css');
@@ -59,7 +61,7 @@
   /*Message bar*/
     @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/ConsistantChatbar.css'); /*Thanks to dablulite for creating this*/
   /*Trivia*/
-  /* @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/trivia.css'); */
+  @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/trivia.css');
   @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/trivia/friendListPlayingCards.css');
   @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/trivia/transparency.css');
   @import url('https://lolpowerluke.github.io/bd-themes/AlanWalkerTheme/visual-refresh/trivia/panels.css');

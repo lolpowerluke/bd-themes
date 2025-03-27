@@ -8,6 +8,10 @@
     left: 0;
     bottom: 0;
     background: transparent;
+    position: relative;
+    border-right: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+    width: var(--siderbar-no-hover-width, 60px) !important;
+    transition: width var(--animation-duration-3, 0.5s);
 
     .container__37e49 {
       padding: 0;
@@ -23,6 +27,7 @@
       .avatarWrapper__37e49 {
         background: transparent;
         padding: var(--space-6) var(--space-8);
+        box-sizing: border-box;
         margin: 0;
 
         .wrapper__44b0c {
