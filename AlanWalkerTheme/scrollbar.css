@@ -10,11 +10,9 @@
   width: 8px;
   height: 8px;
 }
-#app-mount .scrollableContainer__74017 > .inner__74017 {
-  &::-webkit-scrollbar {
-    width: 12px;
-    height: 12px;
-  }
+#app-mount .scrollableContainer__74017 > .inner__74017::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
 }
 #app-mount *::-webkit-scrollbar-thumb {
   background-color: rgba(var(--border-color-1), var(--border-opacity-1));
