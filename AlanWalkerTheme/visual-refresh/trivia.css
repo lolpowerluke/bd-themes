@@ -142,8 +142,8 @@
     height: fit-content !important;
     width: fit-content !important;
     max-height: unset !important;
-    min-height: 50px !important;
-    min-width: 50px;
+    min-height: var(--call-min-height) !important;
+    min-width: var(--call-min-width);
 
     .callContainer_cb9592 {
       resize: both;
@@ -151,8 +151,8 @@
       border-radius: var(--border-radius-m);
       background-color: transparent;
       backdrop-filter: blur(2px);
-      min-height: 50px;
-      min-width: 50px;
+      min-height: var(--call-min-height);
+      min-width: var(--call-min-width);
 
       .root_bfe55a {
         background-color: transparent;
