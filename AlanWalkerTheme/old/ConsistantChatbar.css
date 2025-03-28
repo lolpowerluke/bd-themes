@@ -93,6 +93,27 @@ html:not(.visual-refresh-chat-input) {
   .channelTextArea_f75fb0 {
     margin-bottom: 0;
     border-radius: var(--border-radius-0);
+    overflow: hidden;
+    height: fit-content;
+    border: 0;
+  
+    .themedBackground__74017 {
+      overflow-y: hidden;
+      height: fit-content;
+    
+      &.scrollableContainer__74017 > .inner__74017 {
+        height: fit-content;
+        overflow: hidden scroll;
+        max-height: var(--custom-channel-textarea-text-area-max-height);
+        align-items: flex-start;
+    
+        .attachWrapper__0923f {
+          height: fit-content;
+          position: sticky;
+          top: 0;
+        }
+      }
+    }
   }
   .webkit__8d35a .buttons__74017 {
     margin-right: 4px;
