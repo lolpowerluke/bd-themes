@@ -169,6 +169,7 @@
   grid-template-rows: auto 1fr;
 
   .page_c48ade,
+  .page_c48ade > div,
   .container__133bf,
   .applicationStore_f07d62,
   .applicationStore_f07d62 .homeWrapper__0920e,
@@ -178,7 +179,7 @@
   .shopViewWrapper__6db1d.visible__6db1d,
   .chat_f75fb0,
   .content_c48ade {
-    display: contents;
+    display: contents !important;
     grid-column: unset;
     grid-row: unset;
     grid-area: unset;
