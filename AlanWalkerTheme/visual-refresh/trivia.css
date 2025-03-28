@@ -62,10 +62,6 @@
   #channelTabs-container {
     grid-area: channelTabs;
   }
-  #channelTabs-container ~ .layers__160d8 .guilds_c48ade {
-    height: calc(100% - var(--guild-margin-bottom));
-    margin-top: 0;
-  }
   .sidebarList_c48ade {
     box-sizing: border-box;
     border: 0;
