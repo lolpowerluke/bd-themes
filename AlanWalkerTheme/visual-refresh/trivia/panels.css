@@ -13,6 +13,19 @@
     width: var(--siderbar-no-hover-width, 60px) !important;
     transition: width var(--animation-duration-3, 0.5s);
 
+    &:hover {
+      width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width)) !important;
+
+      .container__37e49 {
+        .nameTag__37e49 {
+          opacity: 1;
+        }
+        .avatarWrapper__37e49 {
+          margin-left: 0;
+        }
+      }
+    }
+
     .container__37e49 {
       padding: 0;
       border-top: 1px solid transparent;
