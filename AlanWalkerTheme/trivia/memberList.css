@@ -5,9 +5,15 @@
 .bd-transparency #app-mount aside.membersWrap_c8ffbb {
   background-color: rgb(var(--back-memberlist), var(--back-memberlist-opacity));
 }
+.visual-refresh .container__91a9d,
+.visual-refresh .container_c8ffbb,
 .members_c8ffbb,
 .members_c8ffbb > div {
   background-color: transparent;
+
+  .member__5d473 {
+    margin: 0;
+  }
 }
 @media (min-width: 701px) {
   .container_c8ffbb {
