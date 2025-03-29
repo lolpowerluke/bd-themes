@@ -60,6 +60,9 @@
       }
     }
   }
+  #bd-notices {
+    grid-area: notice;
+  }
   #channelTabs-container {
     grid-area: channelTabs;
   }
