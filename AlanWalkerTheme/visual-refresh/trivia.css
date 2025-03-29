@@ -1,11 +1,12 @@
 .visual-refresh .app__160d8 {
   display: grid;
   grid-template-areas: 
+    'sidebar notice notice'
     'sidebar channelTabs channelTabs'
     'sidebar chat_header titlebar'
     'sidebar chat chat';
   grid-template-columns: auto 1fr auto;
-  grid-template-rows: auto 1fr;
+  grid-template-rows: repeat(3, auto) 1fr;
 
   .page_c48ade,
   .page_c48ade > div,

@@ -4,6 +4,7 @@
 .app__160d8::before {
 	content: "theme outdated, please redownload from https://lolpowerluke.github.io/bd-stuff/bd.html";
 	display: var(--version-1-3-5-4);
+  grid-area: notice;
 	color: #fff;
 	position: relative;
 	text-align: center;
