@@ -119,6 +119,12 @@
   .subtitleContainer_f75fb0 {
     grid-area: chat_header;
     -webkit-app-region: drag;
+
+    .children__9293f {
+      display: grid;
+      grid-auto-flow: column;
+      justify-content: start;
+    }
   }
   .container__6f73d,
   .shopViewWrapper__6db1d,
