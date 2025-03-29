@@ -23,6 +23,7 @@
       }
       .iconLayout_a45028 {
         margin: 0;
+        margin-right: 8px;
         height: 100%;
       }
     }
@@ -39,6 +40,7 @@
   .peopleList__5ec2f {
     margin: 0;
     padding: 0 5px !important;
+    overflow: hidden auto !important;
     width: 100%;
 
     .peopleListItem_cc6179 {
@@ -48,136 +50,27 @@
     }
   }
 }
-@media (max-width: 700px) {
-  .peopleColumn__133bf .peopleList__5ec2f {
-    .peopleListItem_cc6179 {
-      margin: -1px 0 0 0;
-      padding: 0 12px;
-      border-radius: var(--border-radius-0);
-      background-color: var(--back-friendlist-friends);
-    
-      &:has(+ .peopleListItem_cc6179) {
-        border-bottom-color: transparent;
-      }
-      &:first-child {
-        margin: 0;
-        border-top-left-radius: var(--border-radius-m);
-        border-top-right-radius: var(--border-radius-m);
-      }
-      &:last-child {
-        border-bottom-left-radius: var(--border-radius-m);
-        border-bottom-right-radius: var(--border-radius-m);
-      }
-      &:hover {
-        background-color: var(--back-friendlist-friends-hover);
-      }
+.peopleColumn__133bf .peopleList__5ec2f {
+  .peopleListItem_cc6179 {
+    margin: -1px 0 0 0;
+    padding: 0 12px;
+    border-radius: var(--border-radius-0);
+    background-color: var(--back-friendlist-friends);
+  
+    &:has(+ .peopleListItem_cc6179) {
+      border-bottom-color: transparent;
+    }
+    &:last-child {
+      border-bottom-left-radius: var(--border-radius-m);
+      border-bottom-right-radius: var(--border-radius-m);
+    }
+    &:hover {
+      background-color: var(--back-friendlist-friends-hover);
     }
   }
-}
-@media (min-width: 701px)  {
-  .peopleColumn__133bf .peopleList__5ec2f {
-    padding: 10px !important;
-    
-    .sectionTitle__5ec2f {
-      position: relative;
-      grid-column: 1/-1;
-    }
-    & > div {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(var(--friendlist-friends-min-width), 1fr));
-      gap: 10px;
-
-      .peopleListItem_cc6179 {
-        max-width: unset;
-        border-radius: var(--border-radius-m);
-        height: 140px !important;
-        box-shadow: inset 0 0 10px rgb(var(--border-color-1), var(--border-opacity-1));
-        transition: box-shadow var(--animation-duration-3), border-color var(--animation-duration-3), transform var(--animation-duration-3);
-        overflow: visible;
-        position: relative;
-
-        &::after {
-          content: "";
-          position: absolute;
-          inset: 0;
-          background-image: var(--user-background);
-          background-color: var(--back-friendlist-friends);
-          background-size: contain;
-          background-repeat: no-repeat;
-          background-position: right;
-          z-index: -1;
-          filter: blur(2px);
-        }
-        .listItemContents_fc004c {
-          width: 100%;
-          padding: 10px;
-          display: grid;
-          grid-template-areas: 
-          "usr ."
-          "usr ."
-          "usr btns";
-          grid-template-columns: 1fr auto;
-          grid-template-rows: 1fr 1fr 1fr;
-
-          .userInfo__0a06e {
-            grid-area: usr;
-            height: 100%;
-            display: grid;
-            grid-template-rows: 2fr 1fr;
-            gap: 10px;
-
-            .avatar__0a06e {
-              width: unset !important;
-              height: 100% !important;
-              margin: 0;
-
-              .svg__44b0c {
-                height: 100%;
-
-                foreignObject {
-                  mask: unset;
-                  border-radius: calc(var(--border-radius-m) / 2);
-                  width: 100%;
-                  height: 100%;
-                  mask: url(https://i.imgur.com/8dNLS7D.png) -10px -10px/50px 50px luminance no-repeat;
-                }
-                rect {
-                  x: 27;
-                  y: 27;
-                }
-                rect[mask*="mobile"] {
-                  width: 6px;
-                  height: 9px;
-                  x: 29;
-                  y: 28;
-                }
-              }
-            }
-          }
-          .actions_fc004c {
-            grid-area: btns;
-            margin: 0;
-            gap: 5px;
-            
-            .actionButton_f8fa06 {
-              margin: 0;
-              background-color: var(--back-color-boxes);
-            }
-          }
-        }
-        &:hover {
-          background-color: var(--back-friendlist-friends-hover);
-          transform: scale(1.02);
-          box-shadow: inset 0 0 20px rgba(var(--border-color-hover), var(--border-opacity-hover));
-          border-color: rgba(var(--border-color-hover), var(--border-opacity-hover));
-
-          .listItemContents_fc004c .actions_fc004c {
-            .actionButton_f8fa06 {
-              background-color: var(--back-color-boxes-hover);
-            }
-          }
-        }
-      }
-    }
+  .sectionTitle__5ec2f + .peopleListItem_cc6179 {
+    margin: 0;
+    border-top-left-radius: var(--border-radius-m);
+    border-top-right-radius: var(--border-radius-m);
   }
 }
