@@ -118,6 +118,7 @@
   .container__9293f,
   .subtitleContainer_f75fb0 {
     grid-area: chat_header;
+    -webkit-app-region: drag;
   }
   .container__6f73d,
   .shopViewWrapper__6db1d,
