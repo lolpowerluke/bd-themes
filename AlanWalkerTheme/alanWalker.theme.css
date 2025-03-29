@@ -46,10 +46,6 @@
   
   /*Transparent Chat Header*/
   --margin-chat-top: 48px; /*On: 48px, off: 0px*/
-  
-  /*Frienlist*/
-  --friendlist-friends-min-width: 300px;
-  --friendlist-friends-max-width: 650px;
 
   /*Member list*/
   --memberlist-no-hover-width: 60px;
