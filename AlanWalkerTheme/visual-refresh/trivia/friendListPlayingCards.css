@@ -63,17 +63,14 @@
             }
           }
         }
-        .itemCard__7e549:not(:has(+ [stlye] + .itemCard__7e549)),
-        .itemCard__7e549:not(:has(+ .itemCard__7e549)) {
+        .itemCard__7e549:not(:has(+ [style] + .itemCard__7e549)) {
           border-bottom-left-radius: var(--border-radius-m);
           border-bottom-right-radius: var(--border-radius-m);
         }
-        .itemCard__7e549:hover + [style] + .itemCard__7e549,
-        .itemCard__7e549:hover + .itemCard__7e549 {
+        .itemCard__7e549:hover + [style] + .itemCard__7e549 {
           border-top-color: transparent;
         }
-        .itemCard__7e549:where(:has(+ [style] + .itemCard__7e549)),
-        .itemCard__7e549:where(:has(+ .itemCard__7e549)) {
+        .itemCard__7e549:where(:has(+ [style] + .itemCard__7e549)) {
           border-bottom-color: transparent;
         }
         .emptyCard__7e549 {
