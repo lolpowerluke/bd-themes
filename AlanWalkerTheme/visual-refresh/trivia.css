@@ -157,7 +157,8 @@
     z-index: 5;
     height: fit-content !important;
     width: fit-content !important;
-    max-height: unset !important;
+    max-height: calc(100vh - 100px) !important;
+    max-width: calc(100vw - 50px) !important;
     min-height: var(--call-min-height) !important;
     min-width: var(--call-min-width);
 
