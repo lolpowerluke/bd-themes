@@ -145,9 +145,14 @@
   }
   .wrapper_cb9592.fullScreen_cb9592 {
     position: absolute;
-    width: 100vw;
-    height: 100vh;
+    width: 100vw !important;
+    height: 100vh !important;
     inset: 0;
+
+    .callContainer_cb9592 {
+      width: 100vw !important;
+      height: 100vh !important;
+    }
   }
   .wrapper_cb9592:not(.fullScreen_cb9592) {
     position: absolute;
