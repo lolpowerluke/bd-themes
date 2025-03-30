@@ -75,6 +75,8 @@
       margin-bottom: 0;
     }
   }
+  .sidebarResizeHandle_c48ade:active + .panels_c48ade,
+  .sidebarResizeHandle_c48ade:hover + .panels_c48ade,
   .sidebarList_c48ade:hover ~ .panels_c48ade {
     width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width)) !important;
   }
