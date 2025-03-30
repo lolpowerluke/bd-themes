@@ -25,6 +25,14 @@
   border: 4px solid transparent;
   border-radius: var(--border-radius-m);
 }
+#app-mount .thin_d125d2::-webkit-scrollbar-thumb,
+#app-mount .thin_d125d2::-webkit-scrollbar-track,
+#app-mount .thin__99f8c::-webkit-scrollbar-thumb,
+#app-mount .thin__99f8c::-webkit-scrollbar-track {
+  background-clip: padding-box;
+  border: 4px solid transparent;
+  border-radius: var(--border-radius-m);
+}
 #app-mount *::-webkit-scrollbar-track {
   border-width: medium;
   border-width: initial;
