@@ -1,5 +1,6 @@
 .visual-refresh {
   .panels_c48ade {
+    display: block;
     grid-area: panels;
     width: 100%;
     border: 0;
