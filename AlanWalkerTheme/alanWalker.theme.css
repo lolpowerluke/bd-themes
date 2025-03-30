@@ -46,7 +46,7 @@
   
   /*Transparent Chat Header*/
   --margin-chat-top: 48px; /*On: 48px, off: 0px*/
-
+  
   /*Member list*/
   --memberlist-no-hover-width: 60px;
   --memberlist-hover-width: 240px;
@@ -62,8 +62,8 @@
   --stream-mode-hover-delay: 1s;
 
   /*Call overlay minimum values*/
-  --call-min-width: 300px;
-  --call-min-height: 200px;
+  --call-min-width: 600px;
+  --call-min-height: 450px;
 
   /*Spacing*/
   --space-4: 4px;
@@ -97,7 +97,11 @@
   /*Put any variable here you want to apply only if bd's transpareny settings is enabled*/
   --bd-addon-cards-opacity: 0.8;
 }
+.theme-midnight,
 .theme-dark,
+#app-mount .theme-midnight,
+#app-mount .theme-dark,
+:root.theme-midnight,
 :root.theme-dark {
   /*title bar*/
   --title-bar-color: rgb(116, 116, 116); 
@@ -282,9 +286,12 @@
   --back-user-buttons-700: rgb(0,0,0,0.4);
   --back-user-buttons-hover-700: rgba(255, 255, 255, 0.2);
 }
+.theme-midnight .bd-transparency,
 .theme-dark .bd-transparency,
-:root.theme-dark .bd-transparency,
-.bd-transparency .theme-dark {
+.bd-transparency #app-mount .theme-midnight,
+.bd-transparency #app-mount .theme-dark,
+:root.theme-midnight .bd-transparency,
+:root.theme-dark .bd-transparency {
   /*Put any variable here you want to apply only if bd's transpareny settings is enabled*/
   /*background gradient*/
   --back-gradient-opacity: .8;
@@ -303,6 +310,7 @@
   /*idk*/
   --back-user-buttons: transparent;
 }
+#app-mount .theme-light,
 .theme-light,
 :root.theme-light {
   /*title bar*/
@@ -489,7 +497,7 @@
 }
 .theme-light .bd-transparency,
 :root.theme-light .bd-transparency,
-.bd-transparency .theme-light {
+.bd-transparency #app-mount .theme-light {
   /*Put any variable here you want to apply only if bd's transpareny settings is enabled*/
   /*background gradient*/
   --back-gradient-opacity: .6;
