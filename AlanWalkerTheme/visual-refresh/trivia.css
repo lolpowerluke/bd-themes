@@ -143,7 +143,7 @@
   .messagesWrapper__36d07 {
     height: 100vh;
   }
-  .wrapper_cb9592 {
+  .wrapper_cb9592:not(.fullScreen_cb9592) {
     position: absolute;
     top: 100px;
     right: 50px;
