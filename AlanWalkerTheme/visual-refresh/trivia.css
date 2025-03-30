@@ -199,3 +199,30 @@
 .visual-refresh .sidebar_c48ade:after {
   display: none;
 }
+/*Chat search bar*/
+#app-mount .search__97492.open__97492 .searchBar__97492 {
+  background-color: var(--back-color-search-bar);
+}
+.search__97492 {
+  .searchBar__97492 {
+    width: 27px;
+    transition: var(--animation-duration-2) all;
+    border-radius: var(--border-radius-m);
+    border: 1px solid transparent;
+
+    .DraftEditor-root {
+      padding: 0;
+    }
+  }
+  .iconContainer_fea832 {
+    transform: scale(1.2);
+    transition: var(--animation-duration-2);
+  }
+  .searchBar__97492 {
+    background: transparent;
+  }
+}
+/*chat header*/
+.visual-refresh .container__9293f {
+  border-bottom: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+}
