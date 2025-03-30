@@ -129,9 +129,6 @@
         .separator_c1e9c4 {
           margin: 0 4px;
         }
-        [aria-hidden="true"] {
-          display: none;
-        }
       }
     }
   }
