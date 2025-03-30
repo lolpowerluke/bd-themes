@@ -24,6 +24,7 @@
   background-clip: padding-box;
   border: 4px solid transparent;
   border-radius: var(--border-radius-m);
+  visibility: visible;
 }
 #app-mount .thin_d125d2::-webkit-scrollbar-thumb,
 #app-mount .thin_d125d2::-webkit-scrollbar-track,
