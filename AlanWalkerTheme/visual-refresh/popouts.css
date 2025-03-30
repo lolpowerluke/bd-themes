@@ -1,0 +1,79 @@
+.visual-refresh {
+  .layerContainer_da8173 {
+    [role="dialog"]{
+      .recentMentionsPopout__95796,
+      .container__2692d,
+      .container_fc561d,
+      .root__49fc1 {
+        background-color: transparent;
+        backdrop-filter: blur(2px);
+        overflow: hidden;
+        box-shadow: unset;
+        border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+
+        .header_ab6641,
+        .header__49fc1 {
+          background-color: var(--popout-header);
+          padding: 4px 8px;
+
+          .headerTabs_ab6641 {
+            margin: 0;
+          }
+        }
+        .container_d404a3,
+        .messagesPopout__45690,
+        .container__0f711 {
+          background-color: var(--popout-body);
+          padding-right: 0 !important;
+
+          .container__95796 {
+            padding: 0;
+            margin: 0;
+
+            .channelHeader__35a7e {
+              background-color: var(--popout-header);
+              backdrop-filter: blur(2px);
+              filter: blur(0);
+              padding: 8px 4px 8px 8px;
+              height: fit-content;
+            }
+            .messageContainer__95796 {
+              background-color: transparent;
+              border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+              padding: 0;
+              margin: 4px;
+              margin-right: 0;
+
+              .message__95796 {
+                padding: 1px 0 1px 52px;
+
+                .messageContent_c19a55 {
+                  padding: 0;
+                  margin: 0;
+                }
+                .avatar_c19a55 {
+                  left: 4px;
+                }
+              }
+            }
+          }
+          .unread__6fddf {
+            top: 50%;
+            transform: translateY(-50%);
+          }
+        }
+        .content__49fc1 {
+          background-color: var(--popout-body);
+          padding: 4px 0 0 8px;
+          padding-right: 0 !important;
+          overflow: hidden !important;
+        }
+        .footer_cba592 {
+          background-color: var(--popout-footer);
+          border-top: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+          padding: 8px;
+        }
+      }
+    }
+  }
+}
