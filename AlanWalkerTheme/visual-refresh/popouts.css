@@ -1,6 +1,7 @@
 .visual-refresh {
   .layerContainer_da8173 {
     [role="dialog"]{
+      .messagesPopoutWrap__45690,
       .recentMentionsPopout__95796,
       .container__2692d,
       .container_fc561d,
@@ -11,6 +12,10 @@
         box-shadow: unset;
         border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
 
+        .header__45690 {
+          background-color: var(--popout-header);
+          padding: 8px 8px;
+        }
         .header_ab6641,
         .header__49fc1 {
           background-color: var(--popout-header);
@@ -26,9 +31,13 @@
           background-color: var(--popout-body);
           padding-right: 0 !important;
 
+          & > div[role="list"],
           .container__95796 {
             padding: 0;
             margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
 
             .channelHeader__35a7e {
               background-color: var(--popout-header);
@@ -37,15 +46,25 @@
               padding: 8px 4px 8px 8px;
               height: fit-content;
             }
+            .messageGroupWrapper__45690 {
+              background-color: transparent;
+              border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+              padding: 0;
+              margin: 0;
+            }
             .messageContainer__95796 {
               background-color: transparent;
               border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
               padding: 0;
               margin: 4px;
               margin-right: 0;
-
+            }
+            .messageContainer__95796,
+            .messageGroupWrapper__45690 {
+              .wrapper_c19a55,
               .message__95796 {
                 padding: 1px 0 1px 52px;
+                margin: 0;
 
                 .messageContent_c19a55 {
                   padding: 0;
@@ -68,6 +87,7 @@
           padding-right: 0 !important;
           overflow: hidden !important;
         }
+        .footer__45690,
         .footer_cba592 {
           background-color: var(--popout-footer);
           border-top: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
