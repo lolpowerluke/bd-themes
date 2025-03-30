@@ -30,6 +30,7 @@
         .container__0f711 {
           background-color: var(--popout-body);
           padding-right: 0 !important;
+          padding-bottom: 8px;
 
           & > div[role="list"],
           .container__95796 {
