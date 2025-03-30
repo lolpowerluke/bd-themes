@@ -143,6 +143,12 @@
   .messagesWrapper__36d07 {
     height: 100vh;
   }
+  .wrapper_cb9592.fullScreen_cb9592 {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    inset: 0;
+  }
   .wrapper_cb9592:not(.fullScreen_cb9592) {
     position: absolute;
     top: 100px;
