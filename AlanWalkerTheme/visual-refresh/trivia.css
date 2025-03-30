@@ -129,6 +129,9 @@
       justify-content: start;
     }
   }
+  .subtitleContainer_f75fb0 > * > * > * > * {
+    -webkit-app-region: no-drag;
+  }
   .container__6f73d,
   .shopViewWrapper__6db1d,
   .shop__08415,
