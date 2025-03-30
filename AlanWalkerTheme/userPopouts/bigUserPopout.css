@@ -3,7 +3,6 @@
     .focusLock__49fc1 .root__49fc1 {
       & > .fullSize_c0bea0 {
         width: 900px;
-        border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
         border-radius: var(--border-radius-m);
 
         .inner_c0bea0 {
