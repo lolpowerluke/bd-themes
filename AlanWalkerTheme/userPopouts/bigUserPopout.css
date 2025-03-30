@@ -3,7 +3,10 @@
     .focusLock__49fc1 .root__49fc1 {
       & > .fullSize_c0bea0 {
         width: 900px;
-        border-radius: var(--border-radius-m);
+        border-radius: 0;
+        --prof-grad-start: color-mix(in oklab, var(--profile-gradient-primary-color), transparent);
+        --prof-grad-end: color-mix(in oklab, var(--profile-gradient-secondary-color), transparent);
+        background: linear-gradient(var(--prof-grad-start), var(--prof-grad-start) var(--custom-user-profile-banner-height), var(--prof-grad-end));
 
         .inner_c0bea0 {
           padding: 10px;
@@ -11,6 +14,9 @@
           box-sizing: border-box;
           gap: 15px;
           border-radius: var(--border-radius-m);
+          --prof-grad-overlay-start: color-mix(in oklab, var(--profile-gradient-overlay-color), transparent);
+          --prof-grad-overlay-end: color-mix(in oklab, var(--profile-gradient-overlay-color), transparent);
+          background: linear-gradient(var(--prof-grad-overlay-start), var(--prof-grad-overlay-start) var(--custom-user-profile-banner-height), var(--prof-grad-overlay-end));
 
           .wrapper_da5890.fullSize_da5890 {
             top: 24px;
@@ -158,6 +164,11 @@
                   border-bottom: 0;
                   gap: 10px;
                   flex-direction: column;
+
+                  .item_b3f026 {
+                    margin: 0;
+                    padding: 4px 0 0 4px;
+                  }
                 }
                 .scrollerBase_d125d2 {
                   overflow: hidden scroll !important;
