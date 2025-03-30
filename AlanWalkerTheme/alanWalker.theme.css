@@ -189,7 +189,6 @@
   --back-color: rgb(0, 0, 0);
   --gr-dm-headers: linear-gradient(to right, transparent, rgb(83, 83, 83));
   --back-selected-dm: black;
-  --back-account: black;
   --create-server: rgba(0, 0, 0, 0.911);
   --create-server-text-color: rgb(255, 255, 255);
   --create-server-choices: black;
@@ -399,7 +398,6 @@
   --back-color: white;
   --gr-dm-headers: linear-gradient(to right, transparent, rgb(83, 83, 83));
   --back-selected-dm: white;
-  --back-account: white;
   --create-server: rgba(255, 255, 255, 0.9);
   --create-server-text-color: black;
   --create-server-choices: white;
