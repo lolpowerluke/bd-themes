@@ -1,4 +1,7 @@
 /*General Sidebar*/
+.systemBar_c38106 {
+  display: none;
+}
 .standardSidebarView__23e6b .sidebarRegion__23e6b {
   -ms-flex: 0;
   -ms-flex-pack: end;
@@ -214,9 +217,6 @@
 }
 .contentRegion__23e6b .notificationSettings__4d38b {
   max-width: 600px;
-}
-.contentRegionScroller__23e6b .toolsContainer__23e6b.closeIconOnly__23e6b {
-  padding-top: 20px;
 }
 .contentRegion__23e6b .contentRegionScroller__23e6b {
   justify-content: space-between;
