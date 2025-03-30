@@ -226,3 +226,9 @@
 .visual-refresh .container__9293f {
   border-bottom: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
 }
+.titleWrapper__9293f {
+  text-overflow: ellipsis;
+  min-width: 0;
+  overflow: hidden;
+  white-space: no-wrap;
+}
