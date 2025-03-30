@@ -97,5 +97,42 @@
         }
       }
     }
+    [role="menu"] {
+      box-shadow: unset;
+      border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+      background-color: var(--back-color-menu);
+
+      .scroller_c1e9c4 {
+        padding: 0;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+
+        .wrapper_f563df {
+          padding: 4px 0 4px 4px;
+
+          .customItem_c1e9c4 {
+            .button_f563df {
+              height: 33px;
+            }
+          }
+        }
+        .item_c1e9c4 {
+          padding: 2px 4px 2px 8px;
+          min-height: unset;
+
+          .iconContainer_c1e9c4 {
+            width: 16px;
+            height: 16px;
+          }
+        }
+        .separator_c1e9c4 {
+          margin: 0 4px;
+        }
+        [aria-hidden="true"] {
+          display: none;
+        }
+      }
+    }
   }
 }
