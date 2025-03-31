@@ -39,6 +39,7 @@
 }
 .visual-refresh {
   @media (max-width: 800px) {
+    .container__2637a,
     .privateChannels__35e86 {
       background-color: var(--back-sidebar) !important;
     }
