@@ -1,5 +1,5 @@
 .visual-refresh {
-  .panels_c48ade {
+  #app-mount .panels_c48ade {
     display: block;
     overflow: visible !important;
     grid-area: panels;
@@ -12,7 +12,7 @@
     background: transparent;
     position: relative;
     border-right: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
-    width: var(--siderbar-no-hover-width, 60px) !important;
+    width: var(--siderbar-no-hover-width, 60px);
     transition: width var(--animation-duration-3, 0.5s);
 
     &:hover {
