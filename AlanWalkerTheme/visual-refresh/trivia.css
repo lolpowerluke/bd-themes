@@ -218,6 +218,49 @@
     display: none;
   }
   /*Chat search bar*/
+  .search__49676 {
+    order: 1;
+    margin: 0;
+  
+    .search__97492 {
+      .searchBar__97492 {
+        width: 27px;
+        padding: 2px 0;
+        transition: var(--animation-duration-2) all;
+        background-color: transparent;
+        border-radius: var(--border-radius-m);
+        border: 1px solid transparent;
+  
+        .DraftEditor-root {
+          padding: 0;
+        }
+      }
+      .iconContainer_fea832 {
+        transform: scale(1.2);
+        transition: var(--animation-duration-2);
+      }
+      .searchBar__97492 {
+        background: transparent;
+      }
+      .public-DraftEditorPlaceholder-root,
+      .DraftEditor-root .public-DraftEditor-content {
+        padding: 0;
+      }
+    }
+    .open__97492,
+    &:hover {
+      .searchBar__97492 {
+        width: 244px;
+        padding: 2px 0 2px 8px;
+        border-color: rgba(var(--border-color-1), var(--border-opacity-1));
+      }
+    }
+    .open__97492 {
+      .searchBar__97492 {
+        background-color: var(--back-color-search-bar);
+      }
+    }
+  }
   /*chat header*/
   .container__9293f {
     border-bottom: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
