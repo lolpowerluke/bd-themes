@@ -37,3 +37,10 @@
     height: 100%;
   }
 }
+.visual-refresh {
+  @media (max-width: 800px) {
+    .privateChannels__35e86 {
+      background-color: var(--back-sidebar) !important;
+    }
+  }
+}
