@@ -29,14 +29,16 @@
     }
 
     .container__37e49 {
-      padding: 0;
+      padding: 10px;
       border-top: 1px solid transparent;
       transition: background var(--animation-duration-3), border var(--animation-duration-3);
       height: 53px;
       box-sizing: border-box;
+      backdrop-filter: blur(2px);
 
       &:hover {
-        border-top-color: rgba(var(--border-color-1), var(--border-opacity-1));
+        border: 0;
+        border-top: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
         background-color: var(--back-user-area);
       }
       .avatarWrapper__37e49 {
@@ -58,6 +60,12 @@
           margin: 0;
         }
       }
+    }
+  }
+  @media (max-width: 800px) {
+    #app-mount div .panels_c48ade .container__37e49:hover {
+      border-right: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+      border-top-right-radius: var(--border-radius-xl);
     }
   }
 }
