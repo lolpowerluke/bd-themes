@@ -8,6 +8,7 @@
     border-radius: var(--border-radius-0);
     padding: 5px 5px 0;
     height: 45px;
+    border: 0;
 
     .inner_a45028 {
       padding: 0;
