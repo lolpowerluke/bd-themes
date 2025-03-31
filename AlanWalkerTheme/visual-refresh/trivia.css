@@ -142,6 +142,7 @@
     .subtitleContainer_f75fb0 {
       grid-area: chat_header;
       -webkit-app-region: drag;
+      border-top: 0;
 
       .children__9293f {
         display: grid;
@@ -159,9 +160,16 @@
     .applicationStore_f07d62 .scroller_c880e8,
     .libraryHeader__5a895 ~ .scroller__4a84a,
     .tabBody__133bf,
+    .chat_f75fb0 > .scrollerBase_d125d2,
     .content_f75fb0 {
       height: 100%;
       grid-area: chat;
+    }
+    .container_c791b2 {
+      box-sizing: border-box;
+    }
+    .chat_f75fb0 > .container__9293f {
+      height: var(--custom-channel-header-height);
     }
     .messagesWrapper__36d07 {
       height: 100vh;
