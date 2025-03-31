@@ -34,7 +34,6 @@
       transition: background var(--animation-duration-3), border var(--animation-duration-3);
       height: 53px;
       box-sizing: border-box;
-      backdrop-filter: blur(2px);
 
       &:hover {
         border: 0;
@@ -66,6 +65,7 @@
     #app-mount div .panels_c48ade .container__37e49:hover {
       border-right: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
       border-top-right-radius: var(--border-radius-xl);
+      backdrop-filter: blur(2px);
     }
   }
 }
