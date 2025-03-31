@@ -50,6 +50,23 @@
     margin-bottom: var(--guild-margin-bottom);
     margin-top: 62px;
 
+    foreignObject {
+      mask: unset;
+    }
+    .wrapper__6e9f8,
+    .expandedFolderIconWrapper__48112 {
+      border-radius: var(--border-radius-m);
+      overflow: hidden;
+    }
+    .expandedFolderBackground__48112,
+    .circleIconButton__5bc7e,
+    .folderIconWrapper__48112 {
+      border-radius: var(--border-radius-l);
+      overflow: hidden;
+    }
+    .guildIcon__48112 {
+      border-radius: var(--border-radius-l) !important;
+    }
     .tutorialContainer__1f388 {
       position: fixed;
       top: 8px;
