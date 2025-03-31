@@ -100,7 +100,7 @@
     }
     .containerDefault_c69b6d:not(:hover) {
       .children__2ea32 {
-        display: none;
+        display: none !important;
       }
     }
     & > div:not([style]),
