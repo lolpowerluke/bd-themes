@@ -365,7 +365,7 @@ body .pc-notices .pc-notice-container {
 	display: none;
 }
 /*ChatUserIDsRedux*/
-@media (max-width: 700px) {
+@media (max-width: 800px) {
 	#app-mount .tagID {
 		display: none;
 	}

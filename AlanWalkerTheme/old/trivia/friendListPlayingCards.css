@@ -81,7 +81,7 @@ html:not(.visual-refresh) {
       }
     }
   }
-  @media (max-width: 700px) {
+  @media (max-width: 800px) {
     .tabBody__133bf {
       display: flex;
       flex-direction: column;

@@ -1,5 +1,5 @@
 /*Userbuttons In Side Panel*/
-@media (min-width: 701px) {
+@media (min-width: 801px) {
   .panels_c48ade .container__37e49 .buttons__37e49 {
     position: fixed;
     bottom: 0px;
@@ -18,7 +18,7 @@
     }
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .panels_c48ade .container__37e49 .buttons__37e49 {
     column-gap: 2px;
   }

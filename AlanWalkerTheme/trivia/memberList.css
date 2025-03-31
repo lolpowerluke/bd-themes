@@ -15,7 +15,7 @@
     margin: 0;
   }
 }
-@media (min-width: 701px) {
+@media (min-width: 801px) {
   .container_c8ffbb {
     min-width: unset;
     max-width: unset;
@@ -33,7 +33,7 @@
     min-width: unset;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .content_f75fb0 > .membersWrap_c8ffbb,
   .content_f75fb0 > .container_c8ffbb .membersWrap_c8ffbb,
   #app-mount .ChannelDms-channelmembers-wrap {
