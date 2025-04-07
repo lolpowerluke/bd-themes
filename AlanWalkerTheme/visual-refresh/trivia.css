@@ -285,4 +285,7 @@
   .children__9293f:after {
     display: none;
   }
+  [aria-hidden="true"] {
+    min-width: unset !important;
+  }
 }
