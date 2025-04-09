@@ -52,6 +52,8 @@
   /*Server Channels*/
   .sidebarList_c48ade {
     .container__2637a > .scroller__629e4 {
+      overflow-y: overlay !important;
+      scrollbar-gutter: stable;
       margin: 0;
     }
     .numberBadge__2b1f5 {
@@ -70,12 +72,18 @@
           display: none;
         }
       }
-      .channelInfo_c69b6d {
-        border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+      .children__2ea32 {
+        position: absolute;
+        right: -18px;
     
-        .wrapper__260e1 {
-          .users__260e1 {
-            border-bottom: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+        .channelInfo_c69b6d {
+          border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+          margin: 0;
+      
+          .wrapper__260e1 {
+            .users__260e1 {
+              border-bottom: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+            }
           }
         }
       }
@@ -99,9 +107,14 @@
       .containerDefault__29444 {
         padding-top: calc(var(--custom-category-channel-space-before-category) / 2);
       }
-      .containerDefault_c69b6d:not(:hover) {
+      .containerDefault_c69b6d {
         .children__2ea32 > .iconItem_c69b6d {
-          display: none !important;
+          display: none;
+        }
+        &:hover {
+          .children__2ea32 > .iconItem_c69b6d {
+            display: block;
+          }
         }
       }
       & > div:not([style]):not(.sectionDivider__629e4),
