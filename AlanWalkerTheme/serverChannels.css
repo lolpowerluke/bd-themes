@@ -99,7 +99,7 @@
       padding-top: calc(var(--custom-category-channel-space-before-category) / 2);
     }
     .containerDefault_c69b6d:not(:hover) {
-      .children__2ea32 {
+      .children__2ea32 > .iconItem_c69b6d {
         display: none !important;
       }
     }
