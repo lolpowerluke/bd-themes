@@ -74,13 +74,28 @@
       }
       .children__2ea32 {
         position: absolute;
-        right: -18px;
+        right: -16px;
     
         .channelInfo_c69b6d {
-          border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+          border: 0;
           margin: 0;
       
           .wrapper__260e1 {
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr auto;
+            height: fit-content;
+            line-height: unset;
+
+            & > * {
+              width: fit-content;
+              font-size: 9px;
+              padding: 2px;
+
+              &::after,
+              &::before {
+                display: none;
+              }
+            }
             .users__260e1 {
               border-bottom: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
             }
