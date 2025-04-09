@@ -60,6 +60,14 @@
       background-color: var(--mentioned-badge) !important;
     }
     &:not(:hover) {
+      .numberBadge__2b1f5 {
+        width: fit-content !important;
+        height: 14px;
+        min-width: unset;
+        min-height: unset;
+        padding: 0 5px !important;
+        font-size: 10px;
+      }
       li:not(.containerDefault__29444) {
         .linkBottom__2ea32 {
           .overflow__82b15 {
@@ -70,6 +78,23 @@
       li.containerDefault_c69b6d {
         .draggable__55bab + .draggable__55bab {
           display: none;
+        }
+      }
+      .newChannel__599fa {
+        position: absolute;
+        padding: 0;
+        right: -7px;
+        font-size: 0;
+        height: 14px;
+        width: 14px;
+        min-height: unset;
+        min-width: unset;
+        
+        &::after {
+          content: "N";
+          inset: 0;
+          position: absolute;
+          font-size: 10px;
         }
       }
       .children__2ea32 {
