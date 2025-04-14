@@ -451,6 +451,9 @@ body .pc-notices .pc-notice-container {
         }
       }
     }
+    .channelTabs-tabNav + div[style] {
+      gap: 5px;
+    }
   }
 }
 /*PingNotification*/
