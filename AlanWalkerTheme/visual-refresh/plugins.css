@@ -377,6 +377,7 @@ body .pc-notices .pc-notice-container {
   width: 100%;
 }
 #channelTabs-container {
+  z-index: unset;
   padding: 4px 4px 4px 4px;
   display: flex;
   gap: 5px;
