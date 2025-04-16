@@ -1,5 +1,5 @@
 .visual-refresh {
-  #app-mount .app__160d8 .base_c48ade .panels_c48ade {
+  #app-mount .panels_c48ade {
     display: block;
     overflow: visible !important;
     grid-area: panels;
@@ -29,14 +29,14 @@
     }
 
     .activityPanel_c48ade {
-      background: var(--back-user-area);
+      background: var(--back-user-area) !important;
     }
     .container__37e49 {
       padding: 10px;
       border-top: 1px solid transparent;
       height: 53px;
       box-sizing: border-box;
-      background-color: var(--back-user-area);
+      background-color: var(--back-user-area) !important;
 
       &:hover {
         border: 0;
