@@ -1,5 +1,5 @@
 .visual-refresh {
-  #app-mount .panels_c48ade {
+  #app-mount .app__160d8 .base_c48ade .panels_c48ade {
     display: block;
     overflow: visible !important;
     grid-area: panels;
@@ -28,17 +28,19 @@
       }
     }
 
+    .activityPanel_c48ade {
+      background: var(--back-user-area);
+    }
     .container__37e49 {
       padding: 10px;
       border-top: 1px solid transparent;
-      transition: background var(--animation-duration-3), border var(--animation-duration-3);
       height: 53px;
       box-sizing: border-box;
+      background-color: var(--back-user-area);
 
       &:hover {
         border: 0;
         border-top: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
-        background-color: var(--back-user-area);
       }
       .avatarWrapper__37e49 {
         background: transparent;
@@ -68,7 +70,6 @@
       backdrop-filter: blur(2px);
     }
     .activityPanel_c48ade {
-      background: var(--back-user-area);
       margin-bottom: 0;
       width: var(--custom-guild-list-width);
       box-sizing: border-box;
