@@ -136,7 +136,6 @@ html:not(.visual-refresh-chat-input) {
     border-radius: var(--border-radius-0);
   }
   .scrollableContainer__74017 > .inner__74017 {
-    min-height: 54px;
     align-items: center;
   }
   @media (max-width: 800px) {
