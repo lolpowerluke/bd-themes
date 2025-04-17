@@ -65,6 +65,20 @@
       margin-bottom: var(--guild-margin-bottom);
       margin-top: 62px;
 
+      .wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8,
+      .wrapper__6e9f8:hover .childWrapper__6e9f8 {
+        background-color: transparent;
+      }
+      .childWrapper__6e9f8 > svg path {
+        display: none;
+      }
+      .childWrapper__6e9f8 > svg {
+        -webkit-mask: var(--home-button-background);
+        -webkit-mask-size: var(--home-button-background-size);
+        -webkit-mask-repeat: no-repeat;
+        -webkit-mask-position: center;
+        background-color: var(--back-home-button);
+      }
       foreignObject {
         mask: unset;
       }
