@@ -78,5 +78,61 @@
         width: fit-content;
       }
     }
+    .wrapper_e131a9 {
+      background: var(--back-user-area) !important;
+
+      &:not(:hover) {
+        width: var(--custom-guild-list-width);
+
+        .container_e131a9 {
+          margin: 0;
+          padding: 0;
+          padding-top: 5px;
+          gap: 0;
+  
+          .inner_e131a9 {
+            width: 100%;
+            .rtcConnectionStatusWrapper__06d62 > a {
+              display: none;
+            }
+          }
+          .voiceButtonsContainer_e131a9 {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            button {
+              margin: 0;
+            }
+          }
+          .connection_e131a9 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .rtcConnectionStatusWrapper__06d62 {
+              padding: 0 5px;
+            }
+            .labelWrapper__06d62 {
+              width: 100%;
+              text-overflow: ellipsis;
+
+              button,
+              button * {
+                width: 100%;
+                overflow: hidden;
+                text-overflow: ellipsis;
+              }
+            }
+          }
+          .actionButtons_e131a9 {
+            button {
+              display: none;
+            }
+          }
+        }
+      }
+    }
   }
 }
