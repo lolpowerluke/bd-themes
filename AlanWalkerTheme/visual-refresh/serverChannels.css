@@ -1,5 +1,17 @@
 .visual-refresh {
   /*Background Selected DM*/
+  /*DM-list*/
+  .channel__972a0:hover {
+    box-shadow: inset 0 0 10px rgba(var(--border-color-hover), var(--border-opacity-hover));
+    background-color: var(--back-selected-dm);
+  }
+  .channel__972a0 {
+    box-shadow: 0px;
+    transition: box-shadow var(--animation-duration-4), background-color var(--animation-duration-5);
+    border-radius: var(--border-radius-xxl);
+    background-color: transparent;
+    overflow: hidden;
+  }
   .icon_c9d15c {
     color: white;
   }
