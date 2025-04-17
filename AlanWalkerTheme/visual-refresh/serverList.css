@@ -1,0 +1,15 @@
+.visual-refresh {
+  .guilds_c48ade {
+    .folder__48112[aria-expanded="true"] {
+      background-color: var(--back-expanded-server-folder-icon);
+      border-radius: var(--border-radius-l);
+    }
+    .expandedFolderBackground__48112 {
+      background-color: var(--back-expanded-server-folder);
+    
+      &.collapsed__48112 {
+        background-color: transparent;
+      }
+    }
+  }
+}
