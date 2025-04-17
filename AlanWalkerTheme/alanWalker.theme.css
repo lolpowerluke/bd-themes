@@ -2,7 +2,7 @@
  * @name         Alan Walker Theme
  * @description  dark theme with Alan Walker's logo as background, credit to DevilBro#4401 for settingsicons, credit to Nyria#3863 for userbuttons in the serverbar and spotifyControls
  * @author       lolpowerluke
- * @version      1.3.5.4
+ * @version      1.3.5.5
  * @source       https://github.com/lolpowerluke/bd-themes/blob/main/AlanWalkerTheme/alanWalker.theme.css
  * @website      https://github.com/lolpowerluke
 */
@@ -46,7 +46,7 @@
   
   /*Transparent Chat Header*/
   --margin-chat-top: 48px; /*On: 48px, off: 0px*/
-  
+
   /*Member list*/
   --memberlist-no-hover-width: 60px;
   --memberlist-hover-width: 240px;
@@ -88,7 +88,7 @@
   --animation-duration-5: 1s;
 
   /*Version*/
-  --version-1-3-5-4: none;
+  --version-1-3-5-5: none;
 
   /*Window width 700px or smaller*/
   --guild-bar-width-700: 56px;
@@ -176,7 +176,8 @@
   --dm-color: rgb(182, 182, 182);
   --dm-unread-color: rgb(255, 255, 255);
   --dm-muted-color: rgb(59, 59, 59);
-  --dm-selected-color: rgba(189, 189, 189, 0.822);
+  --dm-selected-color: rgb(189, 189, 189);
+  --chat-header-name-color: rgb(182, 182, 182);
 
   /*server folders*/
   --back-expanded-server-folder-icon: rgba(73, 73, 73, 0.548);
@@ -189,6 +190,7 @@
   --back-color: rgb(0, 0, 0);
   --gr-dm-headers: linear-gradient(to right, transparent, rgb(83, 83, 83));
   --back-selected-dm: black;
+  --back-account: black;
   --create-server: rgba(0, 0, 0, 0.911);
   --create-server-text-color: rgb(255, 255, 255);
   --create-server-choices: black;
@@ -207,7 +209,7 @@
   --profile-gradient-button-color: black;
   --back-upload-button: rgb(var(--border-color-1));
   --fill-upload-button: black;
-  --mentioned-badge: rgb(255, 0, 0, 0.5);
+  --mentioned-badge: rgba(255, 0, 0, 0.5);
   --back-call-buttons: rgba(255, 255, 255, 0.25);
   --call-button-green: rgba(0, 128, 0, 0.5);
   --call-button-red: rgba(255, 0, 0, 0.5);
@@ -385,7 +387,8 @@
   --dm-color: rgb(32, 32, 32);
   --dm-unread-color: black;
   --dm-muted-color: rgb(151, 151, 151);
-  --dm-selected-color: rgba(65, 65, 65, 0.8);
+  --dm-selected-color: rgb(65, 65, 65);
+  --chat-header-name-color: rgb(32, 32, 32);
   
   /*server folders*/
   --back-expanded-server-folder-icon: rgba(133, 133, 133, 0.55);
@@ -398,6 +401,7 @@
   --back-color: white;
   --gr-dm-headers: linear-gradient(to right, transparent, rgb(83, 83, 83));
   --back-selected-dm: white;
+  --back-account: white;
   --create-server: rgba(255, 255, 255, 0.9);
   --create-server-text-color: black;
   --create-server-choices: white;

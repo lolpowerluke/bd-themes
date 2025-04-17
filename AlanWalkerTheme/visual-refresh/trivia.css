@@ -183,6 +183,12 @@
         display: grid;
         grid-auto-flow: column;
         justify-content: start;
+
+        .akaBadge__488b1,
+        .nicknames__488b1,
+        .defaultColor__4bd52 {
+          color: var(--chat-header-name-color);
+        }
       }
     }
     .page_c48ade .container__9293f {
