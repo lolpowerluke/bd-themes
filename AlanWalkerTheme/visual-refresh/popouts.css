@@ -1,6 +1,6 @@
 .visual-refresh {
   .layerContainer_da8173 {
-    [role="dialog"]{
+    [role="dialog"] {
       .messagesPopoutWrap__45690,
       .recentMentionsPopout__95796,
       .container__2692d,
@@ -87,6 +87,9 @@
           padding: 4px 0 0 8px;
           padding-right: 0 !important;
           overflow: hidden !important;
+        }
+        .content__49fc1:has(> .card__88264) {
+          overflow: hidden scroll !important;
         }
         .footer__49fc1,
         .footer__45690,

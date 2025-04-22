@@ -194,6 +194,13 @@
     .page_c48ade .container__9293f {
       padding: 8px;
     }
+    .bar_c38106:has(> #channelTabs-container) + .content_c48ade {
+      .container__9293f,
+      .subtitleContainer_f75fb0 {
+        -webkit-app-region: no-drag;
+      }
+    }
+    .container__9293f > * > * > * > *,
     .subtitleContainer_f75fb0 > * > * > * > * {
       -webkit-app-region: no-drag;
     }
