@@ -138,4 +138,8 @@
       }
     }
   }
+  .bd-toasts {
+    width: 100vw !important;
+    left: 0 !important;
+  }
 }
