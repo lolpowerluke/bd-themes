@@ -2,10 +2,12 @@
   width: 16px;
   height: 16px;
 }
+#app-mount .search__49676 .public-DraftEditor-content::-webkit-scrollbar,
 #app-mount .none_d125d2::-webkit-scrollbar {
   width: 0;
   height: 0;
 }
+#app-mount .scrollbarGhostHairline__506b3::-webkit-scrollbar,
 #app-mount .thin_d125d2::-webkit-scrollbar,
 #app-mount .thin__99f8c::-webkit-scrollbar {
   width: 8px;
@@ -14,6 +16,9 @@
 #app-mount .scrollableContainer__74017 > .inner__74017::-webkit-scrollbar {
   width: 12px;
   height: 12px;
+}
+#app-mount *::-webkit-scrollbar-track {
+  background-color: transparent;
 }
 #app-mount *::-webkit-scrollbar-thumb {
   background-color: rgba(var(--border-color-1), var(--border-opacity-1));
@@ -26,6 +31,8 @@
   border-radius: var(--border-radius-m);
   visibility: visible;
 }
+#app-mount .scrollbarGhostHairline__506b3::-webkit-scrollbar-thumb,
+#app-mount .scrollbarGhostHairline__506b3::-webkit-scrollbar-track,
 #app-mount .thin_d125d2::-webkit-scrollbar-thumb,
 #app-mount .thin_d125d2::-webkit-scrollbar-track,
 #app-mount .thin__99f8c::-webkit-scrollbar-thumb,

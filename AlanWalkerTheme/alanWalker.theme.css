@@ -2,7 +2,7 @@
  * @name         Alan Walker Theme
  * @description  dark theme with Alan Walker's logo as background, credit to DevilBro#4401 for settingsicons, credit to Nyria#3863 for userbuttons in the serverbar and spotifyControls
  * @author       lolpowerluke
- * @version      1.3.5.6
+ * @version      1.3.5.7
  * @source       https://github.com/lolpowerluke/bd-themes/blob/main/AlanWalkerTheme/alanWalker.theme.css
  * @website      https://github.com/lolpowerluke
 */
@@ -88,7 +88,7 @@
   --animation-duration-5: 1s;
 
   /*Version*/
-  --version-1-3-5-6: none;
+  --version-1-3-5-7: none;
 
   /*Window width 700px or smaller*/
   --guild-bar-width-700: 56px;
@@ -214,6 +214,8 @@
   --back-call-buttons: rgba(255, 255, 255, 0.25);
   --call-button-green: rgba(0, 128, 0, 0.5);
   --call-button-red: rgba(255, 0, 0, 0.5);
+  --jump-to-present-bar: rgba(0, 0, 0, 0.6);
+  --jump-to-present-bar-hover: rgba(0, 0, 0, 0.8);
 
   /*popouts*/
   --popout-header: black;
@@ -425,6 +427,8 @@
   --mentioned-badge: rgb(255, 0, 0, 0.5);
   --call-button-green: rgba(0, 128, 0, 0.5);
   --call-button-red: rgba(255, 0, 0, 0.5);
+  --jump-to-present-bar: rgba(255, 255, 255, 0.6);
+  --jump-to-present-bar-hover: rgba(255, 255, 255, 0.8);
 
   /*popouts*/
   --popout-header: black;
