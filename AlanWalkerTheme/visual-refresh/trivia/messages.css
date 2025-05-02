@@ -48,3 +48,28 @@
     content: unset;
   }
 }
+/*Typing Status*/
+#app-mount .chat_f75fb0 form.form_f75fb0 {
+  .channelBottomBarArea_f75fb0:focus-within ~ .typing_b88801,
+  .channelBottomBarArea_f75fb0:hover ~ .typing_b88801 {
+    border-bottom: 0;
+    padding-bottom: 1px;
+  }
+  .typing_b88801 {
+    background-color: var(--back-color-boxes);
+    bottom: 100%;
+    padding-left: 10px;
+    overflow: hidden;
+    width: fit-content;
+    display: -webkit-box;
+    padding-right: 10px;
+    padding-top: 0px;
+    border-radius: var(--border-radius-xl);
+    opacity: 1;
+    text-overflow: ellipsis;
+    z-index: 2;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(var(--border-color-1), var(--border-opacity-1));
+  }
+}
