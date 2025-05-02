@@ -28,15 +28,17 @@
       }
     }
 
-    .activityPanel_c48ade {
-      background: var(--back-user-area) !important;
+    & > * {
+      background-color: var(--back-user-area) !important;
+    }
+    & > *:hover {
+      background-color: var(--back-user-area-hover) !important;
     }
     .container__37e49 {
       padding: 10px;
       border-top: 1px solid transparent;
       height: 53px;
       box-sizing: border-box;
-      background-color: var(--back-user-area) !important;
 
       &:hover {
         border: 0;
@@ -79,8 +81,6 @@
       }
     }
     .wrapper_e131a9 {
-      background: var(--back-user-area) !important;
-
       &:not(:hover) {
         width: var(--custom-guild-list-width);
 
