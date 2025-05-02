@@ -235,6 +235,13 @@
 .profileBadges_f89da9 .clickable__1545b {
 	margin: 0;
 }
+/*About Me*/
+.descriptionClamp_f5f93a {
+  -webkit-line-clamp: 190;
+  max-height: 78px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
 /*max height*/
 :root .biteSize_c0bea0 {
   .inner_c0bea0 .scrollerBase_d125d2 {
