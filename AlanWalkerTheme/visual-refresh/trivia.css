@@ -229,7 +229,7 @@
       height: 100vh;
     }
     .wrapper_cb9592.fullScreen_cb9592 {
-      position: absolute;
+      position: fixed;
       width: 100vw !important;
       height: 100vh !important;
       inset: 0;
