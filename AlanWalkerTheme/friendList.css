@@ -83,3 +83,42 @@
     border-top-right-radius: var(--border-radius-m);
   }
 }
+/*FriendList Top Buttons*/
+#app-mount .container__9293f {
+  .children__9293f {
+    height: 100%;
+
+    .tabBar__133bf {
+      height: 100%;
+      overflow-y: hidden;
+      overflow-x: auto;
+      align-items: center;
+
+      .item__133bf  {
+        margin: 0;
+        margin-right: -1px;
+        border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+        padding: 2px 8px;
+        min-width: unset;
+        min-height: unset;
+        border-right-color: transparent;
+        border-radius: var(--border-radius-0);
+
+        &:hover {
+          border-right-color: rgba(var(--border-color-hover), var(--border-opacity-hover));
+          border-color: rgba(var(--border-color-hover), var(--border-opacity-hover));
+        }
+        &:nth-last-child(1) {
+          border-radius: var(--border-radius-0) var(--border-radius-xl) var(--border-radius-xl) var(--border-radius-0);
+          border-right-color: rgb(var(--border-color-1), var(--border-opacity-1));
+        }
+        &:first-child {
+          border-radius: var(--border-radius-xl) var(--border-radius-0) var(--border-radius-0) var(--border-radius-xl);
+        }
+        &:hover + .item__133bf {
+          border-left-color: transparent;
+        }
+      }
+    }
+  }
+}
