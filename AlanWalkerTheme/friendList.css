@@ -96,7 +96,7 @@
 
       .item__133bf  {
         margin: 0;
-        margin-right: -1px;
+        margin-left: -1px;
         border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
         padding: 2px 8px;
         min-width: unset;
@@ -113,6 +113,7 @@
           border-right-color: rgb(var(--border-color-1), var(--border-opacity-1));
         }
         &:first-child {
+          margin-left: 0;
           border-radius: var(--border-radius-xl) var(--border-radius-0) var(--border-radius-0) var(--border-radius-xl);
         }
         &:hover + .item__133bf {
