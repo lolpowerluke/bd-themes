@@ -200,8 +200,8 @@
         -webkit-app-region: no-drag;
       }
     }
-    .container__9293f > * > * > *,
-    .subtitleContainer_f75fb0 > * > * > *  {
+    .container__9293f > * > * > * > *,
+    .subtitleContainer_f75fb0 > * > * > * > * {
       -webkit-app-region: no-drag;
     }
     .container__6f73d,
