@@ -258,7 +258,7 @@
     .bar_c38106:not(:has(> #channelTabs-container)) + .content_c48ade > .page_c48ade > div > .chat_f75fb0 > .wrapper_cb9592 {
       position: absolute;
       top: 100px;
-      right: 50px;
+      left: 50px;
       background-color: transparent;
       z-index: 5;
       height: fit-content !important;

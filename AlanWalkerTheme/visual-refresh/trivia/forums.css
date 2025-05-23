@@ -95,6 +95,10 @@
       border-top: 0;
       border-radius: 0;
 
+      &.floating__01ae2 {
+        position: absolute;
+        height: 100%;
+      }
       .chatContent_f75fb0 .container__34c2c {
         position: fixed;
         border-width: 0 1px 1px 0;
