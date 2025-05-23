@@ -49,6 +49,7 @@
 #app-mount *::-webkit-scrollbar-track {
   border-width: initial;
 }
+#app-mount .scrollbarGhostHairline__506b3::-webkit-scrollbar-thumb,
 #app-mount .container__9293f .children__9293f .tabBar__133bf::-webkit-scrollbar-thumb {
   cursor: ew-resize;
 }
