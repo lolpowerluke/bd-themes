@@ -19,9 +19,12 @@
   .contentRegion__23e6b,
   .contentRegionShownSidebar__23e6b,
   .sidebarRegionScroller__23e6b,
-  .searchBar__5ec2f {
+  .searchBar__5ec2f,
+  .visual-refresh .channelChatWrapper_cb9592,
+  .visual-refresh .wrapper_cb9592 {
     background: transparent !important;
   }
+  .visual-refresh .container__01ae2,
   .bg__960e4 {
     background: linear-gradient(
       to bottom,
