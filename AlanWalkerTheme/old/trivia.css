@@ -149,14 +149,14 @@ html:not(.visual-refresh) {
     display: none;
   }
   .wordmark__421ed svg {
-    color: var(--chat-title-bar-color);
+    color: var(--title-bar-color);
   }
   .titleBar__421ed:not(.typeMacOS__421ed)::after {
     content: var(--title-bar-content);
     position: absolute;
     top: 5px;
     left: 10px;
-    color: var(--chat-title-bar-color);
+    color: var(--title-bar-color);
     display: block;
     height: 16px;
     width: fit-content;
@@ -169,14 +169,14 @@ html:not(.visual-refresh) {
   }
   .titleBar__421ed .winButtonClose__421ed:hover {
     background-color: red;
-    color: var(--chat-title-bar-color);
+    color: var(--title-bar-color);
   }
   .winButtonMinMax__421ed[aria-label="Minimize"],
   .winButtonMinMax__421ed[aria-label="Maximize"] {
-    color: var(--chat-title-bar-color);
+    color: var(--title-bar-color);
   }
   #app-mount .dev-title-button {
-    color: var(--chat-title-bar-color);
+    color: var(--title-bar-color);
   }
   /*Crash Screen*/
   .image__61a6b {

@@ -186,7 +186,7 @@ html:not(.visual-refresh) {
   /*clock plugin*/
   body #clockPluginClock {
     left: 50%;
-    color: var(--chat-title-bar-color);
+    color: var(--title-bar-color);
   }
   #clockPluginClock::before {
     display: none;

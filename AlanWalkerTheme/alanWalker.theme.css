@@ -104,8 +104,7 @@
 :root.theme-midnight,
 :root.theme-dark {
   /*title bar*/
-  --title-bar-color: white;
-  --chat-title-bar-color: rgb(116, 116, 116); 
+  --title-bar-color: rgb(116, 116, 116);
 
   /*Theme Dependent Stuff*/
   --back-home-button: rgb(145, 145, 151);
@@ -319,8 +318,7 @@
 .theme-light,
 :root.theme-light {
   /*title bar*/
-  --title-bar-color: black;
-  --chat-title-bar-color: rgb(116, 116, 116);
+  --title-bar-color: rgb(116, 116, 116);
 
   /*Theme Dependent Stuff*/
   --back-home-button: rgb(70, 70, 70);
