@@ -44,6 +44,10 @@
         border: 0;
         border-top: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
       }
+      .avatarDecoration__44b0c {
+        top: -7px;
+        left: -7px;
+      }
       .avatarWrapper__37e49 {
         background: transparent;
         padding: var(--space-6) var(--space-8);
