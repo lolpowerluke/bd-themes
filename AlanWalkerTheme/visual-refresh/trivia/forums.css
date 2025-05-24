@@ -91,30 +91,16 @@
   }
   .chatLayerWrapper__01ae2 {
     .container__01ae2 {
-      border-color: rgba(var(--border-color-1), var(--border-opacity-1));
-      border-top: 0;
+      border: 0;
       border-radius: 0;
-      background: linear-gradient(
-        to bottom,
-        rgba(var(--back-gradient-top), var(--back-gradient-opacity)) 80%,
-        rgba(var(--back-gradient-bottom), var(--back-gradient-opacity))
-      );
+      background: transparent;
 
-      &.floating__01ae2 {
-        position: absolute;
-        height: 100%;
+      &:not(.chatTarget__01ae2) {
+        border-left: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
       }
-      .chatContent_f75fb0 .container__34c2c {
-        position: fixed;
-        border-width: 0 1px 1px 0;
-        border-style: solid;
-        border-color: rgba(var(--border-color-1), var(--border-opacity-1));
-        border-radius: var(--border-radius-0) var(--border-radius-0) var(--border-radius-m) var(--border-radius-0);
-        padding: 5px;
-        right: 17px;
-        left: 0;
-        top: 48px;
-        margin: 0;
+      &.floating__01ae2 {
+        background: rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(2px);
       }
     }
   }
