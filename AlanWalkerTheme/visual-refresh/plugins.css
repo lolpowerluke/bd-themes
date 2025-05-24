@@ -420,6 +420,8 @@ body .pc-notices .pc-notice-container {
     margin: 1px 0 0 0;
   }
   .channelTabs-tabContainer {
+    border-top: 0 !important;
+    padding: 0 !important;
     display: flex;
     flex: 1 0 calc(100% - 50px);
     gap: 5px;
