@@ -12,7 +12,6 @@
     &:has(.chat_f75fb0 > .content_f75fb0.noChat_f75fb0) {
       grid-template-rows: auto auto 1fr auto;
     }
-    .chatLayerWrapper__01ae2,
     .page_c48ade,
     .page_c48ade > div,
     .layers__160d8,
