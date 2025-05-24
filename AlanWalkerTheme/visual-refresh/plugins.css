@@ -185,7 +185,7 @@
 /*clock plugin*/
 body #clockPluginClock {
 	left: 50%;
-	color: var(--title-bar-color);
+	color: var(--chat-title-bar-color);
 }
 #clockPluginClock::before {
 	display: none;

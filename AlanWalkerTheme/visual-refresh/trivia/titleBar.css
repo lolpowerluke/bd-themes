@@ -1,0 +1,22 @@
+.visual-refresh {
+  .bar_c38106::after {
+    content: var(--title-bar-content);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: var(--title-bar-color);
+    display: block;
+    height: 16px;
+    width: fit-content;
+    pointer-events: none;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .title_c38106 {
+    path,
+    .defaultColor__4bd52 {
+      color: var(--title-bar-color);
+      fill: var(--title-bar-color);
+    }
+  }
+}
