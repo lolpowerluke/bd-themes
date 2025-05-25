@@ -371,11 +371,6 @@ body .pc-notices .pc-notice-container {
 	}
 }
 /*Channeltabs*/
-.bar_c38106:has(> #channelTabs-container) {
-  grid-area: channelTabs;
-  height: fit-content;
-  width: 100%;
-}
 #channelTabs-container {
   z-index: unset;
   padding: 4px 4px 4px 4px;
@@ -456,6 +451,24 @@ body .pc-notices .pc-notice-container {
     }
     .channelTabs-tabNav + div[style] {
       gap: 5px;
+    }
+  }
+}
+.bar_c38106:has(> #channelTabs-container) {
+  & + .content_c48ade {
+    .guilds_c48ade {
+      height: calc(100% - var(--guild-margin-bottom));
+      margin-top: 0;
+
+      .tutorialContainer__1f388 {
+        z-index: 10;
+        position: sticky;
+        top: 8px;
+
+        .wrapper__6e9f8 {
+          background: var(--home-button-bg-color, black);
+        }
+      }
     }
   }
 }
