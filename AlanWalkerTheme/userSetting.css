@@ -1,5 +1,16 @@
-.layers__960e4>.layer__960e4 {
+.layers__960e4>.layer__960e4:not(.baseLayer__960e4) {
   top: 32px;
+}
+.layers__960e4>.layer__960e4.baseLayer__960e4[aria-hidden="true"] {
+  opacity: 1 !important;
+  transform: unset !important;
+
+  .content_c48ade {
+    opacity: 0;
+  }
+}
+.fixed_c38106.bar_c38106 {
+  display: none;
 }
 /*General Sidebar*/
 .standardSidebarView__23e6b .sidebarRegion__23e6b {
