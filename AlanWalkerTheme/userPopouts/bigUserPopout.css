@@ -1,7 +1,7 @@
 @media (min-width: 1001px) {
   .layerContainer_da8173 {
     .focusLock__49fc1 .root__49fc1 {
-      & > .fullSize_c0bea0 {
+      & > .user-profile-modal {
         width: 900px;
         border-radius: 0;
         --prof-grad-start: color-mix(in oklab, var(--profile-gradient-primary-color), transparent);
@@ -101,8 +101,8 @@
               .avatar__75742 + .referenceContainer_ab8609 {
                 display: none;
               }
-              .avatar__75742 + div:not(.headerButtons__24502) + div:not(.headerButtons__24502),
-              .avatar__75742 + div:not(.headerButtons__24502) {
+              & > .avatar__75742 + div:not(.headerButtons__24502) + div:not(.headerButtons__24502),
+              & > .avatar__75742 + div:not(.headerButtons__24502) {
                 position: relative;
                 width: 100%;
                 height: 100%;
@@ -116,6 +116,9 @@
                 }
                 .statusBubbleOuter_af9888,
                 .outer_ab8609 {
+                  .content_ab8609 {
+                    max-height: unset !important;
+                  }
                   &:after {
                     left: 28px;
                   }
@@ -211,7 +214,7 @@
 @media (max-width: 1000px) and (min-width: 601px) {
   .layerContainer_da8173 {
     .focusLock__49fc1 .root__49fc1 {
-      & > .fullSize_c0bea0 {
+      & > .user-profile-modal {
         width: 600px;
         border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
         border-radius: var(--border-radius-m);
@@ -313,7 +316,7 @@
 @media (max-width: 600px) {
   .layerContainer_da8173 {
     .focusLock__49fc1 .root__49fc1 {
-      & > .fullSize_c0bea0 {
+      & > .user-profile-modal {
         width: 100vw;
         border-width: 1px 0 1px 0;
         border-style: solid;
@@ -439,7 +442,7 @@
 @media (max-width: 450px) {
   .layerContainer_da8173 {
     .focusLock__49fc1 .root__49fc1 {
-      & > .fullSize_c0bea0 {
+      & > .user-profile-modal {
         height: calc(100vh - 200px);
         max-height: 1000px;
 
