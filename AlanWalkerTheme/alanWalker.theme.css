@@ -124,6 +124,7 @@
   /*buttons*/
   --back-color-danger-button: red;
   --back-color-button: #008549fa;
+  --home-button-bg-color: black;
   
   /*switches*/
   --switch-off: rgba(255, 255, 255, 0.5);
@@ -228,6 +229,7 @@
 
   /*menu*/
   --menu-item-hover-color: rgb(170, 170, 170);
+  --back-color-search-popup: rgba(0, 0, 0, 0.8);
 
   /*Memberlist*/
   --back-memberlist: 0, 0, 0;
@@ -338,6 +340,7 @@
   /*buttons*/
   --back-color-danger-button: red;
   --back-color-button: #008549fa;
+  --home-button-bg-color: white;
   
   /*switches*/
   --switch-off: rgba(255, 255, 255, 0.5);
@@ -441,6 +444,7 @@
 
   /*menu*/
   --menu-item-hover-color: rgb(170, 170, 170);
+  --back-color-search-popup: rgba(255, 255, 255, 0.8);
 
   /*Memberlist*/
   --back-memberlist: 0, 0, 0;

@@ -142,4 +142,10 @@
     width: 100vw !important;
     left: 0 !important;
   }
+  /*Search*/
+  .container__55c99 {
+    background-color: var(--back-color-search-popup);
+    border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+    backdrop-filter: blur(2px);
+  }
 }
