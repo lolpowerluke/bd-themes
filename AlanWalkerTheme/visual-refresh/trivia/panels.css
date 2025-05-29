@@ -10,7 +10,7 @@
     background: transparent;
     position: relative;
     border-right: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
-    width: var(--siderbar-no-hover-width, 60px);
+    width: var(--sidebar-no-hover-width, 60px);
     transition: width var(--animation-duration-3, 0.5s);
 
     &:hover {

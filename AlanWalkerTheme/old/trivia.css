@@ -359,7 +359,7 @@ html:not(.visual-refresh) {
   .chatHeaderBar_dc83f5 {
     position: fixed;
     top: var(--margin-chat-top);
-    width: calc(100vw - 72px - var(--siderbar-no-hover-width) - 1px - 60px - 16px); /*full window width - guild - sidebar - sidebar border - member bar - extra space for scroll etc*/
+    width: calc(100vw - 72px - var(--sidebar-no-hover-width) - 1px - 60px - 16px); /*full window width - guild - sidebar - sidebar border - member bar - extra space for scroll etc*/
     box-sizing: border-box;
     backdrop-filter: blur(2px);
     z-index: 1;
