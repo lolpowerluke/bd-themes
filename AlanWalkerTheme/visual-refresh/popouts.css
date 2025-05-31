@@ -1,6 +1,6 @@
 .visual-refresh {
   .layerContainer_da8173 {
-    [role="dialog"] {
+    [role="dialog"]:not(.focusLock__49fc1) {
       .messagesPopoutWrap__45690,
       .recentMentionsPopout__95796,
       .container__2692d,
