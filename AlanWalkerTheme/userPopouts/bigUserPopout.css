@@ -1,9 +1,20 @@
+.layerContainer_da8173 {
+  .focusLock__49fc1 .root__49fc1 {
+    background: transparent;
+
+    & > .user-profile-modal {
+      --prof-grad-start: color-mix(in oklab, var(--profile-gradient-primary-color), transparent);
+      --prof-grad-end: color-mix(in oklab, var(--profile-gradient-secondary-color), transparent);
+      background: linear-gradient(var(--prof-grad-start), var(--prof-grad-start) var(--custom-user-profile-banner-height), var(--prof-grad-end));
+    }
+  }
+}
 @media (min-width: 1001px) {
   .layerContainer_da8173 {
     .focusLock__49fc1 .root__49fc1 {
       & > .user-profile-modal {
         width: 900px;
-        border-radius: 0;
+        border-radius: var(--border-radius-0);
         --prof-grad-start: color-mix(in oklab, var(--profile-gradient-primary-color), transparent);
         --prof-grad-end: color-mix(in oklab, var(--profile-gradient-secondary-color), transparent);
         background: linear-gradient(var(--prof-grad-start), var(--prof-grad-start) var(--custom-user-profile-banner-height), var(--prof-grad-end));
@@ -316,6 +327,8 @@
 @media (max-width: 600px) {
   .layerContainer_da8173 {
     .focusLock__49fc1 .root__49fc1 {
+      border-radius: var(--border-radius-0);
+      
       & > .user-profile-modal {
         width: 100vw;
         border-width: 1px 0 1px 0;
@@ -324,6 +337,9 @@
         border-radius: var(--border-radius-0);
         box-sizing: border-box;
 
+        .inner_c0bea0 {
+          border-radius: var(--border-radius-0);
+        }
         header {
           display: flex;
           flex-direction: column;
