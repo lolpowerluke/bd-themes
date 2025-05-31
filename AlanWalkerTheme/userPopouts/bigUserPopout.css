@@ -1,11 +1,21 @@
 .layerContainer_da8173 {
+  .backdrop__78332 {
+    background: rgba(0, 0, 0, var(--backdrop-opacity)) !important;
+  }
   .focusLock__49fc1 .root__49fc1 {
     background: transparent;
 
     & > .user-profile-modal {
-      --prof-grad-start: color-mix(in oklab, var(--profile-gradient-primary-color), transparent);
-      --prof-grad-end: color-mix(in oklab, var(--profile-gradient-secondary-color), transparent);
+      --prof-grad-start: color-mix(in oklab, var(--profile-gradient-primary-color), var(--user-popout-gradient-color-mix-addition));
+      --prof-grad-end: color-mix(in oklab, var(--profile-gradient-secondary-color), var(--user-popout-gradient-color-mix-addition));
       background: linear-gradient(var(--prof-grad-start), var(--prof-grad-start) var(--custom-user-profile-banner-height), var(--prof-grad-end));
+      backdrop-filter: blur(2px);
+
+      .inner_c0bea0 {
+        --prof-grad-overlay-start: color-mix(in oklab, var(--profile-gradient-overlay-color), transparent);
+        --prof-grad-overlay-end: color-mix(in oklab, var(--profile-gradient-overlay-color), transparent);
+        background: linear-gradient(var(--prof-grad-overlay-start), var(--prof-grad-overlay-start) var(--custom-user-profile-banner-height), var(--prof-grad-overlay-end));
+      }
     }
   }
 }
@@ -14,10 +24,8 @@
     .focusLock__49fc1 .root__49fc1 {
       & > .user-profile-modal {
         width: 900px;
-        border-radius: var(--border-radius-0);
-        --prof-grad-start: color-mix(in oklab, var(--profile-gradient-primary-color), transparent);
-        --prof-grad-end: color-mix(in oklab, var(--profile-gradient-secondary-color), transparent);
-        background: linear-gradient(var(--prof-grad-start), var(--prof-grad-start) var(--custom-user-profile-banner-height), var(--prof-grad-end));
+        border-radius: var(--border-radius-m);
+        border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
 
         .inner_c0bea0 {
           padding: 10px;
@@ -25,9 +33,6 @@
           box-sizing: border-box;
           gap: 15px;
           border-radius: var(--border-radius-m);
-          --prof-grad-overlay-start: color-mix(in oklab, var(--profile-gradient-overlay-color), transparent);
-          --prof-grad-overlay-end: color-mix(in oklab, var(--profile-gradient-overlay-color), transparent);
-          background: linear-gradient(var(--prof-grad-overlay-start), var(--prof-grad-overlay-start) var(--custom-user-profile-banner-height), var(--prof-grad-overlay-end));
 
           .wrapper_da5890.fullSize_da5890 {
             top: 24px;

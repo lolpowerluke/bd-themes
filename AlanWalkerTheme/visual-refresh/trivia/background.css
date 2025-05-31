@@ -47,6 +47,14 @@
     width: 100%;
     height: 100%;
   }
+  .bd-transparency .notAppAsidePanel_a3002d:has( .layerContainer_da8173 .backdrop__78332) .bg__960e4 {
+    --opac-extra: calc(var(--back-gradient-opacity) - var(--backdrop-opacity) + 0.1);
+    background: linear-gradient(
+        to bottom,
+        rgba(var(--back-gradient-top), var(--opac-extra)) 80%,
+        rgba(var(--back-gradient-bottom), var(--opac-extra))
+      );
+  }
 }
 .visual-refresh {
   @media (max-width: 800px) {
