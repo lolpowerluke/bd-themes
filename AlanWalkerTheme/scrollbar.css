@@ -7,6 +7,7 @@
   width: 0;
   height: 0;
 }
+#app-mount .scrollbarGhost__506b3::-webkit-scrollbar,
 #app-mount .container__9293f .children__9293f .tabBar__133bf::-webkit-scrollbar,
 #app-mount .descriptionClamp_f5f93a::-webkit-scrollbar,
 #app-mount .scrollbarGhostHairline__506b3::-webkit-scrollbar,
@@ -34,6 +35,8 @@
   border-radius: var(--border-radius-m);
   visibility: visible;
 }
+#app-mount .scrollbarGhost__506b3::-webkit-scrollbar-thumb,
+#app-mount .scrollbarGhost__506b3::-webkit-scrollbar-track,
 #app-mount .container__9293f .children__9293f .tabBar__133bf::-webkit-scrollbar-track,
 #app-mount .container__9293f .children__9293f .tabBar__133bf::-webkit-scrollbar-thumb,
 #app-mount .descriptionClamp_f5f93a::-webkit-scrollbar-track,
@@ -49,6 +52,7 @@
 #app-mount *::-webkit-scrollbar-track {
   border-width: initial;
 }
+#app-mount .scrollbarGhost__506b3::-webkit-scrollbar-thumb,
 #app-mount .scrollbarGhostHairline__506b3::-webkit-scrollbar-thumb,
 #app-mount .container__9293f .children__9293f .tabBar__133bf::-webkit-scrollbar-thumb {
   cursor: ew-resize;
