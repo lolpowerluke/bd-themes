@@ -8,6 +8,9 @@
       margin-bottom: var(--guild-margin-bottom);
       margin-top: 54px;
 
+      .tree_ef3116 {
+        outline: unset;
+      }
       .wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8,
       .wrapper__6e9f8:hover .childWrapper__6e9f8 {
         background-color: transparent;
