@@ -374,7 +374,7 @@
     .prompt__5d7c9,
     .search__41ed7,
     .channelRow_e4503a {
-      background: rgba(0, 0, 0, 0.4);
+      background: var(--channels-roles-options-bg);
       border-color: rgba(var(--border-color-1), var(--border-opacity-1));
     }
     .firstChannel_e4503a {
