@@ -15,18 +15,53 @@ html:not(.visual-refresh-chat-input) {
   html #app-mount .scrollableContainer__74017 {
     background: transparent;
   }
-  .channelAttachmentArea-1wlgJV {
-    background-color: var(--channeltextarea-background);
-    overflow: hidden;
-  }
   .scrollableContainer__74017 > .channelAttachmentArea_b77158 {
-    border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-    border-radius: var(--border-radius-m);
-    overflow: hidden;
-    margin: 0;
-    margin-bottom: 5px;
-    max-height: 246px;
-    background-color: var(--user-popout);
+    border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+    border-radius: var(--border-radius-s);
+    overflow-x: overlay;
+    padding: 5px;
+    margin: 5px;
+    gap: 5px;
+    margin-top: 0;
+    background-color: transparent;
+    outline: unset;
+    
+    .upload_aa605f {
+      background: transparent;
+      border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+      border-radius: var(--border-radius-s);
+      padding: 5px;
+      
+      .uploadContainer_aa605f {
+        gap: 5px;
+
+        .mediaContainer__41ea0 {
+          margin: 0;
+          
+          .clickableMedia__41ea0 {
+            border-radius: var(--border-radius-s);
+          }
+        }
+        .actionBarContainer_aa605f {
+          position: relative;
+          order: -1;
+
+          .actionBar_aa605f {
+            position: relative;
+            transform: unset;
+
+            .wrapper_f7ecac {
+              background: transparent;
+              display: flex;
+              flex-direction: row;
+              justify-content: space-around;
+              box-shadow: unset;
+              border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+            }
+          }
+        }
+      }
+    }
   }
   .channelTextArea_f75fb0 .buttons__74017 {
     margin-right: 4px;
@@ -56,18 +91,6 @@ html:not(.visual-refresh-chat-input) {
   .channelBottomBarArea_f75fb0:hover .inner__74017 {
     background-color: var(--channeltextarea-background);
     border-color: rgb(var(--border-color-1), var(--border-opacity-1));
-  }
-  .upload_aa605f {
-    background: var(--user-popout);
-    border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-  }
-  .upload_aa605f .image-2dAEjD {
-    border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-    border-radius: var(--border-radius-s);
-  }
-  .wrapper_f7ecac {
-    background-color: var(--user-popout);
-    border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
   }
   .form_f75fb0:before {
     display: none;
