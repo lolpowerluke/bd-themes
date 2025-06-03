@@ -169,4 +169,13 @@
   .channelTextArea_f75fb0 .placeholder__1b31f {
     color: var(--chatbar-placeholder-color);
   }
+  @media (max-height: 500px) {
+    .channelTextArea__74017 {
+      display: none;
+    }
+
+    .chatContent_f75fb0:hover .channelTextArea__74017 {
+      display: block;
+    }
+  }
 }
