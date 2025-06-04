@@ -9,6 +9,16 @@
       }
     }
   }
+  .testimonialHeroContainer__3e7e2,
+  .safetyChecklist_eae0ef,
+  .card_b44011,
+  .upsellPreview_d9161f,
+  .card__73069,
+  .card__83361,
+  .card_eafb9c,
+  .upsellContainer__4cfe2,
+  .card_ebafdd,
+  .card_dc2e44,
   .container_d8f25b,
   .container__86ab2,
   .selected_b3f026 .joinOptionContent__959cb,
@@ -16,6 +26,11 @@
   .rules__92677 {
     border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
   }
+  .upsellFooter__4cfe2 {
+    border-top: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+  }
+  .upsellPreview_d9161f,
+  .testimonialHeroContainer__3e7e2,
   .container_d8f25b,
   .rules__92677,
   .selected_b3f026 .joinOptionContent__959cb {
