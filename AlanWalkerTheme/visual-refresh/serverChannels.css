@@ -402,4 +402,12 @@
       }
     }
   }
+  /* Members Tab */
+  .mainTableContainer__09a38 {
+    border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+  }
+  .paginationContainer_e8f197,
+  .table_b4ec0b {
+    border-top: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+  }
 }
