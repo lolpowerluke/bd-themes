@@ -1,7 +1,24 @@
-.tier_f15dca {
-  border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
-}
-#app-mount .tiers_f15dca .tierHeaderLocked_f15dca {
-  background: var(--back-color-boxes);
-  border-bottom: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+#app-mount .layers__960e4>.layer__960e4:not(.baseLayer__960e4) {
+  .tiers_f15dca {
+    .tier_f15dca {
+      border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+
+      .tierHeaderLocked_f15dca {
+        background: var(--back-color-boxes);
+        border-bottom: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+      }
+    }
+  }
+  .container_d8f25b,
+  .container__86ab2,
+  .selected_b3f026 .joinOptionContent__959cb,
+  .joinOptions__959cb,
+  .rules__92677 {
+    border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+  }
+  .container_d8f25b,
+  .rules__92677,
+  .selected_b3f026 .joinOptionContent__959cb {
+    background: var(--back-color-boxes);
+  }
 }
