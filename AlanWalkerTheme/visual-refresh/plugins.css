@@ -164,6 +164,14 @@
 	right: 1px !important;
 	width: calc(100% - 2px) !important;
 }
+@media (max-width: 400px) {
+  .bf-toolbar {
+    transform: scale(0.75);
+    transform-origin: bottom right;
+    top: -100%;
+    right: 0;
+  }
+}
 /*Membercount Strencher*/
 .members_c8ffbb
 	.MemberCount-memberCount-wrapper.MemberCount-memberCount-sticky {

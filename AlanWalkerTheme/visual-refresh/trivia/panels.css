@@ -137,4 +137,9 @@
       }
     }
   }
+  @media (max-width: 400px) {
+    #app-mount.appMount__51fd7 .panels_c48ade {
+      width: fit-content !important;
+    }
+  }
 }

@@ -57,3 +57,13 @@
 #app-mount .container__9293f .children__9293f .tabBar__133bf::-webkit-scrollbar-thumb {
   cursor: ew-resize;
 }
+@media (max-width: 400px) {
+  #app-mount *::-webkit-scrollbar-thumb,
+  #app-mount *::-webkit-scrollbar-track {
+    border: 2px solid transparent;
+  }
+  #app-mount *::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+}

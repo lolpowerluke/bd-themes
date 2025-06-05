@@ -47,6 +47,62 @@
         top: 40px;
       }
     }
+    @media (max-width: 400px) {
+      .guilds_c48ade {
+        width: 0 !important;
+
+        .tutorialContainer__1f388 {
+          width: 53px;
+          top: 36px !important;
+          z-index: 99;
+
+          .listItem__650eb {
+            width: 53px;
+          }
+        }
+      }
+      .guilds_c48ade {
+        position: fixed;
+        height: calc(100vh - var(--custom-app-panels-height, 0) - 32px) !important;
+        top: 32px;
+        margin-top: 0 !important;
+        background-color: var(--back-sidebar) !important;
+        z-index: 99;
+      }
+      .guilds_c48ade:has(~ .sidebarList_c48ade:hover),
+      .guilds_c48ade:has(~ .sidebarList_c48ade .container__2637a:hover),
+      .guilds_c48ade:has(~ .sidebarList_c48ade .privateChannels__35e86:hover),
+      .guilds_c48ade:hover {
+        width: var(--custom-guild-list-width) !important;
+
+        .tutorialContainer__1f388 {
+          position: relative;
+          top: 0 !important;
+        }
+      }
+      .wrapper_e131a9,
+      .container__37e49 {
+        width: 53px !important;
+
+        &:hover {
+          width: fit-content !important;
+        }
+        .avatarWrapper__37e49 {
+          padding: 0 !important;
+        }
+      }
+      .container__2637a,
+      .privateChannels__35e86 {
+        left: var(--custom-guild-list-width);
+        top: calc(32px + 48px) !important; /* title bar + chat header */
+        height: calc(100% - 32px - 48px) !important;
+        border-right: 0 !important;
+      }
+      #app-mount div .guilds_c48ade + .sidebarList_c48ade .container__2637a:hover,
+      #app-mount div .guilds_c48ade + .sidebarList_c48ade .privateChannels__35e86:hover {
+        width: calc(100% - var(--custom-guild-list-width));
+      }
+    }
     .sidebarList_c48ade {
       box-sizing: border-box;
       border: 0;
@@ -114,6 +170,21 @@
   }
   .sidebar_c48ade:after {
     display: none;
+  }
+  @media (max-width: 400px) {
+    #app-mount {
+      --custom-guild-list-width: 53px;
+    }
+    .subtitleContainer_f75fb0 {
+      margin-left: 53px;
+
+      .title_f75fb0 {
+        padding: 8px;
+      }
+      .toolbar__9293f {
+        display: none;
+      }
+    }
   }
   /*Chat search bar*/
   .search__49676 {

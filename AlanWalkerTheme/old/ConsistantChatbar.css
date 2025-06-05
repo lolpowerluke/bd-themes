@@ -101,6 +101,11 @@ html:not(.visual-refresh-chat-input) {
       padding-right: 10px;
     }
   }
+  @media (max-width: 400px) {
+    .channelBottomBarArea_f75fb0 .buttons__74017 {
+      display: none;
+    }
+  }
   .wrapper__44df5 {
     margin-bottom: 0;
     border-radius: var(--border-radius-0);

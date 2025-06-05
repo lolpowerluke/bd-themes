@@ -27,4 +27,15 @@
       fill: var(--title-bar-color);
     }
   }
+  @media (max-width: 400px) {
+    .bar_c38106::after {
+      display: none;
+    }
+    .bar_c38106 {
+      .title_c38106 {
+        position: static;
+        margin-left: 10px;
+      }
+    }
+  }
 }
