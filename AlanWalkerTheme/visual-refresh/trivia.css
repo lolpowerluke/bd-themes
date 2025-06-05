@@ -1,5 +1,5 @@
 .visual-refresh {
-  .app__160d8 {
+  #app-mount .app__160d8 {
     .chat_f75fb0 {
       border: 0;
     }
@@ -98,8 +98,8 @@
         height: calc(100% - 32px - 48px) !important;
         border-right: 0 !important;
       }
-      #app-mount div .guilds_c48ade + .sidebarList_c48ade .container__2637a:hover,
-      #app-mount div .guilds_c48ade + .sidebarList_c48ade .privateChannels__35e86:hover {
+      .guilds_c48ade + .sidebarList_c48ade .container__2637a:hover,
+      .guilds_c48ade + .sidebarList_c48ade .privateChannels__35e86:hover {
         width: calc(100% - var(--custom-guild-list-width));
       }
     }
