@@ -233,7 +233,7 @@
 
   /*Memberlist*/
   --back-memberlist: 0, 0, 0;
-  --back-memberlist-opacity: 0.4;
+  --back-memberlist-opacity: 0.8;
 
   /*Frienlist*/
   --back-friendlist-friends: rgba(0, 0, 0, 0.4);
@@ -447,8 +447,8 @@
   --back-color-search-popup: rgba(255, 255, 255, 0.8);
 
   /*Memberlist*/
-  --back-memberlist: 0, 0, 0;
-  --back-memberlist-opacity: 0.4;
+  --back-memberlist: 255, 255, 255;
+  --back-memberlist-opacity: 0.8;
   
   /*Frienlist*/
   --back-friendlist-friends: rgba(255, 255, 255, 0.4);
