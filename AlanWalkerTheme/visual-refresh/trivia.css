@@ -176,7 +176,11 @@
       --custom-guild-list-width: 53px;
     }
     .container__9293f {
+      margin-left: 53px;
       padding: 8px;
+    }
+    .subtitleContainer_f75fb0 .container__9293f {
+      margin-left: 0;
     }
     .subtitleContainer_f75fb0 {
       margin-left: 53px;
