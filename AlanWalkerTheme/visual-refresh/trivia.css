@@ -142,15 +142,6 @@
         }
       }
     }
-    @media (max-width: 800px) {
-      #app-mount .app__160d8 {
-        --custom-guild-list-width: 54px;
-        --guild-margin-bottom: var(--custom-app-panels-height);
-      }
-      .guilds_c48ade {
-        height: calc(100% - var(--guild-margin-bottom) - 54px);
-      }
-    }
     @media (max-width: 400px) {
       .guilds_c48ade {
         width: 0 !important;
@@ -270,6 +261,15 @@
           color: var(--chat-header-name-color);
         }
       }
+    }
+  }
+  @media (max-width: 800px) {
+    #app-mount .app__160d8 {
+      --custom-guild-list-width: 54px;
+      --guild-margin-bottom: var(--custom-app-panels-height);
+    }
+    .guilds_c48ade {
+      height: calc(100% - var(--guild-margin-bottom) - 54px);
     }
   }
   .sidebar_c48ade:after {
