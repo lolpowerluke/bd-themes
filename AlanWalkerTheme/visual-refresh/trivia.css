@@ -74,9 +74,9 @@
           top: 0;
           left: 0;
         }
-        .pill_e5445c:not([style*="height: 8px;"]),
-        .pill__1f388:not([style*="height: 8px;"]) {
-          .item__58105 {
+        .pill_e5445c,
+        .pill__1f388 {
+          .item__58105:not([style*="height: 8px;"]) {
             height: 80% !important;
           }
         }
