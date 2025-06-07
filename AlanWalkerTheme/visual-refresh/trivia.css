@@ -4,7 +4,7 @@
       border: 0;
     }
     .guilds_c48ade {
-      height: calc(100% - var(--guild-margin-bottom) - 62px);
+      height: calc(100% - var(--guild-margin-bottom) - 54px);
       margin-bottom: var(--guild-margin-bottom);
       margin-top: 54px;
 
