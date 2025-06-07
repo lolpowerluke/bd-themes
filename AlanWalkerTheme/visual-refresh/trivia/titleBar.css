@@ -27,6 +27,10 @@
       fill: var(--title-bar-color);
     }
   }
+  .leading_c38106,
+  .trailing_c38106 {
+    gap: 0;
+  }
   @media (max-width: 800px) {
     .bar_c38106::after {
       display: none;
