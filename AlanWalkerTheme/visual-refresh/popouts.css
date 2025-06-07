@@ -100,6 +100,47 @@
         }
       }
     }
+    [role="menu"] {
+      box-shadow: unset;
+      border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
+      background-color: var(--back-color-menu);
+
+      .scroller_c1e9c4 {
+        padding: 3px 0 3px 4px;
+        height: fit-content;
+        height: calc(100% + 100px);
+        max-height: calc(100vh - 32px);
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+
+        .item_c1e9c4 {
+          padding: 2px 4px;
+          min-height: unset;
+
+          .caret_c1e9c4,
+          .iconContainer_c1e9c4 {
+            width: 16px;
+            height: 16px;
+          }
+        }
+        .wrapper_f563df {
+          padding: 2px 0 2px 2px;
+
+          .customItem_c1e9c4 {
+            .button_f563df {
+              height: 33px;
+            }
+          }
+        }
+        .separator_c1e9c4 {
+          margin: 0 4px;
+        }
+        & > [aria-hidden="true"]:last-child {
+          display: none;
+        }
+      }
+    }
   }
   .bd-toasts {
     width: 100vw !important;
