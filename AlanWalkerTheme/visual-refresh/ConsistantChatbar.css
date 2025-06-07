@@ -78,7 +78,7 @@
   }
   @media (max-width: 400px) {
     .form_f75fb0 {
-      margin-left: 53px;
+      margin-left: var(--custom-guild-list-width);
     }
   }
   .wrapper__44df5 {

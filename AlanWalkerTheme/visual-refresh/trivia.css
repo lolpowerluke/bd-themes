@@ -82,7 +82,7 @@
       }
       .wrapper_e131a9,
       .container__37e49 {
-        width: 53px !important;
+        width: var(--custom-guild-list-width) !important;
 
         &:hover {
           width: fit-content !important;
@@ -172,18 +172,15 @@
     display: none;
   }
   @media (max-width: 400px) {
-    #app-mount {
-      --custom-guild-list-width: 53px;
-    }
     .container__9293f {
-      margin-left: 53px;
+      margin-left: var(--custom-guild-list-width);
       padding: 8px;
     }
     .subtitleContainer_f75fb0 .container__9293f {
       margin-left: 0;
     }
     .subtitleContainer_f75fb0 {
-      margin-left: 53px;
+      margin-left: var(--custom-guild-list-width);
 
       .title_f75fb0 {
         padding: 8px;
