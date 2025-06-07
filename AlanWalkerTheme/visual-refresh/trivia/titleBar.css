@@ -27,7 +27,7 @@
       fill: var(--title-bar-color);
     }
   }
-  @media (max-width: 400px) {
+  @media (max-width: 800px) {
     .bar_c38106::after {
       display: none;
     }
