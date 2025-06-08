@@ -64,11 +64,6 @@
         }
         .stack_dbd263 {
           height: 100% !important;
-
-          .lowerBadge_cc5dd2 {
-            bottom: calc(var(--guildbar-folder-size) / 12);
-            right: calc(var(--guildbar-folder-size) / 12);
-          }
         }
         .shiftSVG_cc5dd2 {
           top: 0;
