@@ -25,6 +25,7 @@
             margin: 0;
           }
         }
+        .scroller__2692d,
         .container_d404a3,
         .messagesPopout__45690,
         .container__0f711 {
@@ -32,6 +33,7 @@
           padding-right: 0 !important;
           padding-bottom: 8px;
 
+          .channel__427f0,
           & > div[role="list"],
           .container__95796 {
             padding: 0;
@@ -41,18 +43,20 @@
             gap: 8px;
 
             .channelHeader__35a7e {
-              background-color: var(--popout-header);
-              backdrop-filter: blur(2px);
+              background-color: transparent;
+              backdrop-filter: unset;
               filter: blur(0);
               padding: 8px 4px 8px 8px;
               height: fit-content;
             }
+            .messages__1ccd1,
             .messageGroupWrapper__45690 {
               background-color: transparent;
               border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
               padding: 0;
               margin: 0;
             }
+            .messageContainer__1ccd1,
             .messageContainer__95796 {
               background-color: transparent;
               border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
@@ -60,8 +64,12 @@
               margin: 4px;
               margin-right: 0;
             }
+            .messages__1ccd1,
+            .messageContainer__1ccd1,
             .messageContainer__95796,
             .messageGroupWrapper__45690 {
+              border-radius: var(--border-radius-m);
+
               .wrapper_c19a55,
               .message__95796 {
                 padding: 1px 0 1px 52px;
@@ -71,6 +79,7 @@
                   padding: 0;
                   margin: 0;
                 }
+                .StatusEverywhereV2-Avatar,
                 .avatar_c19a55 {
                   left: 4px;
                 }
