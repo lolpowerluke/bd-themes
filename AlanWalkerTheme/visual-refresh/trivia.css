@@ -1,3 +1,12 @@
+@supports (grid-template-columns:subgrid) and (white-space-collapse:collapse) {
+  .visual-refresh .base_c48ade {
+    display: grid;
+    grid-template-areas: 
+      "titleBar titleBar titleBar"
+      "guildsList channelsList notice"
+      "guildsList channelsList page";
+  }
+}
 .visual-refresh {
   #app-mount .app__160d8 {
     --custom-guild-list-width: 72px;
