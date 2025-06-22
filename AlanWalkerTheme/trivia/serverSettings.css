@@ -37,3 +37,7 @@
     background: var(--back-color-boxes);
   }
 }
+#app-mount .container__86ab2 {
+  background-color: var(--back-color-boxes) !important;
+  backdrop-filter: blur(2px);
+}
