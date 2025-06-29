@@ -220,6 +220,9 @@
     .sidebarList_c48ade:hover ~ .panels_c48ade {
       width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width)) !important;
     }
+    .sidebar_c48ade.hidden_c48ade {
+      display: none;
+    }
     .sidebar_c48ade {
       display: grid;
       grid-template-areas: 
