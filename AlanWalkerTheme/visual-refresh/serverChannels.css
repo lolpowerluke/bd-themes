@@ -11,6 +11,10 @@
     border-radius: var(--border-radius-xxl);
     background-color: transparent;
     overflow: hidden;
+
+    .iconsContainer__972a0 {
+      padding-left: 0;
+    }
   }
   .icon_c9d15c {
     color: white;
