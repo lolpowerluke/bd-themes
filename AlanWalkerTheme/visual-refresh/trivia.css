@@ -312,7 +312,10 @@
           padding: 0;
         }
       }
-      .iconContainer_fea832 {
+      .icon__97492 {
+        width: 27px;
+      }
+      .iconContainer__0c4c4 {
         transform: scale(1.2);
         transition: var(--animation-duration-2);
       }
@@ -330,6 +333,9 @@
         width: 244px;
         padding: 2px 0 2px 8px;
         border-color: rgba(var(--border-color-1), var(--border-opacity-1));
+      }
+      .iconContainer__0c4c4 {
+        transform: scale(1);
       }
     }
     .open__97492 {
