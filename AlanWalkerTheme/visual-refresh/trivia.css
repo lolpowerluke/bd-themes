@@ -15,6 +15,11 @@
 
     .chat_f75fb0 {
       border: 0;
+      
+      .chatTypingGradientAtBottom__36d07,
+      .chatGradient__36d07 {
+        display: none;
+      }
     }
     .guilds_c48ade {
       height: calc(100% - var(--guild-margin-bottom) - 54px);
