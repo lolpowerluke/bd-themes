@@ -12,7 +12,7 @@
     pointer-events: none;
     
     .button__67645 {
-      margin: var(--user-buttons-spacing) auto 0 auto;
+      margin: 0 auto;
       pointer-events: auto;
       border-radius: 50%;
     }
