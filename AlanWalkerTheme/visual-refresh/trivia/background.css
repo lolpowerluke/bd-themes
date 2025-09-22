@@ -69,7 +69,7 @@
     width: 100%;
     height: 100%;
   }
-  .bd-transparency .notAppAsidePanel_a3002d:has( .layerContainer_da8173 .backdrop__78332) .bg__960e4 {
+  .bd-transparency .notAppAsidePanel_a3002d:has( .layerContainer__59d0d .backdrop__78332) .bg__960e4 {
     --opac-extra: calc(var(--back-gradient-opacity) - var(--backdrop-opacity) + 0.1);
     background: linear-gradient(
         to bottom,
