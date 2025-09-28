@@ -145,7 +145,7 @@
       }
     }
     &:hover {
-      .container__2637a .content__99f8c {
+      .container__2637a .content_d125d2 {
         .voiceChannelsButton__29444 {
           .defaultColor__4bd52 {
             transform: translateX(0);
@@ -157,7 +157,7 @@
         }
       }
     }
-    .container__2637a .content__99f8c {
+    .container__2637a .content_d125d2 {
       padding: 0 0 0 8px;
 
       .containerDefault__29444 {
@@ -332,7 +332,7 @@
   }
   .container__0b563 {
     .pageBody__5d7c9,
-    .content__99f8c {
+    .content_d125d2 {
       padding: 0;
     }
     .prompt__5d7c9,
