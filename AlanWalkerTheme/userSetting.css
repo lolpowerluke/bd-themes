@@ -9,7 +9,7 @@
 .layer__960e4[aria-hidden="true"] .bar_c38106 + .content_c48ade {
   display: none;
 }
-.layers__960e4>.container_c48ade:has(+ .standardSidebarView__23e6b) {
+.layers__960e4>.layer__960e4.baseLayer__960e4[aria-hidden="true"] {
   opacity: 1 !important;
   transform: unset !important;
 
