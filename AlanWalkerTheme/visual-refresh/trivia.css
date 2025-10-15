@@ -155,7 +155,7 @@
     }
     @media (max-width: 800px) {
       .guilds_c48ade {
-        height: calc(100% - var(--guild-margin-bottom) - 54px);
+        height: calc(100% - var(--guild-margin-bottom));
       }
       .wrapper_e131a9,
       .container__37e49 {
