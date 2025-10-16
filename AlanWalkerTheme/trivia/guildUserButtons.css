@@ -11,8 +11,11 @@
     background: linear-gradient(transparent, var(--back-user-buttons) 15%);
     pointer-events: none;
     
+    & > * {
+      margin: 0;
+      align-self: center;
+    }
     .button__67645 {
-      margin: 0 auto;
       pointer-events: auto;
       border-radius: 50%;
     }
