@@ -22,10 +22,9 @@
       }
     }
     .guilds_c48ade {
-      height: calc(100% - var(--guild-margin-bottom));
-      /* height: calc(100% - var(--guild-margin-bottom) - 54px); */
+      height: calc(100% - var(--guild-margin-bottom) - 54px);
       margin-bottom: var(--guild-margin-bottom);
-      /* margin-top: 54px; */
+      margin-top: 54px;
 
       .tree_ef3116 {
         outline: unset;
@@ -61,10 +60,10 @@
       .guildIcon__48112 {
         border-radius: var(--border-radius-l) !important;
       }
-      /* .tutorialContainer__1f388 {
+      .tutorialContainer__1f388 {
         position: fixed;
-        top: 40px;
-      } */
+        top: 35px;
+      }
       .stack_dbd263 {
         gap: calc(var(--custom-guild-list-width) / 9)  !important;
       }
@@ -155,7 +154,7 @@
     }
     @media (max-width: 800px) {
       .guilds_c48ade {
-        height: calc(100% - var(--guild-margin-bottom));
+        height: calc(100% - var(--guild-margin-bottom) - 54px);
       }
       .wrapper_e131a9,
       .container__37e49 {
