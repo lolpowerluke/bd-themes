@@ -114,6 +114,10 @@
         }
       }
       .children__2ea32 {
+        display: none;
+      }
+      .children__2ea32:has(> .channelInfo_c69b6d) {
+        display: flex;
         position: absolute;
         right: -16px;
     
