@@ -21,7 +21,7 @@
         .header__7d20c {
           margin: 0 0 8px 8px;
         }
-        & > .header__7d20c + .itemCard__7e549 {
+        .header__7d20c + .itemCard__7e549 {
           border-top-left-radius: var(--border-radius-m);
           border-top-right-radius: var(--border-radius-m);
         }
