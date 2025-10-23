@@ -36,7 +36,7 @@
       --prof-grad-start: color-mix(in oklab, var(--profile-gradient-primary-color), var(--user-popout-gradient-color-mix-addition));
       --prof-grad-end: color-mix(in oklab, var(--profile-gradient-secondary-color), var(--user-popout-gradient-color-mix-addition));
       background: linear-gradient(var(--prof-grad-start), var(--prof-grad-start) var(--custom-user-profile-banner-height), var(--prof-grad-end));
-      backdrop-filter: blur(2px);
+      backdrop-filter: unset;
       outline: unset;
       border-radius: 0;
 
