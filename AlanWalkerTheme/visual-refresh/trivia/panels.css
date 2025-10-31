@@ -1,5 +1,5 @@
 .visual-refresh {
-  #app-mount .panels_c48ade {
+  #app-mount .panels__5e434 {
     display: block;
     overflow: visible !important;
     border: 0;
@@ -69,12 +69,12 @@
     }
   }
   @media (max-width: 800px) {
-    #app-mount div .panels_c48ade .container__37e49:hover {
+    #app-mount div .panels__5e434 .container__37e49:hover {
       border-right: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
       border-top-right-radius: var(--border-radius-xl);
       backdrop-filter: blur(2px);
     }
-    .activityPanel_c48ade {
+    .activityPanel__5e434 {
       margin-bottom: 0;
       width: var(--custom-guild-list-width);
       box-sizing: border-box;
@@ -139,7 +139,7 @@
     }
   }
   @media (max-width: 400px) {
-    #app-mount.appMount__51fd7 .panels_c48ade {
+    #app-mount.appMount__51fd7 .panels__5e434 {
       width: fit-content !important;
     }
   }

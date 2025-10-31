@@ -464,8 +464,8 @@ body .pc-notices .pc-notice-container {
   }
 }
 #app-mount .bar_c38106:has(> #channelTabs-container) {
-  & + .content_c48ade {
-    .guilds_c48ade {
+  & + .content__5e434 {
+    .guilds__5e434 {
       height: calc(100% - var(--guild-margin-bottom));
       margin-top: 0;
 

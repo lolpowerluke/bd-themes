@@ -1,5 +1,5 @@
 @supports (grid-template-columns:subgrid) and (white-space-collapse:collapse) {
-  .visual-refresh .base_c48ade {
+  .visual-refresh .base__5e434 {
     display: grid;
     grid-template-areas: 
       "titleBar titleBar titleBar"
@@ -21,7 +21,7 @@
         display: none;
       }
     }
-    .guilds_c48ade {
+    .guilds__5e434 {
       mask: unset !important;
       height: calc(100% - var(--guild-margin-bottom) - 54px);
       margin-bottom: var(--guild-margin-bottom);
@@ -52,13 +52,13 @@
         border-radius: var(--border-radius-m);
         overflow: hidden;
       }
-      .expandedFolderBackground__48112,
+      .folderGroupBackground__48112,
       .circleIconButton__5bc7e,
-      .folderIconWrapper__48112 {
+      .folderPreviewWrapper__48112 {
         border-radius: var(--border-radius-l);
         overflow: hidden;
       }
-      .guildIcon__48112 {
+      .folderPreviewGuildIcon__48112 {
         border-radius: var(--border-radius-l) !important;
       }
       .tutorialContainer__1f388 {
@@ -73,7 +73,7 @@
       .tutorialContainer__1f388,
       .tutorialContainer__650eb,
       .folderGroup__48112 {
-        .folderIconWrapper__48112,
+        .folderPreviewWrapper__48112,
         .folderPreviewWrapper__48112 {
           padding: calc(var(--guildbar-folder-size) / 12);
         }
@@ -106,7 +106,7 @@
         .circleIconButton__5bc7e,
         .wrapper__6e9f8,
         .folderPreview__48112,
-        .folderIconWrapper__48112,
+        .folderPreviewWrapper__48112,
         .folderPreviewWrapper__48112,
         .folderButton__48112,
         .folderButtonInner__48112 {
@@ -154,7 +154,7 @@
       }
     }
     @media (max-width: 800px) {
-      .guilds_c48ade {
+      .guilds__5e434 {
         height: calc(100% - var(--guild-margin-bottom) - 54px);
       }
       .wrapper_e131a9,
@@ -170,7 +170,7 @@
       }
     }
     @media (max-width: 400px) {
-      .guilds_c48ade {
+      .guilds__5e434 {
         position: fixed;
         height: calc(100vh - var(--custom-app-panels-height, 0) - 32px) !important;
         top: 32px;
@@ -189,10 +189,10 @@
           }
         }
       }
-      .guilds_c48ade:has(~ .sidebarList__5e434:hover),
-      .guilds_c48ade:has(~ .sidebarList__5e434 .container__2637a:hover),
-      .guilds_c48ade:has(~ .sidebarList__5e434 .privateChannels_e6b769:hover),
-      .guilds_c48ade:hover {
+      .guilds__5e434:has(~ .sidebarList__5e434:hover),
+      .guilds__5e434:has(~ .sidebarList__5e434 .container__2637a:hover),
+      .guilds__5e434:has(~ .sidebarList__5e434 .privateChannels_e6b769:hover),
+      .guilds__5e434:hover {
         width: var(--custom-guild-list-width) !important;
 
         .tutorialContainer__1f388 {
@@ -207,8 +207,8 @@
         height: calc(100% - 32px - 48px) !important;
         border-right: 0 !important;
       }
-      .guilds_c48ade + .sidebarList__5e434 .container__2637a:hover,
-      .guilds_c48ade + .sidebarList__5e434 .privateChannels_e6b769:hover {
+      .guilds__5e434 + .sidebarList__5e434 .container__2637a:hover,
+      .guilds__5e434 + .sidebarList__5e434 .privateChannels_e6b769:hover {
         width: calc(100% - var(--custom-guild-list-width));
       }
     }
@@ -221,15 +221,15 @@
         margin-bottom: 0;
       }
     }
-    .sidebarResizeHandle_c48ade:active + .panels_c48ade,
-    .sidebarResizeHandle_c48ade:hover + .panels_c48ade,
-    .sidebarList__5e434:hover ~ .panels_c48ade {
+    .sidebarResizeHandle__5e434:active + .panels__5e434,
+    .sidebarResizeHandle__5e434:hover + .panels__5e434,
+    .sidebarList__5e434:hover ~ .panels__5e434 {
       width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width)) !important;
     }
-    .sidebar_c48ade.hidden_c48ade {
+    .sidebar__5e434.hidden__5e434 {
       display: none;
     }
-    .sidebar_c48ade {
+    .sidebar__5e434 {
       display: grid;
       grid-template-areas: 
           "guildsList channelsList"
@@ -245,7 +245,7 @@
         .container__2637a {
           padding: 0;
         }
-        .searchBar__35e86 {
+        .searchBar_e6b769 {
           width: 100%;
           border-bottom: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
       
@@ -286,7 +286,7 @@
       --guild-margin-bottom: var(--custom-app-panels-height);
     }
   }
-  .sidebar_c48ade:after {
+  .sidebar__5e434:after {
     display: none;
   }
   @media (max-width: 400px) {
