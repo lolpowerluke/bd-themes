@@ -48,7 +48,7 @@ html:not(.visual-refresh) {
   .members_c8ffbb,
   .container_c8ffbb,
   #app-mount .ChannelDms-channelmembers-wrap,
-  .panels_c48ade,
+  .panels__5e434,
   .activityPanel_c48ade,
   .container_e131a9,
   .container-6sXIoE,
@@ -66,10 +66,10 @@ html:not(.visual-refresh) {
   .container__7d20c,
   .nowPlayingColumn__133bf,
   .chat_f75fb0,
-  #app-mount .panels_c48ade .container__37e49,
-  #app-mount .panels_c48ade .container__37e49 .buttons__37e49,
-  #app-mount .panels_c48ade .container__37e49 .content__37e49,
-  #app-mount .panels_c48ade .container__37e49 .content__37e49 .buttons__37e49,
+  #app-mount .panels__5e434 .container__37e49,
+  #app-mount .panels__5e434 .container__37e49 .buttons__37e49,
+  #app-mount .panels__5e434 .container__37e49 .content__37e49,
+  #app-mount .panels__5e434 .container__37e49 .content__37e49 .buttons__37e49,
   .scroller__99e7c,
   .scroller_ef3116,
   .wrapper_ef3116,
@@ -78,7 +78,7 @@ html:not(.visual-refresh) {
     background: transparent !important;
   }
   @media (max-width: 800px) {
-    #app-mount .panels_c48ade .container__37e49:hover {
+    #app-mount .panels__5e434 .container__37e49:hover {
       background-color: var(--back-user-buttons) !important;
       backdrop-filter: blur(2px);
     }
@@ -87,7 +87,7 @@ html:not(.visual-refresh) {
     background: rgba(70, 70, 70, 0.2);
   }
   /*Account Background*/
-  .panels_c48ade,
+  .panels__5e434,
   .activityPanel_c48ade,
   .container_e131a9,
   .container-6sXIoE,
