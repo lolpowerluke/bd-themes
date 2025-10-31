@@ -74,7 +74,7 @@ html:not(.visual-refresh) {
   .scroller_ef3116,
   .wrapper_ef3116,
   #app-mount .content_f75fb0,
-  .privateChannels__35e86 {
+  .privateChannels_e6b769 {
     background: transparent !important;
   }
   @media (max-width: 800px) {
@@ -315,16 +315,16 @@ html:not(.visual-refresh) {
       var(--border-opacity-1)
     ) !important;
   }
-  .scrollerBase-_bVAAt {
+  .scrollerBase_d125d2 {
     padding-right: 4px !important;
   }
   .thin__99f8c::-webkit-scrollbar-track {
     background-color: transparent !important;
   }
   .form__468a6 .modalContent__468a6::-webkit-scrollbar,
-  div:not(.messagesWrapper__36d07) > .scrollerBase-_bVAAt::-webkit-scrollbar,
+  div:not(.messagesWrapper__36d07) > .scrollerBase_d125d2::-webkit-scrollbar,
   [aria-label="USER_SETTINGS"] .sidebarRegionScroller__23e6b::-webkit-scrollbar,
-  .privateChannels__35e86 .scroller__99e7c::-webkit-scrollbar,
+  .privateChannels_e6b769 .scroller__99e7c::-webkit-scrollbar,
   .peopleList__5ec2f::-webkit-scrollbar,
   .nowPlayingColumn__133bf .scroller__7d20c::-webkit-scrollbar,
   .membersWrap_c8ffbb .members_c8ffbb::-webkit-scrollbar,
@@ -538,15 +538,15 @@ html:not(.visual-refresh) {
   }
   /*DM/Channel list*/
   @media (max-width: 800px) {
-    #app-mount .sidebar_c48ade > .privateChannels__35e86,
+    #app-mount .sidebar_c48ade > .privateChannels_e6b769,
     #app-mount .sidebar_c48ade > .container__2637a {
       background-color: var(--back-sidebar) !important;
     }
-    #app-mount .sidebar_c48ade > .privateChannels__35e86 {
+    #app-mount .sidebar_c48ade > .privateChannels_e6b769 {
       border-left: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
     }
-    #app-mount .wrapper_ef3116:hover + .base_c48ade > .content_c48ade > .sidebar_c48ade > .privateChannels__35e86,
-    #app-mount .sidebar_c48ade > .privateChannels__35e86:hover {
+    #app-mount .wrapper_ef3116:hover + .base_c48ade > .content_c48ade > .sidebar_c48ade > .privateChannels_e6b769,
+    #app-mount .sidebar_c48ade > .privateChannels_e6b769:hover {
       border-right: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
     }
   }

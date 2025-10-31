@@ -30,13 +30,13 @@
 	padding-bottom: 0;
 	padding-top: 0;
 }
-.privateChannels__35e86
+.privateChannels_e6b769
 	.privateChannelsHeaderContainer__99e7c
 	.clickable__9293f,
-.privateChannels__35e86
+.privateChannels_e6b769
 	.privateChannelsHeaderContainer__99e7c
 	.numberBadge__40d6f,
-.privateChannels__35e86
+.privateChannels_e6b769
 	.privateChannelsHeaderContainer__99e7c
 	.headerText__99e7c {
 	margin-top: 8px;
@@ -45,7 +45,7 @@
 	height: 15px;
 	border-radius: var(--border-radius-xl);
 }
-.privateChannels__35e86
+.privateChannels_e6b769
 	.privateChannelsHeaderContainer__99e7c
 	.headerText__99e7c {
 	margin: 0;
@@ -61,11 +61,11 @@
 	overflow-y: hidden;
 	border-radius: var(--border-radius-0);
 }
-.privateChannels__35e86 .privateChannelsHeaderContainer__99e7c {
+.privateChannels_e6b769 .privateChannelsHeaderContainer__99e7c {
 	height: 30px;
 	border-radius: var(--border-radius-0) 30% 30% var(--border-radius-0);
 }
-.privateChannels__35e86 .privateChannelsHeaderContainer__99e7c:hover {
+.privateChannels_e6b769 .privateChannelsHeaderContainer__99e7c:hover {
 	background: var(--gr-dm-headers);
 }
 /*Permission Viewer*/
