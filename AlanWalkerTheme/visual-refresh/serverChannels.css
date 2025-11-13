@@ -75,6 +75,14 @@
     .numberBadge__2b1f5 {
       background-color: var(--mentioned-badge) !important;
     }
+    .children__2ea32 {
+      display: none;
+    }
+    .containerDefault_c69b6d:hover {
+      .children__2ea32 {
+        display: flex;
+      }
+    }
     &:not(:hover) {
       .numberBadge__2b1f5 {
         width: fit-content !important;
@@ -112,9 +120,6 @@
           position: absolute;
           font-size: 10px;
         }
-      }
-      .children__2ea32 {
-        display: none;
       }
       .children__2ea32:has(> .channelInfo_c69b6d) {
         display: flex;
