@@ -1,45 +1,43 @@
-.visual-refresh {
-  #app-mount {
-    .gradientBackground__11664 {
-      display: none;
+#app-mount {
+  .gradientBackground__11664 {
+    display: none;
+  }
+  /* Stages */
+  .container__722ff {
+    .sidebarVisible__722ff {
+      margin: 0;
     }
-    /* Stages */
-    .container__722ff {
-      .sidebarVisible__722ff {
-        margin: 0;
-      }
-      .tileContainer__71eb2 {
-        border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-      }
-      .container__664ff {
-        border-left: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
-        border-radius: var(--border-radius-0);
-      }
-      .videoControls_bfe55a {
-        padding: 0;
-        padding-bottom: 16px;
-        
-        .controlSection_bfe55a.topControls_bfe55a {
-          transform: unset;
-          opacity: 1;
+    .tileContainer__71eb2 {
+      border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+    }
+    .container__664ff {
+      border-left: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
+      border-radius: var(--border-radius-0);
+    }
+    .videoControls_bfe55a {
+      padding: 0;
+      padding-bottom: 16px;
+      
+      .controlSection_bfe55a.topControls_bfe55a {
+        transform: unset;
+        opacity: 1;
 
-          .participants__4783a {
-            padding: 8px 16px;
-          }
-          .sidebarOpen__4783a {
-            margin: 0;
-          }
+        .participants__4783a {
+          padding: 8px 16px;
         }
-        .controlSection_bfe55a.bottomControls_bfe55a {
-          padding: 0 16px;
-          width: 100%;
-          box-sizing: border-box;
-          transform: unset;
-          opacity: 1;
+        .sidebarOpen__4783a {
+          margin: 0;
         }
-        .gradientBottom_bfe55a {
-          display: none;
-        }
+      }
+      .controlSection_bfe55a.bottomControls_bfe55a {
+        padding: 0 16px;
+        width: 100%;
+        box-sizing: border-box;
+        transform: unset;
+        opacity: 1;
+      }
+      .gradientBottom_bfe55a {
+        display: none;
       }
     }
   }

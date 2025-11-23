@@ -1,15 +1,13 @@
-.visual-refresh {
-  .guilds__5e434 {
-    .hiddenVisually_b18fe2[aria-expanded="true"] {
-      background-color: var(--back-expanded-server-folder-icon);
-      border-radius: var(--border-radius-l);
-    }
-    .folderGroupBackground__48112 {
-      background-color: var(--back-expanded-server-folder);
-    
-      &.collapsed__48112 {
-        background-color: transparent;
-      }
+.guilds__5e434 {
+  .hiddenVisually_b18fe2[aria-expanded="true"] {
+    background-color: var(--back-expanded-server-folder-icon);
+    border-radius: var(--border-radius-l);
+  }
+  .folderGroupBackground__48112 {
+    background-color: var(--back-expanded-server-folder);
+  
+    &.collapsed__48112 {
+      background-color: transparent;
     }
   }
 }

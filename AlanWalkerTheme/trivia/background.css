@@ -1,89 +1,85 @@
-.visual-refresh {
-  body,
-  #app-mount,
-  .app__160d8,
-  .wrapper_ef3116,
-  .container__2637a,
-  .chat_f75fb0,
-  .chatContent_f75fb0,
-  .title_f75fb0,
-  .privateChannels_e6b769,
-  .progressContainer__0d0f9,
-  .wrapper_cb9592,
-  .channelChatWrapper_cb9592,
-  .callContainer_cb9592,
-  .root_bfe55a,
-  .fieldList__1fed1,
-  .wrapper_cdf8a9,
-  .wrapper_fc8177,
-  .container__664ff,
-  .rowContainer__1e702,
-  .tileContainer__71eb2,
-  .tierBody_a36dee,
-  .tierHeaderContent_a36dee,
-  .mainTableContainer__09a38,
-  .safetyChecklist_eae0ef,
-  .card_b44011,
-  .card__83361,
-  .card_eafb9c,
-  .card__73069,
-  .upsellContainer__73000,
-  .upsellFooter__73000,
-  .card_ebafdd,
-  .card_dc2e44,
-  .contentRegionScroller__23e6b,
-  .joinOptions__959cb,
-  .participants__9c309,
-  .scroller__56ccd,
-  .container__722ff,
-  .callContainer__722ff,
-  .searchResult__02a39,
-  .searchResultsWrap_a9e706,
-  .scroller__99e7c,
-  .tabBody__133bf,
-  .container__133bf,
-  .container__7d20c,
-  .nowPlayingColumn__133bf,
-  .layer__960e4,
-  .container__9293f,
-  .standardSidebarView__23e6b,
-  .contentRegion__23e6b,
-  .contentRegionShownSidebar__23e6b,
-  .sidebarRegionScroller__23e6b,
-  .searchBar__5ec2f,
-  .visual-refresh .channelChatWrapper_cb9592,
-  .visual-refresh .wrapper_cb9592 {
-    background: transparent !important;
-  }
-  .visual-refresh .container__01ae2,
-  .bg__960e4 {
-    background: linear-gradient(
-      to bottom,
-      rgba(var(--back-gradient-top), var(--back-gradient-opacity)) 80%,
-      rgba(var(--back-gradient-bottom), var(--back-gradient-opacity))
-    );
-  }
-  .bg__960e4::after {
-    content: "";
-    position: absolute;
-    background: var(--main-background);
-    width: 100%;
-    height: 100%;
-  }
-  .bd-transparency .notAppAsidePanel_a3002d:has( .layerContainer__59d0d .backdrop__78332) .bg__960e4 {
-    --opac-extra: calc(var(--back-gradient-opacity) - var(--backdrop-opacity) + 0.1);
-    background: linear-gradient(
-        to bottom,
-        rgba(var(--back-gradient-top), var(--opac-extra)) 80%,
-        rgba(var(--back-gradient-bottom), var(--opac-extra))
-      );
-  }
+body,
+#app-mount,
+.app__160d8,
+.wrapper_ef3116,
+.container__2637a,
+.chat_f75fb0,
+.chatContent_f75fb0,
+.title_f75fb0,
+.privateChannels_e6b769,
+.progressContainer__0d0f9,
+.wrapper_cb9592,
+.channelChatWrapper_cb9592,
+.callContainer_cb9592,
+.root_bfe55a,
+.fieldList__1fed1,
+.wrapper_cdf8a9,
+.wrapper_fc8177,
+.container__664ff,
+.rowContainer__1e702,
+.tileContainer__71eb2,
+.tierBody_a36dee,
+.tierHeaderContent_a36dee,
+.mainTableContainer__09a38,
+.safetyChecklist_eae0ef,
+.card_b44011,
+.card__83361,
+.card_eafb9c,
+.card__73069,
+.upsellContainer__73000,
+.upsellFooter__73000,
+.card_ebafdd,
+.card_dc2e44,
+.contentRegionScroller__23e6b,
+.joinOptions__959cb,
+.participants__9c309,
+.scroller__56ccd,
+.container__722ff,
+.callContainer__722ff,
+.searchResult__02a39,
+.searchResultsWrap_a9e706,
+.scroller__99e7c,
+.tabBody__133bf,
+.container__133bf,
+.container__7d20c,
+.nowPlayingColumn__133bf,
+.layer__960e4,
+.container__9293f,
+.standardSidebarView__23e6b,
+.contentRegion__23e6b,
+.contentRegionShownSidebar__23e6b,
+.sidebarRegionScroller__23e6b,
+.searchBar__5ec2f,
+.channelChatWrapper_cb9592,
+.wrapper_cb9592 {
+  background: transparent !important;
 }
-.visual-refresh {
-  @media (max-width: 800px) {
-    .container__2637a,
-    .privateChannels_e6b769 {
-      background-color: var(--back-sidebar) !important;
-    }
+.container__01ae2,
+.bg__960e4 {
+  background: linear-gradient(
+    to bottom,
+    rgba(var(--back-gradient-top), var(--back-gradient-opacity)) 80%,
+    rgba(var(--back-gradient-bottom), var(--back-gradient-opacity))
+  );
+}
+.bg__960e4::after {
+  content: "";
+  position: absolute;
+  background: var(--main-background);
+  width: 100%;
+  height: 100%;
+}
+.bd-transparency .notAppAsidePanel_a3002d:has( .layerContainer__59d0d .backdrop__78332) .bg__960e4 {
+  --opac-extra: calc(var(--back-gradient-opacity) - var(--backdrop-opacity) + 0.1);
+  background: linear-gradient(
+      to bottom,
+      rgba(var(--back-gradient-top), var(--opac-extra)) 80%,
+      rgba(var(--back-gradient-bottom), var(--opac-extra))
+    );
+}
+@media (max-width: 800px) {
+  .container__2637a,
+  .privateChannels_e6b769 {
+    background-color: var(--back-sidebar) !important;
   }
 }

@@ -1,52 +1,50 @@
-.visual-refresh {
-  .sidebar__5e434 {
-    /*Unread */
-    .isUnread__908e2 {
-      border-color: transparent;
-    }
-    .unreadPillCapStroke__908e2 {
-      fill: transparent;
-      color: transparent;
-    }
-    .divider__908e2.isUnread__908e2 .unreadPillCap__908e2 {
-      display: none;
-    }
-    .divider__908e2.isUnread__908e2:after {
-      margin-left: 30px;
-      background: linear-gradient(
-        to right,
-        var(--unread-message-line) 50%,
-        transparent
-      );
-    }
-    .unreadPill__908e2 {
-      display: flex !important;
-      color: var(--unread-message) !important;
-    }
-    .pill_e5445c {
-      overflow: visible;
+.sidebar__5e434 {
+  /*Unread */
+  .isUnread__908e2 {
+    border-color: transparent;
+  }
+  .unreadPillCapStroke__908e2 {
+    fill: transparent;
+    color: transparent;
+  }
+  .divider__908e2.isUnread__908e2 .unreadPillCap__908e2 {
+    display: none;
+  }
+  .divider__908e2.isUnread__908e2:after {
+    margin-left: 30px;
+    background: linear-gradient(
+      to right,
+      var(--unread-message-line) 50%,
+      transparent
+    );
+  }
+  .unreadPill__908e2 {
+    display: flex !important;
+    color: var(--unread-message) !important;
+  }
+  .pill_e5445c {
+    overflow: visible;
 
-      .item__58105 {
-        background-color: var(--unread-pill);
-        animation-name: channel-unread-1;
-        animation-duration: 4s;
-        animation-iteration-count: infinite;
-      }
-    }
-    .unread__2ea32 {
-      width: 4px;
-      top: 13px;
-      left: -8px;
-      margin-top: 0;
-      height: 6px;
+    .item__58105 {
       background-color: var(--unread-pill);
       animation-name: channel-unread-1;
       animation-duration: 4s;
       animation-iteration-count: infinite;
     }
-    .item__58105 {
-      background-color: var(--unread-pill);
-    }
+  }
+  .unread__2ea32 {
+    width: 4px;
+    top: 13px;
+    left: -8px;
+    margin-top: 0;
+    height: 6px;
+    background-color: var(--unread-pill);
+    animation-name: channel-unread-1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  .item__58105 {
+    background-color: var(--unread-pill);
   }
 }
 @keyframes channel-unread-1 {
