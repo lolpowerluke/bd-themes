@@ -8,10 +8,6 @@
   }
 }
 #app-mount .app__160d8 {
-  --custom-guild-list-width: 72px;
-  --guildbar-server-size: calc(var(--custom-guild-list-width) / 9 * 5);
-  --guildbar-folder-size: calc(var(--guildbar-server-size) + calc(var(--guildbar-server-size) / 5));
-
   .chat_f75fb0 {
     border: 0;
     
