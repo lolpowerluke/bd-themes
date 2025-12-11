@@ -114,6 +114,7 @@
     }
   }
   .folderGroup__48112 .stack_dbd263 .listItem__650eb,
+  .tutorialContainer__1f388,
   .tutorialContainer__650eb,
   .tutorialContainer__650eb + .listItem__650eb,
   .scroller_ef3116 > .stack_dbd263 > .listItem__650eb {
@@ -122,7 +123,10 @@
       width: var(--guildbar-server-size) !important;
       height: var(--guildbar-server-size) !important;
 
-      * {
+      .childWrapper__6e9f8 > svg,
+      .svg_cc5dd2,
+      .wrapper_cc5dd2,
+      foreignObject {
         width: 100% !important;
         height: 100% !important;
       }
@@ -138,6 +142,20 @@
     .childWrapper__6e9f8 {
       font-size: 120%;
       line-height: 100%;
+    }
+    .childWrapperNoHoverBg__6e9f8 {
+      background-color: var(--back-server-no-img);
+    }
+    .wrapper_cc5dd2:hover .childWrapperNoHoverBg__6e9f8 {
+      background-color: var(--back-server-no-img-hover);
+    }
+  }
+  .folderGroup__48112 .stack_dbd263 .listItem__650eb {
+    .childWrapperNoHoverBg__6e9f8 {
+      background-color: var(--back-server-no-img-in-folder);
+    }
+    .wrapper_cc5dd2:hover .childWrapperNoHoverBg__6e9f8 {
+      background-color: var(--back-server-no-img-hover-in-folder);
     }
   }
 }

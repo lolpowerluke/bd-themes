@@ -2,7 +2,7 @@
  * @name         Alan Walker Theme
  * @description  dark theme with Alan Walker's logo as background, credit to DevilBro#4401 for settingsicons, credit to Nyria#3863 for userbuttons in the serverbar and spotifyControls
  * @author       lolpowerluke
- * @version      1.3.6.3
+ * @version      1.3.7
  * @source       https://github.com/lolpowerluke/bd-themes/blob/main/AlanWalkerTheme/alanWalker.theme.css
  * @website      https://github.com/lolpowerluke
 */
@@ -16,7 +16,7 @@
   --back-selected-dm-pic: url('https://i.imgur.com/tmY77W1.png') center left no-repeat;
   --home-button-background: url('https://i.imgur.com/PrJ5xwf.png');
   --back-pos-dm: 0px;
-  --home-button-background-size: 45px;
+  --home-button-background-size: 50px;
 
   /*Other Stuff*/
   --crash-screen-image: url('https://i.imgur.com/z6YF9bI.png');
@@ -43,6 +43,9 @@
   --border-radius-l: 12px;
   --border-radius-xl: 16px;
   --border-radius-xxl: 32px;
+  
+  /*Transparent Chat Header*/
+  --margin-chat-top: 48px; /*On: 48px, off: 0px*/
 
   /*Member list*/
   --memberlist-no-hover-width: 60px;
@@ -85,9 +88,9 @@
   --animation-duration-5: 1s;
 
   /*Version*/
-  --version-1-3-6-3: none;
+  --version-1-3-7: none;
 
-  /*Window width 800px or smaller*/
+  /*Window width 700px or smaller*/
   --guild-bar-width-700: 56px;
 }
 :root .bd-transparency {
@@ -122,6 +125,7 @@
   --back-color-danger-button: red;
   --back-color-button: #008549fa;
   --home-button-bg-color: black;
+  --message-buttons-bg: rgba(0, 0, 0, 0.8);
   
   /*switches*/
   --switch-off: rgba(255, 255, 255, 0.5);
@@ -177,9 +181,13 @@
   --dm-selected-color: rgb(189, 189, 189);
   --chat-header-name-color: rgb(182, 182, 182);
 
-  /*server folders*/
+  /*servers*/
   --back-expanded-server-folder-icon: rgba(73, 73, 73, 0.548);
   --back-expanded-server-folder: rgba(73, 73, 73, 0.582);
+  --back-server-no-img: rgba(66, 66, 66, 0.5);
+  --back-server-no-img-hover: rgba(92, 92, 92, 0.5);
+  --back-server-no-img-in-folder: rgba(94, 94, 94, 0.5);
+  --back-server-no-img-hover-in-folder: rgba(116, 116, 116, 0.5);
 
   /*other stuff*/
   --channeltextarea-background: rgba(77, 77, 77, 0.425);
@@ -214,6 +222,7 @@
   --call-button-red: rgba(255, 0, 0, 0.5);
   --jump-to-present-bar: rgba(0, 0, 0, 0.6);
   --jump-to-present-bar-hover: rgba(0, 0, 0, 0.8);
+  --channels-roles-options-bg: rgba(0, 0, 0, 0.4);
 
   /*popouts*/
   --popout-header: black;
@@ -230,7 +239,7 @@
 
   /*Memberlist*/
   --back-memberlist: 0, 0, 0;
-  --back-memberlist-opacity: 0.8;
+  --back-memberlist-opacity: 0.4;
 
   /*Frienlist*/
   --back-friendlist-friends: rgba(0, 0, 0, 0.4);
@@ -253,6 +262,7 @@
   --back-friend-notifications: black;
   --back-better-message-links: black;
   --back-powercord-notices: black;
+  --channelTabs-favs-popup-bg: rgba(0, 0, 0, 0.8);
 
   /*scroller (I think)*/
   --back-color-menu: rgb(0, 0, 0, .8);
@@ -276,7 +286,7 @@
   /*smallDMchannelList*/
   --back-sidebar: rgba(0, 0, 0, 0.8);
 
-  /*Window width 800px or smaller*/
+  /*Window width 700px or smaller*/
   --back-user-buttons-700: rgb(0,0,0,0.4);
   --back-user-buttons-hover-700: rgba(255, 255, 255, 0.2);
 
@@ -290,6 +300,9 @@
 :root.theme-midnight .bd-transparency,
 :root.theme-dark .bd-transparency {
   /*Put any variable here you want to apply only if bd's transpareny settings is enabled*/
+  /*boxes*/
+  --back-color-boxes: rgba(0, 0, 0, 0.4);
+
   /*background gradient*/
   --back-gradient-opacity: 0.8;
   --back-gradient-top: 0, 0, 0;
@@ -396,6 +409,10 @@
   /*server folders*/
   --back-expanded-server-folder-icon: rgba(133, 133, 133, 0.55);
   --back-expanded-server-folder: rgba(150, 150, 150, 0.6);
+  --back-server-no-img: rgba(196, 196, 196, 0.5);
+  --back-server-no-img-hover: rgba(151, 151, 151, 0.5);
+  --back-server-no-img-in-folder: rgba(158, 158, 158, 0.5);
+  --back-server-no-img-hover-in-folder: rgba(114, 114, 114, 0.5);
 
   /*other stuff*/
   --channeltextarea-background: rgba(143, 143, 143, 0.5);
@@ -429,6 +446,7 @@
   --call-button-red: rgba(255, 0, 0, 0.5);
   --jump-to-present-bar: rgba(255, 255, 255, 0.6);
   --jump-to-present-bar-hover: rgba(255, 255, 255, 0.8);
+  --channels-roles-options-bg: rgba(255, 255, 255, 0.4);
 
   /*popouts*/
   --popout-header: black;
@@ -444,8 +462,8 @@
   --back-color-search-popup: rgba(255, 255, 255, 0.8);
 
   /*Memberlist*/
-  --back-memberlist: 255, 255, 255;
-  --back-memberlist-opacity: 0.8;
+  --back-memberlist: 0, 0, 0;
+  --back-memberlist-opacity: 0.4;
   
   /*Frienlist*/
   --back-friendlist-friends: rgba(255, 255, 255, 0.4);
@@ -468,6 +486,7 @@
   --back-friend-notifications: white;
   --back-better-message-links: white;
   --back-powercord-notices: white;
+  --channelTabs-favs-popup-bg: rgba(255, 255, 255, 0.8);
 
   /*scroller (I think)*/
   --back-color-menu: rgb(255, 255, 255, .8);
@@ -491,7 +510,7 @@
   /*smallDMchannelList*/
   --back-sidebar: rgb(0, 0, 0);
 
-  /*Window width 800px or smaller*/
+  /*Window width 700px or smaller*/
   --back-user-buttons-700: rgb(0,0,0,0.2);
   --back-user-buttons-hover-700: rgba(255, 255, 255, 0.2);
 
@@ -502,6 +521,9 @@
 :root.theme-light .bd-transparency,
 .bd-transparency #app-mount .theme-light {
   /*Put any variable here you want to apply only if bd's transpareny settings is enabled*/
+  /*boxes*/
+  --back-color-boxes: rgba(255, 255, 255, 0.4);
+
   /*background gradient*/
   --back-gradient-opacity: 0.6;
   --back-gradient-top: 255, 255, 255;
