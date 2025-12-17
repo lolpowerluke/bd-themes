@@ -3,7 +3,7 @@
 }
 ._5e434347c823b592-base::before {
 	content: "theme outdated, please redownload from https://lolpowerluke.github.io/bd-stuff/bd.html";
-	/* display: var(--version-1-3-7); */
+	display: var(--version-1-3-7);
 	color: #fff;
 	position: relative;
   grid-area: notice;
