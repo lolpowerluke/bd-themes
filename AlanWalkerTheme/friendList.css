@@ -1,9 +1,9 @@
-.peopleColumn__133bf {
+._133bf5eea8e33a34-peopleColumn {
   display: flex;
   flex-direction: column;
   gap: 5px;
 
-  .searchBar__5ec2f {
+  ._5ec2fb8b5de26b21-searchBar {
     margin: 0;
     border-radius: var(--border-radius-0);
     padding: 5px 5px 0;
@@ -29,44 +29,44 @@
       }
     }
   }
-  .sectionTitle__5ec2f {
+  ._5ec2fb8b5de26b21-sectionTitle {
     width: 100%;
   
-    .title__1472a {
+    ._1472a8142d02ea23-title {
       padding: 0 5px;
       margin: 0;
       box-sizing: border-box;
     }
   }
-  .peopleList__5ec2f {
+  ._5ec2fb8b5de26b21-peopleList {
     margin: 0;
     padding: 0 5px 5px 5px !important;
     overflow: hidden auto !important;
     width: 100%;
 
-    .peopleListItem_cc6179 {
+    .cc61794aab086a2e-peopleListItem {
       margin: 0;
       padding: 0;
       border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
 
-      .discriminator__0a06e {
+      ._0a06ed6ea040aa1b-discriminator {
         display: none;
       }
-      &:hover .userInfo__0a06e .discriminator__0a06e {
+      &:hover ._0a06ed6ea040aa1b-userInfo ._0a06ed6ea040aa1b-discriminator {
         display: block;
         visibility: visible;
       }
     }
   }
 }
-.peopleColumn__133bf .peopleList__5ec2f {
-  .peopleListItem_cc6179 {
+._133bf5eea8e33a34-peopleColumn ._5ec2fb8b5de26b21-peopleList {
+  .cc61794aab086a2e-peopleListItem {
     margin: -1px 0 0 0;
     padding: 0 12px;
     border-radius: var(--border-radius-0);
     background-color: var(--back-friendlist-friends);
   
-    &:has(+ .peopleListItem_cc6179) {
+    &:has(+ .cc61794aab086a2e-peopleListItem) {
       border-bottom-color: transparent;
     }
     &:last-child {
@@ -77,24 +77,24 @@
       background-color: var(--back-friendlist-friends-hover);
     }
   }
-  .sectionTitle__5ec2f + .peopleListItem_cc6179 {
+  ._5ec2fb8b5de26b21-sectionTitle + .cc61794aab086a2e-peopleListItem {
     margin: 0;
     border-top-left-radius: var(--border-radius-m);
     border-top-right-radius: var(--border-radius-m);
   }
 }
 /*FriendList Top Buttons*/
-#app-mount .container__9293f {
-  .children__9293f {
+#app-mount ._9293f6b2fc12398a-container {
+  ._9293f6b2fc12398a-children {
     height: 100%;
 
-    .tabBar__133bf {
+    ._133bf5eea8e33a34-tabBar {
       height: 100%;
       overflow-y: hidden;
       overflow-x: auto;
       align-items: center;
 
-      .item__133bf  {
+      ._133bf5eea8e33a34-item  {
         margin: 0;
         margin-left: -1px;
         border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
@@ -116,7 +116,7 @@
           margin-left: 0;
           border-radius: var(--border-radius-xl) var(--border-radius-0) var(--border-radius-0) var(--border-radius-xl);
         }
-        &:hover + .item__133bf {
+        &:hover + ._133bf5eea8e33a34-item {
           border-left-color: transparent;
         }
       }

@@ -1,6 +1,6 @@
 /*Playing Cards In Friendlist*/
-.tabBody__133bf {
-  .nowPlayingColumn__133bf {
+._133bf5eea8e33a34-tabBody {
+  ._133bf5eea8e33a34-nowPlayingColumn {
     display: block;
     flex: 0 0 360px;
     /* height: 100%; */
@@ -10,21 +10,21 @@
     border-left: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
     transition: flex var(--animation-duration-3);
 
-    .scroller__7d20c {
+    ._7d20cf18f8a2784c-scroller {
       display: flex;
       flex-direction: column;
       border: 0;
       margin: 0;
       padding: 8px;
 
-      .header__7d20c {
+      ._7d20cf18f8a2784c-header {
         margin: 0 0 8px 8px;
       }
-      .header__7d20c + .itemCard__7e549 {
+      ._7d20cf18f8a2784c-header + ._7e549558f336cddb-itemCard {
         border-top-left-radius: var(--border-radius-m);
         border-top-right-radius: var(--border-radius-m);
       }
-      .itemCard__7e549 {
+      ._7e549558f336cddb-itemCard {
         background-color: var(--back-color-boxes);
         border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
         border-radius: var(--border-radius-0);
@@ -41,40 +41,40 @@
           flex-direction: column;
           gap: 10px;
           
-          .header__00943 {
+          ._00943886e1cf89d1-header {
             padding: 0 4px;
           }
-          .body__00943 {
+          ._00943886e1cf89d1-body {
             margin: 0;
             background-color: transparent;
 
-            .separator__00943 {
+            ._00943886e1cf89d1-separator {
               display: none;
             }
-            .wrapper__960df,
-            .section__00943 {
+            ._11054c9baccea7a2-wrapper,
+            ._00943886e1cf89d1-section {
               border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
               background-color: var(--background-primary);
               margin-top: -1px;
 
-              &:where(:has(+ .separator__00943 + .section__00943)) {
+              &:where(:has(+ ._00943886e1cf89d1-separator + ._00943886e1cf89d1-section)) {
                 border-bottom-color: transparent;
               }
             }
           }
         }
       }
-      .itemCard__7e549:not(:has( + .itemCard__7e549)) {
+      ._7e549558f336cddb-itemCard:not(:has( + ._7e549558f336cddb-itemCard)) {
         border-bottom-left-radius: var(--border-radius-m);
         border-bottom-right-radius: var(--border-radius-m);
       }
-      .itemCard__7e549:hover + .itemCard__7e549 {
+      ._7e549558f336cddb-itemCard:hover + ._7e549558f336cddb-itemCard {
         border-top-color: transparent;
       }
-      .itemCard__7e549:where(:has( + .itemCard__7e549)) {
+      ._7e549558f336cddb-itemCard:where(:has( + ._7e549558f336cddb-itemCard)) {
         border-bottom-color: transparent;
       }
-      .emptyCard__7e549 {
+      ._7e549558f336cddb-emptyCard {
         background-color: var(--back-color-boxes);
         border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
         border-radius: var(--border-radius-m);
@@ -83,19 +83,19 @@
   }
 }
 @media (max-width: 800px) {
-  .tabBody__133bf {
+  ._133bf5eea8e33a34-tabBody {
     display: flex;
     flex-direction: column;
 
-    .peopleColumn__133bf {
+    ._133bf5eea8e33a34-peopleColumn {
       flex: 0 0 70%;
       transition: flex var(--animation-duration-3);
 
-      &:has(+ .nowPlayingColumn__133bf:not(:hover)) {
+      &:has(+ ._133bf5eea8e33a34-nowPlayingColumn:not(:hover)) {
         flex: 0 0 90%;
       }
     }
-    .nowPlayingColumn__133bf {
+    ._133bf5eea8e33a34-nowPlayingColumn {
       flex: 0 0 30%;
       border-left: 0;
       border-top: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
@@ -103,8 +103,8 @@
       &:not(:hover) {
         flex: 0 0 10%;
       }
-      .scroller__7d20c {
-        & > .header__7d20c {
+      ._7d20cf18f8a2784c-scroller {
+        & > ._7d20cf18f8a2784c-header {
           position: sticky;
           top: 0;
           z-index: 1;
@@ -121,8 +121,8 @@
   }
 }
 @media (max-width: 1200px) and (min-width: 701px) {
-  .tabBody__133bf {
-    .nowPlayingColumn__133bf:not(:hover) {
+  ._133bf5eea8e33a34-tabBody {
+    ._133bf5eea8e33a34-nowPlayingColumn:not(:hover) {
       flex: 0 0 200px;
     }
   }

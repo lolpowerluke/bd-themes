@@ -3,40 +3,40 @@
     display: none;
   }
   /* Stages */
-  .container__722ff {
-    .sidebarVisible__722ff {
+  ._722ffae0e1be2672-container {
+    ._722ffae0e1be2672-sidebarVisible {
       margin: 0;
     }
-    .tileContainer__71eb2 {
+    ._71eb2d6ae9535ae3-tileContainer {
       border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
     }
-    .container__664ff {
+    ._664ffc673b75c994-container {
       border-left: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
       border-radius: var(--border-radius-0);
     }
-    .videoControls_bfe55a {
+    .bfe55a0aaaf62375-videoControls {
       padding: 0;
       padding-bottom: 16px;
       
-      .controlSection_bfe55a.topControls_bfe55a {
+      .bfe55a0aaaf62375-controlSection.bfe55a0aaaf62375-topControls {
         transform: unset;
         opacity: 1;
 
-        .participants__4783a {
+        ._4783ab18e518acc0-participants {
           padding: 8px 16px;
         }
-        .sidebarOpen__4783a {
+        ._4783ab18e518acc0-sidebarOpen {
           margin: 0;
         }
       }
-      .controlSection_bfe55a.bottomControls_bfe55a {
+      .bfe55a0aaaf62375-controlSection.bfe55a0aaaf62375-bottomControls {
         padding: 0 16px;
         width: 100%;
         box-sizing: border-box;
         transform: unset;
         opacity: 1;
       }
-      .gradientBottom_bfe55a {
+      .bfe55a0aaaf62375-gradientBottom {
         display: none;
       }
     }

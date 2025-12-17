@@ -1,9 +1,9 @@
-.guilds__5e434 {
-  .hiddenVisually_b18fe2[aria-expanded="true"] {
+._5e434347c823b592-guilds {
+  .b18fe29d6fe8dd82-hiddenVisually[aria-expanded="true"] {
     background-color: var(--back-expanded-server-folder-icon);
     border-radius: var(--border-radius-l);
   }
-  .folderGroupBackground__48112 {
+  ._48112cbe77dc5022-folderGroupBackground {
     background-color: var(--back-expanded-server-folder);
   
     &.collapsed__48112 {

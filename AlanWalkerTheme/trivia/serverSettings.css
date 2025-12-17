@@ -1,43 +1,43 @@
-#app-mount .layers__960e4>.layer__960e4:not(.baseLayer__960e4) {
-  .tiers_f15dca {
-    .tier_f15dca {
+#app-mount ._960e4207cea8323e-layers>._960e4207cea8323e-layer:not(._960e4207cea8323e-baseLayer) {
+  .a36dee84341ac9f5-tiers {
+    .a36dee84341ac9f5-tier {
       border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
 
-      .tierHeaderLocked_f15dca {
+      .a36dee84341ac9f5-tierHeaderLocked {
         background: var(--back-color-boxes);
         border-bottom: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
       }
     }
   }
-  .testimonialHeroContainer__3e7e2,
-  .safetyChecklist_eae0ef,
-  .card_b44011,
-  .upsellPreview_d9161f,
-  .card__73069,
-  .card__83361,
-  .card_eafb9c,
-  .upsellContainer__4cfe2,
-  .card_ebafdd,
-  .card_dc2e44,
-  .container_d8f25b,
-  .container__86ab2,
-  .selected_b3f026 .joinOptionContent__959cb,
-  .joinOptions__959cb,
-  .rules__92677 {
+  ._3e7e2b8d60dda075-testimonialHeroContainer,
+  .eae0ef2ab2653087-safetyChecklist,
+  .b440119daa5af4d6-card,
+  .d9161fe9b78d5bb9-upsellPreview,
+  ._730694f5672c9601-card,
+  ._8336162d3e89459e-card,
+  .eafb9cc569d6dcbd-card,
+  ._73000d97b1b29da5-upsellContainer,
+  .ebafdde0cbd6bae3-card,
+  .dc2e447a66129ac2-card,
+  .d8f25bf4f76423e6-container,
+  .dca174a2baed7ac1-container,
+  .aa8da23faa27393c-selected ._959cbfbb20fb39e8-joinOptionContent,
+  ._959cbfbb20fb39e8-joinOptions,
+  ._926775445e7c239a-rules {
     border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
   }
-  .upsellFooter__4cfe2 {
+  ._73000d97b1b29da5-upsellFooter {
     border-top: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
   }
-  .upsellPreview_d9161f,
-  .testimonialHeroContainer__3e7e2,
-  .container_d8f25b,
-  .rules__92677,
-  .selected_b3f026 .joinOptionContent__959cb {
+  .d9161fe9b78d5bb9-upsellPreview,
+  ._3e7e2b8d60dda075-testimonialHeroContainer,
+  .d8f25bf4f76423e6-container,
+  ._926775445e7c239a-rules,
+  .aa8da23faa27393c-selected ._959cbfbb20fb39e8-joinOptionContent {
     background: var(--back-color-boxes);
   }
 }
-#app-mount .container__86ab2 {
+#app-mount .dca174a2baed7ac1-container {
   background-color: var(--back-color-boxes) !important;
   backdrop-filter: blur(2px);
 }

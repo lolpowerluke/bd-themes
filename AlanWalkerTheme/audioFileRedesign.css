@@ -1,5 +1,5 @@
 /*Originaly made by davart154 (github), slightly edited by me*/
-.wrapperAudio_cf09d8.wrapperAudio_cf09d8 {
+.cf09d85aafe7e124-wrapperAudio.cf09d85aafe7e124-wrapperAudio {
   border: 0;
   border-radius: var(--border-radius-0);
   background-color: var(--background-secondary);
@@ -21,14 +21,14 @@
   >* {
     z-index: 1;
   }
-  .videoButton_cf09d8 {
+  .cf09d85aafe7e124-videoButton {
     background-color: var(--brand-500);
     border-radius: var(--radius-round);
     position: absolute;
     top: -30px;
     transition: var(--animation-duration-2);
   }
-  .flex_abf706 {
+  .abf7060e6f2beabe-flex {
     background-color: var(--brand-500);
     border-radius: var(--radius-round);
     margin-left: 4px;
@@ -36,17 +36,17 @@
     order: 2;
     transition: var(--animation-duration-2);
   }
-  .horizontal_b26b79 {
+  .b26b790fd1005393-horizontal {
     margin-left: 40px;
     margin-right: 12px;
     width: 127px;
-    .mediaBarWrapper_b26b79 {
+    .b26b790fd1005393-mediaBarWrapper {
       box-shadow: unset;
       margin-top: 3px;
       height: 3px;
     }
   }
-  .durationTimeWrapper_cf09d8 {
+  .cf09d85aafe7e124-durationTimeWrapper {
     margin-left: -4px;
     margin-top: -10px;
     min-width: 57px;
@@ -57,7 +57,7 @@
     }
   }
 }
-.wrapperAudio_cf09d8:has([d="M6 4a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H6ZM15 4a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-3Z"]) {
+.cf09d85aafe7e124-wrapperAudio:has([d="M6 4a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H6ZM15 4a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-3Z"]) {
   &:before {
     margin: 0;
     width: 100%;
@@ -65,41 +65,41 @@
     transition: margin var(--animation-duration-1), height var(--animation-duration-1), width var(--animation-duration-1);
     border-radius: var(--border-radius-0);
   }
-  .metadataDownload_cf09d8 {
+  .cf09d85aafe7e124-metadataDownload {
     color: var(--white);
   }
-  .metadataSize_cf09d8 {
+  .cf09d85aafe7e124-metadataSize {
     color: hsl(var(--white-500-hsl) / .8);
   }
-  .videoButton_cf09d8, .flex_abf706 {
+  .cf09d85aafe7e124-videoButton, .abf7060e6f2beabe-flex {
     background-color: var(--white);
   }
-  .controlIcon_cf09d8 {
+  .cf09d85aafe7e124-controlIcon {
     color: var(--brand-500);
   }
-  .mediaBarProgress_b26b79, .mediaBarProgress_b26b79:before, .mediaBarProgress_b26b79:after {
+  .b26b790fd1005393-mediaBarProgress, .b26b790fd1005393-mediaBarProgress:before, .b26b790fd1005393-mediaBarProgress:after {
     background-color: var(--white);
   }
-  .mediaBarGrabber_b26b79 {
+  .b26b790fd1005393-mediaBarGrabber {
     background-color: var(--white);
   }
 }
-.wrapperAudio_cf09d8 + .hoverButtonGroup__06ab4 {
+.cf09d85aafe7e124-wrapperAudio + ._06ab41fd2ef7af3f-hoverButtonGroup {
   right: unset;
   left: calc(100% - 12px);
 }
 
-.audioMetadata_cf09d8 {
+.cf09d85aafe7e124-audioMetadata {
   margin-left: 36px;
   margin-top: -4px;
   &:before {
     display: none;
   }
 }
-.metadataDownload_cf09d8, .metadataSize_cf09d8, .controlIcon_cf09d8 {
+.cf09d85aafe7e124-metadataDownload, .cf09d85aafe7e124-metadataSize, .cf09d85aafe7e124-controlIcon {
   transition: var(--animation-duration-2);
 }
-.audioMetadata_cf09d8 .metadataDownload_cf09d8 {
+.cf09d85aafe7e124-audioMetadata .cf09d85aafe7e124-metadataDownload {
   overflow: hidden;
   text-overflow: ellipsis;
   width: 190px;
@@ -107,17 +107,17 @@
   display: block;
 }
 
-.audioControls_cf09d8 {
+.cf09d85aafe7e124-audioControls {
   background: unset;
   margin-top: 0;
   margin-bottom: -4px;
 }
-.controlIcon_cf09d8 {
+.cf09d85aafe7e124-controlIcon {
   opacity: .8;
 }
-.mediaBarProgress_b26b79, .mediaBarProgress_b26b79:before, .mediaBarProgress_b26b79:after {
+.b26b790fd1005393-mediaBarProgress, .b26b790fd1005393-mediaBarProgress:before, .b26b790fd1005393-mediaBarProgress:after {
   transition: background-color var(--animation-duration-2);
 }
-.theme-light .wrapperAudio_cf09d8:not(:has([d="M6 4a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H6ZM15 4a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-3Z"])) .durationTimeWrapper_cf09d8 {
+.theme-light .cf09d85aafe7e124-wrapperAudio:not(:has([d="M6 4a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H6ZM15 4a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-3Z"])) .cf09d85aafe7e124-durationTimeWrapper {
   color: #000;
 }
