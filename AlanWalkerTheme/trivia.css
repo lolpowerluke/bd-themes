@@ -1,5 +1,5 @@
 @supports (grid-template-columns:subgrid) and (white-space-collapse:collapse) {
-  ._5e434347c823b592-base {
+  .base__5e434 {
     display: grid;
     grid-template-areas: 
       "titleBar titleBar titleBar"
@@ -7,33 +7,33 @@
       "guildsList channelsList page";
   }
 }
-#app-mount ._160d8e55254637e5-app {
-  .f75fb00fb7356cbe-chat {
+#app-mount .app__160d8 {
+  .chat_f75fb0 {
     border: 0;
     
-    ._36d072eab2b2e737-chatTypingGradientAtBottom,
-    ._36d072eab2b2e737-chatGradient {
+    .chatTypingGradientAtBottom__36d07,
+    .chatGradient__36d07 {
       display: none;
     }
   }
-  ._5e434347c823b592-sidebarList {
+  .sidebarList__5e434 {
     box-sizing: border-box;
     border: 0;
     border-right: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
 
-    ._99e7cad8d4c55236-scroller {
+    .scroller__99e7c {
       margin-bottom: 0;
     }
   }
-  ._5e434347c823b592-sidebarResizeHandle:active + ._5e434347c823b592-panels,
-  ._5e434347c823b592-sidebarResizeHandle:hover + ._5e434347c823b592-panels,
-  ._5e434347c823b592-sidebarList:hover ~ ._5e434347c823b592-panels {
+  .sidebarResizeHandle__5e434:active + .panels__5e434,
+  .sidebarResizeHandle__5e434:hover + .panels__5e434,
+  .sidebarList__5e434:hover ~ .panels__5e434 {
     width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width)) !important;
   }
-  ._5e434347c823b592-sidebar._5e434347c823b592-hidden {
+  .sidebar__5e434.hidden__5e434 {
     display: none;
   }
-  ._5e434347c823b592-sidebar {
+  .sidebar__5e434 {
     display: grid;
     grid-template-areas: 
         "guildsList channelsList"
@@ -42,14 +42,14 @@
     grid-template-rows: 1fr auto;
     width: fit-content !important;
 
-    ._5e434347c823b592-sidebarList {
+    .sidebarList__5e434 {
       backdrop-filter: unset;
       border-radius: 0;
     
-      ._2637a2609f343032-container {
+      .container__2637a {
         padding: 0;
       }
-      .e6b7699ce8339e1c-searchBar {
+      .searchBar_e6b769 {
         width: 100%;
         border-bottom: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
     
@@ -60,57 +60,57 @@
       }
     }
   }
-  ._133bf5eea8e33a34-container {
+  .container__133bf {
     border: 0;
   
-    ._9293f6b2fc12398a-container {
+    .container__9293f {
       border-bottom: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
     }
   }
-  .cb9592ad77576717-wrapper {
-    .cb9592ad77576717-callContainer {
+  .wrapper_cb9592 {
+    .callContainer_cb9592 {
       border-top: 0;
       border-radius: 0;
     }
   }
-  ._9293f6b2fc12398a-container,
-  .f75fb00fb7356cbe-subtitleContainer {
-    ._9293f6b2fc12398a-children {
-      ._488b1a4248d1b790-akaBadge,
-      ._488b1a4248d1b790-nicknames,
-      ._4bd5201c86a2042b-defaultColor {
+  .container__9293f,
+  .subtitleContainer_f75fb0 {
+    .children__9293f {
+      .akaBadge__488b1,
+      .nicknames__488b1,
+      .defaultColor__4bd52 {
         color: var(--chat-header-name-color);
       }
     }
   }
 }
 @media (max-width: 800px) {
-  #app-mount ._160d8e55254637e5-app {
+  #app-mount .app__160d8 {
     --custom-guild-list-width: 54px;
     --guild-margin-bottom: var(--custom-app-panels-height);
   }
 }
-._5e434347c823b592-sidebar:after {
+.sidebar__5e434:after {
   display: none;
 }
 @media (max-width: 400px) {
-  ._9293f6b2fc12398a-container {
+  .container__9293f {
     padding: 8px;
     padding-left: calc(8px + var(--custom-guild-list-width));
   }
-  .f75fb00fb7356cbe-subtitleContainer {
-    ._9293f6b2fc12398a-toolbar {
+  .subtitleContainer_f75fb0 {
+    .toolbar__9293f {
       display: none;
     }
   }
 }
 /*Chat search bar*/
-._496769951eb140fe-search {
+.search__49676 {
   order: 1;
   margin: 0;
 
-  ._974928fe84ca9647-search {
-    ._974928fe84ca9647-searchBar {
+  .search__97492 {
+    .searchBar__97492 {
       width: 27px;
       padding: 2px 0;
       transition: var(--animation-duration-2) all;
@@ -122,14 +122,14 @@
         padding: 0;
       }
     }
-    ._974928fe84ca9647-icon {
+    .icon__97492 {
       width: 27px;
     }
-    ._0c4c409e1915aba4-iconContainer {
+    .iconContainer__0c4c4 {
       transform: scale(1.2);
       transition: var(--animation-duration-2);
     }
-    ._974928fe84ca9647-searchBar {
+    .searchBar__97492 {
       background: transparent;
     }
     .public-DraftEditorPlaceholder-root,
@@ -137,34 +137,34 @@
       padding: 0;
     }
   }
-  ._974928fe84ca9647-open,
+  .open__97492,
   &:hover {
-    ._974928fe84ca9647-searchBar {
+    .searchBar__97492 {
       width: 244px;
       padding: 2px 0 2px 8px;
       border-color: rgba(var(--border-color-1), var(--border-opacity-1));
     }
-    ._0c4c409e1915aba4-iconContainer {
+    .iconContainer__0c4c4 {
       transform: scale(1);
     }
   }
-  ._974928fe84ca9647-open {
-    ._974928fe84ca9647-searchBar {
+  .open__97492 {
+    .searchBar__97492 {
       background-color: var(--back-color-search-bar);
     }
   }
 }
 /*chat header*/
-._9293f6b2fc12398a-container {
+.container__9293f {
   border-bottom: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
 }
-._9293f6b2fc12398a-titleWrapper {
+.titleWrapper__9293f {
   text-overflow: ellipsis;
   min-width: 0;
   overflow: hidden;
   white-space: no-wrap;
 }
-._9293f6b2fc12398a-children:after {
+.children__9293f:after {
   display: none;
 }
 [aria-hidden="true"] {
@@ -172,14 +172,14 @@
 }
 /* Chat sidebar (profile and search) */
 .user-profile-sidebar {
-  .c0bea05627c5dc35-overlay {
+  .overlay_c0bea0 {
     background-color: transparent;
     border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
     box-sizing: border-box;
   }
 }
-.f3b986a284a18c78-searchHeader,
-._02a39cb2980ceaaf-searchResult,
-.a9e7064fdee8e9b0-searchResultsWrap {
+.searchHeader_f3b986,
+.searchResult__02a39,
+.searchResultsWrap_a9e706 {
   border-color: rgba(var(--border-color-1), var(--border-opacity-1));
 }

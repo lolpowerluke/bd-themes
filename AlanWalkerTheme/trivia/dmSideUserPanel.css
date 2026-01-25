@@ -1,7 +1,7 @@
 /*Side Profile*/
-.f75fb00fb7356cbe-chatContent + aside .c0bea05627c5dc35-outer {
+.chatContent_f75fb0 + aside .outer_c0bea0 {
   background: transparent;
-  .c0bea05627c5dc35-inner {
+  .inner_c0bea0 {
     --prof-grad-start: color-mix(in oklab, var(--profile-gradient-primary-color), transparent);
     --prof-grad-end: color-mix(in oklab, var(--profile-gradient-secondary-color), transparent);
     background: linear-gradient(var(--prof-grad-start), var(--prof-grad-start) var(--custom-user-profile-banner-height), var(--prof-grad-end));

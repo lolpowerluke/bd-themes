@@ -1,5 +1,5 @@
 /*Streamer mode*/
-._6e2b9359c6f84cfd-notice._6e2b9359c6f84cfd-colorStreamerMode {
+.notice__6e2b9.colorStreamerMode__6e2b9 {
   position: absolute;
   top: 50px;
   right: 10px;
@@ -17,13 +17,13 @@
   transform-origin: right;
   transition: transform var(--stream-mode-hover-duration), border-radius var(--stream-mode-hover-duration), font-size var(--stream-mode-hover-duration), color var(--stream-mode-hover-duration);
 }
-._6e2b9359c6f84cfd-notice._6e2b9359c6f84cfd-colorStreamerMode:hover {
+.notice__6e2b9.colorStreamerMode__6e2b9:hover {
   font-size: 14px;
   border-radius: var(--border-radius-s);
   color: white;
   transition-delay: var(--stream-mode-hover-delay);
 }
-._6e2b9359c6f84cfd-notice._6e2b9359c6f84cfd-colorStreamerMode ._6e2b9359c6f84cfd-button {
+.notice__6e2b9.colorStreamerMode__6e2b9 .button__6e2b9 {
   top: 0;
   margin: 0;
   padding: 0 3px;
@@ -31,12 +31,12 @@
   transform-origin: right;
   transition: margin-left var(--stream-mode-hover-duration), transform var(--stream-mode-hover-duration);
 }
-._6e2b9359c6f84cfd-notice._6e2b9359c6f84cfd-colorStreamerMode:hover ._6e2b9359c6f84cfd-button {
+.notice__6e2b9.colorStreamerMode__6e2b9:hover .button__6e2b9 {
   transform: scaleX(1);
   margin-left: 5px;
   transition-delay: var(--stream-mode-hover-delay);
 }
-._6e2b9359c6f84cfd-notice._6e2b9359c6f84cfd-colorStreamerMode ._6e2b9359c6f84cfd-closeButton {
+.notice__6e2b9.colorStreamerMode__6e2b9 .closeButton__6e2b9 {
   position: static;
   order: 1;
   width: 22px;
@@ -44,7 +44,7 @@
   margin-top: 1px;
   justify-content: flex-end;
 }
-._6e2b9359c6f84cfd-notice._6e2b9359c6f84cfd-colorStreamerMode ._6e2b9359c6f84cfd-closeButton {
+.notice__6e2b9.colorStreamerMode__6e2b9 .closeButton__6e2b9 {
   width: 22px;
   height: 22px;
 }

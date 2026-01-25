@@ -3,40 +3,40 @@
     display: none;
   }
   /* Stages */
-  ._722ffae0e1be2672-container {
-    ._722ffae0e1be2672-sidebarVisible {
+  .container__722ff {
+    .sidebarVisible__722ff {
       margin: 0;
     }
-    ._71eb2d6ae9535ae3-tileContainer {
+    .tileContainer__71eb2 {
       border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
     }
-    ._664ffc673b75c994-container {
+    .container__664ff {
       border-left: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
       border-radius: var(--border-radius-0);
     }
-    .bfe55a0aaaf62375-videoControls {
+    .videoControls_bfe55a {
       padding: 0;
       padding-bottom: 16px;
       
-      .bfe55a0aaaf62375-controlSection.bfe55a0aaaf62375-topControls {
+      .controlSection_bfe55a.topControls_bfe55a {
         transform: unset;
         opacity: 1;
 
-        ._4783ab18e518acc0-participants {
+        .participants__4783a {
           padding: 8px 16px;
         }
-        ._4783ab18e518acc0-sidebarOpen {
+        .sidebarOpen__4783a {
           margin: 0;
         }
       }
-      .bfe55a0aaaf62375-controlSection.bfe55a0aaaf62375-bottomControls {
+      .controlSection_bfe55a.bottomControls_bfe55a {
         padding: 0 16px;
         width: 100%;
         box-sizing: border-box;
         transform: unset;
         opacity: 1;
       }
-      .bfe55a0aaaf62375-gradientBottom {
+      .gradientBottom_bfe55a {
         display: none;
       }
     }

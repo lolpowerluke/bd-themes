@@ -1,6 +1,6 @@
 /*Userbuttons In Side Panel*/
 @media (min-width: 801px) {
-  ._5e434347c823b592-panels ._37e49614b9f110a9-container ._37e49614b9f110a9-buttons {
+  .panels__5e434 .container__37e49 .buttons__37e49 {
     position: fixed;
     bottom: 0px;
     left: 0px;
@@ -15,14 +15,14 @@
       margin: 0;
       align-self: center;
     }
-    ._67645e1530f1195d-button {
+    .button__67645 {
       pointer-events: auto;
       border-radius: 50%;
     }
   }
 }
 @media (max-width: 800px) {
-  ._5e434347c823b592-panels ._37e49614b9f110a9-container ._37e49614b9f110a9-buttons {
+  .panels__5e434 .container__37e49 .buttons__37e49 {
     column-gap: 2px;
 
     button {
@@ -45,6 +45,6 @@
     }
   }
 }
-._37e49614b9f110a9-container {
+.container__37e49 {
   container-type: unset;
 }

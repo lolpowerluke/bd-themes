@@ -1,41 +1,41 @@
 /*Message Stuff*/
-#app-mount ._36d072eab2b2e737-scrollerContent ._5126c0cd07f243a0-message {
+#app-mount .scrollerContent__36d07 .message__5126c {
   transition: background-color var(--animation-duration-2);
 }
-#app-mount ._36d072eab2b2e737-scrollerContent ._5126c0cd07f243a0-message:hover {
+#app-mount .scrollerContent__36d07 .message__5126c:hover {
   background-color: var(--message-hover);
 }
 /*Message Hover Buttons*/
-._5126c0cd07f243a0-message:hover ._5126c0cd07f243a0-buttons {
+.message__5126c:hover .buttons__5126c {
   opacity: 1;
   pointer-events: auto;
 }
-._5126c0cd07f243a0-buttons {
+.buttons__5126c {
   transition: opacity var(--animation-duration-2);
 }
-._5126c0cd07f243a0-message .popoverReactionHoverBar_f84418 {
+.message__5126c .popoverReactionHoverBar_f84418 {
   background: var(--message-buttons-bg) !important;
   border: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
   box-shadow: unset;
 }
 @media (max-width: 800px) {
   /*Message Stuff*/
-  .c19a557985eb7793-cozy.c19a557985eb7793-wrapper .StatusEverywhereV2-Avatar,
-  .c19a557985eb7793-cozy.c19a557985eb7793-wrapper .c19a557985eb7793-avatar {
+  .cozy_c19a55.wrapper_c19a55 .StatusEverywhereV2-Avatar,
+  .cozy_c19a55.wrapper_c19a55 .avatar_c19a55 {
     transform: scale(0.75);
     left: 4px;
   }
-  .c19a557985eb7793-cozy.c19a557985eb7793-wrapper {
+  .cozy_c19a55.wrapper_c19a55 {
     padding-left: 50px;
   }
   /*Message Hover Buttons*/
-  ._5126c0cd07f243a0-buttons {
+  .buttons__5126c {
     transform: scale(0.75);
     transform-origin: right;
   }
 }
 /*Jump te present bar*/
-#app-mount ._0f481cbbd7530492-jumpToPresentBar {
+#app-mount .jumpToPresentBar__0f481 {
   background-color: var(--jump-to-present-bar);
   backdrop-filter: blur(2px);
   border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
@@ -54,13 +54,13 @@
   }
 }
 /*Typing Status*/
-#app-mount .f75fb00fb7356cbe-chat form.f75fb00fb7356cbe-form {
-  .f75fb00fb7356cbe-channelBottomBarArea:focus-within ~ .b8880176888cc928-typing,
-  .f75fb00fb7356cbe-channelBottomBarArea:hover ~ .b8880176888cc928-typing {
+#app-mount .chat_f75fb0 form.form_f75fb0 {
+  .channelBottomBarArea_f75fb0:focus-within ~ .typing_b88801,
+  .channelBottomBarArea_f75fb0:hover ~ .typing_b88801 {
     border-bottom: 0;
     padding-bottom: 1px;
   }
-  .b8880176888cc928-typing {
+  .typing_b88801 {
     background-color: var(--back-color-boxes);
     bottom: 100%;
     padding-left: 10px;

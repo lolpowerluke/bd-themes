@@ -2,21 +2,21 @@
   width: 16px;
   height: 16px;
 }
-#app-mount ._496769951eb140fe-search .public-DraftEditor-content::-webkit-scrollbar,
-#app-mount .d125d22cdfd32cfe-none::-webkit-scrollbar {
+#app-mount .search__49676 .public-DraftEditor-content::-webkit-scrollbar,
+#app-mount .none_d125d2::-webkit-scrollbar {
   width: 0;
   height: 0;
 }
-#app-mount ._506b39a96c2f8884-scrollbarGhost::-webkit-scrollbar,
-#app-mount ._9293f6b2fc12398a-container ._9293f6b2fc12398a-children ._133bf5eea8e33a34-tabBar::-webkit-scrollbar,
-#app-mount .f5f93a5c4078d63c-descriptionClamp::-webkit-scrollbar,
-#app-mount ._506b39a96c2f8884-scrollbarGhostHairline::-webkit-scrollbar,
-#app-mount .d125d22cdfd32cfe-thin::-webkit-scrollbar,
-#app-mount ._99f8cc7ad4790ce9-thin::-webkit-scrollbar {
+#app-mount .scrollbarGhost__506b3::-webkit-scrollbar,
+#app-mount .container__9293f .children__9293f .tabBar__133bf::-webkit-scrollbar,
+#app-mount .descriptionClamp_f5f93a::-webkit-scrollbar,
+#app-mount .scrollbarGhostHairline__506b3::-webkit-scrollbar,
+#app-mount .thin_d125d2::-webkit-scrollbar,
+#app-mount .thin__99f8c::-webkit-scrollbar {
   width: 8px;
   height: 8px;
 }
-#app-mount ._740174f3d6a2c8fe-scrollableContainer > ._740174f3d6a2c8fe-inner::-webkit-scrollbar {
+#app-mount .scrollableContainer__74017 > .inner__74017::-webkit-scrollbar {
   width: 12px;
   height: 12px;
 }
@@ -35,26 +35,26 @@
   border-radius: var(--border-radius-m);
   visibility: visible;
 }
-#app-mount ._506b39a96c2f8884-scrollbarGhost::-webkit-scrollbar-thumb,
-#app-mount ._506b39a96c2f8884-scrollbarGhost::-webkit-scrollbar-track,
-#app-mount ._9293f6b2fc12398a-container ._9293f6b2fc12398a-children ._133bf5eea8e33a34-tabBar::-webkit-scrollbar-track,
-#app-mount ._9293f6b2fc12398a-container ._9293f6b2fc12398a-children ._133bf5eea8e33a34-tabBar::-webkit-scrollbar-thumb,
-#app-mount .f5f93a5c4078d63c-descriptionClamp::-webkit-scrollbar-track,
-#app-mount .f5f93a5c4078d63c-descriptionClamp::-webkit-scrollbar-thumb,
-#app-mount ._506b39a96c2f8884-scrollbarGhostHairline::-webkit-scrollbar-thumb,
-#app-mount ._506b39a96c2f8884-scrollbarGhostHairline::-webkit-scrollbar-track,
-#app-mount .d125d22cdfd32cfe-thin::-webkit-scrollbar-thumb,
-#app-mount .d125d22cdfd32cfe-thin::-webkit-scrollbar-track,
-#app-mount ._99f8cc7ad4790ce9-thin::-webkit-scrollbar-thumb,
-#app-mount ._99f8cc7ad4790ce9-thin::-webkit-scrollbar-track {
+#app-mount .scrollbarGhost__506b3::-webkit-scrollbar-thumb,
+#app-mount .scrollbarGhost__506b3::-webkit-scrollbar-track,
+#app-mount .container__9293f .children__9293f .tabBar__133bf::-webkit-scrollbar-track,
+#app-mount .container__9293f .children__9293f .tabBar__133bf::-webkit-scrollbar-thumb,
+#app-mount .descriptionClamp_f5f93a::-webkit-scrollbar-track,
+#app-mount .descriptionClamp_f5f93a::-webkit-scrollbar-thumb,
+#app-mount .scrollbarGhostHairline__506b3::-webkit-scrollbar-thumb,
+#app-mount .scrollbarGhostHairline__506b3::-webkit-scrollbar-track,
+#app-mount .thin_d125d2::-webkit-scrollbar-thumb,
+#app-mount .thin_d125d2::-webkit-scrollbar-track,
+#app-mount .thin__99f8c::-webkit-scrollbar-thumb,
+#app-mount .thin__99f8c::-webkit-scrollbar-track {
   border: 2px solid transparent;
 }
 #app-mount *::-webkit-scrollbar-track {
   border-width: initial;
 }
-#app-mount ._506b39a96c2f8884-scrollbarGhost::-webkit-scrollbar-thumb,
-#app-mount ._506b39a96c2f8884-scrollbarGhostHairline::-webkit-scrollbar-thumb,
-#app-mount ._9293f6b2fc12398a-container ._9293f6b2fc12398a-children ._133bf5eea8e33a34-tabBar::-webkit-scrollbar-thumb {
+#app-mount .scrollbarGhost__506b3::-webkit-scrollbar-thumb,
+#app-mount .scrollbarGhostHairline__506b3::-webkit-scrollbar-thumb,
+#app-mount .container__9293f .children__9293f .tabBar__133bf::-webkit-scrollbar-thumb {
   cursor: ew-resize;
 }
 @media (max-width: 400px) {
@@ -68,12 +68,12 @@
   }
 }
 @media (max-width: 750px) {
-  #app-mount .c0bea05627c5dc35-inner::-webkit-scrollbar {
+  #app-mount .inner_c0bea0::-webkit-scrollbar {
     width: 8px;
     height: 8px;
   }
-  #app-mount .c0bea05627c5dc35-inner::-webkit-scrollbar-thumb,
-  #app-mount .c0bea05627c5dc35-inner::-webkit-scrollbar-track {
+  #app-mount .inner_c0bea0::-webkit-scrollbar-thumb,
+  #app-mount .inner_c0bea0::-webkit-scrollbar-track {
     border: 2px solid transparent;
   }
 }
