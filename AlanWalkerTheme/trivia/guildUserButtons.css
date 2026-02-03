@@ -1,6 +1,7 @@
 /*Userbuttons In Side Panel*/
 @media (min-width: 801px) {
   .panels__5e434 .container__37e49 .buttons__37e49 {
+    display: flex;
     position: fixed;
     bottom: 0px;
     left: 0px;
