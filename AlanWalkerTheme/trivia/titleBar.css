@@ -23,6 +23,11 @@
 .trailing_c38106 {
   grid-column: 3/4;
   grid-row: 1/2;
+  -webkit-app-region: drag;
+
+  & > * {
+    -webkit-app-region: no-drag;
+  }
 }
 .title_c38106 {
   path,
