@@ -12,6 +12,7 @@
 :root {
   /*Theme Dependent Stuff*/
   --title-bar-content: "DISCORD (Alan Walker Theme)";
+  --title-bar-lead-display: flex;
   --main-background: url('https://i.imgur.com/tt9snCk.png?1') center right no-repeat;
   --back-selected-dm-pic: url('https://i.imgur.com/tmY77W1.png') center left no-repeat;
   --home-button-background: url('https://i.imgur.com/PrJ5xwf.png');
