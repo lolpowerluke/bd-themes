@@ -2,15 +2,16 @@
   border-bottom: 1px solid rgba(var(--border-color-1), var(--border-opacity-1));
   box-sizing: border-box;
   padding: 0;
+  display: grid;
+  grid-template-columns: auto auto 1fr;
 }
 .bar_c38106:has(> #channelTabs-container)::after {
   display: none;
 }
 .bar_c38106::after {
   content: var(--title-bar-content);
-  position: absolute;
-  top: 10px;
-  left: 10px;
+  grid-column: 2/3;
+  grid-row: 1/2;
   color: var(--title-bar-color);
   display: block;
   height: 16px;
@@ -19,12 +20,24 @@
   font-size: 13px;
   font-weight: bold;
 }
+.trailing_c38106 {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  -webkit-app-region: drag;
+
+  & > * {
+    -webkit-app-region: no-drag;
+  }
+}
 .title_c38106 {
   path,
   .defaultColor__4bd52 {
     color: var(--title-bar-color);
     fill: var(--title-bar-color);
   }
+}
+.leading_c38106 {
+  display: var(--title-bar-lead-display);
 }
 .leading_c38106,
 .trailing_c38106 {

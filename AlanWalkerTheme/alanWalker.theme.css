@@ -2,7 +2,7 @@
  * @name         Alan Walker Theme
  * @description  dark theme with Alan Walker's logo as background, credit to DevilBro#4401 for settingsicons, credit to Nyria#3863 for userbuttons in the serverbar and spotifyControls
  * @author       lolpowerluke
- * @version      1.3.7
+ * @version      1.3.7.1
  * @source       https://github.com/lolpowerluke/bd-themes/blob/main/AlanWalkerTheme/alanWalker.theme.css
  * @website      https://github.com/lolpowerluke
 */
@@ -12,6 +12,7 @@
 :root {
   /*Theme Dependent Stuff*/
   --title-bar-content: "DISCORD (Alan Walker Theme)";
+  --title-bar-lead-display: flex; /* default: flex, use none if you want to remove them */
   --main-background: url('https://i.imgur.com/tt9snCk.png?1') center right no-repeat;
   --back-selected-dm-pic: url('https://i.imgur.com/tmY77W1.png') center left no-repeat;
   --home-button-background: url('https://i.imgur.com/PrJ5xwf.png');
@@ -88,7 +89,7 @@
   --animation-duration-5: 1s;
 
   /*Version*/
-  --version-1-3-7: none;
+  --version-1-3-7-1: none;
 
   /*Window width 700px or smaller*/
   --guild-bar-width-700: 56px;
