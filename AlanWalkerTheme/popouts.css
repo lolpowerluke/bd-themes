@@ -13,6 +13,32 @@
       }
     }
 
+    .rootWithShadow__49fc1:has(> div > .keyboardShortcutsModal_f061f6) {
+      max-width: 100vw;
+
+      .keyboardShortcutListGroup_f061f6 {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        flex-wrap: wrap;
+
+        .keybindGroup_f061f6 {
+          flex: 1 0 180px;
+        }
+      }
+    }
+
+    @media (max-width: 800px) {
+      .rootWithShadow__49fc1:has(> div > .keyboardShortcutsModal_f061f6) {
+        max-width: 100vw;
+
+        .keyboardShortcutsModal_f061f6 {
+          min-width: unset;
+          width: 100vw;
+        }
+      }
+    }
+
     .messagesPopoutWrap_e8b59c,
     .recentMentionsPopout__95796,
     .container__2692d,
