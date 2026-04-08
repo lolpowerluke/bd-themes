@@ -22,6 +22,7 @@
         box-sizing: border-box;
         height: 100%;
       }
+
       .iconLayout_a45028 {
         margin: 0;
         margin-right: 8px;
@@ -29,15 +30,17 @@
       }
     }
   }
+
   .sectionTitle__5ec2f {
     width: 100%;
-  
+
     .title__1472a {
       padding: 0 5px;
       margin: 0;
       box-sizing: border-box;
     }
   }
+
   .peopleList__5ec2f {
     margin: 0;
     padding: 0 5px 5px 5px !important;
@@ -52,6 +55,7 @@
       .discriminator__0a06e {
         display: none;
       }
+
       &:hover .userInfo__0a06e .discriminator__0a06e {
         display: block;
         visibility: visible;
@@ -59,30 +63,39 @@
     }
   }
 }
+
 .peopleColumn__133bf .peopleList__5ec2f {
+  .divider_cc6179 {
+    display: none;
+  }
+
   .peopleListItem_cc6179 {
     margin: -1px 0 0 0;
     padding: 0 12px;
     border-radius: var(--border-radius-0);
     background-color: var(--back-friendlist-friends);
-  
-    &:has(+ .peopleListItem_cc6179) {
+
+    &:has(+.divider_cc6179+.peopleListItem_cc6179) {
       border-bottom-color: transparent;
     }
+
     &:last-child {
       border-bottom-left-radius: var(--border-radius-m);
       border-bottom-right-radius: var(--border-radius-m);
     }
+
     &:hover {
       background-color: var(--back-friendlist-friends-hover);
     }
   }
-  .sectionTitle__5ec2f + .peopleListItem_cc6179 {
+
+  .sectionTitle__5ec2f+.divider_cc6179+.peopleListItem_cc6179 {
     margin: 0;
     border-top-left-radius: var(--border-radius-m);
     border-top-right-radius: var(--border-radius-m);
   }
 }
+
 /*FriendList Top Buttons*/
 #app-mount .container__9293f {
   .children__9293f {
@@ -94,7 +107,7 @@
       overflow-x: auto;
       align-items: center;
 
-      .item__133bf  {
+      .item__133bf {
         margin: 0;
         margin-left: -1px;
         border: 1px solid rgb(var(--border-color-1), var(--border-opacity-1));
@@ -108,15 +121,18 @@
           border-right-color: rgba(var(--border-color-hover), var(--border-opacity-hover));
           border-color: rgba(var(--border-color-hover), var(--border-opacity-hover));
         }
+
         &:nth-last-child(1) {
           border-radius: var(--border-radius-0) var(--border-radius-xl) var(--border-radius-xl) var(--border-radius-0);
           border-right-color: rgb(var(--border-color-1), var(--border-opacity-1));
         }
+
         &:first-child {
           margin-left: 0;
           border-radius: var(--border-radius-xl) var(--border-radius-0) var(--border-radius-0) var(--border-radius-xl);
         }
-        &:hover + .item__133bf {
+
+        &:hover+.item__133bf {
           border-left-color: transparent;
         }
       }
